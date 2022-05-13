@@ -1,0 +1,171 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "She Did Not Suffer",
+      "desc": "Found on a little balcony on the top floor. You can get there by jumping from a nearby roof."
+    },
+    "2": {
+      "label": "That Monster Churchill",
+      "desc": "Found on a chair on a patio."
+    },
+    "3": {
+      "label": "The Factory",
+      "desc": "Found on a desk on the upper floor."
+    },
+    "4": {
+      "label": "The Bosses Won't Care",
+      "desc": "Found on a big steel box on the path."
+    },
+    "5": {
+      "label": "BANG!",
+      "desc": "Found on the railing of a little balcony."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Papa",
+      "desc": "Carried by Elmar Shriver (Infantry)."
+    },
+    "2": {
+      "label": "Kaspar",
+      "desc": "Found on a low wall."
+    },
+    "3": {
+      "label": "Civil War",
+      "desc": "Found on a bar counter on the first floor."
+    },
+    "4": {
+      "label": "The Scarf",
+      "desc": "Found inside a safe. The combination can be acquired from Lieutenant Tristano Bellocchi (Officer)."
+    },
+    "5": {
+      "label": "A Fine Corporal",
+      "desc": "Found on a table on a patio."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Fishy Berta",
+      "desc": "Carried by Clemens Ackermann (Infantry)."
+    },
+    "2": {
+      "label": "From Afar",
+      "desc": "Carried by Norbert Hoch (Infantry)."
+    },
+    "3": {
+      "label": "A Letter of Forgiveness",
+      "desc": "Carried by Carsten Hahn (Infantry)."
+    },
+    "4": {
+      "label": "The Poetry of Death",
+      "desc": "Carried by Emil Schlusser (Infantry)."
+    },
+    "5": {
+      "label": "Saving for the Future",
+      "desc": "Carried by Anselm Grosser (Infantry)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Diary of Velia Oneto",
+      "desc": "Found on a bookshelf."
+    },
+    "2": {
+      "label": "Report by Lieutenant Konrad Winther",
+      "desc": "Found in a desk drawer in the room besides the gate."
+    },
+    "3": {
+      "label": "Note from Warden to Sam",
+      "desc": "Found on decaying wood next to a water corpse."
+    },
+    "4": {
+      "label": "Memo from Senior Lieutenant Raimund Straub",
+      "desc": "Found on a suitcase in the middle of the square."
+    },
+    "5": {
+      "label": "Note to Fedor from Paul",
+      "desc": "Found in a wheel barrow besides the see."
+    },
+    "6": {
+      "label": "Note to Lucio from Salvatore",
+      "desc": "Found in one of the loculi at the graveyard crypt."
+    },
+    "7": {
+      "label": "Note addressed to 'Sniper'",
+      "desc": "Obtained by triggering the cutscene."
+    },
+    "8": {
+      "label": "Diary of Flavio Costanzo",
+      "desc": "Found on a table inside the building."
+    },
+    "9": {
+      "label": "Note to Flavio",
+      "desc": "Found on the bed on the third floor."
+    },
+    "10": {
+      "label": "A Poem by Flavio Costanzo",
+      "desc": "Found on a picnic blanket."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #8",
+      "desc": "Carried by Konrad Winther (Officer)."
+    },
+    "2": {
+      "label": "Operational Overview #7",
+      "desc": "Carried by Wilhelm Rudel (Officer)."
+    },
+    "3": {
+      "label": "Operational Overview #6",
+      "desc": "Carried by Arnold Schwenke (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #5",
+      "desc": "Carried by Raimund Straub (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Udo Klein",
+      "desc": "Carried by Udo Klein (Sniper)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Sits on top of the tower."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Embedded into the wall, visible from the harbor."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "This Captain makes himself comfortable on his sailboat outside the harbor."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Angel Of Mercy",
+      "desc": {
+        "1": "Find the Partisan HQ",
+        "2": "Get to Sofia in the Castle"
+      }
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "A Late Message",
+      "desc": "Search the Graveyard"
+    },
+    "2": {
+      "label": "Signal Advantage",
+      "desc": "Find Radio Operator before he calls for reinforcements"
+    },
+    "3": {
+      "label": "The Towering Assassin",
+      "desc": "Kill the Sniper and find the sniper report"
+    }
+  }
+}

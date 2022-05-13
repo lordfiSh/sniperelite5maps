@@ -1,0 +1,56 @@
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'PFDinTextCondPro';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url('../fonts/PFDinTextCondPro-bold.eot');
+    src: url('../fonts/PFDinTextCondPro-bold.eot?#iefix') format("embedded-opentype"),
+         url('../fonts/PFDinTextCondPro-bold.woff') format("woff"),
+         url('../fonts/PFDinTextCondPro-bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'PFDinTextCondPro';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/PFDinTextCondPro-regular.eot');
+    src: url('../fonts/PFDinTextCondPro-regular.eot?#iefix') format("embedded-opentype"),
+         url('../fonts/PFDinTextCondPro-regular.woff') format("woff"),
+         url('../fonts/PFDinTextCondPro-regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'PFDinTextCondPro';
+    font-weight: normal;
+    font-style: italic;
+
+    src: url('../fonts/PFDinTextCondPro-italic.eot');
+    src: url('../fonts/PFDinTextCondPro-italic.eot?#iefix') format("embedded-opentype"),
+         url('../fonts/PFDinTextCondPro-italic.woff') format("woff"),
+         url('../fonts/PFDinTextCondPro-italic.ttf') format("truetype");
+}

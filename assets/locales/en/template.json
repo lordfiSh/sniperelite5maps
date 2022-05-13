@@ -1,0 +1,186 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    },
+    "4": {
+      "label": "",
+      "desc": ""
+    },
+    "5": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    },
+    "4": {
+      "label": "",
+      "desc": ""
+    },
+    "5": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    },
+    "4": {
+      "label": "",
+      "desc": ""
+    },
+    "5": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    },
+    "4": {
+      "label": "",
+      "desc": ""
+    },
+    "5": {
+      "label": "",
+      "desc": ""
+    },
+    "6": {
+      "label": "",
+      "desc": ""
+    },
+    "7": {
+      "label": "",
+      "desc": ""
+    },
+    "8": {
+      "label": "",
+      "desc": ""
+    },
+    "9": {
+      "label": "",
+      "desc": ""
+    },
+    "10": {
+      "label": "",
+      "desc": ""
+    },
+    "11": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    },
+    "4": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Was, wenn?",
+      "desc": ""
+    },
+    "2": {
+      "label": "Schreckliche Dinge",
+      "desc": ""
+    },
+    "3": {
+      "label": "Bist Du da?",
+      "desc": ""
+    },
+    "4": {
+      "label": "Schweren Herzens",
+      "desc": ""
+    },
+    "5": {
+      "label": "Beunruhigende Nachrichten",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Mehr musst du nicht wissen",
+      "desc": ""
+    },
+    "2": {
+      "label": "Gummischlauch",
+      "desc": ""
+    },
+    "3": {
+      "label": "Mit neuem Elan",
+      "desc": ""
+    },
+    "4": {
+      "label": "Ziemlich viele",
+      "desc": ""
+    },
+    "5": {
+      "label": "Ich schäme mich",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Das andere Reich",
+      "desc": ""
+    },
+    "2": {
+      "label": "Ein armer Waisenjunge",
+      "desc": ""
+    },
+    "3": {
+      "label": "Im Kampfgetümmel",
+      "desc": ""
+    },
+    "4": {
+      "label": "Eine Shlhouette",
+      "desc": ""
+    },
+    "5": {
+      "label": "Sich selbst erfüllende Prophezeiung",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "VERTRAULICHES DOKUMENT",
+      "desc": ""
+    },
+    "2": {
+      "label": "Ein Codeschlüssel",
+      "desc": ""
+    },
+    "3": {
+      "label": "Nachricht von Veriana",
+      "desc": ""
+    },
+    "4": {
+      "label": "Brief an Osswald",
+      "desc": ""
+    },
+    "5": {
+      "label": "Telegramm an Oberst Arling",
+      "desc": ""
+    },
+    "6": {
+      "label": "Ein Gedicht",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick C4",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operativer Überblick C3",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operativer Überblick C2",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operativer Überblick C1",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Soldato Egidio Bonzano",
+      "desc": ""
+    },
+    "2": {
+      "label": "Sergente Medoro Scalise",
+      "desc": ""
+    },
+    "3": {
+      "label": "Soldato Fosco Sammartino",
+      "desc": ""
+    },
+    "4": {
+      "label": "Soldato Alberto Visintini",
+      "desc": ""
+    },
+    "5": {
+      "label": "Soldato Cipriano Scordato",
+      "desc": ""
+    },
+    "6": {
+      "label": "Caporale Vorgilio Torresi.",
+      "desc": ""
+    },
+    "7": {
+      "label": "Soldat Enrico Leotta",
+      "desc": ""
+    },
+    "8": {
+      "label": "Soldat Josef Wessel",
+      "desc": ""
+    },
+    "9": {
+      "label": "Gefreiter Gregor Stark",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

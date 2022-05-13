@@ -1,0 +1,166 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Il Duces Geburtstag",
+      "desc": ""
+    },
+    "2": {
+      "label": "Zwischen Alliierten und Deutschen",
+      "desc": ""
+    },
+    "3": {
+      "label": "Das Picknick",
+      "desc": ""
+    },
+    "4": {
+      "label": "Spione",
+      "desc": ""
+    },
+    "5": {
+      "label": "Der Schatten",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Schokolade",
+      "desc": ""
+    },
+    "2": {
+      "label": "Bernadetta",
+      "desc": ""
+    },
+    "3": {
+      "label": "Scugnizzi",
+      "desc": ""
+    },
+    "4": {
+      "label": "Väter und Töchter",
+      "desc": ""
+    },
+    "5": {
+      "label": "Verteufelter Kommunismus",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Das Dritte Rom",
+      "desc": ""
+    },
+    "2": {
+      "label": "An den Herrn Pfarrer",
+      "desc": ""
+    },
+    "3": {
+      "label": "Ein reines Italien",
+      "desc": ""
+    },
+    "4": {
+      "label": "Mein ganzes Leben",
+      "desc": ""
+    },
+    "5": {
+      "label": "Der Pflug beackert das Feld",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Geheimdienstbericht: Martone Tarsia",
+      "desc": ""
+    },
+    "2": {
+      "label": "Geheimdienstbericht: Eduardo Golino",
+      "desc": ""
+    },
+    "3": {
+      "label": "Geheimdienstbericht: Clara Tognazzi",
+      "desc": ""
+    },
+    "4": {
+      "label": "Dokument \"Strategie Operation Inferno\"",
+      "desc": ""
+    },
+    "5": {
+      "label": "Dokument \"Standorte schwerer Waffen\"",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 36",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operativer Überblick 35",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operativer Überblick 34",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operativer Überblick 33",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Obergefreiter Hugo Esser",
+      "desc": ""
+    },
+    "2": {
+      "label": "Soldat Torsten Haupt",
+      "desc": ""
+    },
+    "3": {
+      "label": "Gefreiter Ralf Benn",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

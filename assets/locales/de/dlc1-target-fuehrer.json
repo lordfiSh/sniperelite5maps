@@ -1,0 +1,166 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Wir sind sehr stolz auf Dich",
+      "desc": "Getragen von Wulf Vogel (Infanterie), der das gesamte Gebiet patrouilliert."
+    },
+    "2": {
+      "label": "Unser Blut",
+      "desc": "Getragen von Tobias Petersen (Infanterie)."
+    },
+    "3": {
+      "label": "Zeit im Übermaß",
+      "desc": "Getragen von Niels Meier (Jäger)."
+    },
+    "4": {
+      "label": "Ein aufregender Tod",
+      "desc": "Liegt auf einer Werkbank."
+    },
+    "5": {
+      "label": "Am Bahnhof",
+      "desc": "Liegt auf einer Holzbank an der Wand."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Kalt in Russland",
+      "desc": "Getragen von Sebastian Hartmann (Infanterie)."
+    },
+    "2": {
+      "label": "Irgendetwas",
+      "desc": "Getragen von Oskar Beck (Jäger)."
+    },
+    "3": {
+      "label": "Immer",
+      "desc": "Liegt auf einem Regalbrett."
+    },
+    "4": {
+      "label": "Tante Klaudia",
+      "desc": "Liegt auf einer kleinen Holzkiste hinter einem Stapel Rohre."
+    },
+    "5": {
+      "label": "Lakritze",
+      "desc": "Liegt auf dem Boden."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Eine Explozzion",
+      "desc": "Getragen von Tilman Krause (Infanterie)."
+    },
+    "2": {
+      "label": "Ich werde mich sehr anstrengen",
+      "desc": "Getragen von Ruprecht Krüger (Jäger)."
+    },
+    "3": {
+      "label": "Etwas Böses",
+      "desc": "Getragen von Max Becker (Infanterie)."
+    },
+    "4": {
+      "label": "Neujahr",
+      "desc": "Getragen von Jonathan Wagner (Jäger-Unterstützer)."
+    },
+    "5": {
+      "label": "Jedem aufgetragen",
+      "desc": "Getragen von Eduard Koch (Jäger)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Rundgang",
+      "desc": "Liegt auf einem Tisch ganz oben auf dem Turm, neben der Funkausrüstung."
+    },
+    "2": {
+      "label": "Tagebuch",
+      "desc": "Liegt auf einem Schreibtisch."
+    },
+    "3": {
+      "label": "Memorandum",
+      "desc": "Liegt auf einem der olivgrünen Tische."
+    },
+    "4": {
+      "label": "Brief an Berlin",
+      "desc": "Liegt in einem Safe im Kontrollraum. Die Kombination kann am Körper von Oberleutnant Wulf Egner (Offizier) gefunden werden."
+    },
+    "5": {
+      "label": "Brief vom Führer",
+      "desc": "Liegt auf einem Tisch neben einigen Landkarten."
+    },
+    "6": {
+      "label": "Eine Nachricht",
+      "desc": "Befindet sich am Körper von Admiral Richter."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick A4",
+      "desc": "Getragen von Oberleutnant Volker Hönigmann (Offizier)."
+    },
+    "2": {
+      "label": "Operativer Überblick A3",
+      "desc": "Getragen von Oberleutnant Adelbert Handke (Offizier)."
+    },
+    "3": {
+      "label": "Operativer Überblick A2",
+      "desc": "Getragen von Leutnant Theodor Günzburg (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick A1",
+      "desc": "Getragen von Leutnant Werner Deutsch (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Soldat Gustav Jutzi",
+      "desc": "Getragen von Gustav Jutzi (Scharfschütze)."
+    },
+    "2": {
+      "label": "Gefreiter Erik Fanck",
+      "desc": "Getragen von Erik Fanck (Scharfschütze)."
+    },
+    "3": {
+      "label": "Gefreiter Dietrich Kopkow",
+      "desc": "Getragen von Dietrich Kopkow (Scharfschütze)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "Beobachtet das Geschehen durch ein Loch im Dach der Höhle."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "Sitzt oben auf der Klippe."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf einem kleinen Boot am gegenüberliegenden Strand. Kann nur vom Missionsstart aus gesehen werden."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Enthaupte das Monster",
+      "desc": "Ermorde Admiral Richter"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Anlagenverwaltung",
+      "desc": "Suche nach den Vorräten"
+    },
+    "2": {
+      "label": "Sabotage an den U-Boot-Anlegern",
+      "desc": "Sicherheitsschaltung sabotieren (0/2)"
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "Sabotage an den U-Boot-Anlegern",
+      "desc": "Zerstöre die Basis und exfiltriere"
+    },
+    "2": {
+      "label": "Enthaupte das Monster",
+      "desc": "Fliehe von der Insel"
+    }
+  }
+}

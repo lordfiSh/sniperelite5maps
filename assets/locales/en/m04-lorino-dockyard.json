@@ -1,0 +1,176 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Watch",
+      "desc": "Carried by Tobias Groos (Infantry)."
+    },
+    "2": {
+      "label": "Burgstein",
+      "desc": "Carried by Tils Mailer (Infantry)."
+    },
+    "3": {
+      "label": "Concerned Karin",
+      "desc": "Carried by Ignaz Scholz (Infantry)."
+    },
+    "4": {
+      "label": "Bend",
+      "desc": "Carried by Fritz Schauble (Infantry) on the upper floor."
+    },
+    "5": {
+      "label": "My Dearest Boy",
+      "desc": "Carried by Axel Wieck (Infantry) sitting on a folding chair."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Order",
+      "desc": "Found on a flat crate next to the checkpoint."
+    },
+    "2": {
+      "label": "Capo",
+      "desc": "Carried by Orlando Foschini (Infantry)."
+    },
+    "3": {
+      "label": "Stand Firm",
+      "desc": "Found on a desk."
+    },
+    "4": {
+      "label": "Hercules",
+      "desc": "Found on a crate next to a camp fire."
+    },
+    "5": {
+      "label": "Happiness",
+      "desc": "Carried by Dolf Lehmann (Infantry) patrolling on the upper floor."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Bullet or Blade",
+      "desc": "Carried by Johann Schuster (Infantry)."
+    },
+    "2": {
+      "label": "To A Wonderful Mother",
+      "desc": "Carried by Hans Lufter staying on the roof (Infantry)."
+    },
+    "3": {
+      "label": "Say A Little Prayer",
+      "desc": "Carried by Gregor Keller (Infantry)."
+    },
+    "4": {
+      "label": "Warhorse",
+      "desc": "Carried by Timo Koenig (Infantry) on the ground floor."
+    },
+    "5": {
+      "label": "A Favour",
+      "desc": "Carried by Franz Bartel (Radio Operator)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Memo to Colonel Emmerich Groß from General Heinz Böhm",
+      "desc": "Found inside a safe. The combination can be acquired from Emmerich Groß (Officer). This document is required for the primary objective 'Mysterious Shipment'."
+    },
+    "2": {
+      "label": "Note from Laterza",
+      "desc": "Found on a desk next to a gramophone on the upper floor."
+    },
+    "3": {
+      "label": "Army Corner's Report",
+      "desc": "Found on a metalcrate inside the building."
+    },
+    "4": {
+      "label": "Memo to Colonel Emmerich Groß",
+      "desc": "Found on a table."
+    },
+    "5": {
+      "label": "Letter from Maria Laterza addressed to 'Raffy'",
+      "desc": "Found on a chair behind the armoury on the ground floor."
+    },
+    "6": {
+      "label": "Letter from Salvatore",
+      "desc": "Found on a desk."
+    },
+    "7": {
+      "label": "Letter to Rafaele",
+      "desc": "Found on a wooden bench in the middle of the room."
+    },
+    "8": {
+      "label": "Letter addressed to Piero Capo (unsent)",
+      "desc": "Found on a desk next to a typewriter on the upper floor."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #16",
+      "desc": "Carried by Senior Lieutenant Josef Clauberg (Officer) on the ground floor."
+    },
+    "2": {
+      "label": "Operational Overview #15",
+      "desc": "Carried by Senior Lieutenant Gino Laterza (Officer) patrolling through the southern dockyard section."
+    },
+    "3": {
+      "label": "Operational Overview #14",
+      "desc": "Carried by Senior Lieutnant Umberto Strinati (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #13",
+      "desc": "Carried By Senior Lieutenant Herbert Amann (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Klaus Klehr",
+      "desc": "Found on a small wooden box below at the foot of the crane."
+    },
+    "2": {
+      "label": "Obergefreiter Erich Hosenfeld",
+      "desc": "Found on a small wooden box below at the foot of the crane."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "The lighthouses little brother."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Sits on a rocky ledge and monitors the sidetrack."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "Sits on a rocky ledge outside the map."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Signal the Allied bombers",
+      "desc": "Get to a radio"
+    },
+    "2": {
+      "label": "Mysterious Shipment",
+      "desc": {
+        "1": "Disable or destroy the Harbour Air defences (0/5)",
+        "2": "Find out what the Germans are transporting",
+        "3": "Learn where the shipments are being sent"
+      }
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Assassination",
+      "desc": "Kill the corrupt Harbour Master"
+    },
+    "2": {
+      "label": "Rapid Response",
+      "desc": "Destroy the Amoured Threat"
+    },
+    "3": {
+      "label": "Hello to Arms",
+      "desc": "Raid the German Armoury"
+    },
+    "4": {
+      "label": "Shots in the Dark",
+      "desc": "Locate the typhus vaccines"
+    }
+  }
+}

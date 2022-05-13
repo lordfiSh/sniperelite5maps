@@ -1,0 +1,166 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "The Leader's Birthday",
+      "desc": ""
+    },
+    "2": {
+      "label": "Caught Between the Allies and Germans",
+      "desc": ""
+    },
+    "3": {
+      "label": "The Picnic",
+      "desc": ""
+    },
+    "4": {
+      "label": "Spies",
+      "desc": ""
+    },
+    "5": {
+      "label": "The Shadow",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Chocolate",
+      "desc": ""
+    },
+    "2": {
+      "label": "Bernadetta",
+      "desc": ""
+    },
+    "3": {
+      "label": "Scugnizzi",
+      "desc": ""
+    },
+    "4": {
+      "label": "Fathers and Daughters",
+      "desc": ""
+    },
+    "5": {
+      "label": "Satanic Communism",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "The Third Rome",
+      "desc": ""
+    },
+    "2": {
+      "label": "To the Priest",
+      "desc": ""
+    },
+    "3": {
+      "label": "Pure Italy",
+      "desc": ""
+    },
+    "4": {
+      "label": "My Whole Life",
+      "desc": ""
+    },
+    "5": {
+      "label": "The Plough Cuts the Field",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Intelligence Report: Martone Tarsia",
+      "desc": ""
+    },
+    "2": {
+      "label": "Intelligence Report: Eduardo Golino",
+      "desc": ""
+    },
+    "3": {
+      "label": "Intelligence Report: Clara Tognazzi",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operation Inferno Strategy Document",
+      "desc": ""
+    },
+    "5": {
+      "label": "Heavy Weapons Location Document",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #36",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operational Overview #35",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operational Overview #34",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operational Overview #33",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Obergefreiter Hugo Esser",
+      "desc": ""
+    },
+    "2": {
+      "label": "Soldat Torsten Haupt",
+      "desc": ""
+    },
+    "3": {
+      "label": "Gefreiter Ralf Benn",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

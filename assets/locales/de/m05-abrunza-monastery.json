@@ -1,0 +1,191 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Lebensmittelmarken",
+      "desc": "Getragen von Enzo Scorza (Infanterie)."
+    },
+    "2": {
+      "label": "Als Trost dienen",
+      "desc": "Liegt auf einer Bank vor dem Haus."
+    },
+    "3": {
+      "label": "Der Tritt",
+      "desc": "Getragen von Oskar Havener (Infanterie)."
+    },
+    "4": {
+      "label": "Die armen Kühe",
+      "desc": "Liegt auf einem Tisch im Erdgeschoss."
+    },
+    "5": {
+      "label": "Deutsches Jungvolk",
+      "desc": "Liegt auf einem Tisch im ersten Stock."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Glückwünsche",
+      "desc": "Liegt auf einem Tisch im Erdgeschoss."
+    },
+    "2": {
+      "label": "Elend",
+      "desc": "Liegt auf einem Schränkchen im ersten Stock."
+    },
+    "3": {
+      "label": "Mütter und Söhne",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "4": {
+      "label": "Mussolini",
+      "desc": "Liegt auf einem Schreibtisch im ersten Stock. Eingang von der Gallerie über dem Innenhof."
+    },
+    "5": {
+      "label": "Rauch und Hass",
+      "desc": "Liegt auf einem Tisch im ersten Stock."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Das Feuer des Faschismus",
+      "desc": "Getragen von Ludowic Damasio (Infanterie), der über dem großen Torbogen am Eingang stationiert ist."
+    },
+    "2": {
+      "label": "So wie ich",
+      "desc": "Getragen von Kristof Geissler (Infanterie)."
+    },
+    "3": {
+      "label": "Sie ist mir lieb",
+      "desc": "Getragen von Herbert Volk (Infanterie)."
+    },
+    "4": {
+      "label": "Lodern in der Magengegend",
+      "desc": "Getragen von Dagobert Sorge (Infanterie)."
+    },
+    "5": {
+      "label": "Ein letztes Versprechen",
+      "desc": "Getragen von Carlo Parisi (Infanterie)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Eine Bibelstelle",
+      "desc": "Liegt auf einer Bank im Erdgeschoss."
+    },
+    "2": {
+      "label": "Funkcodes",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "3": {
+      "label": "Nachricht vom Abt an Bruder Giovannino",
+      "desc": "Liegt in einem Safe. Die Safe-Kombination kann am Körper von Leutnant Terzo Picano (Offizier) gefunden werden. Dieses Dokument wird für das optionale Ziel \"Eine kleine Gute-Abt-Geschichte\" benötigt."
+    },
+    "4": {
+      "label": "Eine Namensliste",
+      "desc": "Liegt auf einer Schlafmatte in der unterirdischen Höhle. Dieses Dokument wird für das optionale Ziel \"Eine kleine Gute-Abt-Geschichte\" benötigt.."
+    },
+    "5": {
+      "label": "Memo von Major Klaus Rothbauer an Piero Capo",
+      "desc": "Liegt auf einem Tisch im ersten Stock. Dieses Dokument wird für das optionale Ziel \"Eine kleine Gute-Abt-Geschichte\" benötigt.."
+    },
+    "6": {
+      "label": "Tagebuch von Oberleutnant Gotthard Baldoff",
+      "desc": "Liegt auf einem Tisch im Bunker. Dieses Dokument wird für das optionale Ziel \"Eine kleine Gute-Abt-Geschichte\" benötigt.."
+    },
+    "7": {
+      "label": "Memo an Piero Capo von Major Klaus Rothbauer",
+      "desc": "Liegt auf einem Schreibtisch im ersten Stock."
+    },
+    "8": {
+      "label": "Fragment aus dem Tagebuch eines unbekannten Zivilisten",
+      "desc": "Liegt auf einem Schränkchen im ersten Stock."
+    },
+    "9": {
+      "label": "Memo an Oberleutnant Gotthard Baldoff",
+      "desc": "Liegt auf einem Schreibtisch im ersten Stock."
+    },
+    "10": {
+      "label": "Nachrichtenblatt der Partisanen",
+      "desc": "Liegt auf dem Boden hinter einigen Heuballen. Benutze die Leiter hinter dem Gebäude, um dort hoch zu kommen."
+    },
+    "11": {
+      "label": "Geheimdienstinformationen, addressiert an Oberleutnant Gotthard Baldoff",
+      "desc": "Liegt auf einem Tisch in einem der Zelte."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick #20",
+      "desc": "Getragen von Leutnant Franco Bellagamba (Offizier)."
+    },
+    "2": {
+      "label": "Operativer Überblick #19",
+      "desc": "Getragen von Leutnant Ottavio Restuccia (Offizier)."
+    },
+    "3": {
+      "label": "Operativer Überblick #18",
+      "desc": "Getragen von Gotthard Baldoff (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick #17",
+      "desc": "Getragen von Oberleutnant Petrus Proch (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Oberschütze Stefan Schmitz",
+      "desc": "Getragen von Stefan Schmitz (Sniper). (Anmerkung: Beide Snipers auf dieser Karte heißen Stefan Schmitz)"
+    },
+    "2": {
+      "label": "Soldat Hanno Weinreb",
+      "desc": "Getragen von Stefan Schmitz (Sniper). (Anmerkung: Beide Snipers auf dieser Karte heißen Stefan Schmitz)"
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "In die Wand eingelassen, sichtbar vom großen Innenhof."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf dem Dach und spielt Wetterhahn."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Er wacht über die Leiter zur Außenmauer."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Viel Feind, viel Ehr'",
+      "desc": "Töte Piero Capo"
+    },
+    "2": {
+      "label": "Burgherr",
+      "desc": "Töte alle Soldaten im und um den Burgberg"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Vernichte die Artillerie",
+      "desc": "Zerstöre die Artilleriegeschütze (0/3)"
+    },
+    "2": {
+      "label": "Kunstliebhaber",
+      "desc": {
+        "1": "Offizier töten und durchsuchen für Funkcode",
+        "2": "Rufe den LKW-Konvoi",
+        "3": "Nimm den LKW mit den gestohlenen Kunstwerken in den Zielfokus (Anmerkung: Hier startet die Route der LKWs)",
+        "4": "Läute die Glocke, um den Konvoi zu signalisieren"
+      }
+    },
+    "3": {
+      "label": "Eine kleine Gute-Abt-Geschichte",
+      "desc": "Finde die Dokumente (0/4)"
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "Erlösung vom Bösen",
+      "desc": "Verlasse das Gebiet"
+    }
+  }
+}

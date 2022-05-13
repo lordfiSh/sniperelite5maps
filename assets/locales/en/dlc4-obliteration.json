@@ -1,0 +1,218 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Broken",
+      "desc": ""
+    },
+    "2": {
+      "label": "Franz",
+      "desc": ""
+    },
+    "3": {
+      "label": "I Will Never Forget",
+      "desc": ""
+    },
+    "4": {
+      "label": "Like You Used To Do",
+      "desc": ""
+    },
+    "5": {
+      "label": "You Should Be Proud",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Flora",
+      "desc": ""
+    },
+    "2": {
+      "label": "Rust",
+      "desc": ""
+    },
+    "3": {
+      "label": "Something Weird",
+      "desc": ""
+    },
+    "4": {
+      "label": "Finally A Man",
+      "desc": ""
+    },
+    "5": {
+      "label": "Our Beloved Reich",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Up His Sleeve",
+      "desc": ""
+    },
+    "2": {
+      "label": "That Night",
+      "desc": ""
+    },
+    "3": {
+      "label": "Once A Year",
+      "desc": ""
+    },
+    "4": {
+      "label": "Mustn't Complain",
+      "desc": ""
+    },
+    "5": {
+      "label": "German Soil",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Operation False Flag",
+      "desc": ""
+    },
+    "2": {
+      "label": "Memorandum",
+      "desc": ""
+    },
+    "3": {
+      "label": "Academic Paper",
+      "desc": ""
+    },
+    "4": {
+      "label": "Academic Paper",
+      "desc": ""
+    },
+    "5": {
+      "label": "Academic Paper",
+      "desc": ""
+    },
+    "6": {
+      "label": "Draft Speech",
+      "desc": ""
+    },
+    "7": {
+      "label": "Diary of Joseph Wernicke",
+      "desc": ""
+    },
+    "8": {
+      "label": "Letter to Siegfried Kehrer",
+      "desc": ""
+    },
+    "9": {
+      "label": "Letter to Edmund Hänel",
+      "desc": ""
+    },
+    "10": {
+      "label": "Research Paper",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #D4",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operational Overview #D3",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operational Overview #D2",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operational Overview #D1",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Artur Voigtsberger",
+      "desc": ""
+    },
+    "2": {
+      "label": "Gefreiter Eugen Kreipe",
+      "desc": ""
+    },
+    "3": {
+      "label": "Soldat Ludwig Lauterbach",
+      "desc": ""
+    },
+    "4": {
+      "label": "Soldat Bernahrd Stumpff",
+      "desc": "Spelling Mistake Bernhard"
+    },
+    "5": {
+      "label": "Soldat Silvester Kott",
+      "desc": ""
+    },
+    "6": {
+      "label": "Soldat Burkhardt Winzer",
+      "desc": ""
+    },
+    "7": {
+      "label": "Soldat Rüdiger Hölder",
+      "desc": ""
+    },
+    "8": {
+      "label": "Soldat Axel Brandstätter",
+      "desc": ""
+    },
+    "9": {
+      "label": "Soldat August Grabner",
+      "desc": ""
+    },
+    "10": {
+      "label": "Gefreiter Paul Ludin",
+      "desc": ""
+    },
+    "11": {
+      "label": "Gefreiter Erwin Scheel",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

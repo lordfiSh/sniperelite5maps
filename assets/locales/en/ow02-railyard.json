@@ -1,0 +1,174 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Anya",
+      "desc": ""
+    },
+    "2": {
+      "label": "Teeth",
+      "desc": ""
+    },
+    "3": {
+      "label": "Butterfly Collection",
+      "desc": ""
+    },
+    "4": {
+      "label": "Ignored",
+      "desc": ""
+    },
+    "5": {
+      "label": "Every Mouthful",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Rules",
+      "desc": ""
+    },
+    "2": {
+      "label": "Otto's Shoes",
+      "desc": ""
+    },
+    "3": {
+      "label": "The Old Couple",
+      "desc": ""
+    },
+    "4": {
+      "label": "Honey Bunny",
+      "desc": ""
+    },
+    "5": {
+      "label": "A Build Up of Steam",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Brotherly Love",
+      "desc": ""
+    },
+    "2": {
+      "label": "Spelling",
+      "desc": ""
+    },
+    "3": {
+      "label": "Perhaps...",
+      "desc": ""
+    },
+    "4": {
+      "label": "If I Fall",
+      "desc": ""
+    },
+    "5": {
+      "label": "An Understanding",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Partisan News-Sheet",
+      "desc": ""
+    },
+    "2": {
+      "label": "Memo to Colonel Klappert",
+      "desc": ""
+    },
+    "3": {
+      "label": "Goliath Tech Specs",
+      "desc": ""
+    },
+    "4": {
+      "label": "Shipping Manifest",
+      "desc": ""
+    },
+    "5": {
+      "label": "Memorandum",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #40",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operational Overview #39",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operational Overview #38",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operational Overview #37",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Anton Mayer",
+      "desc": ""
+    },
+    "2": {
+      "label": "Soldat Fritz Brack",
+      "desc": ""
+    },
+    "3": {
+      "label": "Obsersoldat Siegfried Huber",
+      "desc": "Spelling Mistake"
+    },
+    "4": {
+      "label": "Soldat Karsten Dahm",
+      "desc": ""
+    },
+    "5": {
+      "label": "Soldat Herman Lang",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

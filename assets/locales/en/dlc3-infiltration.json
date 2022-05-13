@@ -1,0 +1,194 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "What Happens?",
+      "desc": ""
+    },
+    "2": {
+      "label": "Horrible Things",
+      "desc": ""
+    },
+    "3": {
+      "label": "Are You There?",
+      "desc": ""
+    },
+    "4": {
+      "label": "With Heavy Heart",
+      "desc": ""
+    },
+    "5": {
+      "label": "Worrying News",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "The Answer You Need",
+      "desc": ""
+    },
+    "2": {
+      "label": "Rubber Tubing",
+      "desc": ""
+    },
+    "3": {
+      "label": "Renewed Vigour",
+      "desc": ""
+    },
+    "4": {
+      "label": "Lots of Us",
+      "desc": ""
+    },
+    "5": {
+      "label": "Ashamed",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "The Other Realm",
+      "desc": ""
+    },
+    "2": {
+      "label": "A Poor Orphan Boy",
+      "desc": ""
+    },
+    "3": {
+      "label": "The Midst of Battle",
+      "desc": ""
+    },
+    "4": {
+      "label": "A Silhouette",
+      "desc": ""
+    },
+    "5": {
+      "label": "Self-Fulfilling Prophecy",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "CLASSIFIED DOCUMENT",
+      "desc": ""
+    },
+    "2": {
+      "label": "A Cipher",
+      "desc": ""
+    },
+    "3": {
+      "label": "Note from Veriana",
+      "desc": ""
+    },
+    "4": {
+      "label": "Letter to Osswald",
+      "desc": ""
+    },
+    "5": {
+      "label": "Telegram to Colonel Arling",
+      "desc": ""
+    },
+    "6": {
+      "label": "A Poem",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #C4",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operational Overview #C3",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operational Overview #C2",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operational Overview #C1",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Soldato Egidio Bonzano",
+      "desc": ""
+    },
+    "2": {
+      "label": "Sergente Medoro Scalise",
+      "desc": ""
+    },
+    "3": {
+      "label": "Soldato Fosco Sammartino",
+      "desc": ""
+    },
+    "4": {
+      "label": "Soldato Alberto Visintini",
+      "desc": ""
+    },
+    "5": {
+      "label": "Soldato Cipriano Scordato",
+      "desc": ""
+    },
+    "6": {
+      "label": "Caporale Virgilio Torresi",
+      "desc": ""
+    },
+    "7": {
+      "label": "Soldato Enrico Leotta",
+      "desc": ""
+    },
+    "8": {
+      "label": "Soldat Josef Wessel",
+      "desc": ""
+    },
+    "9": {
+      "label": "Gefreiter Gregor Stark",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

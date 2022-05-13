@@ -1,0 +1,191 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Food Stamps",
+      "desc": "Carried by Enzo Scorza (Infantry)."
+    },
+    "2": {
+      "label": "Please Console Yourself",
+      "desc": "Found on a bench in front of the house."
+    },
+    "3": {
+      "label": "The Kick",
+      "desc": "Carried by Oskar Havener (Infantry)."
+    },
+    "4": {
+      "label": "Poor Cows",
+      "desc": "Found on a table on the ground floor."
+    },
+    "5": {
+      "label": "German Young People",
+      "desc": "Found on a table on the first floor."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Congratulations",
+      "desc": "Found on a table on the ground floor."
+    },
+    "2": {
+      "label": "Misery",
+      "desc": "Found on a cabinet on the first floor."
+    },
+    "3": {
+      "label": "Mothers and Sons",
+      "desc": "Found on a table within the building."
+    },
+    "4": {
+      "label": "Mussolini",
+      "desc": "Found on a desk on the first floor. Enter from the gallery above the courtyard."
+    },
+    "5": {
+      "label": "Smoke and Hatred",
+      "desc": "Found on a table on the first floor."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "The Fascist Flame",
+      "desc": "Carried by Ludowic Damasio (Infantry), who is stationed above the main entrance archway."
+    },
+    "2": {
+      "label": "The Same As Me",
+      "desc": "Carried by Kristof Geissler (Infantry)."
+    },
+    "3": {
+      "label": "She Is Dear To Me",
+      "desc": "Carried by Herbert Volk (Infantry)."
+    },
+    "4": {
+      "label": "Fire in the Belly",
+      "desc": "Carried by Dagobert Sorge (Infantry)."
+    },
+    "5": {
+      "label": "A Last Promise",
+      "desc": "Carried by Carlo Parisi (Infantry)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "A Piece of Scripture",
+      "desc": "Found on a bench on the ground floor."
+    },
+    "2": {
+      "label": "Radio Codes",
+      "desc": "Found on a table within the building."
+    },
+    "3": {
+      "label": "Note to Friar Giovannino from the Abbot",
+      "desc": "Found in a safe. The safe combination can be found on the body of Lieutenant Terzo Picano (Officer). This document is required for the optional objective \"The Abbot's story\"."
+    },
+    "4": {
+      "label": "A List of Names",
+      "desc": "Found on a sleeping mat in the underground cave. This document is required for the optional objective \"The Abbot's story\"."
+    },
+    "5": {
+      "label": "Letter to Piero Capo from Major Klaus Rothbauer",
+      "desc": "Found on a table on the first floor. This document is required for the optional objective \"The Abbot's story\"."
+    },
+    "6": {
+      "label": "Diary of Senior Lieutenant Gotthard Baldoff",
+      "desc": "Found on a table within the bunker. This document is required for the optional objective \"The Abbot's story\"."
+    },
+    "7": {
+      "label": "Memo to Piero Capo from Major Klaus Rothbauer",
+      "desc": "Found on a desk on the first floor."
+    },
+    "8": {
+      "label": "Fragment of an Unknown Civilian's Diary",
+      "desc": "Found on top of a cabinet on the first floor."
+    },
+    "9": {
+      "label": "Memo to Senior Lieutenant Gotthard Baldoff",
+      "desc": "Found on a table on the first floor."
+    },
+    "10": {
+      "label": "Partisan News-Sheet",
+      "desc": "Found on the floor behind some hay bales. Use the ladder behind the building to get up there."
+    },
+    "11": {
+      "label": "Intelligence Update addressed to Senior Lieutenant Gotthard Baldoff",
+      "desc": "Found on a table in one of the tents."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #20",
+      "desc": "Carried by Lieutenant Franco Bellagamba (Officer)."
+    },
+    "2": {
+      "label": "Operational Overview #19",
+      "desc": "Carried by Lieutenant Ottavio Restuccia (Officer)."
+    },
+    "3": {
+      "label": "Operational Overview #18",
+      "desc": "Carried by Gotthard Baldoff (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #17",
+      "desc": "Carried by Senior Lieutenant Petrus Proch (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Obersoldat Stefan Schmitz",
+      "desc": "Carried by Stefan Schmitz (Sniper). (Note: Both snipers on this map are called Stefan Schmitz)"
+    },
+    "2": {
+      "label": "Soldat Hanno Weinreb",
+      "desc": "Carried by Stefan Schmitz (Sniper). (Note: Both snipers on this map are called Stefan Schmitz)"
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Embedded into the wall, visible from the large courtyard."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Sits on the roof and pretends to be a weathercock."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "When you climb the ladder this stone guardian is waiting for you."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Many Enemies, Much Honour",
+      "desc": "Kill Piero Capo"
+    },
+    "2": {
+      "label": "King of the Castle",
+      "desc": "Kill all the soldiers in and around Castle Hill"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Annihilate the Artillery",
+      "desc": "Destroy the Artillery Guns (0/3)"
+    },
+    "2": {
+      "label": "Art Appropriation",
+      "desc": {
+        "1": "Kill and Search Officer to retrieve Radio Code",
+        "2": "Call the truck convoy",
+        "3": "Target-Focus the looted art truck (Note: This is where the trucks start their route)",
+        "4": "Ring the bell to signal convoy"
+      }
+    },
+    "3": {
+      "label": "The Abbot's Story",
+      "desc": "Find the Documents (0/4)"
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "Deliverance From Evil",
+      "desc": "Exfiltrate the area"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Dr. Goebbels",
+      "desc": "Liegt auf einem Tisch neben dem Gebäude."
+    },
+    "2": {
+      "label": "Rationierungen",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "3": {
+      "label": "Das Obermünster",
+      "desc": "Liegt auf einem Sessel im obersten Stockwerk."
+    },
+    "4": {
+      "label": "Wurf",
+      "desc": "Liegt auf einem Stuhl im ersten Stock."
+    },
+    "5": {
+      "label": "Gemüsehändler Fuchs",
+      "desc": "Liegt auf einer Werkbank im oberen Stockwerk."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Geburtswehen",
+      "desc": "Liegt auf einem Tisch auf dem oberen Balkon."
+    },
+    "2": {
+      "label": "TS",
+      "desc": "Liegt auf einem Feldbett."
+    },
+    "3": {
+      "label": "Ein kalter Wind",
+      "desc": "Liegt auf einer Holzkiste neben dem Gebäude."
+    },
+    "4": {
+      "label": "Die Blume",
+      "desc": "Liegt auf einer Parkbank."
+    },
+    "5": {
+      "label": "Ihr einziger Sohn",
+      "desc": "Liegt auf einer Holzkiste auf dem Steg."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Geheiß des Führers",
+      "desc": "Getragen von Eugen Wähner (Infanterie)."
+    },
+    "2": {
+      "label": "Ein guter Freund",
+      "desc": "Getragen von Knut Steen (Infanterie)."
+    },
+    "3": {
+      "label": "Eine Entschuldigung",
+      "desc": "Getragen Augustus Tifft (Infanterie)."
+    },
+    "4": {
+      "label": "Cuxhaven",
+      "desc": "Getragen von Richard Frost (Infanterie)."
+    },
+    "5": {
+      "label": "Der Kastanienbaum",
+      "desc": "Getragen von Jürgen Buchholz (Infanterie)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Dokument markiert \"Streng vertraulich\"",
+      "desc": "Liegt in einem Safe. Die Safe-Kombination kann am Körper von Major Klaus Rothbauer (Offizier) gefunden werden."
+    },
+    "2": {
+      "label": "Telegramm für Leutnant Wolfgang Meinhardt",
+      "desc": "Liegt auf einer Munitionskiste im zweiten Stock."
+    },
+    "3": {
+      "label": "Brief an Lucio",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "4": {
+      "label": "Memor an Major Klaus Rothbauer",
+      "desc": "Liegt in einem Regal in Rothbauers Büro."
+    },
+    "5": {
+      "label": "Rothbauers Memoiren",
+      "desc": "Liegt auf Rothbauers Schreibtisch."
+    },
+    "6": {
+      "label": "Informantenbericht",
+      "desc": "Liegt in einem Regal in Rothbauers Büro."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 28",
+      "desc": "Getragen von Holger Knopf (Offizier)."
+    },
+    "2": {
+      "label": "Operativer Überblick 27",
+      "desc": "Getragen von Franz Unterbrink (Offizier)."
+    },
+    "3": {
+      "label": "Operativer Überblick 26",
+      "desc": "Getragen von Waldemar Gabler (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick 25",
+      "desc": "Getragen von Harald Trumbauer (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Leutnant Wolfgang Meinhardt",
+      "desc": "Getragen von Leutnant Wolfgang Meinhardt (Sniper)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf der Turmspitze."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "Thront über dem Haupteingang der Villa."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Sitzt über dem Haupteingang des Rathauses."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Beseitige Rothbauer",
+      "desc": {
+        "1": "Finde heraus, was Rothbauer versteckt",
+        "2": "Töte Rothbauer"
+      }
+    },
+    "2": {
+      "label": "Des Scharfschützen Falle",
+      "desc": "Töten den Scharfschützen"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Die Propagandamaschine der Nazis",
+      "desc": {
+        "1": "Finde die Route des Propaganda-LKWs heraus",
+        "2": "Halte den LKW auf"
+      }
+    },
+    "2": {
+      "label": "Schwächelnde Verteidigung",
+      "desc": {
+        "1": "Zerstöre/Neutralisiere das Patrouillenboot",
+        "2": "Zerstöre die Lagerstätten (0/3)"
+      }
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "Die große Flucht",
+      "desc": "Erreiche den Stadtplatz und suche nach Überlebenden."
+    }
+  }
+}

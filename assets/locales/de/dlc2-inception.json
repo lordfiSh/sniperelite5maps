@@ -1,0 +1,170 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Rumspielen",
+      "desc": ""
+    },
+    "2": {
+      "label": "Weihnachts- und Neujahrsgrüße",
+      "desc": ""
+    },
+    "3": {
+      "label": "Janus",
+      "desc": ""
+    },
+    "4": {
+      "label": "Die Reinhardts",
+      "desc": ""
+    },
+    "5": {
+      "label": "Vater Leone meint",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Wenig zu vermelden",
+      "desc": ""
+    },
+    "2": {
+      "label": "Entbehrungen",
+      "desc": ""
+    },
+    "3": {
+      "label": "Von unten",
+      "desc": ""
+    },
+    "4": {
+      "label": "Listig",
+      "desc": ""
+    },
+    "5": {
+      "label": "Steht zu seinem Wort",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Sag's den Kindern",
+      "desc": ""
+    },
+    "2": {
+      "label": "Harte Worte",
+      "desc": ""
+    },
+    "3": {
+      "label": "Null Absicht",
+      "desc": ""
+    },
+    "4": {
+      "label": "Ich wette 'ne Bank darauf",
+      "desc": ""
+    },
+    "5": {
+      "label": "Deine Dich liebenden Söhne",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Memorandum an Major Volker Grün",
+      "desc": ""
+    },
+    "2": {
+      "label": "Empfehlungsschreiben",
+      "desc": ""
+    },
+    "3": {
+      "label": "Soldbuch",
+      "desc": ""
+    },
+    "4": {
+      "label": "Logbuch",
+      "desc": ""
+    },
+    "5": {
+      "label": "TELEGRAMM",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick B4",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operativer Überblick B3",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operativer Überblick B2",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operativer Überblick B1",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Wolfgang Blanke",
+      "desc": ""
+    },
+    "2": {
+      "label": "Soldat Ferdinand Lutz.",
+      "desc": ""
+    },
+    "3": {
+      "label": "Gefreiter Richard Greiser",
+      "desc": ""
+    },
+    "4": {
+      "label": "Soldat Odilo Fiehler",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

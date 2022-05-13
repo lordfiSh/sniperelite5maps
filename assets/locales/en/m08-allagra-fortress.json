@@ -1,0 +1,190 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Tomorrow",
+      "desc": "Found on a control panel under the gallery."
+    },
+    "2": {
+      "label": "Cabbages",
+      "desc": "Found on a wooden table in the middle of the room."
+    },
+    "3": {
+      "label": "Peenemünde",
+      "desc": "Found on a folding chair in a corner of the bunker."
+    },
+    "4": {
+      "label": "Back Into the Sea",
+      "desc": "Found on a workbench."
+    },
+    "5": {
+      "label": "A Cunning Trap",
+      "desc": "Found on a table in a room on the upper floor. It can be reached over the gallery."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "The War Effort",
+      "desc": "Found on a shelf."
+    },
+    "2": {
+      "label": "It Spreads So Quickly",
+      "desc": "Found on a table in the back room of the bunker."
+    },
+    "3": {
+      "label": "Don't Lose Heart",
+      "desc": "Found on a workbench next to the tanks."
+    },
+    "4": {
+      "label": "Cool, Clean Air",
+      "desc": "Found on a table on the lowest floor."
+    },
+    "5": {
+      "label": "Growing Up Fast",
+      "desc": "Found on a wooden table in the middle of the room."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Who Dares Nothing",
+      "desc": "Carried by Sebastian Kahler (Jäger)."
+    },
+    "2": {
+      "label": "A Bad War",
+      "desc": "Carried by Marius Tillens (Jäger)."
+    },
+    "3": {
+      "label": "Too Young",
+      "desc": "Carried by Johann Leverenz (Jäger)."
+    },
+    "4": {
+      "label": "In My Heart",
+      "desc": "Carried by Erich Schröder (Jäger)."
+    },
+    "5": {
+      "label": "The Logical Choice",
+      "desc": "Carried by Clemens Gutermuth (Support Jäger)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Letter to Heinz Böhm",
+      "desc": "Found on the table with the big map on the lowest floor."
+    },
+    "2": {
+      "label": "Missile Strategy Report",
+      "desc": "Found in a safe on the lowest floor. The combination can be acquired from Senior Lieutenent Ernst Vahlen (Officer). This document is required for the optional objective \"Intercept Course\"."
+    },
+    "3": {
+      "label": "Missile Technical Data",
+      "desc": "Found on a table in the middle of a room on the upper floor. It can be reached over the gallery. This document is required for the primary objective \"Rocket Science\"."
+    },
+    "4": {
+      "label": "Tech Specs for XXII 'Ceto' Submarine",
+      "desc": "Found on a desk. Only reachable after the sequence with General Böhm."
+    },
+    "5": {
+      "label": "Memo to General Heinz Böhm from Reichsführer Julius Krüger",
+      "desc": "Found on a workbench next to the missile parts."
+    },
+    "6": {
+      "label": "Memo to General Heinz Böhn from Admiral Erich Ostler",
+      "desc": "Found on a shelf."
+    },
+    "7": {
+      "label": "Letter to Kessler",
+      "desc": "Found on a table."
+    },
+    "8": {
+      "label": "Letter to General Heinz Böhm from Major Klaus Rothbauer",
+      "desc": "Found on a table next to the tanks."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #32",
+      "desc": "Carried by Günther Essert (Officer)."
+    },
+    "2": {
+      "label": "Operational Overview #31",
+      "desc": "Carried by Nils Abbing (Officer)."
+    },
+    "3": {
+      "label": "Operational Overview #30",
+      "desc": "Carried by Waldemar Brose (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #29",
+      "desc": "Carried by Dieter Hahn (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Volker Lochs",
+      "desc": "Carried by Volker Lochs (Sniper)."
+    },
+    "2": {
+      "label": "Obergefreiter Eberhard Succow",
+      "desc": "Carried by Eberhard Succow (Sniper)."
+    },
+    "3": {
+      "label": "Leutnant Michael Wegener",
+      "desc": "Carried by Michael Wegener (Sniper)."
+    },
+    "4": {
+      "label": "Leutnant Gregor Winkler",
+      "desc": "Carried by Gregor Winkler (Sniper)."
+    },
+    "5": {
+      "label": "Leutnant Dietrich Strauss",
+      "desc": "Carried by Dietrich Strauss (Sniper)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Sits on the roof atop the large control room."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Sits on the cliffs on the right edge of the map."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "Sits on the cliffs on the left edge of the map."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Heart of Darkness",
+      "desc": {
+        "1": "Sabotage the hydrogen peroxide plant (0/4)",
+        "2": "Get into the Fortress",
+        "3": "Call in the bombers"
+      }
+    },
+    "2": {
+      "label": "Stop Böhm from Escaping",
+      "desc": "Stop Bähm"
+    },
+    "3": {
+      "label": "Rocket Science",
+      "desc": "Recover the Technical Specs for the missile"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Intercept Course",
+      "desc": "Grab the Nazi Missile Strategy"
+    },
+    "2": {
+      "label": "Mischief-Marker",
+      "desc": "Sabotage the Missiles (0/5)"
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

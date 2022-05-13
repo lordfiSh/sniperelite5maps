@@ -1,0 +1,166 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Stupid British, Stupid Lancasters",
+      "desc": "Found on a table with radio equipment."
+    },
+    "2": {
+      "label": "The Sissy",
+      "desc": "Found on a table on the second floor."
+    },
+    "3": {
+      "label": "Silly Subversive Beliefs",
+      "desc": "Found on a table in the checkpoint tunnel."
+    },
+    "4": {
+      "label": "Nameless",
+      "desc": "Found on a chest inside the tent."
+    },
+    "5": {
+      "label": "Cologne",
+      "desc": "Found on a table inside the tent."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "The Reds",
+      "desc": "Found on a table inside the tent."
+    },
+    "2": {
+      "label": "Crosswords",
+      "desc": "Found on a table inside the tent."
+    },
+    "3": {
+      "label": "My Sister Josepha",
+      "desc": "Found on a file cabinet on the ground floor."
+    },
+    "4": {
+      "label": "The Mountain Air",
+      "desc": "Found on a chest next to the campfire."
+    },
+    "5": {
+      "label": "Secret War",
+      "desc": "Found on a log next to the campfire."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Do Not Grieve",
+      "desc": "Carried by Leopold Bachmeier (Infantry)."
+    },
+    "2": {
+      "label": "A Willing Sacrifice",
+      "desc": "Carried by Gerd Bäcker (Infantry)."
+    },
+    "3": {
+      "label": "The Meaning of Life",
+      "desc": "Carried by Fedor Gott (Infantry)."
+    },
+    "4": {
+      "label": "Family Concerns",
+      "desc": "Carried by Ambros Haas (Infantry)."
+    },
+    "5": {
+      "label": "Paradise Regained",
+      "desc": "Carried by Alfred Kahler (Infantry)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Letter addressed to General Tobias Schmidt",
+      "desc": "Carried by Tobias Schmidt (General)."
+    },
+    "2": {
+      "label": "Shipping Manifest",
+      "desc": "Found on a desk on the wall."
+    },
+    "3": {
+      "label": "Telegram for Senior Lieutenant Franz Drexler",
+      "desc": "Found on a table on the first floor."
+    },
+    "4": {
+      "label": "Memo to Senior Lieutenant Oskar Pletcher",
+      "desc": "Found on a chest in the barn."
+    },
+    "5": {
+      "label": "Letter addressed to Lieutenant Hans Aegerter",
+      "desc": "Found on a table next to the building."
+    },
+    "6": {
+      "label": "Memo to Senior Lieutenant Rudolf Hayler",
+      "desc": "Found on a desk in the middle of the room."
+    },
+    "7": {
+      "label": "Fragment of an Unknown Civilian's Diary Entry",
+      "desc": "Found on a workbench between two buildings"
+    },
+    "8": {
+      "label": "Unknown Civilian's Diary Entry",
+      "desc":"Found on a suitcase next to the building"
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #4",
+      "desc": "Carried by Rudolf Hayler (Officer)."
+    },
+    "2": {
+      "label": "Operational Overview #3",
+      "desc": "Carried by Frank Drexler (Officer)."
+    },
+    "3": {
+      "label": "Operational Overview #2",
+      "desc": "Carried by Oskar Pletcher (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #1",
+      "desc": "Carried by Hans Aegerter (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Obergefreiter Erich Hosenfeld",
+      "desc": "Found on a chest in the tower."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Sits on top of the tower"
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Sits on top of the tower."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "Sits on top of the tower."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Villain in the Villa",
+      "desc": "Kill General Schmidt by any means"
+    },
+    "2": {
+      "label": "Pest Control",
+      "desc": "Kill Nazi Officers by any means"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "That's a Wrap",
+      "desc": "Destroy Cameras"
+    },
+    "2": {
+      "label": "Choking the Checkpoint",
+      "desc": "Clear the Checkpoint"
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "Duty Discharged",
+      "desc": "Escape from the Island"
+    }
+  }
+}

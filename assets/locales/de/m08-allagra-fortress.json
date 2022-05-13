@@ -1,0 +1,184 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Die Zukunft",
+      "desc": "Liegt auf einer Steuerkonsole unter der Galerie."
+    },
+    "2": {
+      "label": "Kohl",
+      "desc": "Liegt auf einem Holztisch in der Mitte des Raumes."
+    },
+    "3": {
+      "label": "Peenemünde",
+      "desc": "Liegt auf einem Klappstuhl im hinteren Raum des Bunkers."
+    },
+    "4": {
+      "label": "Zurück ins Meer",
+      "desc": "Liegt auf einer Werkbank."
+    },
+    "5": {
+      "label": "Eine raffinierte Falle",
+      "desc": "Liegt auf einem Schreibtisch in einem Raum im oberen Stockwerk. Der Raum kann über die Galerie erreicht werden."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Der Kriegsverlauf",
+      "desc": "Liegt auf einem Regalbrett."
+    },
+    "2": {
+      "label": "Er streut so schnell",
+      "desc": "Liegt auf einem Tisch im hinteren Raum des Bunkers."
+    },
+    "3": {
+      "label": "Nicht den Mut verlieren",
+      "desc": "Liegt auf einer Werkbank bei den Panzern."
+    },
+    "4": {
+      "label": "Reine, frische Bergluft",
+      "desc": "Liegt auf einem Tisch im untersten Stockwerk."
+    },
+    "5": {
+      "label": "Großer Junge",
+      "desc": "Liegt auf einem Holztisch in der Mitte des Raumes."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Wer nicht wagt",
+      "desc": "Getragen von Sebastian Kahler (Jäger)."
+    },
+    "2": {
+      "label": "Ein grausamer Krieg",
+      "desc": "Getragen von Marius Tillens (Jäger)."
+    },
+    "3": {
+      "label": "Zu jung",
+      "desc": "Getragen von Johann Leverenz (Jäger)."
+    },
+    "4": {
+      "label": "In meinem Herzen",
+      "desc": "Getragen von Erich Schröder (Jäger)."
+    },
+    "5": {
+      "label": "Der offensichtliche Kandidat",
+      "desc": "Getragen von Clemens Gutermuth (Jäger-Unterstützer)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Brief an Heinz Böhm",
+      "desc": "Liegt auf dem Tisch mit der großen Landkarte im untersten Stockwerk."
+    },
+    "2": {
+      "label": "Bericht zur Raketenstrategie",
+      "desc": "Liegt in einem Safe im untersten Stockwerk. Die Kombination kann am Körper von Oberleutnant Ernst Vahlen (Offizier) gefunden werden. Dieses Dokument wird für das optionale Ziel \"Abfangkurs\" benötigt"
+    },
+    "3": {
+      "label": "Technische Daten Rakete",
+      "desc": "Liegt auf einem Tisch in der Mitte des Raumes. Der Raum befindet sich im oberen Stockwerk und ist über die Galerie zu erreichen. Dieses Dokument wird für das Hauptziel \"Raketenwissenschaft\" benötigt."
+    },
+    "4": {
+      "label": "Technische Spezifikationen Typ XXII U-Boot \"Ceto\"",
+      "desc": "Liegt auf einem Schreibtisch. Erst nach der Zwischensequenz mit General Böhm erreichbar."
+    },
+    "5": {
+      "label": "Memo von Reichsführer Julius Krüger an General Heinz Böhm",
+      "desc": "Liegt auf einer Werkbank neben einigen Raketenteilen."
+    },
+    "6": {
+      "label": "Memo an General Heinz Böhm von Admiral Erich Ostler",
+      "desc": "Liegt auf einem Regalbrett."
+    },
+    "7": {
+      "label": "Brief an Kessler",
+      "desc": "Liegt auf einem Tisch."
+    },
+    "8": {
+      "label": "Brief von Major Klaus Rothbauer an General Heinz Böhm",
+      "desc": "Liegt auf einem Tisch bei den Panzern."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 32",
+      "desc": "Getragen von Günther Essert (Offizier)."
+    },
+    "2": {
+      "label": "Operativer Überblick 31",
+      "desc": "Getragen von Nils Abbing (Offizier)."
+    },
+    "3": {
+      "label": "Operativer Überblick 30",
+      "desc": "Getragen von Waldemar Brose (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick 29",
+      "desc": "Getragen von Dieter Hahn (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Volker Lochs",
+      "desc": "Getragen von Volker Lochs (Scharfschütze)."
+    },
+    "2": {
+      "label": "Obergefreiter Eberhard Succow",
+      "desc": "Getragen von Eberhard Succow (Scharfschütze)."
+    },
+    "3": {
+      "label": "Leutnant Michael Wegener",
+      "desc": "Getragen von Michael Wegener (Scharfschütze)."
+    },
+    "4": {
+      "label": "Leutnant Gregor Winkler",
+      "desc": "Getragen von Gregor Winkler (Scharfschütze)."
+    },
+    "5": {
+      "label": "Leutnant Dietrich Strauss",
+      "desc": "Getragen von Dietrich Strauss (Scharfschütze)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf dem Dach über dem großen Kontrollraum."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf den Klippen am rechten Kartenrand."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf den Klippen am linken Kartenrand."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Herz der Finsternis",
+      "desc": {
+        "1": "Sabotiere die Wasserstoffperoxid-Anlage (0/4)",
+        "2": "Dringe in die Festung ein",
+        "3": "Alarmiere die Bomber"
+      }
+    },
+    "2": {
+      "label": "Raketenwissenschaft",
+      "desc": "Finde die technischen Spezifikationen der Rakete"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Abfangkurs",
+      "desc": "Hol dir den Bericht zur Raketenstrategie der Nazis"
+    },
+    "2": {
+      "label": "Halte Böhm von der Flucht ab",
+      "desc": "Halte Böhm auf"
+    },
+    "3": {
+      "label": "Störenfried",
+      "desc": "Sabotiere die Raketen (0/5)"
+    }
+  }
+}

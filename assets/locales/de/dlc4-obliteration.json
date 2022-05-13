@@ -1,0 +1,218 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Zerbrochen",
+      "desc": ""
+    },
+    "2": {
+      "label": "Franz",
+      "desc": ""
+    },
+    "3": {
+      "label": "Unvergessen",
+      "desc": ""
+    },
+    "4": {
+      "label": "Wie früher",
+      "desc": ""
+    },
+    "5": {
+      "label": "Du solltest stolz sein",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Flora",
+      "desc": ""
+    },
+    "2": {
+      "label": "Rust",
+      "desc": ""
+    },
+    "3": {
+      "label": "Etwas Seltsames",
+      "desc": ""
+    },
+    "4": {
+      "label": "Endlich ein Mann",
+      "desc": ""
+    },
+    "5": {
+      "label": "Unser geliebtes Reich",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Im Ärmel",
+      "desc": ""
+    },
+    "2": {
+      "label": "Jene Nacht",
+      "desc": ""
+    },
+    "3": {
+      "label": "Einmal im Jahr",
+      "desc": ""
+    },
+    "4": {
+      "label": "Kann mich nicht beklagen",
+      "desc": ""
+    },
+    "5": {
+      "label": "Auf deutschem Boden",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Operation \"Falsche Flagge\"",
+      "desc": ""
+    },
+    "2": {
+      "label": "MEMORANDUM",
+      "desc": ""
+    },
+    "3": {
+      "label": "Wissenschaftliche Abhandlung",
+      "desc": ""
+    },
+    "4": {
+      "label": "Wissenschaftliche Abhandlung",
+      "desc": ""
+    },
+    "5": {
+      "label": "Wissenschaftliche Abhandlung",
+      "desc": ""
+    },
+    "6": {
+      "label": "Entwurf einer Rede",
+      "desc": ""
+    },
+    "7": {
+      "label": "Tagebuch von Joseph Wernicke",
+      "desc": ""
+    },
+    "8": {
+      "label": "Brief an Siegfried Kehrer",
+      "desc": ""
+    },
+    "9": {
+      "label": "Brief von Edmund Hänel",
+      "desc": ""
+    },
+    "10": {
+      "label": "Forschungsarbeit",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick D4",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operativer Überblick D3",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operativer Überblick D2",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operativer Überblick D1",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Artur Voigtsberger",
+      "desc": ""
+    },
+    "2": {
+      "label": "Gefreiter Eugen Kreipe",
+      "desc": ""
+    },
+    "3": {
+      "label": "Soldat Ludwig Lauterbach",
+      "desc": ""
+    },
+    "4": {
+      "label": "Soldat Bernahrd Stumpff",
+      "desc": "(Ja, der Name ist im Spiel falsch geschrieben.)"
+    },
+    "5": {
+      "label": "Soldat Solvester Kott",
+      "desc": ""
+    },
+    "6": {
+      "label": "Soldat Burkhardt Winzer",
+      "desc": ""
+    },
+    "7": {
+      "label": "Soldat Rüdiger Hölder",
+      "desc": ""
+    },
+    "8": {
+      "label": "Soldat Axel Brandstätter",
+      "desc": ""
+    },
+    "9": {
+      "label": "Soldat August Grabner",
+      "desc": ""
+    },
+    "10": {
+      "label": "Gefreiter Paul Ludin",
+      "desc": ""
+    },
+    "11": {
+      "label": "Gefreiter Erwin Scheel",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

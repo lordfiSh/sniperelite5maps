@@ -1,0 +1,174 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Anya",
+      "desc": ""
+    },
+    "2": {
+      "label": "Zähne",
+      "desc": ""
+    },
+    "3": {
+      "label": "Schmetterlingssammlung",
+      "desc": ""
+    },
+    "4": {
+      "label": "Nicht beachtet",
+      "desc": ""
+    },
+    "5": {
+      "label": "Jedes kleine Stück",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Regeln",
+      "desc": ""
+    },
+    "2": {
+      "label": "Ottos Schuhe",
+      "desc": ""
+    },
+    "3": {
+      "label": "Das alte Ehepaar",
+      "desc": ""
+    },
+    "4": {
+      "label": "Mein Hase",
+      "desc": ""
+    },
+    "5": {
+      "label": "Wie in einem Dampfkochtopf",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Bruderliebe",
+      "desc": ""
+    },
+    "2": {
+      "label": "Buchstabieren",
+      "desc": ""
+    },
+    "3": {
+      "label": "Vielleicht ...",
+      "desc": ""
+    },
+    "4": {
+      "label": "Wenn ich falle",
+      "desc": ""
+    },
+    "5": {
+      "label": "Verständnis",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Nachrichtenblatt der Partisanen",
+      "desc": ""
+    },
+    "2": {
+      "label": "Memo an Oberst Klappert",
+      "desc": ""
+    },
+    "3": {
+      "label": "Tachnische Spezifikationen Goliath",
+      "desc": ""
+    },
+    "4": {
+      "label": "Frachtliste",
+      "desc": ""
+    },
+    "5": {
+      "label": "MEMORANDUM",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 40",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operativer Überblick 39",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operativer Überblick 38",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operativer Überblick 37",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Anton Mayer",
+      "desc": ""
+    },
+    "2": {
+      "label": "Soldat Fritz Brack",
+      "desc": ""
+    },
+    "3": {
+      "label": "Oberschütze Siegfried Huber.",
+      "desc": ""
+    },
+    "4": {
+      "label": "Soldat Karsten Dahm",
+      "desc": ""
+    },
+    "5": {
+      "label": "Soldat Herman Lang.",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": ""
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

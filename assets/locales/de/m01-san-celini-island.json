@@ -1,0 +1,166 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Blöde Engländer, blöde Lancaster",
+      "desc": "Liegt auf dem Tisch mit Funkausrüstung."
+    },
+    "2": {
+      "label": "Der Waschlappen",
+      "desc": "Liegt auf einem Tisch im zweiten Stock."
+    },
+    "3": {
+      "label": "Albernes subversives Gedankengut",
+      "desc": "Liegt auf einem Tisch im Kontrollpunkt-Tunnel."
+    },
+    "4": {
+      "label": "Namenlos",
+      "desc": "Liegt auf einer Kiste im Zelt."
+    },
+    "5": {
+      "label": "Cologne",
+      "desc": "Liegt auf einem Tisch im Zelt."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Die Roten",
+      "desc": "Liegt auf einem Tisch im Zelt."
+    },
+    "2": {
+      "label": "Kreuzworträtsel",
+      "desc": "Liegt auf einem Tisch im Zelt."
+    },
+    "3": {
+      "label": "Meine Schwester Josepha",
+      "desc": "Liegt auf einem Aktenschrank im Erdgeschoss."
+    },
+    "4": {
+      "label": "Bergluft",
+      "desc": "Liegt auf einer Kiste neben dem Lagerfeuer."
+    },
+    "5": {
+      "label": "Geheimer Krieg",
+      "desc": "Liegt auf einem Baumstamm neben dem Lagerfeuer."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Grämt euch nicht",
+      "desc": "Getragen von Leopold Bachmeier (Infanterie)."
+    },
+    "2": {
+      "label": "Ein bereitwilliges Opfer",
+      "desc": "Getragen von Gerd Bäcker (Infanterie)."
+    },
+    "3": {
+      "label": "Der Sinn des Lebens",
+      "desc": "Getragen von Fedor Gott (Infanterie)."
+    },
+    "4": {
+      "label": "Familienangelegenheiten",
+      "desc": "Getragen von Ambros Has (Infanterie)."
+    },
+    "5": {
+      "label": "Das wiedergewonnene Paradies",
+      "desc": "Getragen von Alfred Kahler (Infanterie)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Brief, adressiert an General Tobias Schmidt",
+      "desc": "Getragen von Tobias Schmidt (General)."
+    },
+    "2": {
+      "label": "Frachtliste",
+      "desc": "Liegt auf einem Tisch an der Wand."
+    },
+    "3": {
+      "label": "Telegramm an Oberleutnant Franz Drexler",
+      "desc": "Liegt auf einem Tisch im ersten Stock."
+    },
+    "4": {
+      "label": "Memo an Oberleutnant Oskar Pletcher",
+      "desc": "Liegt auf einer Kiste in der Scheune."
+    },
+    "5": {
+      "label": "Brief, adressiert an Leutnant Hans Aegerter",
+      "desc": "Liegt auf einem Tisch neben dem Gebäude."
+    },
+    "6": {
+      "label": "Memo an Oberleutnant Rudolf Hayler",
+      "desc": "Liegt auf einem Tisch in der Mitte des Raumes."
+    },
+    "7": {
+      "label": "Fragment aus dem Tagebucheintrag eines unbekannten Zivilisten",
+      "desc": "Liegt auf einer Werkbank zwischen zwei Gebäuden."
+    },
+    "8": {
+      "label": "Tagebucheintrag eines unbekannten Zivilisten",
+      "desc": "Liegt auf einem Koffer neben dem Gebäude."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 4",
+      "desc": "Getragen von Rudolf Hayler (Offizier)."
+    },
+    "2": {
+      "label": "Operativer Überblick 3",
+      "desc": "Getragen von Frank Drexler (Offizier)."
+    },
+    "3": {
+      "label": "Operativer Überblick 2",
+      "desc": "Getragen von Oskar Pletcher (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick 1",
+      "desc": "Getragen von Hans Aegerter (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Obergefreiter Erich Hosenfeld",
+      "desc": "Liegt auf einer Kiste im Turm."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf der Turmspitze."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf der Turmspitze."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf der Turmspitze."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Böser Wicht in der Villa",
+      "desc": "Töte General Schmidt, egal, wie"
+    },
+    "2": {
+      "label": "Schädlingsbekämpfung",
+      "desc": "Töte die Nazioffiziere, egal, wie (0/4)"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Unter Dach und Fach",
+      "desc": "Zerstöre die Kameras (0/3)"
+    },
+    "2": {
+      "label": "Kontrollpunkt in Kontrolle",
+      "desc": "Räume den Checkpoint"
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "Pflichterfüllung",
+      "desc": "Entkomme von der Insel"
+    }
+  }
+}

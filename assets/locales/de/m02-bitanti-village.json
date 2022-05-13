@@ -1,0 +1,171 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Sie hat nicht leiden müssen",
+      "desc": "Liegt auf dem Boden eines kleinen Balkons im obersten Stockwerk. Der angrenzende Raum ist durch einen Sprung vom Nachbardach zu erreichen."
+    },
+    "2": {
+      "label": "Dieses Monster Churchill",
+      "desc": "Liegt auf einem Stuhl auf der Terrasse."
+    },
+    "3": {
+      "label": "Die Fabrik",
+      "desc": "Liegt auf einem Schreibtisch im oberen Stockwerk."
+    },
+    "4": {
+      "label": "Den Chefs ist's egal",
+      "desc": "Liegt auf einer großen Metallkiste am Wegesrand."
+    },
+    "5": {
+      "label": "BUMS!",
+      "desc": "Liegt auf dem Geländer des kleinen Balkons."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Papa",
+      "desc": "Getragen von Elmar Shriver (Infanterie)."
+    },
+    "2": {
+      "label": "Kaspar",
+      "desc": "Liegt auf einer niedrigen Mauer."
+    },
+    "3": {
+      "label": "Bürgerkrieg",
+      "desc": "Liegt auf einem Tresen im ersten Stock."
+    },
+    "4": {
+      "label": "Der Schal",
+      "desc": "Liegt in einem Safe. Die Safe-Kombination kann am Körper von Leutnant Tristano Bellocchi (Offizier) gefunden werden."
+    },
+    "5": {
+      "label": "Ein braver Unteroffizier",
+      "desc": "Liegt auf einem Tisch auf einer Terrasse."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Fishy Berta",
+      "desc": "Getragen von Clemens Ackermann (Infanterie)."
+    },
+    "2": {
+      "label": "Von weit weg",
+      "desc": "Getragen von Norbert Hoch (Infanterie)."
+    },
+    "3": {
+      "label": "Eine Bitte um Vergebung",
+      "desc": "Getragen von Carsten Hahn (Infanterie)."
+    },
+    "4": {
+      "label": "Poesie im Angesicht des Todes",
+      "desc": "Getragen von Emil Schlusser (Infanterie)."
+    },
+    "5": {
+      "label": "Zurückgelegtes Geld",
+      "desc": "Getragen von Anselm Grosser (Infanterie)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Tagebuch von Velia Oneto",
+      "desc": "Liegt in einem Bücherregal."
+    },
+    "2": {
+      "label": "Bericht von Leutnant Konrad Winther",
+      "desc": "Liegt in einer Schreibtischschublade in dem Pförtnerhäuschen."
+    },
+    "3": {
+      "label": "Nachricht von Warden an Sam",
+      "desc": "Liegt auf einem vermodernden Stück Holz neben einer Wasserleiche."
+    },
+    "4": {
+      "label": "Memo von Oberleutnant Raimund Straub",
+      "desc": "Liegt auf einem der Koffer inmitten des Platzes."
+    },
+    "5": {
+      "label": "Nachricht von Paul an Fedor",
+      "desc": "Liegt in einer Schubkarre neben dem Wasser."
+    },
+    "6": {
+      "label": "Nachricht von Salvatore an Lucio",
+      "desc": "Liegt in einem der Wandgräber."
+    },
+    "7": {
+      "label": "Nachricht adressiert an den \"Scharfschützen\"",
+      "desc": "Erhalten, indem man die Cutscene triggert."
+    },
+    "8": {
+      "label": "Tagebuch von Flavio Costanzo",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "9": {
+      "label": "Nachricht an Flavio",
+      "desc": "Liegt auf einem Bett im dritten Stock."
+    },
+    "10": {
+      "label": "Ein Gedicht von Flavio Costanzo",
+      "desc": "Liegt auf einer Picknickdecke im Turm."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 8",
+      "desc": "Getragen von Konrad Winther (Offizier)."
+    },
+    "2": {
+      "label": "Operativer Überblick 7",
+      "desc": "Getragen von Wilhelm Rudel (Offizier)."
+    },
+    "3": {
+      "label": "Operativer Überblick 6",
+      "desc": "Getragen von Arnold Schwenke (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick 5",
+      "desc": "Getragen von Raimund Straub (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Udo Klein",
+      "desc": "Getragen von Udo Klein (Sniper)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "Sitzt oben auf dem Turm."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "In die Wand eingelassen, sichtbar vom Hafen."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Dieser Kapitän hat es sich auf seinem Segelboot vor dem Hafen bequem gemacht."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Engel der Barmherzigkeit",
+      "desc": {
+        "1": "Finde das HQ der Partisanen",
+        "2": "Erreiche Sofia in der Burg"
+      }
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Eine späte Nachricht",
+      "desc": "Durchsuche den Friedhof"
+    },
+    "2": {
+      "label": "Signalvorteil",
+      "desc": "Finde den Funker, bevor er Verstärkung ruft"
+    },
+    "3": {
+      "label": "Der hoch aufragende Mörder",
+      "desc": "Töte den Scharfschützen und finde den Scharfschützenbericht"
+    }
+  }
+}

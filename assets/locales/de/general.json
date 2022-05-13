@@ -1,0 +1,116 @@
+{
+  "maps": {
+    "m01-san-celini-island": "Insel San Celini",
+    "m02-bitanti-village": "Dorf Bitanti",
+    "m03-regilino-viaduct": "Viadukt Regilino",
+    "m04-lorino-dockyard": "Lorino-Werft",
+    "m05-abrunza-monastery": "Kloster Abrunza",
+    "m06-magazzeno-facility": "Küstenstandort Magazzeno",
+    "m07-giovi-fiorini-mansion": "Villa Giovi Fiorini",
+    "m08-allagra-fortress": "Festung Allagra",
+    "dlc1-target-fuehrer": "(DLC) Zielperson:<br>Der Diktator",
+    "dlc2-inception": "(DLC) Anfang",
+    "dlc3-infiltration": "(DLC) Unterwanderung",
+    "dlc4-obliteration": "(DLC) Vernichtung",
+    "ow01-compound": "(Überwachung) Militärlager",
+    "ow02-railyard": "(Überwachung) Gleisareal"
+  },
+  "home": {
+    "title": "Interaktive Sniper Elite 4 Karte",
+    "tagline": "Inoffizielle Interaktive Sniper Elite 4 Karte"
+  },
+  "notes": {
+    "label": "Bezeichnung:",
+    "title": "Titel:",
+    "note": "Notiz:",
+    "enterLabel": "Kartenbezeichnung eingeben...",
+    "enterTitle": "Geben Sie den Titel der Notiz ein...",
+    "enterText": "Geben Sie den Notiztext ein...",
+    "saveNote": "Notiz speichern",
+    "deleteNote": "Notiz löschen"
+  },
+  "controls": {
+    "show-all": "Alle anzeigen",
+    "hide-all": "Alle ausblenden",
+    "show-counts": "Zähler anzeigen",
+    "hide-counts": "Zähler ausblenden",
+    "reset-markers": "Marker zurücksetzen",
+    "reset-markers-confirm": "Dies wird alle Marker auf ihren Standardzustand (sichtbar) zurücksetzen. Fortsetzen?",
+    "features": "Funktionen & Hilfe",
+    "credits": "Credits",
+    "zoom-in": "Zoom In",
+    "zoom-out": "Zoom Out",
+    "fullscreen-enter": "Vollbild",
+    "fullscreen-exit": "Vollbildmodus beenden",
+    "search": "Suchen...",
+    "backup-save": "Einstellungen sichern",
+    "backup-save-confirm": "Dies wird eine Sicherungskopie deiner Karteneinstellungen herunterladen.\nDie Datei wird unter dem Namen \"__fileName__\" gespeichert. \nFortfahren?",
+    "backup-load": "Einstellungen wiederherstellen",
+    "backup-load-label": "Einstellungen wiederherstellen:",
+    "backup-load-success": "Wiederherstellung erfolgreich!",
+    "backup-load-fail": "Wiederherstellung fehlgeschlagen, bitte überprüfe die Datei",
+    "backup-load-unsupported": "Die Wiederherstellungsfunktion ist nicht verfügbar, weil dein Browser die HTML5 File API nicht unterstützt.",
+    "center-on-focused-marker": "Ausgewählten Marker zentrieren",
+    "note-add": "Notiz hinzufügen",
+    "note-cancel": "Notizerstellung abbrechen"
+  },
+  "sidebar": {
+    "letter-from-home": "Briefe aus der Heimat",
+    "letter-to-home": "Briefe in die Heimat",
+    "last-letter": "Abschiedsbriefe",
+    "misc-document": "Verschiedene Dokumente",
+    "duty-roster": "Dienstpläne",
+    "sniper-report": "Scharfschützenberichte",
+    "deadeye-target": "Zielwasser-Ziele",
+    "generator": "Generatoren",
+    "objective-primary": "Hauptziele",
+    "objective-optional": "Optionale Ziele",
+    "objective-exit": "Missions-Ausgänge"
+  },
+  "marker": {
+    "letter-from-home": {
+      "label": "Brief aus der Heimat",
+      "desc": "\"Briefe aus der Heimat\" geben einen Einblick in das Leben von Familie, Freunden und Bekannten in der Heimat. Man findet sie in der Umgebung sowie an gefallenen Soldaten."
+    },
+    "letter-to-home": {
+      "label": "Brief in die Heimat",
+      "desc": "Nachrichten an Freunde und Familie zu Hause, die noch nicht verschickt wurden. Man findet sie an Leichnamen und in der Umgebung."
+    },
+    "last-letter": {
+      "label": "Abschiedsbrief",
+      "desc": "Die Truppen um Zweiten Weltkrieg wurden darum gebeten, \"Abschiedsbriefe\" an ihre Angehörigen zu schreiben. Sie sind an den Leichnamen getöteter Soldaten zu finden."
+    },
+    "misc-document": {
+      "label": "Diverses Dokument",
+      "desc": "Memoranden, Dienstschreiben, Berichte, Tagebücher, sogar Gedichte... Eine ganze Bandbreite an Dokumenten, in der gesamten Umgebung zu finden, manchmal auch an den Leichnamen feindlicher Soldaten. Ein paar von ihnen sind unerlässlich für den Abschluss einer Mission."
+    },
+    "duty-roster": {
+      "label": "Dienstplan",
+      "desc": "Wenn du bei einem feindlichen Offizier einen Dienstplan findest, werden alle Mitglieder einer feindlichen Einheit markiert."
+    },
+    "sniper-report": {
+      "label": "Scharfschützenbericht",
+      "desc": "Feindliche Scharfschützen liefern stets Berichte über ihre Aktivitäten ab. Mitunter sind diese Berichte an ihren Leichen zu finden, zuweilen in ihrem Umfeld. Sie enthalten wertvolle Einblicke in die Denkweise des Feindes..."
+    },
+    "deadeye-target": {
+      "label": "Zielwasser-Ziele",
+      "desc": "Auf jeder Karte findest du 3 Zielwasser-Ziele, die nur die allerbesten Schützen erwischen können. Eine derart tödliche Genauigkeit bringt dir ganz besondere Belohnungen ein."
+    },
+    "generator": {
+      "label": "Generator",
+      "desc": "Nutze diese lauten Apperaturen, um das Geräusch deiner Schüsse zu übertönen."
+    },
+    "objective-primary": {
+      "label": "Hauptziel",
+      "desc": "Hauptziele müssen erfüllt werden, um die Mission zu beenden."
+    },
+    "objective-optional": {
+      "label": "Optionales Ziel",
+      "desc": "Optionale Ziele sind... naja, optional halt. Erfülle sie, um Bonuspunkte zu verdienen."
+    },
+    "objective-exit": {
+      "label": "Missions-Ausgang",
+      "desc": "Begib dich hier hin, nachdem du alle Hauptziele abgeschlossen hast, um die Misison zu beenden."
+    }
+  }
+}

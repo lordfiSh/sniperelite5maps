@@ -1,0 +1,176 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Uhr",
+      "desc": "Getragen von Tobias Groos (Infanterie)."
+    },
+    "2": {
+      "label": "Burgstein",
+      "desc": "Getragen von Tils Mailer (Infanterie)."
+    },
+    "3": {
+      "label": "Besorgte Karin",
+      "desc": "Getragen von Ignaz Scholz (Infanterie)."
+    },
+    "4": {
+      "label": "Kniebeugen",
+      "desc": "Getragen von Fritz Schauble (Infanterie), im oberen Stockwerk."
+    },
+    "5": {
+      "label": "Mein lieber Junge",
+      "desc": "Getragen von Axel Wieck (Infanterie)."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Ordnung",
+      "desc": "Liegt auf einer Kiste am Kontrollpunkt."
+    },
+    "2": {
+      "label": "Capo",
+      "desc": "Getragen von Orlando Foschini (Infanterie)."
+    },
+    "3": {
+      "label": "Stark bleiben",
+      "desc": "Liegt auf einem Schreibtisch oben im Gebäude."
+    },
+    "4": {
+      "label": "Hercules",
+      "desc": "Liegt auf einer Kiste neben dem Lagerfeuer."
+    },
+    "5": {
+      "label": "Glück",
+      "desc": "Getragen von Dolf Lehmann (Infanterie), im oberen Stockwerk."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Kugel oder Klinge",
+      "desc": "Getragen von Johann Schuster (Infanterie)."
+    },
+    "2": {
+      "label": "An eine wunderbare Mutter",
+      "desc": "Getragen von Hans Lufter (Infanterie), oben auf dem Dach."
+    },
+    "3": {
+      "label": "Schließ mich in deine Gebete ein",
+      "desc": "Getragen von Gregor Keller (Infanterie)."
+    },
+    "4": {
+      "label": "Schlachtross",
+      "desc": "Getragen von Timo Koenig (Infanterie), im unteren Stockwerk."
+    },
+    "5": {
+      "label": "Ein Gefallen",
+      "desc": "Getragen von Franz Bartel (Funker)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Memo an Oberst Emmerich Groß von General Heinz Böhm",
+      "desc": "Liegt in einem Safe. Die Kombination kann am Körper von Emmerich Groß (Offizier) gefunden werden. Dieses Dokument wird für das Hauptziel \"Dubiose Lieferungen\" benötigt."
+    },
+    "2": {
+      "label": "Nachricht von Laterza",
+      "desc": "Liegt auf Schreibtisch im oberen Stockwerk."
+    },
+    "3": {
+      "label": "Bericht des Armee-Leichenbestatters",
+      "desc": "Liegt auf einer Metallkiste im Gebäude."
+    },
+    "4": {
+      "label": "Memo an Oberst Emmerich Groß",
+      "desc": "Liegt auf einem Tisch."
+    },
+    "5": {
+      "label": "Brief von Maria Laterza, adressiert an \"Raffi\"",
+      "desc": "Liegt auf einem Stuhl im Erdgeschoss, in einem Raum hinter dem Waffenlager."
+    },
+    "6": {
+      "label": "Brief von Salvatore",
+      "desc": "Liegt auf einem Schreibtisch."
+    },
+    "7": {
+      "label": "Brief an Rafaele",
+      "desc": "Liegt auf einer Holzbank in der Mitte des Raumes."
+    },
+    "8": {
+      "label": "Brief, adressiert an Piero Capo (nicht abgeschickt)",
+      "desc": "Liegt auf Schreibtisch im oberen Stockwerk."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 16",
+      "desc": "Getragen von Oberleutnant Josef Clauberg (Offizier), im unteren Stockwerk."
+    },
+    "2": {
+      "label": "Operativer Überblick 15",
+      "desc": "Getragen von Oberleutnant Gino Laterza (Offizier), der den unteren linken Bereich der Karte abläuft."
+    },
+    "3": {
+      "label": "Operativer Überblick 14",
+      "desc": "Getragen von Leutnant Umberto Strinati (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick 13",
+      "desc": "Getragen von Oberleutnant Herbert Amann (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Klaus Klehr",
+      "desc": "Liegt auf einer kleinen Holzkiste am Fuß des Krans."
+    },
+    "2": {
+      "label": "Obergefreiter Erich Hosenfeld",
+      "desc": "Liegt auf einer kleinen Holzkiste am Fuß des Krans."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf den Klippen der Leuchtturminsel."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "Wacht über das Abstellgleis."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf einem Felsvorsprung außerhalb der Map."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Gib den Bombern der Alliierten das Signal",
+      "desc": "Finde ein Funkgerät"
+    },
+    "2": {
+      "label": "Dubiose Lieferungen",
+      "desc": {
+        "1": "Deaktiviere oder zerstöre die Hafen-Flugabwehr (0/5)",
+        "2": "Finde heraus, was die Deutschen da transportieren",
+        "3": "Finde heraus, wohin die Lieferungen gebracht werden sollen"
+      }
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Attentat",
+      "desc": "Töte den korrupten Hafenmeister"
+    },
+    "2": {
+      "label": "Schnelle Antwort",
+      "desc": "Schalte die gepanzerte Bedrohung aus (0/2)"
+    },
+    "3": {
+      "label": "Frieden schaffen - mit Waffen!",
+      "desc": "Plündere die deutsche Waffenkammer"
+    },
+    "4": {
+      "label": "Schüsse ins Blaue",
+      "desc": "Finde den Typhusimpfstoff"
+    }
+  }
+}

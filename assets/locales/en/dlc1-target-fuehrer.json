@@ -1,0 +1,162 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "We Are Very Proud of You",
+      "desc": "Carried by Wulf Vogel (Infantry), who patrols the entire area."
+    },
+    "2": {
+      "label": "Our Blood",
+      "desc": "Carried by Tobias Petersen (Infantry)."
+    },
+    "3": {
+      "label": "Time on My Hands!",
+      "desc": "Carried by Niels Meier (Jäger)."
+    },
+    "4": {
+      "label": "The Exciting Death",
+      "desc": "Found on a workbench."
+    },
+    "5": {
+      "label": "The Train Station",
+      "desc": "Found on a bench."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Cold in Russia",
+      "desc": "Carried by Sebastian Hartmann (Infantry)."
+    },
+    "2": {
+      "label": "Something",
+      "desc": "Carried by Oskar Beck (Jäger)."
+    },
+    "3": {
+      "label": "He Always Does",
+      "desc": "Found on a shelf."
+    },
+    "4": {
+      "label": "Aunt Klaudia",
+      "desc": "Found on a small wooden crate behind a stack of pipes."
+    },
+    "5": {
+      "label": "Liquorice",
+      "desc": "Found laying on the floor."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "An Explozzion",
+      "desc": "Carried by Tilman Krause (Infantry)."
+    },
+    "2": {
+      "label": "I Will Try So Hard",
+      "desc": "Carried by Ruprecht Krüger (Jäger)."
+    },
+    "3": {
+      "label": "Something Nasty ",
+      "desc": "Carried by Max Becker (Infantry)."
+    },
+    "4": {
+      "label": "The New Year",
+      "desc": "Carried by Jonathan Wagner (Support Jäger)."
+    },
+    "5": {
+      "label": "They Told Everyone",
+      "desc": "Carried by Eduard Koch (Jäger)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Itinerary",
+      "desc": "Found on the roof laying on a table next to some radio equipment."
+    },
+    "2": {
+      "label": "Diary",
+      "desc": "Found on a desk."
+    },
+    "3": {
+      "label": "Memorandum",
+      "desc": "Found on one of the tables with drawers."
+    },
+    "4": {
+      "label": "Letter to Berlin",
+      "desc": "Found in a safe in the control room. The combination is carried by Senior Lieutenant Wulf Egner (Officer)."
+    },
+    "5": {
+      "label": "Letter from the Führer",
+      "desc": "Found on a table next to some maps."
+    },
+    "6": {
+      "label": "A Note",
+      "desc": "Found on the dead body of Admiral Richter."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #A4",
+      "desc": "Carried by Senior Lieutenant Volker Hönigmann (Officer)."
+    },
+    "2": {
+      "label": "Operational Overview #A3",
+      "desc": "Carried by Senior Lieutenant Adelbert Handke (Officer)."
+    },
+    "3": {
+      "label": "Operational Overview #A2",
+      "desc": "Carried by Lieutenant Theodor Günzburg (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #A1",
+      "desc": "Carried by Lieutenant Werner Deutsch (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Soldat Gustav Jutzi",
+      "desc": "Carried by Gustav Jutzi (Sniper)."
+    },
+    "2": {
+      "label": "Gefreiter Erik Fanck",
+      "desc": "Carried by Erik Fanck (Sniper)."
+    },
+    "3": {
+      "label": "Gefreiter Dietrich Kopkow",
+      "desc": "Carried by Dietrich Kopkow (Sniper)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Big Brother is watching through the roof."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Sits on top of a big mountain."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "A new pirate sets sail. Only visible from the mission start."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Decapitate the Monster",
+      "desc": "Assassinate Admiral Richter"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Asset Management",
+      "desc": "Locale the supplies"
+    },
+    "2": {
+      "label": "Sub-Pen Saboteur",
+      "desc": "Sabotage failsafe (0/2)"
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "Sub-Pen Saboteur",
+      "desc": "Destroy the base and exfiltrate"
+    }
+  }
+}

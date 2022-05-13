@@ -1,0 +1,167 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Dr Goebbels",
+      "desc": "Found on a table outside the building."
+    },
+    "2": {
+      "label": "Rations",
+      "desc": "Found on a table in the building."
+    },
+    "3": {
+      "label": "The Obermünster",
+      "desc": "Found on an armchair on the upper floor."
+    },
+    "4": {
+      "label": "Litter",
+      "desc": "Found on a chair on the first floor."
+    },
+    "5": {
+      "label": "Mr Fuchs the Green Grocer",
+      "desc": "Found on a workbench on the upper floor."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Child Birth",
+      "desc": "Found on a dining table on the first floor."
+    },
+    "2": {
+      "label": "TS",
+      "desc": "Found on a cot."
+    },
+    "3": {
+      "label": "A Cold Wind",
+      "desc": "Found on a wooden crate outside the building."
+    },
+    "4": {
+      "label": "The Flower",
+      "desc": "Found on a park bench."
+    },
+    "5": {
+      "label": "Her Only Son",
+      "desc": "Found on a wooden crate on the pier."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "The Führer's Bidding",
+      "desc": "Carried by Eugen Wähner (Infantry)."
+    },
+    "2": {
+      "label": "A Good Friend",
+      "desc": "Carried by Knut Steen (Infantry)."
+    },
+    "3": {
+      "label": "An Apology",
+      "desc": "Carried by Augustus Tifft (Infantry)."
+    },
+    "4": {
+      "label": "Cuxhaven",
+      "desc": "Carried by Richard Frost (Infantry)."
+    },
+    "5": {
+      "label": "The Chestnut Tree",
+      "desc": "Carried by Jürgen Buchholz (Infantry)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Document marked 'Top Secret'",
+      "desc": "Found inside a safe. The combination can be on the dead body of ??? (Officer)."
+    },
+    "2": {
+      "label": "Telegram for Lieutenant Wolfgang Meinhardt",
+      "desc": "Found on two ammunition boxes on the second floor."
+    },
+    "3": {
+      "label": "Letter to Lucio",
+      "desc": "Found on a table inside the building."
+    },
+    "4": {
+      "label": "Memo to Major Klaus Rothbauer",
+      "desc": "Found on a shelf inside Rothbauer's office."
+    },
+    "5": {
+      "label": "Rothbauer's Memoirs",
+      "desc": "Found on Rothbauer's desk."
+    },
+    "6": {
+      "label": "Informant Report",
+      "desc": "Found on a shelf inside Rothbauer's office."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #28",
+      "desc": "Carried by Holger Knopf (Officer)."
+    },
+    "2": {
+      "label": "Operational Overview #27",
+      "desc": "Carried by Franz Unterbrink (Officer)."
+    },
+    "3": {
+      "label": "Operational Overview #26",
+      "desc": "Carried by Waldemar Gabler (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #25",
+      "desc": "Carried by Harald Trumbauer (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Leutnant Wolfgang Meinhardt",
+      "desc": "Carried by Wolfgang Meinhardt (Sniper)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Sits above the town hall's main entrance."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Towers atop the villa's main entrance."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "Sits on top of the tower."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Remove Rothbauer",
+      "desc": {
+        "1": "Find out what Rothbauer is hiding",
+        "2": "Kill Rothbauer"
+      }
+    },
+    "2": {
+      "label": "The Sniper's Trap",
+      "desc": "Kill Sniper"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "The Nazi Propaganda Machine",
+      "desc": {
+        "1": "Find route of propaganda truck",
+        "2": "Stop the Truck"
+      }
+    },
+    "2": {
+      "label": "Weakening Defences",
+      "desc": {
+        "1": "Destroy/Disable the Patrol Boat",
+        "2":"Destroy Encampments (0/3)"
+      }
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "The Great Escape",
+      "desc": "Get to the town square and look for survivors."
+    }
+  }
+}

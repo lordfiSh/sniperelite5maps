@@ -1,0 +1,189 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Ein Matrose",
+      "desc": "Getragen von Helmut Kerwer (Infanterie)."
+    },
+    "2": {
+      "label": "Betrogen",
+      "desc": "Getragen von Egon Kästner (Jäger)."
+    },
+    "3": {
+      "label": "Ein grausamer Mann",
+      "desc": "Getragen von Jörg Adler (Infanterie)."
+    },
+    "4": {
+      "label": "Widerstand",
+      "desc": "Getragen von Carsten Wedekind (Infanterie)."
+    },
+    "5": {
+      "label": "U-Boote",
+      "desc": "Liegt auf einer Kiste im ersten Stock."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Anders",
+      "desc": "Liegt auf einer Kiste in der Ecke."
+    },
+    "2": {
+      "label": "Elend",
+      "desc": "Liegt auf einer Kiste im Gebäude."
+    },
+    "3": {
+      "label": "Enkelkinder",
+      "desc": "Liegt auf einer Kiste im untersten Geschoss des Bunkers."
+    },
+    "4": {
+      "label": "Mein Ein und Alles.",
+      "desc": "Liegt auf einem improvisierten Tisch."
+    },
+    "5": {
+      "label": "Tun, was zu tun ist",
+      "desc": "Liegt auf einem improvisierten Tisch im Gebäude."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Kurz und schmerzlos",
+      "desc": "Getragen von Raimund Kistner (Infanterie)."
+    },
+    "2": {
+      "label": "Pflichterfüllung",
+      "desc": "Getragen von Manfred Paternoster (Infanterie)."
+    },
+    "3": {
+      "label": "Der Tod ist besser",
+      "desc": "Getragen von Harald Wolter (Infanterie)."
+    },
+    "4": {
+      "label": "Mein Hauptziel",
+      "desc": "Getragen von Erhard Mein (Infanterie)."
+    },
+    "5": {
+      "label": "Ein gebrochenes Versprechen",
+      "desc": "Getragen von Christian Dirchs (Infanterie)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Nachricht von Johann an Konrad",
+      "desc": "Liegt auf einer Kiste im ersten Stock."
+    },
+    "2": {
+      "label": "Nicht abgeschickter Brief von Dieter Portner",
+      "desc": "Liegt auf einer Kiste im Schützengraben."
+    },
+    "3": {
+      "label": "Leons Tagebuch",
+      "desc": "Kann am Körper eines toten Soldaten (vermutlich Leon) gefunden werden. Um zur Leiche zu gelagen, springt man einfach an das Rohr auf der gegenüberliegenden Seite und lässt sich fallen."
+    },
+    "4": {
+      "label": "Konrads Tagebuch",
+      "desc": "Liegt auf einem Tisch voller Funkausrüstung im Gebäude."
+    },
+    "5": {
+      "label": "Tagebuch von Erich Schreck (Scharfschütze)",
+      "desc": "Liegt auf einer Munitionskiste."
+    },
+    "6": {
+      "label": "Kesslers Notizen",
+      "desc": "Liegt in einem Safe im ersten Stock. Die Kombination kann am Körper von Ernst Fleischer (Offizier) gefunden werden. Dieses Dokument wird für das Hauptziel \"Kesslers Entführung\" benötigt."
+    },
+    "7": {
+      "label": "B-Dienst Abhör-Depesche",
+      "desc": "Liegt auf einem Schreibtisch im Büro. Dieses Dokument wird für das optionale Ziel \"Knacke die Codeknacker\" benötigt."
+    },
+    "8": {
+      "label": "B-Dienst Abhör-Depesche",
+      "desc": "Liegt in einem Safe im Gebäude. Die Kombination kann am Körper von Oberleutnant Gottfried Groeber (Offizier) gefunden werden. Dieses Dokument wird für das optionale Ziel \"Knacke die Codeknacker\" benötigt."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 24",
+      "desc": "Getragen von Oberleutnant Anton Gruber (Offizier)."
+    },
+    "2": {
+      "label": "Operativer Überblick 23",
+      "desc": "Getragen von Oberleutnant Stanislaus Müller (Offizier)."
+    },
+    "3": {
+      "label": "Operativer Überblick 22",
+      "desc": "Getragen von Oberleutnant Julian Keitel (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick 21",
+      "desc": "Getragen von Oberleutnant Albert Gerstein (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Leutnant Immanuel Lann",
+      "desc": "Liegt auf einer Munitionskiste neben einer Wand."
+    },
+    "2": {
+      "label": "Unteroffizier Peter Hartner",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "3": {
+      "label": "Leutnant Franz Knemeyer",
+      "desc": "Getragen von Franz Knemeyer (Sniper)."
+    },
+    "4": {
+      "label": "Leutnant Erich Schreck",
+      "desc": "Getragen von Erich Schreck (Sniper)."
+    },
+    "5": {
+      "label": "Obergefreiter Theodor Roff",
+      "desc": "Liegt auf einer zusammengerollten Isomatte."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf dem Dach."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf dem Dach über dem Sniper."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Sitzt direkt über einem Lüftungsschacht."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Kesslers Entführung",
+      "desc": {
+        "1": "Finde Kessler",
+        "2": "Besorge Kesslers Forschungsnotizen"
+      }
+    },
+    "2": {
+      "label": "Ein Signal schicken",
+      "desc": {
+        "1": "Finde einen Weg, die Radarschüssel zu deaktivieren",
+        "2": "Lege die Operation der Nazis lahm"
+      }
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Knacke die Codeknacker",
+      "desc": "Eigne dir die Abhör-Depeschen an (0/2)"
+    },
+    "2": {
+      "label": "Enigma-Variationen",
+      "desc": "Zerstöre die Entschlüsselungseinrichtung"
+    },
+    "3": {
+      "label": "Maritime Wahrnehmungen",
+      "desc": {
+        "1": "Zerstöre die deutsche Schiffsartillerie (0/5)",
+        "2": "Töte den für den Schutz zuständigen Offizier"
+      }
+    }
+  }
+}

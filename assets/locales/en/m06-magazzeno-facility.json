@@ -1,0 +1,189 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "A Sailor",
+      "desc": "Carried by Helmut Kerwer (Infantry)."
+    },
+    "2": {
+      "label": "Betrayal",
+      "desc": "Carried by Egon Kästner (Jäger)."
+    },
+    "3": {
+      "label": "A Fierce Man",
+      "desc": "Carried by Jörg Adler (Infantry)."
+    },
+    "4": {
+      "label": "Resistance Fighters",
+      "desc": "Carried by Carsten Wedekind (Infantry)."
+    },
+    "5": {
+      "label": "U-boats",
+      "desc": "Found on a chest on the first floor."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Difference",
+      "desc": "Found on a chest in the corner."
+    },
+    "2": {
+      "label": "Hard Times",
+      "desc": "Found on a chest in the building."
+    },
+    "3": {
+      "label": "Grandchildren",
+      "desc": "Found on a chest on the lowest floor."
+    },
+    "4": {
+      "label": "My One and Only",
+      "desc": "Found outside a makeshift table on the first floor."
+    },
+    "5": {
+      "label": "Vicious",
+      "desc": "Found on a makeshift table in the building."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Quick and Over",
+      "desc": "Carried by Raimund Kistner (Infantry)."
+    },
+    "2": {
+      "label": "I Did My Duty",
+      "desc": "Carried by  Manfred Paternoster (Officer)."
+    },
+    "3": {
+      "label": "Death Is Better",
+      "desc": "Carried by Harald Wolter (Infantry)."
+    },
+    "4": {
+      "label": "My Primary Target",
+      "desc": "Carried by Erhard Mein (Infantry)."
+    },
+    "5": {
+      "label": "A Broken Promise",
+      "desc": "Carried by Christian Dirchs (Infantry)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Note from Johann to Konrad",
+      "desc": "Found on a chest on the first floor."
+    },
+    "2": {
+      "label": "Unsent Letter from Dieter Portner",
+      "desc": "Found on a chest in the trench."
+    },
+    "3": {
+      "label": "Leon's Diary",
+      "desc": "Found on the dead body of a fallen climber (presumably Leon). You can get to the diary by jumping to the pipes on the opposite wall."
+    },
+    "4": {
+      "label": "Konrad's Diary",
+      "desc": "Found on a table with radio equipment in the building."
+    },
+    "5": {
+      "label": "Journal of Erich Schreck (Sniper)",
+      "desc": "Found on an ammunition box."
+    },
+    "6": {
+      "label": "Kessler notes",
+      "desc": "Found in a safe on the first floor. The combination can be found on the dead body of Ernst Fleischer (Officer). This document is required for the primary objective \"Kidnapping Kessler\"."
+    },
+    "7": {
+      "label": "B-Dienst Intercept Digest",
+      "desc": "Found on a desk in the office."
+    },
+    "8": {
+      "label": "B-Dienst Intercept Digest",
+      "desc": "Found in a safe in the building. The combination is carried by Senior Lieutenant Gottfried Groeber (Officer). This document is required for the optional objective \"Crack the Code-Breakers\"."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #24",
+      "desc": "Carried by Senior Lieutenant Anton Gruber (Officer)."
+    },
+    "2": {
+      "label": "Operational Overview #23",
+      "desc": "Carried by Senior Lieutenant Stanislaus Müller (Officer)."
+    },
+    "3": {
+      "label": "Operational Overview #22",
+      "desc": "Carried by Senior Lieutenant Julian Keitel (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #21",
+      "desc": "Carried by Senior Lieutenant Albert Gerstein (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Leutnant Immanuel Lamm",
+      "desc": "Found on an ammunition box next to a wall."
+    },
+    "2": {
+      "label": "Unteroffizier Peter Hartner",
+      "desc": "Found on a table inside the building."
+    },
+    "3": {
+      "label": "Leutnant Franz Knemeyer",
+      "desc": "Carried by Franz Knemeyer (Sniper)."
+    },
+    "4": {
+      "label": "Leutnant Erich Shreck",
+      "desc": "Carried by Erich Shreck (Sniper)."
+    },
+    "5": {
+      "label": "Obergefreiter Theodor Roff",
+      "desc": "Found laying on the ground on a bedroll."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Sits on the roof."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Sits on the roof above the sniper."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "Sits directly above a ventilation cover."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Kidnapping Kessler",
+      "desc": {
+        "1": "Find Kessler",
+        "2": "Acquire Kessler's research notes"
+      }
+    },
+    "2": {
+      "label": "Send A Signal",
+      "desc": {
+        "1": "Find a way to disable the Radar Dish",
+        "2": "Disable the Nazi Operation"
+      }
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Crack the Code-Breakers",
+      "desc": "Acquire Intercept Digest documents (0/2)"
+    },
+    "2": {
+      "label": "Enigma Variations",
+      "desc": "Wreck the Code-Breaking Centre"
+    },
+    "3": {
+      "label": "Naval Gazing",
+      "desc": {
+        "1": "Destroy the German Naval Guns (0/5)",
+        "2": "Assassinate the Officer in charge of defences"
+      }
+    }
+  }
+}

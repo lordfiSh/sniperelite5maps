@@ -1,0 +1,170 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Kyros",
+      "desc": "Found on a table inside a tent."
+    },
+    "2": {
+      "label": "Hugging One Another",
+      "desc": "Found on a cabinet next to a gramophone."
+    },
+    "3": {
+      "label": "Bread",
+      "desc": "Found on a workbench inside the sawmill."
+    },
+    "4": {
+      "label": "Jonas",
+      "desc": "Found on a little wooden crate."
+    },
+    "5": {
+      "label": "The RAF",
+      "desc": "Found on a bench outside the building."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Beyond Words",
+      "desc": "Carried by Johannes Kogler (Infantry). He patrols on the lowest plattform under the bridge."
+    },
+    "2": {
+      "label": "Aatu",
+      "desc": "Found on a wooden crate on the pier."
+    },
+    "3": {
+      "label": "Payback",
+      "desc": "Found on a chest inside the building."
+    },
+    "4": {
+      "label": "The Locals",
+      "desc": "Found on a table inside the building."
+    },
+    "5": {
+      "label": "This War",
+      "desc": "Found on a table inside a tent."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Temper Tantrums",
+      "desc": "Carried by Karlheinz Dirchs (Infantry)."
+    },
+    "2": {
+      "label": "Freedom?",
+      "desc": "Carried by Herbert Wedekind (Infantry)."
+    },
+    "3": {
+      "label": "Eighteen With a Bullet",
+      "desc": "Carried by Gerhard Grasse (Infantry)."
+    },
+    "4": {
+      "label": "For the Reich",
+      "desc": "Carried by Christian Dittrich (Infantry)."
+    },
+    "5": {
+      "label": "Heaven Sent?",
+      "desc": "Carried by Fritz Kohl (Infantry)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Memorandum to Senior Lieutenant Otto Brandt.",
+      "desc": "Carried by Senior Lieutenatnt Otto Brandt (Officer)."
+    },
+    "2": {
+      "label": "Memo to Colonel Johan Loris",
+      "desc": "Found on a desk on the ground floor."
+    },
+    "3": {
+      "label": "Report by Dr Ciano Gentile",
+      "desc": "Found on a table inside the building."
+    },
+    "4": {
+      "label": "Telegram",
+      "desc": "Found inside a safe. The combination can be on the dead body of Super Lieutenant Erhard Hausser (the same Officer, who carries 'Operational Overview #9')."
+    },
+    "5": {
+      "label": "Observation Report",
+      "desc": "Carried by Siegfried Äschelmann (Infantry)."
+    },
+    "6": {
+      "label": "A Partisan News-Sheet",
+      "desc": "Found on a cabinet on the first floor."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #9",
+      "desc": "Carried by Senior Lieutenant Erhard Hausser (Officer)."
+    },
+    "2": {
+      "label": "Operational Overview #10",
+      "desc": "Carried by Senior Lieutenant Joseph Hanke (Offizier)."
+    },
+    "3": {
+      "label": "Operational Overview #11",
+      "desc": "Carried by Franz von Manstein (Officer)."
+    },
+    "4": {
+      "label": "Operational Overview #12",
+      "desc": "Carried by Johann Loris (Officer)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Werner Hinrichsen",
+      "desc": "Carried by Werner Hinrichsen (Sniper)."
+    },
+    "2": {
+      "label": "Obersoldat Ewald Böttcher",
+      "desc": "Carried by Ewald Böttcher (Sniper)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Sits on top of a mountain and observes the situation from afar."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Sits on top of a boulder and oversees the river."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "Sits atop a rocky ledge."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Viaduct Vengeance",
+      "desc": "Wreck the Railway Gun"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Hidden in Plane Sight",
+      "desc": {
+        "1": "Find the downed American Pilot and get the Film Canister from the Pilot's body",
+        "2": "Find the crashed Observation Plane and destroy the Plane"
+      }
+    },
+    "2": {
+      "label": "Depot Destruction",
+      "desc": "Destroy the Nazis' Transport Depot"
+    },
+    "3": {
+      "label": "The Big Bang Theory",
+      "desc": {
+        "1": "Locate and destroy Additional Ammo Dump",
+        "2": "Find the Ammo Cache and destroy it"
+      }
+    },
+    "4": {
+      "label": "Checkpoint Checkmate",
+      "desc": "German Checkpoints cleared (0/2)"
+    },
+    "5": {
+      "label": "Destroy the Armoured Car",
+      "desc": "Destroy the Sd.Kfz. 222 Armoured Car"
+    }
+  }
+}

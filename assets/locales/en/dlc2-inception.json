@@ -1,0 +1,170 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Playing",
+      "desc": ""
+    },
+    "2": {
+      "label": "Season's Greetings",
+      "desc": ""
+    },
+    "3": {
+      "label": "Janus",
+      "desc": ""
+    },
+    "4": {
+      "label": "The Reinhardts",
+      "desc": ""
+    },
+    "5": {
+      "label": "Father Leone Says",
+      "desc": ""
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Little to Report",
+      "desc": ""
+    },
+    "2": {
+      "label": "Privations",
+      "desc": ""
+    },
+    "3": {
+      "label": "From Beneath",
+      "desc": ""
+    },
+    "4": {
+      "label": "Sneaky",
+      "desc": ""
+    },
+    "5": {
+      "label": "As Good As His Word",
+      "desc": ""
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Tell the Children",
+      "desc": ""
+    },
+    "2": {
+      "label": "Harsh Things",
+      "desc": ""
+    },
+    "3": {
+      "label": "Zero Intention",
+      "desc": ""
+    },
+    "4": {
+      "label": "Bet You Any Money",
+      "desc": ""
+    },
+    "5": {
+      "label": "Your Loving Sons",
+      "desc": ""
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Memorandum to Major Volker Grün",
+      "desc": ""
+    },
+    "2": {
+      "label": "Letter of Introduction",
+      "desc": ""
+    },
+    "3": {
+      "label": "Soldbuch",
+      "desc": ""
+    },
+    "4": {
+      "label": "Log Book",
+      "desc": ""
+    },
+    "5": {
+      "label": "TELEGRAM",
+      "desc": ""
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operational Overview #B4",
+      "desc": ""
+    },
+    "2": {
+      "label": "Operational Overview #B3",
+      "desc": ""
+    },
+    "3": {
+      "label": "Operational Overview #B2",
+      "desc": ""
+    },
+    "4": {
+      "label": "Operational Overview #B1",
+      "desc": ""
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Wolfgang Blanke",
+      "desc": ""
+    },
+    "2": {
+      "label": "Soldat Ferdinand Lutz",
+      "desc": ""
+    },
+    "3": {
+      "label": "Gefreiter Richard Greiser",
+      "desc": ""
+    },
+    "4": {
+      "label": "Sol",
+      "desc": ""
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": ""
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}

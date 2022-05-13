@@ -1,0 +1,120 @@
+{
+  "maps": {
+    "m01-san-celini-island": "San Celini Island",
+    "m02-bitanti-village": "Bitanti Village",
+    "m03-regilino-viaduct": "Regilino Viaduct",
+    "m04-lorino-dockyard": "Lorino Dockyard",
+    "m05-abrunza-monastery": "Abrunza Monastery",
+    "m06-magazzeno-facility": "Magazzeno Facility",
+    "m07-giovi-fiorini-mansion": "Giovi Fiorini Mansion",
+    "m08-allagra-fortress": "Allagra Fortress",
+    "dlc1-target-fuehrer": "(DLC) Target Führer",
+    "dlc2-inception": "(DLC) Inception",
+    "dlc3-infiltration": "(DLC) Infiltration",
+    "dlc4-obliteration": "(DLC) Obliteration",
+    "ow01-compound": "(Overwatch) Compound",
+    "ow02-railyard": "(Overwatch) Railyard"
+  },
+  "home": {
+    "title": "Sniper Elite 4 Interactive Map",
+    "tagline": "Unofficial Sniper Elite 4 Interactive Map"
+  },
+  "notes": {
+    "label": "Label:",
+    "title": "Title:",
+    "note": "Note:",
+    "enterLabel": "Enter map label...",
+    "enterTitle": "Enter note title...",
+    "enterText": "Enter note text...",
+    "saveNote": "Save Note",
+    "deleteNote": "Delete Note"
+  },
+  "controls": {
+    "show-all": "Show All",
+    "hide-all": "Hide All",
+    "show-counts": "Show Counts",
+    "hide-counts": "Hide Counts",
+    "reset-markers": "Reset Markers",
+    "reset-markers-confirm": "This will reset all markers to their default state (visible). Continue?",
+    "features": "Features & Help",
+    "credits": "Credits",
+    "zoom-in": "Zoom In",
+    "zoom-out": "Zoom Out",
+    "fullscreen-enter": "Enter Fullscreen",
+    "fullscreen-exit": "Exit Fullscreen",
+    "search": "Search...",
+    "backup-save": "Backup Data",
+    "backup-save-confirm": "This will download a backup copy of all your map settings.\n\nThe file will be saved as: __fileName__\n\nContinue?",
+    "backup-load": "Restore Data",
+    "backup-load-label": "Restore your settings:",
+    "backup-load-success": "Data Restore Complete!",
+    "backup-load-fail": "Restore failed, please double-check your file",
+    "backup-load-unsupported": "The backup feature is not available because your browser does not support the HTML5 File API.",
+    "center-on-focused-marker": "Center Highlighted Marker",
+    "note-add": "Add Note",
+    "note-cancel": "Cancel Note"
+  },
+  "sidebar": {
+    "letter-from-home": "Letters from Home",
+    "letter-to-home": "Letters to Home",
+    "last-letter": "Last Letters",
+    "misc-document": "Misc. Documents",
+    "duty-roster": "Duty Rosters",
+    "sniper-report": "Sniper Reports",
+    "deadeye-target": "Deadeye Targets",
+    "generator": "Generators",
+    "objective-primary": "Primary Objectives",
+    "objective-optional": "Optional Objectives",
+    "objective-exit": "Mission Exits"
+  },
+  "marker": {
+    "letter-from-home": {
+      "label": "Letter from Home",
+      "desc": "Letters from home give insights into the war for the family, friends and acquaintances of soldiers. These can be found in the environment and on the bodies of deceased soldiers."
+    },
+    "letter-to-home": {
+      "label": "Letter to Home",
+      "desc": "Missives to family and acquaintances back home that haven't yet been sent. These can be found by searching bodies and the environment."
+    },
+    "last-letter": {
+      "label": "Last Letter",
+      "desc": "Troops in World War Two were encouraged to write 'Last Letters' to their loved ones. These are discoverable on the bodies of dead soldiers."
+    },
+    "misc-document": {
+      "label": "Misc. Document",
+      "desc": "Memoranda, official, letters, reports, diaries and even poems... Scattered throughout the environment and sometimes on the bodies of enemy troops are a wide variety of documents. Some of these will be vital in enabling you to complete your mission."
+    },
+    "duty-roster": {
+      "label": "Duty Roster",
+      "desc": "Finding a Duty Roster on an enemy Officer will tag all members of an enemy squad."
+    },
+    "sniper-report": {
+      "label": "Sniper Report",
+      "desc": "Enemy snipers always complete reports about their activities. Sometimes these reports will be on their bodies, sometimes nearby. These reports can give you invaluable insights into the minds of your enemies..."
+    },
+    "deadeye-target": {
+      "label": "Deadeye Target",
+      "desc": "Each map includes 3 Deadeye Targets that only the most accomplished sharpshooters can hit. Such deadly accuracy will earn you special rewards."
+    },
+    "generator": {
+      "label": "Generator",
+      "desc": "Use these noisy machines to mask the sound of your shots."
+    },
+    "objective-primary": {
+      "label": "Primary Objective",
+      "desc": "Primary objectives must be met to complete the mission."
+    },
+    "objective-optional": {
+      "label": "Optional Objective",
+      "desc": "Optional objectives are... well, optional. Complete them to earn extra points."
+    },
+    "objective-exit": {
+      "label": "Mission Exit",
+      "desc": "Go here after completing all primary objectives to finish the mission."
+    }
+  }
+}
+
+
+
+

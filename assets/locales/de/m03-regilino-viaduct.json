@@ -1,0 +1,176 @@
+{
+  "letter-from-home": {
+    "1": {
+      "label": "Kyros",
+      "desc": "Liegt auf einem Tisch im Zelt."
+    },
+    "2": {
+      "label": "In inniger Umarmung",
+      "desc": "Liegt auf einem Schränkchen neben dem Grammophon."
+    },
+    "3": {
+      "label": "Brot",
+      "desc": "Liegt auf einer Werkbank in der Sägemühle."
+    },
+    "4": {
+      "label": "Jonas",
+      "desc": "Liegt auf einer kleinen Holzkiste."
+    },
+    "5": {
+      "label": "Die RAF",
+      "desc": "Liegt auf einer Bank vor dem Haus."
+    }
+  },
+  "letter-to-home": {
+    "1": {
+      "label": "Unbeschreiblich",
+      "desc": "Getragen von Johannes Kogler (Infanterie). Er befindet sich auf der untersten Holzplattform unter der Brücke."
+    },
+    "2": {
+      "label": "Aatu",
+      "desc": "Liegt auf einer Holzkiste auf dem Steg."
+    },
+    "3": {
+      "label": "Rache",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "4": {
+      "label": "Die Einheimischen",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "5": {
+      "label": "Dieser Krieg",
+      "desc": "Liegt auf einem Tisch im Zelt."
+    }
+  },
+  "last-letter": {
+    "1": {
+      "label": "Wutanfälle",
+      "desc": "Getragen von Karlheinz Dirchs (Infanterie)."
+    },
+    "2": {
+      "label": "Freiheit?",
+      "desc": "Getragen von Herbert Wedekind (Infanterie)."
+    },
+    "3": {
+      "label": "Achtzehn und eine Kugel",
+      "desc": "Getragen von Gerhard Grasse (Infanterie)."
+    },
+    "4": {
+      "label": "Für das Reich",
+      "desc": "Getragen von Christian Dittrich (Infanterie)."
+    },
+    "5": {
+      "label": "Ein Geschenk des Himmels?",
+      "desc": "Getragen von Fritz Kohl (Infanterie)."
+    }
+  },
+  "misc-document": {
+    "1": {
+      "label": "Memorandum an Oberleutnant Otto Brandt",
+      "desc": "Getragen von Oberleutnant Otto Brandt (Offizier)."
+    },
+    "2": {
+      "label": "Memo an Oberst Johan Loris, Regilino",
+      "desc": "Liegt auf einem Schreibtisch im Erdgeschoss."
+    },
+    "3": {
+      "label": "Bericht von Dr. Ciano Gentile",
+      "desc": "Liegt auf einem Tisch im Gebäude."
+    },
+    "4": {
+      "label": "Telegramm",
+      "desc": "Liegt in einem Safe. Die Safe-Kombination kann am Körper von Oberleutnant Erhard Hausser (Offizier) gefunden werden (der gleiche, der auch \"Operativer Überblick 9\" trägt)."
+    },
+    "5": {
+      "label": "Überwachungsbericht",
+      "desc": "Getragen von Siegfried Äschelmann (Infanterie)."
+    },
+    "6": {
+      "label": "Ein Nachrichtenblatt der Partisanen",
+      "desc": "Liegt auf einem Schränkchen im ersten Stock."
+    }
+  },
+  "duty-roster": {
+    "1": {
+      "label": "Operativer Überblick 9",
+      "desc": "Getragen von Oberleutnant Erhard Hausser (Offizier)."
+    },
+    "2": {
+      "label": "Operativer Überblick 10",
+      "desc": "Getragen von Oberleutnant Joseph Hanke (Offizier)."
+    },
+    "3": {
+      "label": "Operativer Überblick 11",
+      "desc": "Getragen von Franz von Manstein (Offizier)."
+    },
+    "4": {
+      "label": "Operativer Überblick 12",
+      "desc": "Getragen von Johann Loris (Offizier)."
+    }
+  },
+  "sniper-report": {
+    "1": {
+      "label": "Gefreiter Werner Hinrichsen",
+      "desc": "Getragen von Werner Hinrichsen (Sniper)."
+    },
+    "2": {
+      "label": "Oberschütze Ewald Böttcher",
+      "desc": "Getragen von Ewald Böttcher (Sniper)."
+    }
+  },
+  "deadeye-target": {
+    "1": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf einem Berg und verfolgt das Geschehen von Weitem."
+    },
+    "2": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf einem großen Felsen im Wasser."
+    },
+    "3": {
+      "label": "Steinadler",
+      "desc": "Sitzt auf einem hohen Felsvorsprung."
+    }
+  },
+  "objective-primary": {
+    "1": {
+      "label": "Vergeltung am Viadukt",
+      "desc": "Demoliere das Eisenbahngeschütz"
+    }
+  },
+  "objective-optional": {
+    "1": {
+      "label": "Offen versteckt",
+      "desc": {
+        "1": "Finde den abgeschossenen amerikanischen Piloten und berge die Filmdose von der Leiche",
+        "2": "Finde das abgestürzte Aufklärungsflugzeug und zerstöre es"
+      }
+    },
+    "2": {
+      "label": "Lagerkoller",
+      "desc": "Zerstöre das Transportlager der Nazis."
+    },
+    "3": {
+      "label": "Die Urknalltheorie",
+      "desc": {
+        "1": "Finde und zerstöre ein weiteres Munitionslager",
+        "2": "Finde das Munitionslager und zerstöre ..."
+      }
+    },
+    "4": {
+      "label": "Checkpoint schachmatt",
+      "desc": "Deutsche Checkpoints geräumt (0/2)"
+    },
+    "5": {
+      "label": "Zerstöre den Panzerwagen",
+      "desc": "Zerstöre das Sd.Kfz. Panzerspähwagen 222"
+    }
+  },
+  "objective-exit": {
+    "1": {
+      "label": "",
+      "desc": ""
+    }
+  }
+}
