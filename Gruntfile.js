@@ -111,7 +111,7 @@ module.exports = function (grunt) {
 					'node_modules/file-saver/dist/FileSaver.js',
 					'node_modules/leaflet/dist/leaflet-src.js',
 					'node_modules/fuse.js/src/fuse.js',
-					'assets/vendor/**.js',
+					'assets/scripts/vendor/**.js',
 				],
 				dest: 'dist/scripts/vendor.bundle.js',
 				options: {
