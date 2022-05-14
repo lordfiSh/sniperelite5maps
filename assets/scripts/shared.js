@@ -1,4 +1,4 @@
-L.Icon.Default.imagePath = '/files/images/leaflet';
+L.Icon.Default.imagePath = 'images/leaflet';
 
 (() => {
 	// these are indexed by the marker category
@@ -13,20 +13,7 @@ L.Icon.Default.imagePath = '/files/images/leaflet';
 	window.notes = [];
 	
 	const namespaceMap = window.namespaceMap = {
-		a: 'm01-san-celini-island',
-		b: 'm02-bitanti-village',
-		c: 'm03-regilino-viaduct',
-		d: 'm04-lorino-dockyard',
-		e: 'm05-abrunza-monastery',
-		f: 'm06-magazzeno-facility',
-		g: 'm07-giovi-fiorini-mansion',
-		h: 'm08-allagra-fortress',
-		i: 'dlc1-target-fuehrer',
-		j: 'dlc2-inception',
-		k: 'dlc3-infiltration',
-		l: 'dlc4-obliteration',
-		m: 'ow01-compound',
-		n: 'ow02-railyard',
+		a: 'map1',
 	};
 	
 	const markerTypes = window.markerTypes = [
