@@ -484,7 +484,7 @@ $(function() {
 	$(document).on('click', '.credits', function(e) {
 		e.preventDefault();
 		popup('Credits', [
-			'<p>Sniper Elite 4 Map created by <a href="https://wiiare.in" target="_blank">lordfiSh</a>. Original Code by <a href="https://github.com/untamed0" target="_blank">untamed0</a>, with contributions from:</p>',
+			'<p>Sniper Elite 5 Map created by <a href="https://wiiare.in" target="_blank">lordfiSh</a>. Original Code by <a href="https://github.com/untamed0" target="_blank">untamed0</a>, with contributions from:</p>',
 			'<ul>',
 			'<li><a href="https://github.com/mcarver" target="_blank">mcarver</a> (lead contributor) - Marker count, hash permalink improvements, backup/restore settings, numerous fixes etc.</li>',
 			'<li><a href="https://github.com/ankri" target="_blank">ankri</a> - Ability to hide markers on right or double click</li>',
@@ -493,8 +493,8 @@ $(function() {
 			'<li><a href="https://github.com/AtomCrafty" target="_blank">AtomCrafty</a> - 2021 software rewrite, high resolution maps and icons, updated marker placement</li>',
 			'<li><a href="https://github.com/CBernjus" target="_blank">CBernjus</a> - Updated marker placement and detailed descriptions</li>',
 			'</ul>',
-			'<h3>Sniper Elite 4 Assets</h3>',
-			'<p>Sniper Elite 4 logo, icons, map &amp; text are the property of <a href="http://www.rebellion.co.uk/" target="_blank">Rebellion</a> and used without their permission. </p>',
+			'<h3>Sniper Elite 5 Assets</h3>',
+			'<p>Sniper Elite 5 logo, icons, map &amp; text are the property of <a href="http://www.rebellion.co.uk/" target="_blank">Rebellion</a> and used without their permission. </p>',
 			'<h3>Javascript libraries used</h3>',
 			'<ul>',
 			'<li><a href="http://jquery.com" target="_blank">jQuery</a> (MIT)</li>',
