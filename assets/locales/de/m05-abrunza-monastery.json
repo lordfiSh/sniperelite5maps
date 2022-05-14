@@ -161,6 +161,10 @@
     "2": {
       "label": "Burgherr",
       "desc": "Töte alle Soldaten im und um den Burgberg"
+    },
+    "3": {
+      "label": "Erlösung vom Bösen",
+      "desc": "Verlasse das Gebiet"
     }
   },
   "objective-optional": {
@@ -180,12 +184,6 @@
     "3": {
       "label": "Eine kleine Gute-Abt-Geschichte",
       "desc": "Finde die Dokumente (0/4)"
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "Erlösung vom Bösen",
-      "desc": "Verlasse das Gebiet"
     }
   }
 }

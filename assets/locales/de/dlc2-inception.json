@@ -2,169 +2,166 @@
   "letter-from-home": {
     "1": {
       "label": "Rumspielen",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch."
     },
     "2": {
       "label": "Weihnachts- und Neujahrsgrüße",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch im Hangar."
     },
     "3": {
       "label": "Janus",
-      "desc": ""
+      "desc": "Liegt auf einer Kiste innerhalb des Schiffes."
     },
     "4": {
       "label": "Die Reinhardts",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch im Zelt."
     },
     "5": {
       "label": "Vater Leone meint",
-      "desc": ""
+      "desc": "Liegt auf einem Hafenpoller."
     }
   },
   "letter-to-home": {
     "1": {
       "label": "Wenig zu vermelden",
-      "desc": ""
+      "desc": "Liegt auf einer Holzkiste oben auf der Galerie."
     },
     "2": {
       "label": "Entbehrungen",
-      "desc": ""
+      "desc": "Liegt auf einer Werkbank."
     },
     "3": {
       "label": "Von unten",
-      "desc": ""
+      "desc": "Liegt auf einem improvisierten Tisch in der Hütte."
     },
     "4": {
       "label": "Listig",
-      "desc": ""
+      "desc": "Liegt auf einer großen Holzkiste."
     },
     "5": {
       "label": "Steht zu seinem Wort",
-      "desc": ""
+      "desc": "Liegt auf einem kleinen hölzernen Schreibtisch im oberen Stockwerk."
     }
   },
   "last-letter": {
     "1": {
       "label": "Sag's den Kindern",
-      "desc": ""
+      "desc": "Getragen von Vito Durante (Infanterie)."
     },
     "2": {
       "label": "Harte Worte",
-      "desc": ""
+      "desc": "Getragen von Palmiro Attanasio (Infanterie)."
     },
     "3": {
       "label": "Null Absicht",
-      "desc": ""
+      "desc": "Getragen von Magnus Udet (Infanterie)."
     },
     "4": {
       "label": "Ich wette 'ne Bank darauf",
-      "desc": ""
+      "desc": "Getragen von Herbert Quackernack (Infanterie)."
     },
     "5": {
       "label": "Deine Dich liebenden Söhne",
-      "desc": ""
+      "desc": "Getragen von Alexander Oberg (Infanterie)."
     }
   },
   "misc-document": {
     "1": {
       "label": "Memorandum an Major Volker Grün",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch neben einem Grammophon."
     },
     "2": {
       "label": "Empfehlungsschreiben",
-      "desc": ""
+      "desc": "Getragen von Dr. Ludwig Kellerman."
     },
     "3": {
       "label": "Soldbuch",
-      "desc": ""
+      "desc": "Getragen von Major Volker Grün (Offizier)."
     },
     "4": {
       "label": "Logbuch",
-      "desc": ""
+      "desc": "Liegt auf einem Schreibtisch im unteren Stockwerk."
     },
     "5": {
       "label": "TELEGRAMM",
-      "desc": ""
+      "desc": "Liegt in einem Safe im unteren Stockwerk. Die Kombination kann am Körper von Ursino Gulla (Offizier) gefunden werden."
     }
   },
   "duty-roster": {
     "1": {
       "label": "Operativer Überblick B4",
-      "desc": ""
+      "desc": "Getragen von Oberleutnant Rainer Jonke (Offizier)."
     },
     "2": {
       "label": "Operativer Überblick B3",
-      "desc": ""
+      "desc": "Getragen von Oberleutnant Dieter Theiner (Offizier)."
     },
     "3": {
       "label": "Operativer Überblick B2",
-      "desc": ""
+      "desc": "Getragen von Leutnant Adolar Hackl (Offizier)."
     },
     "4": {
       "label": "Operativer Überblick B1",
-      "desc": ""
+      "desc": "Getragen von Leutnant Eric Uthmann (Offizier)."
     }
   },
   "sniper-report": {
     "1": {
       "label": "Gefreiter Wolfgang Blanke",
-      "desc": ""
+      "desc": "Getragen von Wolfgang Blanke (Scharfschütze)."
     },
     "2": {
       "label": "Soldat Ferdinand Lutz.",
-      "desc": ""
+      "desc": "Getragen von Ferdinand Lutz (Scharfschütze)."
     },
     "3": {
       "label": "Gefreiter Richard Greiser",
-      "desc": ""
+      "desc": "Getragen von Richard Greiser (Scharfschütze)."
     },
     "4": {
       "label": "Soldat Odilo Fiehler",
-      "desc": ""
+      "desc": "Getragen von Odilo Fiehler (Scharfschütze)."
     }
   },
   "deadeye-target": {
     "1": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Sitzt auf dem Ausguck eines halb versunkenen Schiffes."
     },
     "2": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Sitzt auf dem Dach eines großen Fabrikgebäudes."
     },
     "3": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Sitzt auf einem Leuchtturm und überwacht den Hafeneingang."
     }
   },
   "objective-primary": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Suchen-Finden-Sicherstellen",
+      "desc": {
+        "1": "Finde das Paket für Alsos",
+        "2": "Paket zum Treffpunkt bringen"
+      }
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Das Reich an der Gurgel packen",
+      "desc": {
+        "1": "Zerstöre die Flaks (0/3)",
+        "2": "Zerstöre die Netzsperre",
+        "3": "Zerstöre das Marinegeschütz"
+      }
     }
   },
   "objective-optional": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Die Strategie sicherstellen",
+      "desc": "Ich könnte mir die Logbücher in einem der angedockten Schiffe besorgen... aber aus welchem?"
     },
     "2": {
-      "label": "",
-      "desc": ""
-    },
-    "3": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "",
-      "desc": ""
+      "label": "Der Doppelgänger-Effekt",
+      "desc": "Entsorge den Nazioffizier"
     }
   }
 }

@@ -2,193 +2,198 @@
   "letter-from-home": {
     "1": {
       "label": "Was, wenn?",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch im obersten Stockwerk."
     },
     "2": {
       "label": "Schreckliche Dinge",
-      "desc": ""
+      "desc": "Liegt auf einer Holzbank."
     },
     "3": {
       "label": "Bist Du da?",
-      "desc": ""
+      "desc": "Liegt auf einem Stuhl im Erdgeschoss."
     },
     "4": {
       "label": "Schweren Herzens",
-      "desc": ""
+      "desc": "Liegt auf einer Waffenkiste."
     },
     "5": {
       "label": "Beunruhigende Nachrichten",
-      "desc": ""
+      "desc": "Liegt auf einer Holzbank."
     }
   },
   "letter-to-home": {
     "1": {
       "label": "Mehr musst du nicht wissen",
-      "desc": ""
+      "desc": "Liegt auf einer Waffenkiste im oberen Stockwerk."
     },
     "2": {
       "label": "Gummischlauch",
-      "desc": ""
+      "desc": "Liegt auf einer Holzbank."
     },
     "3": {
       "label": "Mit neuem Elan",
-      "desc": ""
+      "desc": "Liegt auf einer kleinen hölzernen Kiste."
     },
     "4": {
       "label": "Ziemlich viele",
-      "desc": ""
+      "desc": "Liegt auf einer Kommode unter einer Tafel."
     },
     "5": {
       "label": "Ich schäme mich",
-      "desc": ""
+      "desc": "Liegt auf einer Waffenkiste."
     }
   },
   "last-letter": {
     "1": {
       "label": "Das andere Reich",
-      "desc": ""
+      "desc": "Getragen von Prospero Guzzanti (Infanterie)."
     },
     "2": {
       "label": "Ein armer Waisenjunge",
-      "desc": ""
+      "desc": "Getragen von Luciano Infascelli (Infanterie)."
     },
     "3": {
       "label": "Im Kampfgetümmel",
-      "desc": ""
+      "desc": "Getragen von Herman Ziegler (Infanterie)."
     },
     "4": {
-      "label": "Eine Shlhouette",
-      "desc": ""
+      "label": "Eine Silhouette",
+      "desc": "Getragen von Friedrich Six (Infanterie)."
     },
     "5": {
       "label": "Sich selbst erfüllende Prophezeiung",
-      "desc": ""
+      "desc": "Getragen von Eugen Hofer (Infanterie)."
     }
   },
   "misc-document": {
     "1": {
       "label": "VERTRAULICHES DOKUMENT",
-      "desc": ""
+      "desc": "Liegt in einem Safe im oberen Stockwerk. Die Kombination kann am Körper von Oberleutnant Magnus Feigenspan (Offizier) gefunden werden."
     },
     "2": {
       "label": "Ein Codeschlüssel",
-      "desc": ""
+      "desc": "Befindet sich an der Leiche von Dr. Galvani."
     },
     "3": {
       "label": "Nachricht von Veriana",
-      "desc": ""
+      "desc": "Liegt auf dem Schreibtisch in Verianas Zimmer."
     },
     "4": {
       "label": "Brief an Osswald",
-      "desc": ""
+      "desc": "Liegt auf der Werkbank neben dem Wafenprototyp."
     },
     "5": {
       "label": "Telegramm an Oberst Arling",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch im Erdgeschoss."
     },
     "6": {
       "label": "Ein Gedicht",
-      "desc": ""
+      "desc": "Getragen von Frank Klopstock (Panzerfaust-Soldat)."
     }
   },
   "duty-roster": {
     "1": {
       "label": "Operativer Überblick C4",
-      "desc": ""
+      "desc": "Getragen von Fritz Lerner (Offizier)."
     },
     "2": {
       "label": "Operativer Überblick C3",
-      "desc": ""
+      "desc": "Getragen von Oberleutnant Magnus Feigenspan (Offizier)."
     },
     "3": {
       "label": "Operativer Überblick C2",
-      "desc": ""
+      "desc": "Getragen von Germano Folani (Offizier)."
     },
     "4": {
       "label": "Operativer Überblick C1",
-      "desc": ""
+      "desc": "Getragen von Mario Bandini (Offizier)."
     }
   },
   "sniper-report": {
     "1": {
       "label": "Soldato Egidio Bonzano",
-      "desc": ""
+      "desc": "Getragen von Egidio Bonzano (Scharfschütze)."
     },
     "2": {
       "label": "Sergente Medoro Scalise",
-      "desc": ""
+      "desc": "Getragen von Medoro Scalise (Scharfschütze)."
     },
     "3": {
       "label": "Soldato Fosco Sammartino",
-      "desc": ""
+      "desc": "Getragen von Fosco Sammartino (Scharfschütze)."
     },
     "4": {
       "label": "Soldato Alberto Visintini",
-      "desc": ""
+      "desc": "Getragen von Alberto Visintini (Scharfschütze)."
     },
     "5": {
       "label": "Soldato Cipriano Scordato",
-      "desc": ""
+      "desc": "Getragen von Cipriano Scordato (Scharfschütze)."
     },
     "6": {
       "label": "Caporale Vorgilio Torresi.",
-      "desc": ""
+      "desc": "Getragen von Virgilio Torresi (Scharfschütze)."
     },
     "7": {
       "label": "Soldat Enrico Leotta",
-      "desc": ""
+      "desc": "Getragen von Enrico Leotta (Scharfschütze)."
     },
     "8": {
       "label": "Soldat Josef Wessel",
-      "desc": ""
+      "desc": "Getragen von Josef Wessel (Scharfschütze der Walküre)."
     },
     "9": {
       "label": "Gefreiter Gregor Stark",
-      "desc": ""
+      "desc": "Getragen von Gregor Stark (Scharfschütze der Walküre)."
     }
   },
   "deadeye-target": {
     "1": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Sitzt über einem der Bögen des Staudamms."
     },
     "2": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Sitzt auf dem Dach des Palasts."
     },
     "3": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Sitzt auf einem Fensterbrett des Turms."
     }
   },
   "objective-primary": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Das Unbestimmtheitsprinzip",
+      "desc": {
+        "1": "Finde Dr. Galvani",
+        "2": "Gehe zum Exfiltrationspunkt"
+      }
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Hausarrest",
+      "desc": "Befreie Veriana Galvani"
+    },
+    "3": {
+      "label": "Forschungsnotizen",
+      "desc": "Finde die Spieluhr und nimm sie an dich"
     }
   },
   "objective-optional": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Der Walküre-Einheit",
+      "desc": {
+        "1": "Locke den Fallschirmjägertrupp mit dem Funkgerät an",
+        "2": "Erhalte den Funkcode",
+        "3": "Schalte der Walküre-Einheit"
+      }
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Tote Luft",
+      "desc": "Töte Propagandaminister Viktor Habermann"
     },
     "3": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "",
-      "desc": ""
+      "label": "Anlegen - Zielen - Feuer!",
+      "desc": "Finde und töte Oberleutnant Stanislaus Osswald"
     }
   }
 }

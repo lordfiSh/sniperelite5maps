@@ -140,7 +140,11 @@
   "objective-primary": {
     "1": {
       "label": "Enthaupte das Monster",
-      "desc": "Ermorde Admiral Richter"
+      "desc": {
+        "1": "Ermorde Admiral Richter",
+        "2": "Ermorde den Führer",
+        "3": "Fliehe von der Insel"
+      }
     }
   },
   "objective-optional": {
@@ -150,17 +154,10 @@
     },
     "2": {
       "label": "Sabotage an den U-Boot-Anlegern",
-      "desc": "Sicherheitsschaltung sabotieren (0/2)"
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "Sabotage an den U-Boot-Anlegern",
-      "desc": "Zerstöre die Basis und exfiltriere"
-    },
-    "2": {
-      "label": "Enthaupte das Monster",
-      "desc": "Fliehe von der Insel"
+      "desc": {
+        "1": "Sicherheitsschaltung sabotieren (0/2)",
+        "2": "Zerstöre die Basis und exfiltriere"
+      }
     }
   }
 }

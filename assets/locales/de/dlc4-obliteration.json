@@ -2,217 +2,233 @@
   "letter-from-home": {
     "1": {
       "label": "Zerbrochen",
-      "desc": ""
+      "desc": "Liegt bei einem der Marktstände, die Fische verkaufen."
     },
     "2": {
       "label": "Franz",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch."
     },
     "3": {
       "label": "Unvergessen",
-      "desc": ""
+      "desc": "Liegt auf einer Kommode im Erdgeschoss."
     },
     "4": {
       "label": "Wie früher",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch."
     },
     "5": {
       "label": "Du solltest stolz sein",
-      "desc": ""
+      "desc": "Liegt auf einer Kommode im Erdgeschoss."
     }
   },
   "letter-to-home": {
     "1": {
       "label": "Flora",
-      "desc": ""
+      "desc": "Liegt auf einer Bank im oberen Stockwerk."
     },
     "2": {
       "label": "Rust",
-      "desc": ""
+      "desc": "Liegt auf einem Koffer im ersten Stock."
     },
     "3": {
       "label": "Etwas Seltsames",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch im Erdgeschoss."
     },
     "4": {
       "label": "Endlich ein Mann",
-      "desc": ""
+      "desc": "Liegt auf einer Waffenkiste auf dem Aussichtsturm."
     },
     "5": {
       "label": "Unser geliebtes Reich",
-      "desc": ""
+      "desc": "Liegt auf einer großen Holzkiste in der Höhle."
     }
   },
   "last-letter": {
     "1": {
       "label": "Im Ärmel",
-      "desc": ""
+      "desc": "Getragen von Raimund Hahn (Infanterie)."
     },
     "2": {
       "label": "Jene Nacht",
-      "desc": ""
+      "desc": "Getragen von Hans Axmann (Infanterie)."
     },
     "3": {
       "label": "Einmal im Jahr",
-      "desc": ""
+      "desc": "Getragen von Emil Spatz (Infanterie)."
     },
     "4": {
       "label": "Kann mich nicht beklagen",
-      "desc": ""
+      "desc": "Getragen von Bernhard Murr (Infanterie)."
     },
     "5": {
       "label": "Auf deutschem Boden",
-      "desc": ""
+      "desc": "Getragen von Anton Gurtner (Infanterie)."
     }
   },
   "misc-document": {
     "1": {
       "label": "Operation \"Falsche Flagge\"",
-      "desc": ""
+      "desc": "Liegt auf einem Schreibtisch in der Waffenkammer. Der Schlüssel zur Waffenkammer kann am Körper von Leutnant Hans Vonhof (Offizer) gefunden werden. Dieses Dokument wird für das optionale Ziel \"Ungewöhnliche Aktivitäten\" benötigt."
     },
     "2": {
       "label": "MEMORANDUM",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch."
     },
     "3": {
       "label": "Wissenschaftliche Abhandlung",
-      "desc": ""
+      "desc": "Liegt in einem Safe im ersten Stock. Die Kombination kann am Körper von Dr. Siegfried Kehrer gefunden werden. Dieses Dokument wird für das optionale Ziel \"Gesammelte Werke\" benötigt."
     },
     "4": {
       "label": "Wissenschaftliche Abhandlung",
-      "desc": ""
+      "desc": "Liegt in einem Safe im Erdgeschoss. Die Kombination kann am Körper von Dr. Edmund Hänel gefunden werden. Dieses Dokument wird für das optionale Ziel \"Gesammelte Werke\" benötigt."
     },
     "5": {
       "label": "Wissenschaftliche Abhandlung",
-      "desc": ""
+      "desc": "Liegt in einem Safe im ersten Stock. Die Kombination kann am Körper von Dr. Joseph Wernicke gefunden werden. Dieses Dokument wird für das optionale Ziel \"Gesammelte Werke\" benötigt."
     },
     "6": {
       "label": "Entwurf einer Rede",
-      "desc": ""
+      "desc": "Liegt auf einem Beistelltisch im ersten Stock."
     },
     "7": {
       "label": "Tagebuch von Joseph Wernicke",
-      "desc": ""
+      "desc": "Getragen von Dr. Joseph Wernicke."
     },
     "8": {
       "label": "Brief an Siegfried Kehrer",
-      "desc": ""
+      "desc": "Getragen von Dr. Siegfried Kehrer."
     },
     "9": {
       "label": "Brief von Edmund Hänel",
-      "desc": ""
+      "desc": "Getragen von Dr. Edmund Hänel."
     },
     "10": {
       "label": "Forschungsarbeit",
-      "desc": ""
+      "desc": "Liegt auf einem Tisch."
     }
   },
   "duty-roster": {
     "1": {
       "label": "Operativer Überblick D4",
-      "desc": ""
+      "desc": "Getragen von Leutnant Hubert Weidner (Offizier)."
     },
     "2": {
       "label": "Operativer Überblick D3",
-      "desc": ""
+      "desc": "Getragen von Oberleutnant Adolar Schenk (Offizier)."
     },
     "3": {
       "label": "Operativer Überblick D2",
-      "desc": ""
+      "desc": "Getragen von Oberleutnant Hans Vonhof (Offizier)."
     },
     "4": {
       "label": "Operativer Überblick D1",
-      "desc": ""
+      "desc": "Getragen von Oberleutnant Hildebrandt Wallmann (Offizier)."
     }
   },
   "sniper-report": {
     "1": {
       "label": "Gefreiter Artur Voigtsberger",
-      "desc": ""
+      "desc": "Getragen von Artur Voigtsberger (Walküren-Scharfschütze). Erscheint erst nach Abschluss des Hauptziels \"Kettenreaktion\"."
     },
     "2": {
       "label": "Gefreiter Eugen Kreipe",
-      "desc": ""
+      "desc": "Getragen von Eugen Kreipe (Walküren-Scharfschütze). Erscheint erst nach Abschluss des Hauptziels \"Kettenreaktion\"."
     },
     "3": {
       "label": "Soldat Ludwig Lauterbach",
-      "desc": ""
+      "desc": "Getragen von Ludwig Lauterbach (Walküren-Scharfschütze). Erscheint erst nach Abschluss des Hauptziels \"Kettenreaktion\"."
     },
     "4": {
-      "label": "Soldat Bernahrd Stumpff",
-      "desc": "(Ja, der Name ist im Spiel falsch geschrieben.)"
+      "label": "Soldat Bernhard Stumpff",
+      "desc": "Getragen von Bernhard Stumpff (Walküren-Scharfschütze). Erscheint erst nach Abschluss des Hauptziels \"Kettenreaktion\"."
     },
     "5": {
-      "label": "Soldat Solvester Kott",
-      "desc": ""
+      "label": "Soldat Silvester Kott",
+      "desc": "Getragen von Silvester Kott (Scharfschütze)."
     },
     "6": {
       "label": "Soldat Burkhardt Winzer",
-      "desc": ""
+      "desc": "Getragen von Burkhardt Winzer (Scharfschütze)."
     },
     "7": {
       "label": "Soldat Rüdiger Hölder",
-      "desc": ""
+      "desc": "Getragen von Rüdiger Hölder (Scharfschütze)."
     },
     "8": {
       "label": "Soldat Axel Brandstätter",
-      "desc": ""
+      "desc": "Getragen von Axel Brandstätter (Scharfschütze)."
     },
     "9": {
       "label": "Soldat August Grabner",
-      "desc": ""
+      "desc": "Getragen von August Grabner (Scharfschütze)."
     },
     "10": {
       "label": "Gefreiter Paul Ludin",
-      "desc": ""
+      "desc": "Getragen von Paul Ludin (Scharfschütze)."
     },
     "11": {
       "label": "Gefreiter Erwin Scheel",
-      "desc": ""
+      "desc": "Getragen von Erwin Scheel (Scharfschütze)."
     }
   },
   "deadeye-target": {
     "1": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Versteckt sich hinter ein paar Sandsäcken über dem Eingang."
     },
     "2": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Sitzt auf einem Balkon am rechten Kartenrand."
     },
     "3": {
       "label": "Steinadler",
-      "desc": ""
+      "desc": "Sitzt auf dem großen Turm in der Mitte der Karte."
     }
   },
   "objective-primary": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Präventivschlag",
+      "desc": "Schalte Bosch aus und besorge dir die Reaktorschlüssel."
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Kettenreaktion",
+      "desc": {
+        "1": "Finde einen Weg in den Reaktorraum.",
+        "2": "Sabotiere den Reaktor",
+        "3": "Das war's - jetzt nichts wie weg."
+      }
+    },
+    "3": {
+      "label": "Kritische Masse",
+      "desc": "Finde ein Fahrzeug und entkomme"
     }
   },
   "objective-optional": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Rühreierköpfe",
+      "desc": {
+        "1": "Ich muss einen der Wissenschaftler betäuben",
+        "2": "Muss den bewusstlosen Wissenschaftler verstecken"
+      }
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Terminal-Turbulenzen",
+      "desc": "Zerstöre die Transportterminal-Fahrzeuge"
     },
     "3": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "",
-      "desc": ""
+      "label": "Gesammelte Werke",
+      "desc": {
+        "1": "Hol dir Wernickes Forschungsarbeiten",
+        "2": "Hol dir Kehrers Forschungsarbeiten",
+        "3": "Hol dir Hänels Forschungsarbeiten"
+      }
+    },
+    "4": {
+      "label": "Ungewöhnliche Aktivitäten",
+      "desc": {
+        "1": "Untersuche die ungewöhnlichen Aktivitäten",
+        "2": "Schwäche die Operation \"Falsche Flagge\"."
+      }
     }
   }
 }

@@ -140,6 +140,10 @@
     "2": {
       "label": "Des Scharfschützen Falle",
       "desc": "Töten den Scharfschützen"
+    },
+    "3": {
+      "label": "Die große Flucht",
+      "desc": "Erreiche den Stadtplatz und suche nach Überlebenden."
     }
   },
   "objective-optional": {
@@ -156,12 +160,6 @@
         "1": "Zerstöre/Neutralisiere das Patrouillenboot",
         "2": "Zerstöre die Lagerstätten (0/3)"
       }
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "Die große Flucht",
-      "desc": "Erreiche den Stadtplatz und suche nach Überlebenden."
     }
   }
 }
