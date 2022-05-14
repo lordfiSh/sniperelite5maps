@@ -1,10 +1,73 @@
 * {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-    -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+div#lang {
+    text-align: center;
+}
+
+#lang-switcher {
+    margin: 25px auto 0;
+}
+
+#lang-switcher .dd-selected-text,
+#lang-switcher .dd-option-text {
+    font-family: 'PFDinTextCondPro', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #635540;
+    cursor: pointer;
+}
+
+#lang-switcher .dd-selected,
+#lang-switcher .dd-option {
+    font-weight: inherit;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+#lang-switcher .dd-select {
+    background: rgba(0, 0, 0, 0) !important;
+    border: solid 1px #635540;
+}
+
+#lang-switcher .dd-pointer-down {
+    border-top: solid 5px #635540;
+}
+
+#lang-switcher .dd-pointer-up {
+    border-bottom: solid 5px #635540 !important
+}
+
+#lang-switcher .dd-selected-image,
+#lang-switcher .dd-option-image {
+    opacity: 0.5;
+}
+
+#lang-switcher .dd-options {
+    background: rgba(0, 0, 0, 0) !important;
+    border: solid 1px #635540;
+    box-shadow: none;
+    line-height: 22px;
+}
+
+#lang-switcher .dd-options li:not(:last-child) {
+    border-bottom: solid 1px #635540;
+}
+
+#lang-switcher .dd-option {
+    background: rgba(0, 0, 0, 0.9) !important;
+    border: none;
+}
+
+#lang-switcher .dd-option:hover {
+    background: rgba(33, 29, 24, 0.95) !important;
+    color: #907854;
 }
 
 @font-face {

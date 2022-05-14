@@ -206,50 +206,7 @@ div#sfw a:hover {
 	color: #F0CB0B;
 	text-decoration: underline;
 }
-div#lang {
-	text-align:center;
-}
-div#lang-switcher {
-	margin: 25px auto 0;
-}
-div#lang-switcher .dd-select {
-	background:rgba(0, 0, 0, 0) !important;
-	border: solid 1px #635540;
-	color: #635540;
-}
-div#lang-switcher .dd-pointer-down {
-	border-top: solid 5px #635540;
-}
-div#lang-switcher .dd-pointer-up {
-	border-bottom: solid 5px #635540 !important
-}
-div#lang-switcher .dd-selected-image, div#lang-switcher .dd-option-image {
-	opacity: 0.5;
-}
-div#lang-switcher .dd-options {
-	background:rgba(0, 0, 0, 0) !important;
-	border: solid 1px #635540;
-	box-shadow: none;
-	line-height: 22px;
-}
-div#lang-switcher .dd-options > li {
-	border-bottom: solid 1px #635540;
-}
-div#lang-switcher .dd-options > li:last-child {
-	border-bottom: none;
-}
-div#lang-switcher .dd-option {
-	background:rgba(0, 0, 0, 0.9) !important;
-	color: #635540;
-	border: none;
-}
-div#lang-switcher .dd-option:hover {
-	background: rgba(33, 29, 24, 0.95) !important;
-	color: #907854;
-}
-div#lang-switcher .dd-selected-text, div#lang-switcher .dd-option-text {
-	cursor: pointer;
-}
+
 div#copyright {
 	font-size: 13px;
 	text-align: center;
