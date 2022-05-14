@@ -132,7 +132,7 @@ $(function() {
 	
 	function createWayPointMarker() {
 		const icon = L.icon({
-			iconUrl: '/files/images/icons/marker.png',
+			iconUrl: 'images/icons/marker.png',
 			iconSize: [48, 48]
 		});
 		const marker = new L.Marker([0, 0], {icon});
