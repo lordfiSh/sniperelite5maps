@@ -39,7 +39,7 @@ $(function() {
 		map.setView([lat, lng], map.getZoom());
 		new L.marker([lat, lng], {
 			icon: L.icon({
-				iconUrl: '/files/images/searchhover.png',
+				iconUrl: 'images/searchhover.png',
 				iconSize: [22, 22]
 			})
 		}).addTo(map);
