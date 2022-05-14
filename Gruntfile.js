@@ -58,12 +58,12 @@ module.exports = function (grunt) {
 				src: ['**'],
 				dest: 'dist/locales/',
 			},
-			/*images: {
+			images: {
 				expand: true,
 				cwd: 'assets/images/',
 				src: ['**'],
 				dest: 'dist/images/',
-			},*/
+			},
 			fonts: {
 				expand: true,
 				cwd: 'assets/fonts/',
@@ -171,7 +171,7 @@ module.exports = function (grunt) {
 
 		express: {
 			options: {
-				port: 80,
+				port: 8080,
 			},
 			dev: {
 				options: {

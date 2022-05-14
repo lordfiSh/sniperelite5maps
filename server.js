@@ -13,7 +13,7 @@ function shouldCompress(req, res) {
 
 // set the port of our application
 // process.env.PORT lets the port be set by Heroku
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8080;
 
 // compress content with gzip
 app.use(compression({filter: shouldCompress}));
