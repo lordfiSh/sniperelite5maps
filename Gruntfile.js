@@ -108,9 +108,9 @@ module.exports = function (grunt) {
 					'node_modules/i18next-http-backend/i18nextHttpBackend.js',
 					'node_modules/jquery-i18next/jquery-i18next.js',
 					
+					'node_modules/file-saver/dist/FileSaver.js',
 					'node_modules/leaflet/dist/leaflet-src.js',
 					'node_modules/fuse.js/src/fuse.js',
-					'node_modules/file-saver/distaver.js',
 					'assets/vendor/**.js',
 				],
 				dest: 'dist/scripts/vendor.bundle.js',

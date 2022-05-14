@@ -568,7 +568,7 @@ $(function() {
 		var backupFileName = 'sniperelite4_map_backup_' + formattedDate + '.json';
 		if(confirm($.t('controls.backup-save-confirm', {fileName: backupFileName}))) {
 			if(!fileSaver) {
-				fileSaver = $.getScript('../files/scripts/FileSaver.min.js', function() {
+				fileSaver = $.getScript('../scripts/FileSaver.min.js', function() {
 					var blob = new Blob([JSON.stringify(localStorage)], {type: "text/plain;charset=utf-8"});
 					saveAs(blob, backupFileName);
 				});
