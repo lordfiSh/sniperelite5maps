@@ -140,6 +140,10 @@
     "2": {
       "label": "The Sniper's Trap",
       "desc": "Kill Sniper"
+    },
+    "3": {
+      "label": "The Great Escape",
+      "desc": "Get to the town square and look for survivors."
     }
   },
   "objective-optional": {
@@ -156,12 +160,6 @@
         "1": "Destroy/Disable the Patrol Boat",
         "2":"Destroy Encampments (0/3)"
       }
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "The Great Escape",
-      "desc": "Get to the town square and look for survivors."
     }
   }
 }

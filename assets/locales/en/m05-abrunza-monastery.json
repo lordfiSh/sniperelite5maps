@@ -161,6 +161,10 @@
     "2": {
       "label": "King of the Castle",
       "desc": "Kill all the soldiers in and around Castle Hill"
+    },
+    "3": {
+      "label": "Deliverance From Evil",
+      "desc": "Exfiltrate the area"
     }
   },
   "objective-optional": {
@@ -180,12 +184,6 @@
     "3": {
       "label": "The Abbot's Story",
       "desc": "Find the Documents (0/4)"
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "Deliverance From Evil",
-      "desc": "Exfiltrate the area"
     }
   }
 }

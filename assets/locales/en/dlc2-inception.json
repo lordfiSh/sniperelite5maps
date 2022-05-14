@@ -2,169 +2,166 @@
   "letter-from-home": {
     "1": {
       "label": "Playing",
-      "desc": ""
+      "desc": "Found on a table."
     },
     "2": {
       "label": "Season's Greetings",
-      "desc": ""
+      "desc": "Found on a table in the hangar."
     },
     "3": {
       "label": "Janus",
-      "desc": ""
+      "desc": "Found on a chest inside the ship."
     },
     "4": {
       "label": "The Reinhardts",
-      "desc": ""
+      "desc": "Found on a table inside a tent."
     },
     "5": {
       "label": "Father Leone Says",
-      "desc": ""
+      "desc": "Found on one of the harbor bollards."
     }
   },
   "letter-to-home": {
     "1": {
       "label": "Little to Report",
-      "desc": ""
+      "desc": "Found on a wooden crate on the gallery."
     },
     "2": {
       "label": "Privations",
-      "desc": ""
+      "desc": "Found on a workbench in the generator room."
     },
     "3": {
       "label": "From Beneath",
-      "desc": ""
+      "desc": "Found on makeshift table."
     },
     "4": {
       "label": "Sneaky",
-      "desc": ""
+      "desc": "Found on a large wooden crate."
     },
     "5": {
       "label": "As Good As His Word",
-      "desc": ""
+      "desc": "Found on a desk on the upper floor."
     }
   },
   "last-letter": {
     "1": {
       "label": "Tell the Children",
-      "desc": ""
+      "desc": "Carried by Vito Durante (Infantry)."
     },
     "2": {
       "label": "Harsh Things",
-      "desc": ""
+      "desc": "Carried by Palmiro Attanasio (Infantry)."
     },
     "3": {
       "label": "Zero Intention",
-      "desc": ""
+      "desc": "Carried by Magnus Udet (Infantry)."
     },
     "4": {
       "label": "Bet You Any Money",
-      "desc": ""
+      "desc": "Carried by Herbert Quackernack (Infantry)."
     },
     "5": {
       "label": "Your Loving Sons",
-      "desc": ""
+      "desc": "Carried by Alexander Oberg (Infantry)."
     }
   },
   "misc-document": {
     "1": {
       "label": "Memorandum to Major Volker Grün",
-      "desc": ""
+      "desc": "Found on a table next to a gramophone."
     },
     "2": {
       "label": "Letter of Introduction",
-      "desc": ""
+      "desc": "Carried by Dr. Ludwig Kellerman."
     },
     "3": {
       "label": "Soldbuch",
-      "desc": ""
+      "desc": "Carried by Major Volker Grün (Officer)."
     },
     "4": {
       "label": "Log Book",
-      "desc": ""
+      "desc": "Found on a desk on the ground floor."
     },
     "5": {
       "label": "TELEGRAM",
-      "desc": ""
+      "desc": "Found in a safe on the lower floor. The safe combination can be found on the body of Ursino Gulla (Officer)."
     }
   },
   "duty-roster": {
     "1": {
       "label": "Operational Overview #B4",
-      "desc": ""
+      "desc": "Carried by Senior Lieutenant Rainer Jonke (Officer)."
     },
     "2": {
       "label": "Operational Overview #B3",
-      "desc": ""
+      "desc": "Carried by Senior Lieutenant Dieter Theiner (Officer)."
     },
     "3": {
       "label": "Operational Overview #B2",
-      "desc": ""
+      "desc": "Carried by Lieutenant Adolar Hackl (Officer)."
     },
     "4": {
       "label": "Operational Overview #B1",
-      "desc": ""
+      "desc": "Carried by Lieutenant Eric Uthmann (Officer)."
     }
   },
   "sniper-report": {
     "1": {
       "label": "Gefreiter Wolfgang Blanke",
-      "desc": ""
+      "desc": "Carried by Wolfgang Blanke (Sniper)."
     },
     "2": {
       "label": "Soldat Ferdinand Lutz",
-      "desc": ""
+      "desc": "Carried by Ferdinand Lutz (Sniper)."
     },
     "3": {
       "label": "Gefreiter Richard Greiser",
-      "desc": ""
+      "desc": "Carried by Richard Greiser (Sniper)."
     },
     "4": {
-      "label": "Sol",
-      "desc": ""
+      "label": "Soldat Odilo Fiehler",
+      "desc": "Carried by Odilo Fiehler (Sniper)."
     }
   },
   "deadeye-target": {
     "1": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Rests on the look out of the half sunken ship."
     },
     "2": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Sits on top of a large factory building."
     },
     "3": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Oh, it's so shiny. What could it possibly be? It's the lighthouse bulb."
     }
   },
   "objective-primary": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Seek-Locate-Acquire",
+      "desc": {
+        "1": "Find the package for Alsos",
+        "2": "Take package to rendezvous"
+      }
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Strangle the Reich",
+      "desc": {
+        "1": "Destroy the AA guns (0/3)",
+        "2": "Destroy the Anti-Submarine Net",
+        "3": "Obliterate the Naval Cannon"
+      }
     }
   },
   "objective-optional": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Secure the Strategy",
+      "desc": "I could grab the log books from a docked ship... but which one?"
     },
     "2": {
-      "label": "",
-      "desc": ""
-    },
-    "3": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "",
-      "desc": ""
+      "label": "The Doppleganger Effect",
+      "desc": "Remove Nazu officer"
     }
   }
 }

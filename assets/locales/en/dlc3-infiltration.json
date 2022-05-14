@@ -2,193 +2,198 @@
   "letter-from-home": {
     "1": {
       "label": "What Happens?",
-      "desc": ""
+      "desc": "Found on a table on the upmost floor."
     },
     "2": {
       "label": "Horrible Things",
-      "desc": ""
+      "desc": "Found on a wooden bench."
     },
     "3": {
       "label": "Are You There?",
-      "desc": ""
+      "desc": "Found on a chair on the ground floor."
     },
     "4": {
       "label": "With Heavy Heart",
-      "desc": ""
+      "desc": "Found on a metal crate."
     },
     "5": {
       "label": "Worrying News",
-      "desc": ""
+      "desc": "Found on a wooden bench."
     }
   },
   "letter-to-home": {
     "1": {
       "label": "The Answer You Need",
-      "desc": ""
+      "desc": "Found on a metal crate on the upper floor."
     },
     "2": {
       "label": "Rubber Tubing",
-      "desc": ""
+      "desc": "Found on a wooden bench."
     },
     "3": {
       "label": "Renewed Vigour",
-      "desc": ""
+      "desc": "Found on a small wooden crate."
     },
     "4": {
       "label": "Lots of Us",
-      "desc": ""
+      "desc": "Found on a dresser under a chalkboard."
     },
     "5": {
       "label": "Ashamed",
-      "desc": ""
+      "desc": "Found on a metal crate."
     }
   },
   "last-letter": {
     "1": {
       "label": "The Other Realm",
-      "desc": ""
+      "desc": "Carried by Prospero Guzzanti (Infantry)."
     },
     "2": {
       "label": "A Poor Orphan Boy",
-      "desc": ""
+      "desc": "Carried by Luciano Infascelli (Infantry)."
     },
     "3": {
       "label": "The Midst of Battle",
-      "desc": ""
+      "desc": "Carried by Herman Ziegler (Infantry)."
     },
     "4": {
       "label": "A Silhouette",
-      "desc": ""
+      "desc": "Carried by Friedrich Six (Infantry)."
     },
     "5": {
       "label": "Self-Fulfilling Prophecy",
-      "desc": ""
+      "desc": "Carried by Eugen Hofer (Infantry)."
     }
   },
   "misc-document": {
     "1": {
       "label": "CLASSIFIED DOCUMENT",
-      "desc": ""
+      "desc": "Found in a safe on the first floor. The combination can be found on the dead body of Senior Lieutenant Magnus Feigenspan (Officer)."
     },
     "2": {
       "label": "A Cipher",
-      "desc": ""
+      "desc": "Found on the dead body of Dr Galvani."
     },
     "3": {
       "label": "Note from Veriana",
-      "desc": ""
+      "desc": "Found on a desk in Verianas room."
     },
     "4": {
       "label": "Letter to Osswald",
-      "desc": ""
+      "desc": "Found on a workbench next to the weapon prototype."
     },
     "5": {
       "label": "Telegram to Colonel Arling",
-      "desc": ""
+      "desc": "Found on a table on the ground floor."
     },
     "6": {
       "label": "A Poem",
-      "desc": ""
+      "desc": "Carried by Frank Klopstock (Faust Trooper)."
     }
   },
   "duty-roster": {
     "1": {
       "label": "Operational Overview #C4",
-      "desc": ""
+      "desc": "Carried by Lieutenant Fritz Lerner (Officer)."
     },
     "2": {
       "label": "Operational Overview #C3",
-      "desc": ""
+      "desc": "Carried by Senior Lieutenant Magnus Feigenspan (Officer)."
     },
     "3": {
       "label": "Operational Overview #C2",
-      "desc": ""
+      "desc": "Carried by Germano Folani (Officer)."
     },
     "4": {
       "label": "Operational Overview #C1",
-      "desc": ""
+      "desc": "Carried by Mario Bandini (Officer)."
     }
   },
   "sniper-report": {
     "1": {
       "label": "Soldato Egidio Bonzano",
-      "desc": ""
+      "desc": "Carried by Egidio Bonzano (Sniper)."
     },
     "2": {
       "label": "Sergente Medoro Scalise",
-      "desc": ""
+      "desc": "Carried by Medoro Scalise (Sniper)."
     },
     "3": {
       "label": "Soldato Fosco Sammartino",
-      "desc": ""
+      "desc": "Carried by Fosco Sammartino (Sniper)."
     },
     "4": {
       "label": "Soldato Alberto Visintini",
-      "desc": ""
+      "desc": "Carried by Alberto Visintini (Sniper)."
     },
     "5": {
       "label": "Soldato Cipriano Scordato",
-      "desc": ""
+      "desc": "Carried by Cipiano Scordato (Sniper)."
     },
     "6": {
       "label": "Caporale Virgilio Torresi",
-      "desc": ""
+      "desc": "Carried by Virgilio Torresi (Sniper)."
     },
     "7": {
       "label": "Soldato Enrico Leotta",
-      "desc": ""
+      "desc": "Carried by Enrico Leotta (Sniper)."
     },
     "8": {
       "label": "Soldat Josef Wessel",
-      "desc": ""
+      "desc": "Carried by Josef Wessel (Valkyrie Sniper)."
     },
     "9": {
       "label": "Gefreiter Gregor Stark",
-      "desc": ""
+      "desc": "Carried by Gregor Stark (Valkyrie Sniper)."
     }
   },
   "deadeye-target": {
     "1": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Sits above one of the dam's arches."
     },
     "2": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Sits on the palace roof."
     },
     "3": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Sits on a windowsill of the tower."
     }
   },
   "objective-primary": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "The Uncertainty Principle",
+      "desc": {
+        "1": "Locate Dr Galvani",
+        "2": "Head for the exfiltration point"
+      }
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "House Arrest",
+      "desc": "Liberate Veriana Galvani"
+    },
+    "3": {
+      "label": "Research Notes",
+      "desc": "Locate and acquire the music box"
     }
   },
   "objective-optional": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Valkyrie Squad",
+      "desc": {
+        "1": "Lure the Fallschirmjäger squad using the radio",
+        "2": "Retrieve Radio Code",
+        "3": "Eliminate the Valkyrie Squad"
+      }
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Dead Air",
+      "desc": "Kill Propaganda Minister Viktor Habermann"
     },
     "3": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "",
-      "desc": ""
+      "label": "Ready - Aim - Fire",
+      "desc": "Find and kill Senior Lieutenant Stanislaus Osswald"
     }
   }
 }

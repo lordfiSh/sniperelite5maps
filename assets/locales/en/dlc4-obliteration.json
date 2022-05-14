@@ -2,217 +2,234 @@
   "letter-from-home": {
     "1": {
       "label": "Broken",
-      "desc": ""
+      "desc": "Found on a market stall."
     },
     "2": {
       "label": "Franz",
-      "desc": ""
+      "desc": "Found on a table."
     },
     "3": {
       "label": "I Will Never Forget",
-      "desc": ""
+      "desc": "Found on a small drawer on the ground floor."
     },
     "4": {
       "label": "Like You Used To Do",
-      "desc": ""
+      "desc": "Found on a table."
     },
     "5": {
       "label": "You Should Be Proud",
-      "desc": ""
+      "desc": "Found on a small drawer on the ground floor."
     }
   },
   "letter-to-home": {
     "1": {
       "label": "Flora",
-      "desc": ""
+      "desc": "Found on a bench on the upper floor."
     },
     "2": {
       "label": "Rust",
-      "desc": ""
+      "desc": "Found on a suitcase on the first floor."
     },
     "3": {
       "label": "Something Weird",
-      "desc": ""
+      "desc": "Found on a table on the ground floor."
     },
     "4": {
       "label": "Finally A Man",
-      "desc": ""
+      "desc": "Found on a weapons crate on the observation tower."
     },
     "5": {
       "label": "Our Beloved Reich",
-      "desc": ""
+      "desc": "Carried by Professor Bosch."
     }
   },
   "last-letter": {
     "1": {
       "label": "Up His Sleeve",
-      "desc": ""
+      "desc": "Carried by Raimund Hahn (Infantry)."
     },
     "2": {
       "label": "That Night",
-      "desc": ""
+      "desc": "Carried by Hans Axmann (Infantry)."
     },
     "3": {
       "label": "Once A Year",
-      "desc": ""
+      "desc": "Carried by Emil Spatz (Infantry)."
     },
     "4": {
       "label": "Mustn't Complain",
-      "desc": ""
+      "desc": "Carried by Bernhard Murr (Infantry)."
     },
     "5": {
       "label": "German Soil",
-      "desc": ""
+      "desc": "Carried by Anton Gurtner (Infantry)."
     }
   },
   "misc-document": {
     "1": {
       "label": "Operation False Flag",
-      "desc": ""
+      "desc": "Found on a desk inside the armory. The key to the armory is carried by Lieutenant Hans Vonhof. This document is required for the optional objective \"Unusual Activity\"."
     },
     "2": {
       "label": "Memorandum",
-      "desc": ""
+      "desc": "Found on a table."
     },
     "3": {
       "label": "Academic Paper",
-      "desc": ""
+      "desc": "Found in a safe on the first floor. The combination is carried by Dr. Siegfried Kehrer. This document is required for the optional objective \"Collected Works\"."
     },
     "4": {
       "label": "Academic Paper",
-      "desc": ""
+      "desc": "Found in a safe on the ground floor. The combination is carried by Dr. Edmund Hänel. This document is required for the optional objective \"Collected Works\"."
     },
     "5": {
       "label": "Academic Paper",
-      "desc": ""
+      "desc": "Found in a safe on the upper floor. The combination is carried by Dr. Joseph Wernicke. This document is required for the optional objective \"Collected Works\"."
     },
     "6": {
       "label": "Draft Speech",
-      "desc": ""
+      "desc": "Found on a small table on the first floor."
     },
     "7": {
       "label": "Diary of Joseph Wernicke",
-      "desc": ""
+      "desc": "Carried by Dr. Joseph Wernicke."
     },
     "8": {
       "label": "Letter to Siegfried Kehrer",
-      "desc": ""
+      "desc": "Carried by Dr. Siegfried Kehrer."
     },
     "9": {
       "label": "Letter to Edmund Hänel",
-      "desc": ""
+      "desc": "Carried by Dr. Edmund Hänel."
     },
     "10": {
       "label": "Research Paper",
-      "desc": ""
+      "desc": "Found on a table."
     }
   },
   "duty-roster": {
+    "s": "Senior Lieutenant Hildebrandt Wallmann",
     "1": {
       "label": "Operational Overview #D4",
-      "desc": ""
+      "desc": "Carried by Lieutenant Hubert Weidner (Officer)."
     },
     "2": {
       "label": "Operational Overview #D3",
-      "desc": ""
+      "desc": "Carried by Senior Lieutenant Adolar Schenk (Officer)."
     },
     "3": {
       "label": "Operational Overview #D2",
-      "desc": ""
+      "desc": "Carried by Senior Lieutenant Hans Vonhof (Officer)"
     },
     "4": {
       "label": "Operational Overview #D1",
-      "desc": ""
+      "desc": "Carried by Senior Lieutenant Hildebrandt Wallmann (Officer)."
     }
   },
   "sniper-report": {
     "1": {
       "label": "Gefreiter Artur Voigtsberger",
-      "desc": ""
+      "desc": "Carried by Artur Voigtsberger (Valkyrie Sniper). Appears after completing primary objective \"Chain Reaction\"."
     },
     "2": {
       "label": "Gefreiter Eugen Kreipe",
-      "desc": ""
+      "desc": "Carried by Eugen Kreipe (Valkyrie Sniper). Appears after completing primary objective \"Chain Reaction\"."
     },
     "3": {
       "label": "Soldat Ludwig Lauterbach",
-      "desc": ""
+      "desc": "Carried by Ludwig Lauterbach (Valkyrie Sniper).  Appears after completing primary objective \"Chain Reaction\"."
     },
     "4": {
-      "label": "Soldat Bernahrd Stumpff",
-      "desc": "Spelling Mistake Bernhard"
+      "label": "Soldat Bernhard Stumpff",
+      "desc": "Carried by Bernhard Stumpff (Valkyrie Sniper). Appears after completing primary objective \"Chain Reaction\"."
     },
     "5": {
       "label": "Soldat Silvester Kott",
-      "desc": ""
+      "desc": "Carried by Silvester Kott (Sniper)."
     },
     "6": {
       "label": "Soldat Burkhardt Winzer",
-      "desc": ""
+      "desc": "Carried by Burkhardt Winzer (Sniper)."
     },
     "7": {
       "label": "Soldat Rüdiger Hölder",
-      "desc": ""
+      "desc": "Carried by Rüdiger Hölder (Sniper)."
     },
     "8": {
       "label": "Soldat Axel Brandstätter",
-      "desc": ""
+      "desc": "Carried by Axel Brandstätter (Sniper)."
     },
     "9": {
       "label": "Soldat August Grabner",
-      "desc": ""
+      "desc": "Carried by August Grabner (Sniper)."
     },
     "10": {
       "label": "Gefreiter Paul Ludin",
-      "desc": ""
+      "desc": "Carried by Paul Ludin (Sniper)."
     },
     "11": {
       "label": "Gefreiter Erwin Scheel",
-      "desc": ""
+      "desc": "Carried by Erwin Scheel (Sniper)."
     }
   },
   "deadeye-target": {
     "1": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Hides behind some sandbags."
     },
     "2": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Sits on the balcony railing and enjoys the view."
     },
     "3": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Perched high on the church tower."
     }
   },
   "objective-primary": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Pre-emptive Strike",
+      "desc": "Eliminate Bosch and get the reactor keys"
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Chain Reaction",
+      "desc": {
+        "1": "Find a way into the reactor chamber",
+        "2": "Sabotage the reactor",
+        "3": "That did it - gotta get out!"
+      }
+    },
+    "3": {
+      "label": "Critical Mass",
+      "desc": "Find a vehicle and escape"
     }
   },
   "objective-optional": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Scrambled Eggheads",
+      "desc": {
+        "1": "Need to knock out one of the scientists",
+        "2": "Gotta hide the unconscious scientist"
+      }
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Terminal Turmoil",
+      "desc": "Destroy the transport terminal vehicles"
     },
     "3": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "",
-      "desc": ""
+      "label": "Collected Works",
+      "desc": {
+        "1": "Grab Wernicke's research papers",
+        "2": "Grab Kehrer's research papers",
+        "3": "Grab Hänel's research papers"
+      }
+    },
+    "4": {
+      "label": "Unusual Activity",
+      "desc": {
+        "1": "Investigate the unusual activity",
+        "2": "Weaken the 'False Flag' operation"
+      }
     }
   }
 }

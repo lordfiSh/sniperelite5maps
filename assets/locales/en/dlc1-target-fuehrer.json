@@ -140,7 +140,11 @@
   "objective-primary": {
     "1": {
       "label": "Decapitate the Monster",
-      "desc": "Assassinate Admiral Richter"
+      "desc": {
+        "1": "Assassinate Admiral Richter",
+        "2": "Assassinate the Führer",
+        "3": "Escape from the island"
+      }
     }
   },
   "objective-optional": {
@@ -150,13 +154,10 @@
     },
     "2": {
       "label": "Sub-Pen Saboteur",
-      "desc": "Sabotage failsafe (0/2)"
-    }
-  },
-  "objective-exit": {
-    "1": {
-      "label": "Sub-Pen Saboteur",
-      "desc": "Destroy the base and exfiltrate"
+      "desc": {
+        "1": "Sabotage failsafe (0/2)",
+        "2": "Destroy the base and exfiltrate"
+      }
     }
   }
 }

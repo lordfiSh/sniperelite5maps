@@ -1,23 +1,10 @@
 {
   "maps": {
-    "m01-san-celini-island": "San Celini Island",
-    "m02-bitanti-village": "Bitanti Village",
-    "m03-regilino-viaduct": "Regilino Viaduct",
-    "m04-lorino-dockyard": "Lorino Dockyard",
-    "m05-abrunza-monastery": "Abrunza Monastery",
-    "m06-magazzeno-facility": "Magazzeno Facility",
-    "m07-giovi-fiorini-mansion": "Giovi Fiorini Mansion",
-    "m08-allagra-fortress": "Allagra Fortress",
-    "dlc1-target-fuehrer": "(DLC) Target Führer",
-    "dlc2-inception": "(DLC) Inception",
-    "dlc3-infiltration": "(DLC) Infiltration",
-    "dlc4-obliteration": "(DLC) Obliteration",
-    "ow01-compound": "(Overwatch) Compound",
-    "ow02-railyard": "(Overwatch) Railyard"
+    "map1": "San Celini Island"
   },
   "home": {
-    "title": "Sniper Elite 4 Interactive Map",
-    "tagline": "Unofficial Sniper Elite 4 Interactive Map"
+    "title": "Sniper Elite 5 Interactive Map",
+    "tagline": "Unofficial Sniper Elite 5 Interactive Map"
   },
   "notes": {
     "label": "Label:",
@@ -65,7 +52,7 @@
     "generator": "Generators",
     "objective-primary": "Primary Objectives",
     "objective-optional": "Optional Objectives",
-    "objective-exit": "Mission Exits"
+    "other": "Other Markers"
   },
   "marker": {
     "letter-from-home": {
@@ -111,6 +98,42 @@
     "objective-exit": {
       "label": "Mission Exit",
       "desc": "Go here after completing all primary objectives to finish the mission."
+    },
+    "car-civilian": {
+      "label": "Civilian Vehicle",
+      "desc": ""
+    },
+    "car-transport": {
+      "label": "Transport Vehicle",
+      "desc": ""
+    },
+    "car-tank": {
+      "label": "Tank",
+      "desc": ""
+    },
+    "boat": {
+      "label": "Boat",
+      "desc": ""
+    },
+    "plane": {
+      "label": "Plane",
+      "desc": ""
+    },
+    "turret-panther": {
+      "label": "Pantherturm",
+      "desc": ""
+    },
+    "turret-pillbox": {
+      "label": "Pillbox",
+      "desc": ""
+    },
+    "pin": {
+      "label": "Taggable Object",
+      "desc": ""
+    },
+    "loot-crate": {
+      "label": "Searchable Crate",
+      "desc": ""
     }
   }
 }
