@@ -1,6 +1,6 @@
 window.map = {
-	name: 'm02-bitanti-village',
-	tilePath: 'maps/m02-bitanti-village/{z}/{x}/{y}.png',
+	name: 'map1',
+	tilePath: 'maps/map1/{z}/{x}/{y}.png',
 	minZoom: 2,
 	maxZoom: 6,
 	defaultZoom: 3,
