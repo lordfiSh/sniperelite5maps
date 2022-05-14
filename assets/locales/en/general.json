@@ -41,98 +41,65 @@
     "note-add": "Add Note",
     "note-cancel": "Cancel Note"
   },
-  "sidebar": {
-    "letter-from-home": "Letters from Home",
-    "letter-to-home": "Letters to Home",
-    "last-letter": "Last Letters",
-    "misc-document": "Misc. Documents",
-    "duty-roster": "Duty Rosters",
-    "sniper-report": "Sniper Reports",
-    "deadeye-target": "Deadeye Targets",
-    "generator": "Generators",
-    "objective-primary": "Primary Objectives",
-    "objective-optional": "Optional Objectives",
-    "other": "Other Markers"
-  },
   "marker": {
     "letter-from-home": {
+      "group": "Letters from Home",
       "label": "Letter from Home",
       "desc": "Letters from home give insights into the war for the family, friends and acquaintances of soldiers. These can be found in the environment and on the bodies of deceased soldiers."
     },
     "letter-to-home": {
+      "group": "Letters to Home",
       "label": "Letter to Home",
       "desc": "Missives to family and acquaintances back home that haven't yet been sent. These can be found by searching bodies and the environment."
     },
     "last-letter": {
+      "group": "Last Letters",
       "label": "Last Letter",
       "desc": "Troops in World War Two were encouraged to write 'Last Letters' to their loved ones. These are discoverable on the bodies of dead soldiers."
     },
     "misc-document": {
+      "group": "Misc. Documents",
       "label": "Misc. Document",
       "desc": "Memoranda, official, letters, reports, diaries and even poems... Scattered throughout the environment and sometimes on the bodies of enemy troops are a wide variety of documents. Some of these will be vital in enabling you to complete your mission."
     },
     "duty-roster": {
+      "group": "Duty Rosters",
       "label": "Duty Roster",
       "desc": "Finding a Duty Roster on an enemy Officer will tag all members of an enemy squad."
     },
     "sniper-report": {
+      "group": "Sniper Reports",
       "label": "Sniper Report",
       "desc": "Enemy snipers always complete reports about their activities. Sometimes these reports will be on their bodies, sometimes nearby. These reports can give you invaluable insights into the minds of your enemies..."
     },
     "deadeye-target": {
+      "group": "Deadeye Targets",
       "label": "Deadeye Target",
       "desc": "Each map includes 3 Deadeye Targets that only the most accomplished sharpshooters can hit. Such deadly accuracy will earn you special rewards."
     },
     "generator": {
+      "group": "Generators",
       "label": "Generator",
       "desc": "Use these noisy machines to mask the sound of your shots."
     },
     "objective-primary": {
+      "group": "Primary Objectives",
       "label": "Primary Objective",
       "desc": "Primary objectives must be met to complete the mission."
     },
     "objective-optional": {
+      "group": "Optional Objectives",
       "label": "Optional Objective",
       "desc": "Optional objectives are... well, optional. Complete them to earn extra points."
     },
     "objective-exit": {
+      "group": "Mission Exits",
       "label": "Mission Exit",
       "desc": "Go here after completing all primary objectives to finish the mission."
     },
-    "car-civilian": {
-      "label": "Civilian Vehicle",
-      "desc": ""
-    },
-    "car-transport": {
-      "label": "Transport Vehicle",
-      "desc": ""
-    },
-    "car-tank": {
-      "label": "Tank",
-      "desc": ""
-    },
-    "boat": {
-      "label": "Boat",
-      "desc": ""
-    },
-    "plane": {
-      "label": "Plane",
-      "desc": ""
-    },
-    "turret-panther": {
-      "label": "Pantherturm",
-      "desc": ""
-    },
-    "turret-pillbox": {
-      "label": "Pillbox",
-      "desc": ""
-    },
-    "pin": {
-      "label": "Taggable Object",
-      "desc": ""
-    },
-    "loot-crate": {
-      "label": "Searchable Crate",
+    "other": {
+      "group": "Other",
+      "label": "",
       "desc": ""
     }
   }

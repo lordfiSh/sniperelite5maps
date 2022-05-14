@@ -91,6 +91,17 @@
 		};
 	}
 	
+	// utility
+	{
+		app.runScript = function(url, options) {
+			return $.ajax($.extend(options || {}, {
+				dataType: "script",
+				cache: false, // todo change this back to true when releasing
+				url: app.basePath + url
+			}));
+		};
+	}
+	
 	app.init = async function() {
 		await app.initLocalization();
 		app.initLanguageSwitcher();
