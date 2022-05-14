@@ -210,8 +210,8 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-express-server');
 	grunt.loadNpmTasks('grunt-babel');
 	grunt.loadNpmTasks('grunt-sync');
-	grunt.loadNpmTasks('grunt-curl');
-	grunt.loadNpmTasks('grunt-zip');
+	// grunt.loadNpmTasks('grunt-curl');
+	// grunt.loadNpmTasks('grunt-zip');
 
 	grunt.registerTask('server', ['express:dev', 'watch']);
 
