@@ -43,7 +43,7 @@ module.exports = function (grunt) {
 			scripts: {
 				expand: true,
 				cwd: 'assets/scripts/',
-				src: ['**'],
+				src: ['**', '!vendor/**'],
 				dest: 'dist/scripts/',
 			},
 			markup: {
@@ -58,12 +58,14 @@ module.exports = function (grunt) {
 				src: ['**'],
 				dest: 'dist/locales/',
 			},
+			/*
 			images: {
 				expand: true,
 				cwd: 'assets/images/',
 				src: ['**'],
 				dest: 'dist/images/',
 			},
+			*/
 			fonts: {
 				expand: true,
 				cwd: 'assets/fonts/',
@@ -111,6 +113,7 @@ module.exports = function (grunt) {
 					'node_modules/file-saver/dist/FileSaver.js',
 					'node_modules/leaflet/dist/leaflet-src.js',
 					'node_modules/fuse.js/src/fuse.js',
+					
 					'assets/scripts/vendor/**.js',
 				],
 				dest: 'dist/scripts/vendor.bundle.js',
@@ -142,7 +145,7 @@ module.exports = function (grunt) {
 			},
 			css: {
 				files: 'assets/css/**.css',
-				tasks: ['csslint:styles', 'cssmin:styles'],
+				tasks: ['cssmin:styles'],
 			},
 			scripts: {
 				files: 'assets/scripts/**.js',
@@ -206,7 +209,6 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-contrib-csslint');
 	grunt.loadNpmTasks('grunt-express-server');
 	grunt.loadNpmTasks('grunt-babel');
 	grunt.loadNpmTasks('grunt-sync');
