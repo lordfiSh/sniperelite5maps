@@ -8,7 +8,7 @@ $(function() {
 	const hideCountsButton = $('#hide-counts');
 	const showCountsButton = $('#show-counts');
 	
-	if(localStorage['hide-all-' + window.map.name]) {
+	if(localStorage['hide-all-' + app.mapData.name]) {
 		hideAllButton.hide();
 		showAllButton.show();
 	}
@@ -23,10 +23,10 @@ $(function() {
 	});
 	
 	const map = L.map('map', {
-		zoom: window.map.defaultZoom ?? 3,
-		minZoom: window.map.minZoom ?? 2,
-		maxZoom: window.map.maxZoom ?? 5,
-		center: window.map.center,
+		zoom: app.mapData.defaultZoom ?? 3,
+		minZoom: app.mapData.minZoom ?? 2,
+		maxZoom: app.mapData.maxZoom ?? 5,
+		center: app.mapData.center,
 		attributionControl: false,
 		zoomControl: false,
 		layers: allLayers,
@@ -46,7 +46,7 @@ $(function() {
 	};
 	
 	const hash = new L.Hash(map);
-	const bounds = window.map.bounds;
+	const bounds = app.mapData.bounds;
 	map.setMaxBounds(bounds);
 	
 	function makeZoomControl() {
@@ -65,7 +65,7 @@ $(function() {
 	}
 	
 	function makeSearchControl() {
-		const searchData = window.map.markers.map(marker => ({
+		const searchData = app.mapData.markers.map(marker => ({
 			loc: marker.position,
 			title: marker.label
 		}));
@@ -117,7 +117,7 @@ $(function() {
 		});
 	}
 	
-	map.addLayer(makeTileLayer(window.map.tilePath));
+	map.addLayer(makeTileLayer(app.mapData.tilePath));
 	map.addControl(makeZoomControl());
 	map.addControl(makeFullscreenControl());
 	map.addControl(makeSearchControl());
@@ -229,7 +229,7 @@ $(function() {
 	map.on('popupclose', closePopup);
 	
 	function applyLayerVisibility() {
-		const storageKey = 'markers-' + window.map.name;
+		const storageKey = 'markers-' + app.mapData.name;
 		const layerVisibility = parseFromLocalStorage(storageKey, {'other': false});
 		for(const [layer, visible] of Object.entries(layerVisibility)) {
 			if(!visible) {
@@ -296,7 +296,7 @@ $(function() {
 	}
 	
 	function saveMarkerGroupVisibility(groupName, visible) {
-		const storageKey = 'markers-' + window.map.name;
+		const storageKey = 'markers-' + app.mapData.name;
 		const enabledMarkers = parseFromLocalStorage(storageKey, {'other': false});
 		enabledMarkers[groupName] = visible;
 		localStorage[storageKey] = JSON.stringify(enabledMarkers);
@@ -336,7 +336,7 @@ $(function() {
 			window.markerTypes.forEach(disableMarkerGroup);
 			hideAllButton.hide();
 			showAllButton.show();
-			localStorage['hide-all-' + window.map.name] = true;
+			localStorage['hide-all-' + app.mapData.name] = true;
 		});
 	}
 	
@@ -347,7 +347,7 @@ $(function() {
 			window.markerTypes.forEach(enableMarkerGroup);
 			hideAllButton.show();
 			showAllButton.hide();
-			localStorage.removeItem('hide-all-' + window.map.name);
+			localStorage.removeItem('hide-all-' + app.mapData.name);
 		});
 	}
 	
@@ -664,7 +664,7 @@ $(function() {
 	};
 	
 	var backupNotes = function() {
-		localStorage['notes' + window.map.name] = JSON.stringify(notes);
+		localStorage['notes' + app.mapData.name] = JSON.stringify(notes);
 	};
 	
 	window.saveNote = function(noteKey) {

@@ -1,14 +1,14 @@
-window.map = {
-	name: 'map1',
-	tilePath: 'maps/map1/{z}/{x}/{y}.png',
+app.mapData = {
+	name: 'm01',
+	tilePath: 'maps/m01/{z}/{x}/{y}.png',
 	minZoom: 2,
 	maxZoom: 6,
 	defaultZoom: 3,
 	bounds: L.latLngBounds([175, 160], [7, 1]),
 	center: [65, 75]
-}
+};
 
-window.map.markers = [
+app.mapData.markers = [
 	makeMarker('letter-from-home', 1, 95.453, 71.766),
 	makeMarker('letter-from-home', 2, 78.969, 76.703),
 	makeMarker('letter-from-home', 3, 92.891, 83.672),

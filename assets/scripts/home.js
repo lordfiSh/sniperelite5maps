@@ -7,7 +7,7 @@
 	app.basePath = location.origin + location.pathname.substr(0, location.pathname.lastIndexOf('/') + 1);
 	console.log("Resource path: " + app.basePath);
 	
-	await app.init();
+	await app.initLocalization();
 	console.log("App initialized");
 	
 	// dynamic background

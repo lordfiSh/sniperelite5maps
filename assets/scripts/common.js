@@ -11,9 +11,16 @@
 	
 	// localization
 	{
+		app.initLanguageSwitcher = initLanguageSwitcher;
+		app.initI18Next = initI18Next;
+		app.loadLocalizationNamespace = loadLocalizationNamespace;
+		app.localizeDocument = localizeDocument;
+		app.setLanguage = setLanguage;
+		app.initLocalization = initLocalization;
+		
 		let isLocalizationInitialized = false;
 		
-		app.initLanguageSwitcher = function() {
+		function initLanguageSwitcher() {
 			const makeLanguageOption = (code, text) => ({
 				text,
 				value: code,
@@ -32,9 +39,9 @@
 				width: 150,
 				onSelected: obj => app.setLanguage(obj.selectedData.value)
 			});
-		};
+		}
 		
-		app.initLocalization = async function() {
+		async function initI18Next() {
 			if(!app.basePath) {
 				console.error("app.basePath must be set to initialize localization");
 				return;
@@ -67,9 +74,9 @@
 			jqueryI18next.init(i18next, $);
 			
 			console.log('Initialized localization');
-		};
+		}
 		
-		app.localizeDocument = function() {
+		function localizeDocument() {
 			if(!isLocalizationInitialized) {
 				console.error("Cannot localize document before localization is initialized");
 				return;
@@ -77,18 +84,24 @@
 			
 			$(document).localize();
 			console.log('Localized document');
-		};
+		}
 		
-		app.loadLocalizationNamespace = function(namespaces) {
+		function loadLocalizationNamespace(namespaces) {
 			return new Promise(resolve => i18next.loadNamespaces(namespaces, () => resolve()));
-		};
+		}
 		
-		app.setLanguage = function(lang) {
+		function setLanguage(lang) {
 			if(localStorage['lang'] !== lang) {
 				localStorage['lang'] = lang;
 				window.location.reload();
 			}
-		};
+		}
+		
+		async function initLocalization() {
+			await app.initI18Next();
+			app.initLanguageSwitcher();
+			app.localizeDocument();
+		}
 	}
 	
 	// utility
@@ -101,10 +114,4 @@
 			}));
 		};
 	}
-	
-	app.init = async function() {
-		await app.initLocalization();
-		app.initLanguageSwitcher();
-		app.localizeDocument();
-	};
 })();
