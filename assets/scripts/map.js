@@ -183,6 +183,89 @@
 		}
 	}
 	
+	// leaflet map setup
+	{
+		app.initLeafletMap = initLeafletMap;
+		
+		function initLeafletMap() {
+			if(!L) {
+				console.error("Leaflet is not loaded");
+				return;
+			}
+			
+			if(!app.mapData) {
+				console.error("No map data loaded");
+				return;
+			}
+			
+			const w = app.mapData.dimensions[0];
+			const h = app.mapData.dimensions[1];
+			
+			// TODO I don't have the slightest clue where this constant comes from, but it results in the "correct" scale
+			const globalScale = 8/256;
+			
+			L.CRS.Pixel = L.extend({}, L.CRS.Simple, {
+				transformation: new L.Transformation(globalScale, 0, -globalScale, 0)
+			});
+			
+			// TODO this is incredibly janky, but it seems to be the only way to make leaflet load the correct tiles
+			L.PixelTileLayer = L.TileLayer.extend({
+				getTileUrl: function(coords) {
+					const data = {
+						x: coords.x,
+						y: -coords.y - 1,
+						z: this._getZoomForUrl()
+					};
+					return L.Util.template(this._url, L.Util.extend(data, this.options));
+				}
+			});
+			
+			app.leafletMap = L.map('map', {
+				crs: L.CRS.Pixel,
+				layers: Object.values(app.leafletLayers||{}),
+				
+				minZoom: 1,
+				maxZoom: 7,
+				zoom: app.mapData.defaultZoom ?? 3,
+				center: app.mapData.focus ?? [h / 2, w / 2],
+				
+				attributionControl: false,
+				zoomControl: false,
+			});
+			
+			app.leafletMap.setMaxBounds([[0, 0], [h, w]]);
+			
+			new L.PixelTileLayer(app.basePath + app.mapData.tilePath, {
+				tms: true,
+				// this should always evaluate to 256
+				tileSize: 256 * globalScale * 256 / 8,
+				minNativeZoom: app.mapData.minZoom ?? 2,
+				maxNativeZoom: app.mapData.maxZoom ?? 6,
+				bounds: [[0, 0], [h, w]],
+				errorTileUrl: app.basePath + 'images/missing.png'
+			}).addTo(app.leafletMap);
+			
+			//* debug overlay with the full map image
+			L.imageOverlay(
+				`${app.basePath}maps/${app.mapData.name}/complete.png`,
+				[[0, 0], [h, w]]
+			).addTo(app.leafletMap).setOpacity(0.2);
+			//*/
+			
+			/* debug polygon
+			L.polygon([[0, 0], [h, 0], [h, w], [0, w]], {
+				color: 'blue'
+			}).addTo(app.leafletMap);
+			//*/
+			
+			//* debug output on right-click
+			app.leafletMap.on('contextmenu', function(e) {
+				console.log(`x: ${e.latlng.lng}, y: ${e.latlng.lat}`);
+			});
+			//*/
+		}
+	}
+	
 	// initialization
 	{
 		app.initPage = initPage;
@@ -200,8 +283,9 @@
 			await app.runScript(`scripts/mapdata/${mapName}.js`);
 			
 			app.initSidebar();
-			app.initMapMarkers();
 			app.initPageTitle();
+			app.initLeafletMap();
+			//app.initMapMarkers();
 			
 			app.initialized = true;
 		}

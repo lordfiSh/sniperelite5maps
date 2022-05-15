@@ -1,7 +1,6 @@
 const leaflet = L;
 $(function() {
 	const L = leaflet;
-	window.allLayers = Object.values(layers).filter(el => el !== undefined);
 	
 	const hideAllButton = $('#hide-all');
 	const showAllButton = $('#show-all');
@@ -22,19 +21,6 @@ $(function() {
 		});
 	});
 	
-	const map = L.map('map', {
-		zoom: app.mapData.defaultZoom ?? 3,
-		minZoom: app.mapData.minZoom ?? 2,
-		maxZoom: app.mapData.maxZoom ?? 5,
-		center: app.mapData.center,
-		attributionControl: false,
-		zoomControl: false,
-		layers: allLayers,
-		continuousWorld: true,
-		crs: L.CRS.Simple
-	});
-	window.leafletMap = map;
-	
 	window.go = function(lat, lng) {
 		map.setView([lat, lng], map.getZoom());
 		new L.marker([lat, lng], {
@@ -46,8 +32,6 @@ $(function() {
 	};
 	
 	const hash = new L.Hash(map);
-	const bounds = app.mapData.bounds;
-	map.setMaxBounds(bounds);
 	
 	function makeZoomControl() {
 		return new L.Control.Zoom({
@@ -107,17 +91,6 @@ $(function() {
 		return search;
 	}
 	
-	function makeTileLayer(tilePath) {
-		return L.tileLayer(tilePath, {
-			tms: true,
-			bounds: bounds,
-			noWrap: true,
-			continuousWorld: true,
-			crs: L.CRS.Simple
-		});
-	}
-	
-	map.addLayer(makeTileLayer(app.mapData.tilePath));
 	map.addControl(makeZoomControl());
 	map.addControl(makeFullscreenControl());
 	map.addControl(makeSearchControl());
