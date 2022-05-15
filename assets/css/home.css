@@ -69,13 +69,13 @@ div#logo {
     height: 60px;
 }
 
-ul#nav {
+#map-list {
     text-align: center;
     max-width: 1300px;
     margin: auto;
 }
 
-ul#nav li {
+#map-list li {
     display: inline-block;
     margin: 20px 10px 0 10px;
     width: 245px;
@@ -87,7 +87,7 @@ ul#nav li {
     cursor: pointer;
 }
 
-#nav li a {
+#map-list li a {
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -95,14 +95,14 @@ ul#nav li {
     color: #98724d;
 }
 
-#nav li a span {
+#map-list li a span {
     padding: 0 20px;
     display: inline-block;
     vertical-align: middle;
     line-height: 20px;
 }
 
-#nav li a img {
+#map-list li a img {
     position: absolute;
     bottom: -10px;
     right: 0;
@@ -113,20 +113,20 @@ ul#nav li {
     transition: all 300ms ease-in;
 }
 
-#nav li.enabled:hover a {
+#map-list li.enabled:hover a {
     color: #020202;
 }
 
-#nav li:hover a img {
+#map-list li:hover a img {
     opacity: 0.7;
     bottom: -4px;
 }
 
-#nav li.enabled:hover {
+#map-list li.enabled:hover {
     background-position: top;
 }
 
-#nav li.disabled {
+#map-list li.disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }

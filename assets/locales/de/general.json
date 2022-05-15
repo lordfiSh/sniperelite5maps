@@ -1,23 +1,17 @@
 {
   "maps": {
-    "m01-san-celini-island": "Insel San Celini",
-    "m02-bitanti-village": "Dorf Bitanti",
-    "m03-regilino-viaduct": "Viadukt Regilino",
-    "m04-lorino-dockyard": "Lorino-Werft",
-    "m05-abrunza-monastery": "Kloster Abrunza",
-    "m06-magazzeno-facility": "Küstenstandort Magazzeno",
-    "m07-giovi-fiorini-mansion": "Villa Giovi Fiorini",
-    "m08-allagra-fortress": "Festung Allagra",
-    "dlc1-target-fuehrer": "(DLC) Zielperson:<br>Der Diktator",
-    "dlc2-inception": "(DLC) Anfang",
-    "dlc3-infiltration": "(DLC) Unterwanderung",
-    "dlc4-obliteration": "(DLC) Vernichtung",
-    "ow01-compound": "(Überwachung) Militärlager",
-    "ow02-railyard": "(Überwachung) Gleisareal"
+    "m01-the-atlantic-wall": "The Atlantic Wall",
+    "m02-occupied-residence": "Occupied Residence",
+    "m03-spy-academy": "Spy Academy",
+    "m04-war-factory": "War Factory",
+    "m05-festung-guernsey": "Festung Guernsey",
+    "m06-liberation": "Libération",
+    "m07-secret-weapon": "Secret Weapons",
+    "m08-rubble-and-ruin": "Rubble and Ruin"
   },
   "home": {
-    "title": "Interaktive Sniper Elite 4 Karte",
-    "tagline": "Inoffizielle Interaktive Sniper Elite 4 Karte"
+    "title": "Interaktive Sniper Elite 5 Karte",
+    "tagline": "Inoffizielle Interaktive Sniper Elite 5 Karte"
   },
   "notes": {
     "label": "Bezeichnung:",

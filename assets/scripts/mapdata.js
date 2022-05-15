@@ -13,18 +13,18 @@ function getMarkerLabel(namespace, type, id) {
 	return `${typeLabel} ${id}: ${translation}`;
 }
 
-function getMarkerPopup(namespace, type, id) {
-	const typePopup = $.t(`marker.${type}.desc`);
+function getMarkerPopup(namespace, group, id) {
+	//const groupFlavorText = $.t(`marker.${group}.desc`);
 	
-	if(!id) return "";//typePopup;
+	if(!id) return "";
 	
-	let translationPath = `${namespace}:${type}.${id}.desc`;
+	let translationPath = `${namespace}:${group}.${id}.desc`;
 	
 	// id 2.1 will expand to 'ns:type.2.desc.1'
 	const base = Math.trunc(id);
 	if(base !== id) {
 		const sub = (id - base).toFixed(1).substr(2);
-		translationPath = `${namespace}:${type}.${base}.desc.${sub}`;
+		translationPath = `${namespace}:${group}.${base}.desc.${sub}`;
 	}
 	
 	const translation = $.t(translationPath);
@@ -36,9 +36,9 @@ function getMarkerPopup(namespace, type, id) {
 	return translation;
 }
 
-function makeMarker(type, id, y, x, label, popup) {
+function makeMarker(group, id, y, x, label, popup) {
 	const position = [y ?? 0, x ?? 0];
-	label ??= getMarkerLabel(app.mapData.name, type, id);
-	popup ??= getMarkerPopup(app.mapData.name, type, id);
-	return {type, position, label, popup};
+	label ??= getMarkerLabel(app.mapData.name, group, id);
+	popup ??= getMarkerPopup(app.mapData.name, group, id);
+	return {group, position, label, popup};
 }

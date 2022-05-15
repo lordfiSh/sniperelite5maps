@@ -1,6 +1,13 @@
 {
   "maps": {
-    "map1": "San Celini Island"
+    "m01-the-atlantic-wall": "The Atlantic Wall",
+    "m02-occupied-residence": "Occupied Residence",
+    "m03-spy-academy": "Spy Academy",
+    "m04-war-factory": "War Factory",
+    "m05-festung-guernsey": "Festung Guernsey",
+    "m06-liberation": "Libération",
+    "m07-secret-weapon": "Secret Weapons",
+    "m08-rubble-and-ruin": "Rubble and Ruin"
   },
   "home": {
     "title": "Sniper Elite 5 Interactive Map",

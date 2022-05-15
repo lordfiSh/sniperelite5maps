@@ -1,20 +1,14 @@
 app.transparentMarkerOpacity = 0.5;
 
 app.maps = {
-	m01: 'm01-san-celini-island',
-	m02: 'm02-bitanti-village',
-	m03: 'm03-regilino-viaduct',
-	m04: 'm04-lorino-dockyard',
-	m05: 'm05-abrunza-monastery',
-	m06: 'm06-magazzeno-facility',
-	m07: 'm07-giovi-fiorini-mansion',
-	m08: 'm08-allagra-fortress',
-	dlc1: 'dlc1-target-fuehrer',
-	dlc2: 'dlc2-inception',
-	dlc3: 'dlc3-infiltration',
-	dlc4: 'dlc4-obliteration',
-	ow01: 'ow01-compound',
-	ow02: 'ow02-railyard',
+	m01: 'm01-the-atlantic-wall',
+	m02: 'm02-occupied-residence',
+	m03: 'm03-spy-academy',
+	m04: 'm04-war-factory',
+	m05: 'm05-festung-guernsey',
+	m06: 'm06-liberation',
+	m07: 'm07-secret-weapon',
+	m08: 'm08-rubble-and-ruin',
 };
 
 app.markerGroups = [

@@ -7,11 +7,10 @@
 	app.basePath = location.origin + location.pathname.substr(0, location.pathname.lastIndexOf('/') + 1);
 	console.log("Resource path: " + app.basePath);
 	
-	await app.initLocalization();
-	console.log("App initialized");
-	
 	// dynamic background
 	{
+		app.initBackground = initBackground;
+		
 		const imageCache = {};
 		
 		function loadImage(path) {
@@ -77,14 +76,53 @@
 			transitionPromise = null;
 		}
 		
-		// register hover events
-		$('#nav li').each((_, item) => {
-			const mapName = $(item).attr('data-map-name');
-			$(item).on('mouseover', async () => {
-				await setBackground(`images/backgrounds/${mapName}.jpg`);
+		function initBackground() {
+			// register hover events
+			$('#nav li').each((_, item) => {
+				const mapName = $(item).attr('data-map-name');
+				$(item).on('mouseover', async () => {
+					await setBackground(`images/backgrounds/${mapName}.jpg`);
+				});
 			});
-		});
-		
-		$(imageLayer).attr('src', currentImage);
+			
+			$(imageLayer).attr('src', currentImage);
+		}
 	}
+	
+	// initialization
+	{
+		app.initMapList = initMapList;
+		app.initPage = initPage;
+		
+		function initMapList() {
+			const list = document.getElementById('map-list');
+			
+			for(const [id, slug] of Object.entries(app.maps)) {
+				const name = $.t(`maps.${slug}`);
+				
+				const item = document.createElement('li');
+				const link = document.createElement('a');
+				const text = document.createElement('span');
+				
+				item.classList.add('enabled');
+				link.href = `${id}/`;
+				text.textContent = name;
+				
+				link.appendChild(text);
+				item.appendChild(link);
+				list.appendChild(item);
+			}
+		}
+		
+		async function initPage() {
+			await app.runScript('scripts/config.js');
+			
+			await app.initLocalization();
+			
+			app.initMapList();
+			app.initBackground();
+		}
+	}
+	
+	app.initPage().then(() => console.log("App initialized"));
 })();

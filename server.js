@@ -18,10 +18,14 @@ const port = process.env.PORT || 8080;
 // compress content with gzip
 app.use(compression({filter: shouldCompress}));
 
-app.get('/a/', (request, response, next) => response.sendFile(__dirname+'/dist/map.html'));
 app.get('/', (request, response, next) => response.sendFile(__dirname+'/dist/home.html'));
 
-// make express look in the dist directory for assets (css/js/img)
+const maps = ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08'];
+
+for(const map of maps) {
+	app.get(`/${map}/`, (request, response, next) => response.sendFile(__dirname+'/dist/map.html'));
+}
+
 app.use('/css', express.static('dist/css'));
 app.use('/fonts', express.static('dist/fonts'));
 app.use('/images', express.static('dist/images'));

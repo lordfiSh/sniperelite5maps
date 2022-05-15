@@ -43,10 +43,10 @@
 		app.initMapMarkers = initMapMarkers;
 		
 		function createLeafletMarker(markerInfo) {
-			const type = markerInfo.type;
-			const icon = getIcon(markerInfo.icon ?? type);
+			const group = markerInfo.group;
+			const icon = getIcon(markerInfo.icon ?? group);
 			const label = markerInfo.label;
-			const popup = "<h1>" + label + "</h1>" + (markerInfo.popup ? markerInfo.popup + "<br>" : "") + "<small>" + $.t(`marker.${type}.desc`) + "</small>";
+			const popup = "<h1>" + label + "</h1>" + (markerInfo.popup ? markerInfo.popup + "<br>" : "") + "<small>" + $.t(`marker.${group}.desc`) + "</small>";
 			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
 			
 			const lat = marker.getLatLng().lat;
@@ -56,11 +56,11 @@
 			marker.bindPopup(popup, {});
 			
 			marker.on('contextmenu', () =>
-				toggleMarkerTransparency(lat, lng, marker, type));
+				toggleMarkerTransparency(lat, lng, marker, group));
 			
 			if(isMarkerTransparent(lat, lng)) {
 				marker.setOpacity(app.transparentMarkerOpacity ?? 0.5);
-				app.markerCount[type]--;
+				app.markerCount[group]--;
 			}
 			
 			return marker;
@@ -86,7 +86,7 @@
 			const layers = {};
 			
 			for(const group of app.markerGroups) {
-				layers[group] = [];
+				layers[group.name] = [];
 			}
 			
 			app.markerCount = {};
