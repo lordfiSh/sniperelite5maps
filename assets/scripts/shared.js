@@ -72,55 +72,6 @@ L.Icon.Default.imagePath = 'images/leaflet';
 		localStorage[key] = JSON.stringify(window.notes);
 	}
 	
-	// transparent marker logic
-	
-	function loadTransparentMarkers() {
-		const key = `transparent-markers-${window.map.name}`;
-		window.transparentMarkers = JSON.parse(localStorage[key] ?? "[]");
-	}
-	
-	function saveTransparentMarkers() {
-		const key = `transparent-markers-${window.map.name}`;
-		localStorage[key] = JSON.stringify(window.transparentMarkers);
-	}
-	
-	function resetTransparentMarkers() {
-		window.transparentMarkers = [];
-		saveTransparentMarkers();
-		location.reload();
-	}
-	
-	window.resetTransparentMarkers = resetTransparentMarkers;
-	
-	function isMarkerTransparent(lat, lng) {
-		return transparentMarkers.includes(lat + ';' + lng);
-	}
-	
-	function setMarkerTransparency(lat, lng, marker, type, transparent) {
-		if(transparent === isMarkerTransparent(lat, lng)) return;
-		if(transparent) {
-			marker.setOpacity(transparentMarkerOpacity);
-			markerCount[type]--;
-			transparentMarkers.push(lat + ';' + lng);
-		} else {
-			marker.setOpacity(1.0);
-			markerCount[type]++;
-			transparentMarkers.splice(transparentMarkers.indexOf(lat + ';' + lng), 1);
-		}
-		
-		updateMarkerCountPill(type);
-		saveTransparentMarkers();
-	}
-	
-	function toggleMarkerTransparency(lat, lng, marker, type) {
-		const isTransparent = isMarkerTransparent(lat, lng);
-		setMarkerTransparency(lat, lng, marker, type, !isTransparent);
-	}
-	
-	function updateMarkerCountPill(type) {
-		$('ul.key:not(.controls) > li:not(.none) > i.' + type + ' ~ :last').text(markerCount[type]);
-	}
-	
 	// marker creation
 	
 	function createLeafletMarker(markerInfo) {
