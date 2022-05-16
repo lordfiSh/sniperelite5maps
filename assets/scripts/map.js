@@ -266,6 +266,15 @@
 		}
 	}
 	
+	// leaflet plugin setup
+	{
+		app.initLeafletHash = initLeafletHash;
+		
+		function initLeafletHash() {
+			app.leafletHash = L.hash(app.leafletMap, { precision: 0 });
+		}
+	}
+	
 	// user marker
 	{
 		app.showUserMarkerAt = showUserMarkerAt;
@@ -286,14 +295,15 @@
 		}
 		
 		function showUserMarkerAt(position) {
+			const latlng = L.latLng(position);
 			userMarker.setLatLng(position);
 			app.leafletMap.addLayer(userMarker);
-			//hash.addParam('w', position.lat.toFixed(3) + ',' + position.lng.toFixed(3));
+			app.leafletHash.setParam('w', latlng.lat.toFixed(0) + ',' + latlng.lng.toFixed(0));
 		}
 		
 		function hideUserMarker() {
 			app.leafletMap.removeLayer(userMarker);
-			//hash.removeParam('w');
+			app.leafletHash.removeParam('w');
 		}
 		
 		function initUserMarker() {
@@ -330,6 +340,7 @@
 			app.initPageTitle();
 			app.initMapMarkers();
 			app.initLeafletMap();
+			app.initLeafletHash();
 			app.initUserMarker();
 			
 			app.initialized = true;
