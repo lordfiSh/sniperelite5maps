@@ -100,37 +100,6 @@ $(function() {
 		this._newPos = this._newPos.subtract(map._getBoundsOffset(new L.Bounds(pos, pos.add(map.getSize())), map.options.maxBounds));
 	});
 	
-	// waypoint logic
-	let wayPointMarker;
-	
-	function createWayPointMarker() {
-		const icon = L.icon({
-			iconUrl: 'images/icons/marker.png',
-			iconSize: [48, 48]
-		});
-		const marker = new L.Marker([0, 0], {icon});
-		marker.on('click', hideWayPointMarker);
-		marker.on('contextmenu', hideWayPointMarker);
-		return marker;
-	}
-	
-	function showWayPointMarkerAt(position) {
-		if(!wayPointMarker) wayPointMarker = createWayPointMarker();
-		wayPointMarker.setLatLng(position);
-		map.addLayer(wayPointMarker);
-		hash.addParam('w', position.lat.toFixed(3) + ',' + position.lng.toFixed(3));
-	}
-	
-	function hideWayPointMarker() {
-		map.removeLayer(wayPointMarker);
-		hash.removeParam('w');
-	}
-	
-	map.on('contextmenu', function(e) {
-		if(!bounds.contains(e.latlng)) return;
-		showWayPointMarkerAt(e.latlng);
-	});
-	
 	// selected marker logic
 	let circle = null;
 	

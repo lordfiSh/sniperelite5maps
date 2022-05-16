@@ -52,8 +52,8 @@
 			const lat = marker.getLatLng().lat;
 			const lng = marker.getLatLng().lng;
 			
-			marker.bindLabel(label);
-			marker.bindPopup(popup, {});
+			//marker.bindLabel(label);
+			//marker.bindPopup(popup, {});
 			
 			marker.on('contextmenu', () =>
 				toggleMarkerTransparency(lat, lng, marker, group));
@@ -266,6 +266,50 @@
 		}
 	}
 	
+	// user marker
+	{
+		app.showUserMarkerAt = showUserMarkerAt;
+		app.hideUserMarker = hideUserMarker;
+		app.initUserMarker = initUserMarker;
+		
+		let userMarker = undefined;
+		
+		function createUserMarker() {
+			const icon = L.icon({
+				iconUrl: `${app.basePath}images/icons/marker.png`,
+				iconSize: [48, 48]
+			});
+			const marker = new L.Marker([0, 0], {icon});
+			marker.on('click', hideUserMarker);
+			marker.on('contextmenu', hideUserMarker);
+			return marker;
+		}
+		
+		function showUserMarkerAt(position) {
+			userMarker.setLatLng(position);
+			app.leafletMap.addLayer(userMarker);
+			//hash.addParam('w', position.lat.toFixed(3) + ',' + position.lng.toFixed(3));
+		}
+		
+		function hideUserMarker() {
+			app.leafletMap.removeLayer(userMarker);
+			//hash.removeParam('w');
+		}
+		
+		function initUserMarker() {
+			userMarker = createUserMarker();
+			
+			app.leafletMap.on('contextmenu', function(e) {
+				let w = app.mapData.dimensions[0];
+				let h = app.mapData.dimensions[1];
+				let x = Math.round(Math.max(0, Math.min(e.latlng.lng, w)));
+				let y = Math.round(Math.max(0, Math.min(e.latlng.lat, h)));
+				
+				showUserMarkerAt([y, x]);
+			});
+		}
+	}
+	
 	// initialization
 	{
 		app.initPage = initPage;
@@ -284,8 +328,9 @@
 			
 			app.initSidebar();
 			app.initPageTitle();
+			app.initMapMarkers();
 			app.initLeafletMap();
-			//app.initMapMarkers();
+			app.initUserMarker();
 			
 			app.initialized = true;
 		}
