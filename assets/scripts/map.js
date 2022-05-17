@@ -202,7 +202,7 @@
 			const h = app.mapData.dimensions[1];
 			
 			// TODO I don't have the slightest clue where this constant comes from, but it results in the "correct" scale
-			const globalScale = 8/256;
+			const globalScale = 8 / 256;
 			
 			L.CRS.Pixel = L.extend({}, L.CRS.Simple, {
 				transformation: new L.Transformation(globalScale, 0, -globalScale, 0)
@@ -222,18 +222,23 @@
 			
 			app.leafletMap = L.map('map', {
 				crs: L.CRS.Pixel,
-				layers: Object.values(app.leafletLayers||{}),
+				layers: Object.values(app.leafletLayers || {}),
 				
 				minZoom: 1,
 				maxZoom: 7,
-				zoom: app.mapData.defaultZoom ?? 3,
-				center: app.mapData.focus ?? [h / 2, w / 2],
 				
 				attributionControl: false,
 				zoomControl: false,
 			});
 			
 			app.leafletMap.setMaxBounds([[0, 0], [h, w]]);
+			
+			// set up hash and parse initial map view
+			app.leafletHash = L.hash(app.leafletMap, {precision: 0});
+			const hashInfo = app.leafletHash.parseHash();
+			const zoom = hashInfo?.zoom ?? app.mapData.defaultZoom;
+			const center = hashInfo?.center ?? app.mapData.focus ?? [h / 2, w / 2];
+			app.leafletMap.setView(center, zoom, {animate: false});
 			
 			new L.PixelTileLayer(app.basePath + app.mapData.tilePath, {
 				tms: true,
@@ -268,11 +273,7 @@
 	
 	// leaflet plugin setup
 	{
-		app.initLeafletHash = initLeafletHash;
-		
-		function initLeafletHash() {
-			app.leafletHash = L.hash(app.leafletMap, { precision: 0 });
-		}
+	
 	}
 	
 	// user marker
@@ -340,7 +341,6 @@
 			app.initPageTitle();
 			app.initMapMarkers();
 			app.initLeafletMap();
-			app.initLeafletHash();
 			app.initUserMarker();
 			
 			app.initialized = true;

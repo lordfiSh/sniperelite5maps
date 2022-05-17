@@ -9,10 +9,7 @@
 	
 	L.Hash = function(map, options) {
 		this.onHashChange = L.Util.bind(this.onHashChange, this);
-		
-		if(map) {
-			this.init(map, options);
-		}
+		this.init(map, options);
 	};
 	
 	// Return the hash parameters from a string. [based on source](http://goo.gl/mebsOI)
@@ -71,6 +68,7 @@
 	};
 	
 	L.Hash.parseHash = function(hash) {
+		hash ??= location.hash;
 		if(hash.indexOf('#') === 0) {
 			hash = hash.substr(1);
 		}
@@ -133,9 +131,12 @@
 		
 		init: function(map, options) {
 			this.map = map;
+			
 			if(options) {
 				this.precision = options.precision;
 			}
+			
+			if(!map) return;
 			
 			// reset the hash
 			this.lastHash = null;
@@ -144,6 +145,15 @@
 			if(!this.isListening) {
 				this.startListening();
 			}
+		},
+		
+		addTo: function(map) {
+			if(this.map) {
+				this.removeFrom(this.map);
+				this.map = undefined;
+			}
+			
+			this.init(map);
 		},
 		
 		removeFrom: function(map) {
@@ -162,7 +172,7 @@
 			// bail if we're moving the map (updating from a hash),
 			// or if the map is not yet loaded
 			
-			if(this.movingMap || !this.map._loaded) {
+			if(!this.map || this.movingMap || !this.map._loaded) {
 				return false;
 			}
 			
@@ -175,6 +185,8 @@
 		
 		movingMap: false,
 		update: function() {
+			if(!this.map) return;
+			
 			const hash = location.hash;
 			if(hash === this.lastHash) {
 				return;
@@ -209,6 +221,7 @@
 		isListening: false,
 		hashChangeInterval: null,
 		startListening: function() {
+			if(!this.map) return;
 			this.map.on("moveend", this.onMapMove, this);
 			
 			if(HAS_HASHCHANGE) {
@@ -221,6 +234,7 @@
 		},
 		
 		stopListening: function() {
+			if(!this.map) return;
 			this.map.off("moveend", this.onMapMove, this);
 			
 			if(HAS_HASHCHANGE) {
