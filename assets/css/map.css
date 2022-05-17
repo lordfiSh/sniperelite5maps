@@ -6,21 +6,22 @@ html, body {
     overflow: hidden;
 }
 
-div#map {
+#map {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 375px;
+    z-index: 0;
 }
 
-div#sidebar-container {
+#sidebar-container {
     position: relative;
     width: 400px;
     height: 100%;
 }
 
-div#sidebar {
+#sidebar {
     position: absolute;
     width: 360px;
     top: 0;
@@ -34,7 +35,7 @@ div#sidebar {
     outline: none;
 }
 
-div#sidebar-border {
+#sidebar-border {
     position: absolute;
     width: 15px;
     background-repeat: repeat-y;
@@ -44,7 +45,7 @@ div#sidebar-border {
     bottom: 0;
 }
 
-div#sidebar-content > span.tooltip {
+#sidebar-content > span.tooltip {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
     background-clip: padding-box;
@@ -72,7 +73,7 @@ div#sidebar-content > span.tooltip {
     word-wrap: break-word; /* IE */
 }
 
-div#logo {
+#logo {
     width: 300px;
     height: 50px;
     margin-left: auto;
@@ -158,12 +159,12 @@ div#logo {
 #marker-groups > li > .pill {
     background-color: #97702F;
     box-shadow: 1px 1px 3px #000000 inset;
-    padding: 2px 3px 0px 4px;
+    padding: 2px 3px 0 4px;
     color: #000000;
     border-radius: 7px;
     font-size: 11px;
     line-height: 17px;
-    max-width: 15px;
+    width: 15px;
     float: left;
     text-align: center;
 }
@@ -183,7 +184,7 @@ div#logo {
     cursor: default;
 }
 
-div#note {
+#note {
     background: url('../images/paperfull.png') no-repeat;
     color: #000;
     font-size: 18px;
@@ -194,42 +195,42 @@ div#note {
     line-height: 110px;
 }
 
-div#note span#note-msg {
+#note span#note-msg {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
 }
 
-div#note a {
+#note a {
     color: #000;
 }
 
-div#note a:hover {
+#note a:hover {
     color: #000;
     text-decoration: none;
 }
 
-div#sfw {
+#sfw {
     font-size: 14px;
     text-align: center;
 }
 
-div#sfw a {
+#sfw a {
     color: #B08948;
     text-decoration: none;
 }
 
-div#sfw a.original {
+#sfw a.original {
     font-size: 12px;
     display: none;
 }
 
-div#sfw a:hover {
+#sfw a:hover {
     color: #F0CB0B;
     text-decoration: underline;
 }
 
-div#copyright {
+#copyright {
     font-size: 13px;
     text-align: center;
     color: #999;
@@ -240,19 +241,19 @@ div#copyright {
     bottom: 5px;
 }
 
-div#copyright a,
-div#copyright a:visited,
-div#copyright a:active {
+#copyright a,
+#copyright a:visited,
+#copyright a:active {
     color: #bbb;
     text-decoration: none;
 }
 
-div#copyright a:hover {
+#copyright a:hover {
     color: #ddd;
     text-decoration: underline;
 }
 
-div#info-container {
+#info-container {
     position: absolute;
     left: 380px;
     bottom: 0;
@@ -263,24 +264,24 @@ div#info-container {
     display: none;
 }
 
-div#info-container a {
+#info-container a {
     color: #B08948;
 }
 
-div#info-container.full-width {
+#info-container.full-width {
     left: 0px;
     width: 100%;
 }
 
-div#info-container.full-width div#info-content {
+#info-container.full-width #info-content {
     width: auto;
 }
 
-div#info-container.full-width div#info-fade-outro {
+#info-container.full-width #info-fade-outro {
     display: none;
 }
 
-div#info-content {
+#info-content {
     width: 520px;
     margin-left: 20px;
     background: rgba(0, 0, 0, 0.7);
@@ -291,7 +292,7 @@ div#info-content {
     max-height: 100px;
 }
 
-div#info-content small {
+#info-content small {
     display: block;
     margin-top: 4px;
     line-height: 15px;
@@ -299,7 +300,7 @@ div#info-content small {
     font-style: italic;
 }
 
-div#info-fade-intro {
+#info-fade-intro {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -310,7 +311,7 @@ div#info-fade-intro {
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7));
 }
 
-div#info-fade-outro {
+#info-fade-outro {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -319,7 +320,7 @@ div#info-fade-outro {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
 }
 
-div#info-content h1 {
+#info-content h1 {
     text-transform: uppercase;
     margin: 0;
     padding: 10px 0 5px 0;
@@ -330,7 +331,7 @@ div#info-content h1 {
     background-color: rgba(128, 128, 128, 0.5) !important;
 }
 
-div#note-popup input, div#note-popup textarea {
+#note-popup input, #note-popup textarea {
     font-family: 'PFDinTextCondPro', Arial, sans-serif;
     color: #F0CB0B;
     background: rgba(0, 0, 0, 0);
@@ -341,7 +342,7 @@ div#note-popup input, div#note-popup textarea {
     display: table-cell;
 }
 
-div#note-popup button {
+#note-popup button {
     font-family: 'PFDinTextCondPro', Arial, sans-serif;
     color: #000000;
     background-color: #97702F;
@@ -353,27 +354,27 @@ div#note-popup button {
     cursor: pointer;
 }
 
-div#note-popup button:disabled {
+#note-popup button:disabled {
     opacity: 0.5;
 }
 
-div#note-popup div.note-row {
+#note-popup div.note-row {
     width: 100%;
     display: table;
 }
 
-div#note-popup label.label {
+#note-popup label.label {
     display: table-cell;
     width: 1px;
     font-weight: bold;
 }
 
-div#note-popup label.top {
+#note-popup label.top {
     vertical-align: top;
     padding-top: 4px;
 }
 
-div#title {
+#title {
     position: absolute;
     width: 200px;
     height: 54px;
@@ -391,11 +392,11 @@ div#title {
     line-height: 52px;
 }
 
-div#mobile-warning {
+#mobile-warning {
     display: none;
 }
 
-div#sidebar-toggle {
+#sidebar-toggle {
     display: block;
     position: absolute;
     left: 385px;
@@ -407,12 +408,12 @@ div#sidebar-toggle {
     cursor: pointer;
 }
 
-div#sidebar-toggle.show-sidebar {
+#sidebar-toggle.show-sidebar {
     left: 0px;
     background-position: -22px 3px;
 }
 
-div#popup-wrap {
+#popup-wrap {
     display: flex;
     position: absolute;
     top: 0;
@@ -428,7 +429,7 @@ div#popup-wrap {
     z-index: 8;
 }
 
-div#popup-wrap #popup-border {
+#popup-wrap #popup-border {
     position: relative;
     background: #0E0E0F;
     padding: 5px;
@@ -437,7 +438,7 @@ div#popup-wrap #popup-border {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
 }
 
-div#popup-wrap #popup-content {
+#popup-wrap #popup-content {
     position: relative;
     border: 1px solid #393128;
     padding: 20px;
@@ -446,16 +447,16 @@ div#popup-wrap #popup-content {
     font-family: 'PFDinTextCondPro', Arial, sans-serif;
 }
 
-div#popup-wrap #popup-content a {
+#popup-wrap #popup-content a {
     color: #8C8068;
     text-decoration: none;
 }
 
-div#popup-wrap #popup-content a:hover {
+#popup-wrap #popup-content a:hover {
     text-decoration: underline;
 }
 
-div#popup-wrap h1 {
+#popup-wrap h1 {
     text-transform: uppercase;
     margin: -0.35em 0 0.25em;
     font-size: 2em;
@@ -463,12 +464,12 @@ div#popup-wrap h1 {
     color: #635540;
 }
 
-div#popup-wrap h3 {
+#popup-wrap h3 {
     margin: 0;
     padding: 0;
 }
 
-div#popup-wrap hr {
+#popup-wrap hr {
     height: 1px;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0)), color-stop(0.5, #635540), to(rgba(0, 0, 0, 0)));
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #635540, rgba(0, 0, 0, 0));
@@ -478,7 +479,7 @@ div#popup-wrap hr {
     border: 0;
 }
 
-div#popup-wrap img#popup-close {
+#popup-wrap img#popup-close {
     position: absolute;
     top: 4px;
     right: 4px;
@@ -489,26 +490,26 @@ div#popup-wrap img#popup-close {
 }
 
 @media all and (max-width: 768px) {
-    div#logo {
+    #logo {
         width: 140px;
         height: 20px;
         background: url('../images/logo-small.png') no-repeat;
         margin-left: 20px;
     }
 
-    div#sidebar {
+    #sidebar {
         width: 180px;
     }
 
-    div#sidebar-toggle {
+    #sidebar-toggle {
         left: 205px;
     }
 
-    div#sidebar-container {
+    #sidebar-container {
         width: 220px;
     }
 
-    div#map {
+    #map {
         left: 205px;
     }
 
@@ -523,11 +524,11 @@ div#popup-wrap img#popup-close {
         columns: 1;
     }
 
-    div#note {
+    #note {
         display: none;
     }
 
-    div#popup-wrap {
+    #popup-wrap {
         display: block;
         max-width: 95%;
         width: 95%;
@@ -537,35 +538,35 @@ div#popup-wrap img#popup-close {
         overflow: hidden;
     }
 
-    div#popup-wrap #popup-border {
+    #popup-wrap #popup-border {
         max-height: 100%;
         height: 100%;
     }
 
-    div#popup-wrap #popup-content {
+    #popup-wrap #popup-content {
         max-height: none;
         height: calc(100% - 52px);
     }
 
-    div#copyright {
+    #copyright {
         width: 180px;
     }
 
-    div#info-container {
+    #info-container {
         left: 205px;
         width: calc(100% - 205px);
     }
 
-    div#info-fade-intro {
+    #info-fade-intro {
         width: 10px;
     }
 
-    div#info-content h1 {
+    #info-content h1 {
         font-size: 17px;
         padding: 8px 0 2px 0;
     }
 
-    div#info-content {
+    #info-content {
         width: calc(100% - 18px);
         padding-right: 8px;
         padding-bottom: 5px;
@@ -577,7 +578,7 @@ div#popup-wrap img#popup-close {
         margin-right: 0px !important;
     }
 
-    div#info-fade-outro {
+    #info-fade-outro {
         display: none;
     }
 
@@ -587,7 +588,7 @@ div#popup-wrap img#popup-close {
 }
 
 @media all and (max-width: 768px) and (orientation: portrait) {
-    div#mobile-warning {
+    #mobile-warning {
         display: none;
         margin: auto;
         position: absolute;
@@ -887,7 +888,7 @@ button.easy-button-button {
     padding-right: 4px;
 }
 
-div#restoreDiv {
+#restoreDiv {
     font-family: 'PFDinTextCondPro', Arial, sans-serif;
     color: #AF834E;
     z-index: 1;
@@ -897,7 +898,7 @@ div#restoreDiv {
     padding-left: 5px;
 }
 
-div#restoreDiv > div > button {
+#restoreDiv > div > button {
     background: none;
     color: #AF834E;
     border: none;

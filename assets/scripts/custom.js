@@ -2,15 +2,8 @@ const leaflet = L;
 $(function() {
 	const L = leaflet;
 	
-	const hideAllButton = $('#hide-all');
-	const showAllButton = $('#show-all');
-	const hideCountsButton = $('#hide-counts');
-	const showCountsButton = $('#show-counts');
 	
-	if(localStorage['hide-all-' + app.mapData.name]) {
-		hideAllButton.hide();
-		showAllButton.show();
-	}
+
 	
 	$(function() {
 		//fix bug where sidebar scrollbar doesn't appear when the language drop-down opens
@@ -184,116 +177,15 @@ $(function() {
 	applyLayerVisibility();
 	
 	function createCounterPills() {
-		for(const e of $('ul.key:not(.controls) li:not(.none) i').toArray()) {
-			const marker = $(e).attr('class');
-			const pill = $("<div class='pill item-count-pill'>" + (window.markerCount[marker] ?? 0) + "</div>");
-			$(e).next().after(pill);
-			if(localStorage['hide-counts']) {
-				pill.hide();
-			}
-		}
-		
-		if(localStorage['hide-counts']) {
-			hideCountsButton.hide();
-			showCountsButton.show();
-		}
+	
 	}
 	
 	createCounterPills();
 	
-	function hideMarkerCounts() {
-		$('.item-count-pill').hide();
-		hideCountsButton.hide();
-		showCountsButton.show();
-		localStorage['hide-counts'] = true;
-	}
+
 	
-	function showMarkerCounts() {
-		$('.item-count-pill').show();
-		hideCountsButton.show();
-		showCountsButton.hide();
-		localStorage.removeItem('hide-counts');
-	}
 	
-	hideCountsButton.on('click', () => hideMarkerCounts());
-	showCountsButton.on('click', () => showMarkerCounts());
-	
-	$('#reset-tracking').on('click', function(e) {
-		e.preventDefault();
-		if(confirm($.t('controls.reset-markers-confirm'))) {
-			resetTransparentMarkers();
-		}
-	});
-	
-	function toggleMarkerGroup(groupName) {
-		if(isMarkerGroupEnabled(groupName))
-			disableMarkerGroup(groupName);
-		else
-			enableMarkerGroup(groupName);
-	}
-	
-	function parseFromLocalStorage(key, fallback) {
-		const string = localStorage[key];
-		return string === undefined ? fallback : JSON.parse(string);
-	}
-	
-	function saveMarkerGroupVisibility(groupName, visible) {
-		const storageKey = 'markers-' + app.mapData.name;
-		const enabledMarkers = parseFromLocalStorage(storageKey, {'other': false});
-		enabledMarkers[groupName] = visible;
-		localStorage[storageKey] = JSON.stringify(enabledMarkers);
-	}
-	
-	function enableMarkerGroup(groupName) {
-		const li = $('ul.key:not(.controls) i.' + groupName).parent();
-		li.removeClass('layer-disabled');
-		map.addLayer(window.layers[groupName]);
-		saveMarkerGroupVisibility(groupName, true);
-	}
-	
-	window.enableMarkerGroup = enableMarkerGroup;
-	
-	function disableMarkerGroup(groupName) {
-		const li = $('ul.key:not(.controls) i.' + groupName).parent();
-		li.addClass('layer-disabled');
-		map.removeLayer(window.layers[groupName]);
-		saveMarkerGroupVisibility(groupName, false);
-	}
-	
-	window.disableMarkerGroup = disableMarkerGroup;
-	
-	function isMarkerGroupEnabled(groupName) {
-		return !$('ul.key:not(.controls) i.' + groupName).parent()
-			.hasClass('layer-disabled');
-	}
-	
-	window.isMarkerGroupEnabled = isMarkerGroupEnabled;
-	
-	$('ul.key:not(.controls)').on('click', 'li:not(.none)', function() {
-		toggleMarkerGroup($(this).find('i').attr('class'));
-	});
-	
-	function initHideAllButton() {
-		hideAllButton.on('click', () => {
-			window.markerTypes.forEach(disableMarkerGroup);
-			hideAllButton.hide();
-			showAllButton.show();
-			localStorage['hide-all-' + app.mapData.name] = true;
-		});
-	}
-	
-	initHideAllButton();
-	
-	function initShowAllButton() {
-		showAllButton.on('click', () => {
-			window.markerTypes.forEach(enableMarkerGroup);
-			hideAllButton.show();
-			showAllButton.hide();
-			localStorage.removeItem('hide-all-' + app.mapData.name);
-		});
-	}
-	
-	initShowAllButton();
+
 	
 	function initSidebar() {
 		const sidebarContainerDiv = $('#sidebar-container');

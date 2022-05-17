@@ -106,12 +106,20 @@
 	
 	// utility
 	{
-		app.runScript = function(url, options) {
+		app.runScript = runScript;
+		app.getConfigValue = getConfigValue;
+		
+		function runScript(url, options) {
 			return $.ajax($.extend(options || {}, {
 				dataType: "script",
 				cache: false, // todo change this back to true when releasing
 				url: app.basePath + url
 			}));
-		};
+		}
+		
+		function getConfigValue(key, fallback) {
+			const string = localStorage[key];
+			return string === undefined ? fallback : JSON.parse(string);
+		}
 	}
 })();

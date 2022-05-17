@@ -7,11 +7,78 @@
 	app.basePath = location.origin + location.pathname.substr(0, location.pathname.lastIndexOf('/', location.pathname.length - 2) + 1);
 	console.log("Resource path: " + app.basePath);
 	
-	// sidebar setup
+	// marker group list
 	{
-		app.initSidebar = initSidebar;
+		app.initGroupList = initGroupList;
+		app.showMarkerGroup = showMarkerGroup;
+		app.hideMarkerGroup = hideMarkerGroup;
+		app.toggleMarkerGroup = toggleMarkerGroup;
+		app.isMarkerGroupEnabled = isMarkerGroupEnabled;
 		
-		function initSidebar() {
+		const hideAllButton = $('#hide-all');
+		const showAllButton = $('#show-all');
+		
+		function showMarkerGroup(groupName) {
+			const li = $(`#marker-groups li[data-layer="${groupName}"]`);
+			li.removeClass('layer-disabled');
+			app.leafletMap.addLayer(app.leafletLayers[groupName]);
+			saveMarkerGroupVisibility(groupName, true);
+		}
+		
+		function hideMarkerGroup(groupName) {
+			const li = $(`#marker-groups li[data-layer="${groupName}"]`);
+			li.addClass('layer-disabled');
+			app.leafletMap.removeLayer(app.leafletLayers[groupName]);
+			saveMarkerGroupVisibility(groupName, false);
+		}
+		
+		function toggleMarkerGroup(groupName) {
+			if(isMarkerGroupEnabled(groupName)) {
+				hideMarkerGroup(groupName);
+			}
+			else {
+				showMarkerGroup(groupName);
+			}
+		}
+		
+		function isMarkerGroupEnabled(groupName) {
+			return !$(`#marker-groups li[data-layer="${groupName}"]`)
+				.hasClass('layer-disabled');
+		}
+		
+		function saveMarkerGroupVisibility(groupName, visible) {
+			const storageKey = 'markers-' + app.mapData.name;
+			const enabledMarkers = app.getConfigValue(storageKey, {'other': false});
+			enabledMarkers[groupName] = visible;
+			localStorage[storageKey] = JSON.stringify(enabledMarkers);
+		}
+		
+		function initMarkerGroupVisibilityButtons() {
+			if(localStorage['hide-all-' + app.mapData.name]) {
+				hideAllButton.hide();
+				showAllButton.show();
+			}
+			
+			hideAllButton.on('click', () => {
+				for(const group of app.markerGroups) {
+					hideMarkerGroup(group.name);
+				}
+				hideAllButton.hide();
+				showAllButton.show();
+				localStorage['hide-all-' + app.mapData.name] = true;
+			});
+			
+			showAllButton.on('click', () => {
+				for(const group of app.markerGroups) {
+					showMarkerGroup(group.name);
+				}
+				hideAllButton.show();
+				showAllButton.hide();
+				localStorage.removeItem('hide-all-' + app.mapData.name);
+			});
+		}
+		
+		function initGroupList() {
 			const list = document.getElementById('marker-groups');
 			list.textContent = '';
 			
@@ -20,6 +87,8 @@
 				const icon = document.createElement('img');
 				const name = document.createElement('span');
 				
+				item.dataset['layer'] = group.name;
+				$(item).on('click', () => toggleMarkerGroup(group.name));
 				icon.classList.add(group.name);
 				icon.src = `${app.basePath}images/icons/${group.icon ?? group.name}.png`;
 				name.textContent = $.t(`marker.${group.name}.group`);
@@ -33,6 +102,8 @@
 				const item = document.createElement('li');
 				list.appendChild(item);
 			}
+			
+			initMarkerGroupVisibilityButtons();
 		}
 	}
 	
@@ -56,7 +127,7 @@
 			//marker.bindPopup(popup, {});
 			
 			marker.on('contextmenu', () =>
-				toggleMarkerTransparency(lat, lng, marker, group));
+				app.toggleMarkerTransparency(lat, lng, marker, group));
 			
 			if(isMarkerTransparent(lat, lng)) {
 				marker.setOpacity(app.transparentMarkerOpacity ?? 0.5);
@@ -119,6 +190,7 @@
 		app.isMarkerTransparent = isMarkerTransparent;
 		app.setMarkerTransparent = setMarkerTransparent;
 		app.toggleMarkerTransparency = toggleMarkerTransparency;
+		app.initTracking = initTracking;
 		
 		function loadTransparentMarkers() {
 			const key = `transparent-markers-${app.mapData.name}`;
@@ -163,7 +235,60 @@
 		}
 		
 		function updateMarkerCountPill(group) {
-			$('ul.key:not(.controls) > li:not(.none) > i.' + group + ' ~ :last').text(app.markerCount[group]);
+			$(`#marker-groups > li[data-layer="${group}"] > .pill`)
+				.text(app.markerCount[group]);
+		}
+		
+		function initTracking() {
+			$('#reset-tracking').on('click', function(e) {
+				e.preventDefault();
+				if(confirm($.t('controls.reset-markers-confirm'))) {
+					resetTransparentMarkers();
+				}
+			});
+		}
+	}
+	
+	// marker counter pills
+	{
+		app.hideMarkerCounts = hideMarkerCounts;
+		app.showMarkerCounts = showMarkerCounts;
+		app.initCounterPills = initCounterPills;
+		
+		const hideCountsButton = $('#hide-counts');
+		const showCountsButton = $('#show-counts');
+		
+		function hideMarkerCounts() {
+			$('.item-count-pill').hide();
+			hideCountsButton.hide();
+			showCountsButton.show();
+			localStorage['hide-counts'] = true;
+		}
+		
+		function showMarkerCounts() {
+			$('.item-count-pill').show();
+			hideCountsButton.show();
+			showCountsButton.hide();
+			localStorage.removeItem('hide-counts');
+		}
+		
+		function initCounterPills() {
+			hideCountsButton.on('click', () => hideMarkerCounts());
+			showCountsButton.on('click', () => showMarkerCounts());
+			
+			for(const li of $('#marker-groups li[data-layer]').toArray()) {
+				const marker = $(li).attr('data-layer');
+				const pill = $(`<div class='pill item-count-pill'>${app.markerCount[marker] ?? 0}</div>`);
+				$(li).append(pill);
+				if(localStorage['hide-counts']) {
+					pill.hide();
+				}
+			}
+			
+			if(localStorage['hide-counts']) {
+				hideCountsButton.hide();
+				showCountsButton.show();
+			}
 		}
 	}
 	
@@ -337,11 +462,13 @@
 			await app.runScript('scripts/mapdata.js');
 			await app.runScript(`scripts/mapdata/${mapName}.js`);
 			
-			app.initSidebar();
+			app.initGroupList();
 			app.initPageTitle();
 			app.initMapMarkers();
 			app.initLeafletMap();
 			app.initUserMarker();
+			app.initCounterPills();
+			app.initTracking();
 			
 			app.initialized = true;
 		}
