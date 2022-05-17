@@ -163,30 +163,6 @@ $(function() {
 	map.on('popupopen', e => openPopup(e.popup._latlng, e.popup._content));
 	map.on('popupclose', closePopup);
 	
-	function applyLayerVisibility() {
-		const storageKey = 'markers-' + app.mapData.name;
-		const layerVisibility = parseFromLocalStorage(storageKey, {'other': false});
-		for(const [layer, visible] of Object.entries(layerVisibility)) {
-			if(!visible) {
-				$('i.' + layer).parent().addClass('layer-disabled');
-				map.removeLayer(window.layers[layer]);
-			}
-		}
-	}
-	
-	applyLayerVisibility();
-	
-	function createCounterPills() {
-	
-	}
-	
-	createCounterPills();
-	
-
-	
-	
-
-	
 	function initSidebar() {
 		const sidebarContainerDiv = $('#sidebar-container');
 		const sidebarToggleDiv = $('#sidebar-toggle');

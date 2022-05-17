@@ -13,7 +13,9 @@
 		app.showMarkerGroup = showMarkerGroup;
 		app.hideMarkerGroup = hideMarkerGroup;
 		app.toggleMarkerGroup = toggleMarkerGroup;
-		app.isMarkerGroupEnabled = isMarkerGroupEnabled;
+		app.isMarkerGroupVisible = isMarkerGroupVisible;
+		app.loadMarkerGroupVisibility = loadMarkerGroupVisibility;
+		app.saveMarkerGroupVisibility = saveMarkerGroupVisibility;
 		
 		const hideAllButton = $('#hide-all');
 		const showAllButton = $('#show-all');
@@ -21,19 +23,21 @@
 		function showMarkerGroup(groupName) {
 			const li = $(`#marker-groups li[data-layer="${groupName}"]`);
 			li.removeClass('layer-disabled');
-			app.leafletMap.addLayer(app.leafletLayers[groupName]);
+			if(app.leafletLayers[groupName])
+				app.leafletMap.addLayer(app.leafletLayers[groupName]);
 			saveMarkerGroupVisibility(groupName, true);
 		}
 		
 		function hideMarkerGroup(groupName) {
 			const li = $(`#marker-groups li[data-layer="${groupName}"]`);
 			li.addClass('layer-disabled');
-			app.leafletMap.removeLayer(app.leafletLayers[groupName]);
+			if(app.leafletLayers[groupName])
+				app.leafletMap.removeLayer(app.leafletLayers[groupName]);
 			saveMarkerGroupVisibility(groupName, false);
 		}
 		
 		function toggleMarkerGroup(groupName) {
-			if(isMarkerGroupEnabled(groupName)) {
+			if(isMarkerGroupVisible(groupName)) {
 				hideMarkerGroup(groupName);
 			}
 			else {
@@ -41,14 +45,19 @@
 			}
 		}
 		
-		function isMarkerGroupEnabled(groupName) {
+		function isMarkerGroupVisible(groupName) {
 			return !$(`#marker-groups li[data-layer="${groupName}"]`)
 				.hasClass('layer-disabled');
 		}
 		
+		function loadMarkerGroupVisibility() {
+			const storageKey = 'group-visibility-' + app.mapData.name;
+			return app.getConfigValue(storageKey, {'other': false});
+		}
+		
 		function saveMarkerGroupVisibility(groupName, visible) {
-			const storageKey = 'markers-' + app.mapData.name;
-			const enabledMarkers = app.getConfigValue(storageKey, {'other': false});
+			const storageKey = 'group-visibility-' + app.mapData.name;
+			const enabledMarkers = loadMarkerGroupVisibility();
 			enabledMarkers[groupName] = visible;
 			localStorage[storageKey] = JSON.stringify(enabledMarkers);
 		}
@@ -82,6 +91,8 @@
 			const list = document.getElementById('marker-groups');
 			list.textContent = '';
 			
+			const visibility = app.loadMarkerGroupVisibility();
+			
 			for(const group of app.markerGroups) {
 				const item = document.createElement('li');
 				const icon = document.createElement('img');
@@ -89,6 +100,9 @@
 				
 				item.dataset['layer'] = group.name;
 				$(item).on('click', () => toggleMarkerGroup(group.name));
+				if(!(visibility[group.name] ?? true))
+					item.classList.add('layer-disabled');
+				
 				icon.classList.add(group.name);
 				icon.src = `${app.basePath}images/icons/${group.icon ?? group.name}.png`;
 				name.textContent = $.t(`marker.${group.name}.group`);
@@ -176,8 +190,7 @@
 			app.leafletLayers = {};
 			
 			for(const group in layers) {
-				const layer = layers[group];
-				app.leafletLayers[group] = L.layerGroup(layer);
+				app.leafletLayers[group] = L.layerGroup(layers[group]);
 			}
 		}
 	}
@@ -347,7 +360,7 @@
 			
 			app.leafletMap = L.map('map', {
 				crs: L.CRS.Pixel,
-				layers: Object.values(app.leafletLayers || {}),
+				layers: [],
 				
 				minZoom: 1,
 				maxZoom: 7,
@@ -357,6 +370,13 @@
 			});
 			
 			app.leafletMap.setMaxBounds([[0, 0], [h, w]]);
+			
+			// add only the visible layers to the map
+			for(const [group, layer] of Object.entries(app.leafletLayers)) {
+				if(app.isMarkerGroupVisible(group)) {
+					app.leafletMap.addLayer(layer);
+				}
+			}
 			
 			// set up hash and parse initial map view
 			app.leafletHash = L.hash(app.leafletMap, {precision: 0});
