@@ -7,6 +7,98 @@
 	app.basePath = location.origin + location.pathname.substr(0, location.pathname.lastIndexOf('/', location.pathname.length - 2) + 1);
 	console.log("Resource path: " + app.basePath);
 	
+	// sidebar setup
+	{
+		app.isSidebarHidden = isSidebarHidden;
+		app.hideSidebar = hideSidebar;
+		app.showSidebar = showSidebar;
+		app.toggleSidebar = toggleSidebar;
+		app.updateSidebar = updateSidebar;
+		app.initSidebar = initSidebar;
+		
+		const sidebarContainer = $('#sidebar-container');
+		const sidebarToggle = $('#sidebar-toggle');
+		const mapElement = $('#map');
+		const sidebarAnimationDuration = 200;
+		
+		let sidebarSmall;
+		let sidebarWidth;
+		let mapLeft;
+		
+		function isSidebarHidden() {
+			return localStorage['hide-sidebar'];
+		}
+		
+		function stopSidebarAnimation() {
+			sidebarContainer.stop();
+			sidebarToggle.stop();
+			mapElement.stop();
+		}
+		
+		function hideSidebar(duration) {
+			stopSidebarAnimation();
+			//infoContainerDiv.addClass('full-width');
+			sidebarToggle.addClass('show-sidebar');
+			sidebarToggle.animate({left: '0px'}, duration);
+			sidebarContainer.animate({width: '15px'}, duration);
+			mapElement.animate({left: '0px'}, {
+				duration,
+				step: () => app.leafletMap?.invalidateSize(),
+				complete: () => app.leafletMap?.invalidateSize()
+			});
+			localStorage['hide-sidebar'] = true;
+		}
+		
+		function showSidebar(duration) {
+			stopSidebarAnimation();
+			sidebarToggle.animate({left: mapLeft + 'px'}, duration);
+			sidebarToggle.removeClass('show-sidebar');
+			mapElement.animate({left: mapLeft + 'px'}, {
+				duration,
+				step: () => app.leafletMap?.invalidateSize(),
+				complete: () => app.leafletMap?.invalidateSize()
+			});
+			sidebarContainer.animate({width: sidebarWidth + 'px'}, duration, function() {
+				//infoContainerDiv.removeClass('full-width');
+			});
+			localStorage.removeItem('hide-sidebar');
+		}
+		
+		function toggleSidebar() {
+			if(isSidebarHidden())
+				showSidebar(sidebarAnimationDuration);
+			else
+				hideSidebar(sidebarAnimationDuration);
+		}
+		
+		function updateSidebar() {
+			sidebarSmall = $(window).width() <= 768;
+			sidebarWidth = sidebarSmall ? 220 : 400;
+			mapLeft = sidebarWidth - 15;
+			
+			stopSidebarAnimation();
+			if(isSidebarHidden()) {
+				hideSidebar(0);
+			} else {
+				showSidebar(0);
+			}
+			
+			app.leafletMap?.invalidateSize();
+		}
+		
+		function initSidebar() {
+			$('#sidebar').niceScroll({
+				cursorcolor: '#5E4F32',
+				cursorborder: 'none',
+			});
+			
+			updateSidebar();
+			
+			sidebarToggle.on('click', () => toggleSidebar());
+			$(window).on('resize', () => updateSidebar());
+		}
+	}
+	
 	// marker group list
 	{
 		app.initGroupList = initGroupList;
@@ -482,6 +574,7 @@
 			await app.runScript('scripts/mapdata.js');
 			await app.runScript(`scripts/mapdata/${mapName}.js`);
 			
+			app.initSidebar();
 			app.initGroupList();
 			app.initPageTitle();
 			app.initMapMarkers();
