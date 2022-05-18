@@ -558,10 +558,66 @@
 		}
 	}
 	
+	// modal popups
+	{
+		app.pushModal = pushModal;
+		app.popModal = popModal;
+		
+		const modals = [];
+		let modalId = 1;
+		
+		function pushModal(title, content) {
+			const id = 'modal-' + modalId++;
+			
+			const modal = $(`
+				<div id="${id}" class="popup-overlay">
+					<div class="popup-wrap">
+						<div class="popup-border">
+							<img class="popup-close" src="../images/exit.png" alt="Close" onclick="app.popModal();">
+							<div class="popup-content">
+								<h1>${title}</h1>
+								<hr>
+								${content}
+							</div>
+						</div>
+					</div>
+				</div>
+			`);
+			
+			if(modals.length > 0) {
+				modals[modals.length - 1].remove();
+			}
+			
+			modals.push(modal);
+			$('body').prepend(modal);
+			
+			$(`#${id} .popup-content`).niceScroll({
+				cursorcolor: '#5E4F32',
+				cursorborder: 'none',
+				autohidemode: false,
+				railpadding: {top: 22, right: 5, bottom: 5},
+				horizrailenabled: false
+			});
+		}
+		
+		function popModal() {
+			if(modals.length === 0) return;
+			
+			const current = modals.pop();
+			$(current).getNiceScroll().remove();
+			current.remove();
+			
+			if(modals.length > 0) {
+				$('body').prepend(modals[modals.length - 1]);
+			}
+		}
+	}
+	
 	// initialization
 	{
 		app.initPage = initPage;
 		app.initPageTitle = initPageTitle;
+		app.initCredits = initCredits;
 		
 		async function initPage() {
 			await app.runScript('scripts/config.js');
@@ -582,6 +638,7 @@
 			app.initUserMarker();
 			app.initCounterPills();
 			app.initTracking();
+			app.initCredits();
 			
 			app.initialized = true;
 		}
@@ -590,6 +647,13 @@
 			const mapTitle = $.t(`maps.${app.mapData.name}`).replace('<br>', ' ');
 			const pageTitle = $.t('home.title');
 			document.title = `${mapTitle} - ${pageTitle}`;
+		}
+		
+		function initCredits() {
+			$('#credits').on('click', e => {
+				e.preventDefault();
+				app.pushModal('Credits', app.creditsText);
+			});
 		}
 	}
 	

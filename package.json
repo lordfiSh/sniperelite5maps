@@ -60,9 +60,8 @@
     "i18next-http-backend": "^1.4.0",
     "jquery": "^3.0.0",
     "jquery-i18next": "^1.2.1",
-    "jquery.nicescroll": "github:inuyaksa/jquery.nicescroll",
-    "leaflet": "^1.8.0",
-    "nicescroll": "github:inuyaksa/jquery.nicescroll"
+    "jquery.nicescroll": "^3.7.6",
+    "leaflet": "^1.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",

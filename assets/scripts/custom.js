@@ -184,58 +184,6 @@ $(function() {
 	
 	initMobileWarning();
 	
-	var popupClick = function(e) {
-		if($(e.target).is('#popup-content') || $(e.toElement.offsetParent).is('#popup-content') || $(e.toElement.offsetParent).is('#popup-wrap')) {
-			return;
-		}
-		console.log("popupClick");
-		closePopup();
-	};
-	
-	window.popupClose = function() {
-		$('#popup-wrap').remove();
-		$(document).off('click', '*', popupClick);
-	};
-	
-	var popup = function(title, content) {
-		$('body').prepend('<div id="popup-wrap"><div id="popup-border"><img id="popup-close" src="../files/images/exit.png" alt="Close" onclick="popupClose();"><div id="popup-content"><h1>' + title + '</h1><hr>' + content + '</div></div></div>');
-		$('div#popup-content').niceScroll({
-			cursorcolor: '#5E4F32',
-			cursorborder: 'none',
-			autohidemode: false,
-			railpadding: {top: 22, right: 5, bottom: 5}
-		});
-		$(document).on('click', '*', popupClick);
-	};
-	
-	$(document).on('click', '.credits', function(e) {
-		e.preventDefault();
-		popup('Credits', [
-			'<p>Sniper Elite 5 Map created by <a href="https://wiiare.in" target="_blank">lordfiSh</a>. Original Code by <a href="https://github.com/untamed0" target="_blank">untamed0</a>, with contributions from:</p>',
-			'<ul>',
-			'<li><a href="https://github.com/mcarver" target="_blank">mcarver</a> (lead contributor) - Marker count, hash permalink improvements, backup/restore settings, numerous fixes etc.</li>',
-			'<li><a href="https://github.com/ankri" target="_blank">ankri</a> - Ability to hide markers on right or double click</li>',
-			'<li><a href="https://github.com/ITroxxCH" target="_blank">ITroxxCH</a> - Translation/i18n implementation</li>',
-			'<li><a href="https://github.com/msmorgan" target="_blank">msmorgan</a> - Javascript &amp; map data structure improvements</li>',
-			'<li><a href="https://github.com/AtomCrafty" target="_blank">AtomCrafty</a> - 2021 software rewrite, high resolution maps and icons, updated marker placement</li>',
-			'<li><a href="https://github.com/CBernjus" target="_blank">CBernjus</a> - Updated marker placement and detailed descriptions</li>',
-			'</ul>',
-			'<h3>Sniper Elite 5 Assets</h3>',
-			'<p>Sniper Elite 5 logo, icons, map &amp; text are the property of <a href="http://www.rebellion.co.uk/" target="_blank">Rebellion</a> and used without their permission. </p>',
-			'<h3>Javascript libraries used</h3>',
-			'<ul>',
-			'<li><a href="http://jquery.com" target="_blank">jQuery</a> (MIT)</li>',
-			'<li><a href="http://git.io/vkLly" target="_blank">jQuery.NiceScroll</a> (MIT)</li>',
-			'<li><a href="http://leafletjs.com" target="_blank">Leaflet</a> (BSD2)</li>',
-			'<li><a href="http://git.io/vkfA2" target="_blank">Leaflet.label</a> (MIT)</li>',
-			'<li><a href="http://git.io/mwK1oA" target="_blank">Leaflet-hash</a> (MIT)</li>',
-			'<li><a href="http://git.io/vJw5v" target="_blank">Leaflet.fullscreen</a> (BSD2)</li>',
-			'<li><a href="http://git.io/vkCPC" target="_blank">Leaflet Control Search</a> (MIT)</li>',
-			'<li><a href="http://git.io/vIAs2" target="_blank">Font Awesome</a> (MIT)</li>',
-			'</ul>'
-		].join('\n'));
-	});
-	
 	setTimeout(function() {
 		$('ul.key:not(.controls) li:not(.none) i').each(function(i, e) {
 			var key = $(this).attr('class');

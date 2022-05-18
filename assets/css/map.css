@@ -28,7 +28,7 @@ html, body {
     bottom: 0;
     right: 15px;
     background: #000;
-    padding: 15px 10px 0px 15px;
+    padding: 15px 10px 0 15px;
     font-family: 'PFDinTextCondPro', Arial, sans-serif;
     color: #fff;
     overflow: hidden;
@@ -68,7 +68,6 @@ html, body {
     max-width: 100px;
     white-space: pre-wrap; /* CSS3 */
     white-space: -moz-pre-wrap; /* Firefox */
-    white-space: -pre-wrap; /* Opera <7 */
     white-space: -o-pre-wrap; /* Opera 7 */
     word-wrap: break-word; /* IE */
 }
@@ -163,6 +162,7 @@ html, body {
     width: 15px;
     float: left;
     text-align: center;
+    font-weight: bold;
 }
 
 #marker-groups > li.layer-disabled {
@@ -265,7 +265,7 @@ html, body {
 }
 
 #info-container.full-width {
-    left: 0px;
+    left: 0;
     width: 100%;
 }
 
@@ -344,7 +344,7 @@ html, body {
     background-color: #97702F;
     border-color: #B08948;
     margin-left: 5px;
-    padding: 2px 3px 0px 4px;
+    padding: 2px 3px 0 4px;
     border-radius: 7px;
     font-size: 18px;
     cursor: pointer;
@@ -396,8 +396,8 @@ html, body {
     display: block;
     position: absolute;
     left: 385px;
-    top: 0px;
-    background: rgba(0, 0, 0, .7) url(../images/sidebarhide.png) no-repeat 0px 3px;
+    top: 0;
+    background: rgba(0, 0, 0, .7) url(../images/sidebarhide.png) no-repeat 0 3px;
     border-bottom-right-radius: 8px;
     width: 28px;
     height: 32px;
@@ -405,11 +405,19 @@ html, body {
 }
 
 #sidebar-toggle.show-sidebar {
-    left: 0px;
+    left: 0;
     background-position: -22px 3px;
 }
 
-#popup-wrap {
+.popup-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 8;
+}
+
+.popup-wrap {
     display: flex;
     position: absolute;
     top: 0;
@@ -425,16 +433,16 @@ html, body {
     z-index: 8;
 }
 
-#popup-wrap #popup-border {
+.popup-wrap .popup-border {
     position: relative;
     background: #0E0E0F;
     padding: 5px;
-    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.75);
 }
 
-#popup-wrap #popup-content {
+.popup-wrap .popup-content {
     position: relative;
     border: 1px solid #393128;
     padding: 20px;
@@ -443,16 +451,16 @@ html, body {
     font-family: 'PFDinTextCondPro', Arial, sans-serif;
 }
 
-#popup-wrap #popup-content a {
+.popup-wrap .popup-content a {
     color: #8C8068;
     text-decoration: none;
 }
 
-#popup-wrap #popup-content a:hover {
+.popup-wrap .popup-content a:hover {
     text-decoration: underline;
 }
 
-#popup-wrap h1 {
+.popup-wrap h1 {
     text-transform: uppercase;
     margin: -0.35em 0 0.25em;
     font-size: 2em;
@@ -460,12 +468,12 @@ html, body {
     color: #635540;
 }
 
-#popup-wrap h3 {
+.popup-wrap h3 {
     margin: 0;
     padding: 0;
 }
 
-#popup-wrap hr {
+.popup-wrap hr {
     height: 1px;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0)), color-stop(0.5, #635540), to(rgba(0, 0, 0, 0)));
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #635540, rgba(0, 0, 0, 0));
@@ -475,7 +483,7 @@ html, body {
     border: 0;
 }
 
-#popup-wrap img#popup-close {
+.popup-wrap img.popup-close {
     position: absolute;
     top: 4px;
     right: 4px;
@@ -483,6 +491,12 @@ html, body {
     height: 20px;
     z-index: 10;
     cursor: pointer;
+}
+
+/* ugly fix because nicescroll rails are *
+ * horizontally centered for some reason */
+.popup-border ~ .nicescroll-rails-vr {
+    right: 6px;
 }
 
 @media all and (max-width: 768px) {
@@ -517,7 +531,7 @@ html, body {
         display: none;
     }
 
-    #popup-wrap {
+    .popup-wrap {
         display: block;
         max-width: 95%;
         width: 95%;
@@ -527,12 +541,12 @@ html, body {
         overflow: hidden;
     }
 
-    #popup-wrap #popup-border {
+    .popup-wrap .popup-border {
         max-height: 100%;
         height: 100%;
     }
 
-    #popup-wrap #popup-content {
+    .popup-wrap .popup-content {
         max-height: none;
         height: calc(100% - 52px);
     }
@@ -564,7 +578,7 @@ html, body {
         font-size: 15px;
         margin-left: 10px;
         line-height: normal;
-        margin-right: 0px !important;
+        margin-right: 0 !important;
     }
 
     #info-fade-outro {
@@ -601,8 +615,8 @@ html, body {
 }
 
 .leaflet-marker-icon {
-    filter: drop-shadow(0px 0px 3px black);
-    -webkit-filter: drop-shadow(0px 0px 3px black);
+    filter: drop-shadow(0px 0 3px black);
+    -webkit-filter: drop-shadow(0px 0 3px black);
 }
 
 .leaflet-container {
@@ -725,8 +739,7 @@ html, body {
 }
 
 .leaflet-control-search .search-button:hover {
-    background: url(../images/searchhover.png) no-repeat 2px 2px;
-    background-color: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .3) url(../images/searchhover.png) no-repeat 2px 2px;
 }
 
 .leaflet-control-search .search-tooltip {
@@ -747,7 +760,7 @@ html, body {
 }
 
 .leaflet-control-search .search-tip {
-    margin: 0px;
+    margin: 0;
     padding: 2px 4px;
     display: block;
     color: #999;
@@ -872,7 +885,7 @@ div.leaflet-bar a.leaflet-disabled:hover {
 }
 
 button.easy-button-button {
-    padding-top: 0px;
+    padding-top: 0;
     padding-left: 4px;
     padding-right: 4px;
 }

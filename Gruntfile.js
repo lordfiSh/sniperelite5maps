@@ -103,24 +103,26 @@ module.exports = function (grunt) {
 			vendor: {
 				src: [
 					'node_modules/jquery/dist/jquery.js',
+					'node_modules/jquery.nicescroll/jquery.nicescroll.js',
 					'node_modules/ddslick/src/jquery.ddslick.js',
-					'node_modules/nicescroll/jquery.nicescroll.js',
 					
 					'node_modules/i18next/i18next.js',
 					'node_modules/i18next-http-backend/i18nextHttpBackend.js',
 					'node_modules/jquery-i18next/jquery-i18next.js',
 					
-					'node_modules/file-saver/dist/FileSaver.js',
 					'node_modules/leaflet/dist/leaflet-src.js',
+					
+					'node_modules/file-saver/dist/FileSaver.js',
 					'node_modules/fuse.js/src/fuse.js',
 					
 					'assets/scripts/vendor/**.js',
 				],
 				dest: 'dist/scripts/vendor.bundle.js',
 				options: {
-					compress: {
-						drop_debugger: false
-					}
+					// TODO change this back
+					mangle: false,
+					compress: false,
+					beautify: true
 				}
 			},
 		},
