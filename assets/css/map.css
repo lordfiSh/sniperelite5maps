@@ -683,10 +683,6 @@ html, body {
     content: "";
 }
 
-.leaflet-popup {
-    display: none !important;
-}
-
 .leaflet-container .leaflet-control-search {
     position: relative;
     float: left;

@@ -1,6 +1,4 @@
-const leaflet = L;
 $(function() {
-	const L = leaflet;
 	
 	
 

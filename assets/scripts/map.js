@@ -223,7 +223,7 @@
 			const group = markerInfo.group;
 			const icon = getIcon(markerInfo.icon ?? group);
 			const label = markerInfo.label;
-			const popup = "<h1>" + label + "</h1>" + (markerInfo.popup ? markerInfo.popup + "<br>" : "") + "<small>" + $.t(`marker.${group}.desc`) + "</small>";
+			const popup = "<h3>" + label + "</h3>" + markerInfo.popup;
 			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
 			
 			const lat = marker.getLatLng().lat;
