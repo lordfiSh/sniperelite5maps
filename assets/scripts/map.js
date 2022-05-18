@@ -229,8 +229,8 @@
 			const lat = marker.getLatLng().lat;
 			const lng = marker.getLatLng().lng;
 			
-			//marker.bindLabel(label);
-			//marker.bindPopup(popup, {});
+			marker.bindTooltip(label, {});
+			marker.bindPopup(popup, {});
 			
 			marker.on('contextmenu', () =>
 				app.toggleMarkerTransparency(lat, lng, marker, group));
@@ -470,6 +470,9 @@
 				}
 			}
 			
+			//app.leafletMap.on('popupopen', e => console.log('popupopen', e));
+			//app.leafletMap.on('popupclose', e => console.log('popupclose', e));
+			
 			// set up hash and parse initial map view
 			app.leafletHash = L.hash(app.leafletMap, {precision: 0});
 			const hashInfo = app.leafletHash.parseHash();
@@ -502,7 +505,7 @@
 			
 			//* debug output on right-click
 			app.leafletMap.on('contextmenu', function(e) {
-				console.log(`x: ${e.latlng.lng}, y: ${e.latlng.lat}`);
+				console.log(`x: ${Math.round(e.latlng.lng)}, y: ${Math.round(e.latlng.lat)}`);
 			});
 			//*/
 		}
@@ -529,6 +532,8 @@
 			const marker = new L.Marker([0, 0], {icon});
 			marker.on('click', hideUserMarker);
 			marker.on('contextmenu', hideUserMarker);
+			// TODO temp for debugging tooltip style
+			marker.bindTooltip('User marker', {permanent: true});
 			return marker;
 		}
 		
@@ -544,8 +549,33 @@
 			app.leafletHash.removeParam('w');
 		}
 		
+		function parseCoordinates(string) {
+			if(!string) return undefined;
+			
+			const coords = string.split(',');
+			if(coords.length !== 2) {
+				console.error('Invalid coordinate string: ' + string);
+				return undefined;
+			}
+			
+			const lat = parseFloat(coords[0]);
+			const lng = parseFloat(coords[1]);
+			if(lat === undefined || lng === undefined) {
+				console.error('Invalid coordinate string: ' + string);
+				return undefined;
+			}
+			
+			return L.latLng(lat, lng);
+		}
+		
 		function initUserMarker() {
 			userMarker = createUserMarker();
+			
+			const params = app.leafletHash.getHashParams();
+			if(params['w']) {
+				const coords = parseCoordinates(params['w']);
+				if(coords) showUserMarkerAt(coords);
+			}
 			
 			app.leafletMap.on('contextmenu', function(e) {
 				let w = app.mapData.dimensions[0];
