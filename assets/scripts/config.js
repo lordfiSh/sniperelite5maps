@@ -56,16 +56,19 @@ app.iconTypes = {
 
 app.creditsText = `
 	<h3>Contributors</h3>
-	<ul>
-		<li><a href="https://github.com/untamed0" target="_blank">untamed0</a> - Original implementation</li>
-		<li><a href="https://github.com/mcarver" target="_blank">mcarver</a> - Marker count, hash permalink improvements, backup/restore settings, numerous fixes etc.</li>
-		<li><a href="https://github.com/ankri" target="_blank">ankri</a> - Ability to hide markers on right or double click</li>
-		<li><a href="https://github.com/ITroxxCH" target="_blank">ITroxxCH</a> - Translation/i18n implementation</li>
-		<li><a href="https://github.com/msmorgan" target="_blank">msmorgan</a> - Javascript &amp; map data structure improvements</li>
-		<li><a href="https://wiiare.in" target="_blank">lordfiSh</a> - </li>
-		<li><a href="https://github.com/AtomCrafty" target="_blank">AtomCrafty</a> - 2021 software rewrite, high resolution maps and icons, updated marker placement</li>
-		<li><a href="https://github.com/CBernjus" target="_blank">CBernjus</a> - Updated marker placement and detailed descriptions</li>
-	</ul>
+	<p>
+		Sniper Elite 5 map is a rewrite by
+		<a href="https://github.com/AtomCrafty" target="_blank">AtomCrafty</a>
+		and other
+		<a href="https://github.com/lordfiSh/sniperelite5maps/graphs/contributors">contributors</a>,
+		based on the
+		<a href="https://github.com/witcher3map/witcher3map">witcher3map</a>
+		project by
+		<a href="https://github.com/untamed0" target="_blank">untamed0</a>,
+		<a href="https://github.com/mcarver" target="_blank">mcarver</a>
+		and the help of
+		<a href="https://github.com/witcher3map/witcher3map/graphs/contributors" target="_blank">many more</a>.
+	</p>
 	
 	<h3>Sniper Elite 5 assets</h3>
 	<p>Sniper Elite 5 logo, icons, map &amp; text are the property of <a href="http://www.rebellion.co.uk/" target="_blank">Rebellion</a> and used without their permission. </p>
