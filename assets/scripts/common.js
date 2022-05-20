@@ -5,9 +5,8 @@
 		return;
 	}
 	
-	window.app = {
-		loaded: true
-	};
+	window.app ??= {};
+	app.loaded = true;
 	
 	// localization
 	{

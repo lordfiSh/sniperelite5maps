@@ -1,3 +1,5 @@
+window.app ??= {};
+
 app.transparentMarkerOpacity = 0.5;
 
 app.quickSubmit = {

@@ -115,8 +115,6 @@
 		}
 		
 		async function initPage() {
-			await app.runScript('scripts/config.js');
-			
 			await app.initLocalization();
 			
 			app.initMapList();

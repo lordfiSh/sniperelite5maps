@@ -662,8 +662,6 @@
 		app.initCredits = initCredits;
 		
 		async function initPage() {
-			await app.runScript('scripts/config.js');
-			
 			app.mapSlug = location.pathname.match(/\/(\w+)\/?$/)[1];
 			const mapName = app.maps[app.mapSlug];
 			
