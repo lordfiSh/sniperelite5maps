@@ -1,5 +1,19 @@
 app.transparentMarkerOpacity = 0.5;
 
+app.quickSubmit = {
+	enable: true,
+	links: {
+		m01: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+1:+The+Atlantic+Wall&entry.859563308=',
+		m02: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+2:+Occupied+Residence&entry.859563308=',
+		m03: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+3:+Spy+Academy&entry.859563308=',
+		m04: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+4:+War+Factory&entry.859563308=',
+		m05: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+5:+Festung+Guernsey&entry.859563308=',
+		m06: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+6:+Lib%C3%A9ration&entry.859563308=',
+		m07: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+7:+Secret+Weapons&entry.859563308=',
+		m08: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+8:+Rubble+And+Ruin&entry.859563308='
+	}
+};
+
 app.maps = {
 	m01: 'm01-the-atlantic-wall',
 	m02: 'm02-occupied-residence',

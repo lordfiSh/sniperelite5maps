@@ -683,6 +683,14 @@ html, body {
     content: "";
 }
 
+.leaflet-tooltip a {
+    color: #B08948;
+}
+
+.leaflet-tooltip a:hover {
+    color: #F0CB0B;
+}
+
 .leaflet-container .leaflet-control-search {
     position: relative;
     float: left;

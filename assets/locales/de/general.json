@@ -49,7 +49,12 @@
     "note-add": "Notiz hinzufügen",
     "note-cancel": "Notizerstellung abbrechen"
   },
+  "sidebar": {
+    "info": "An dieser Seite wird noch aktiv gearbeitet.<br>Melde Probleme bitte auf <a href=\"https://github.com/lordfiSh/sniperelite5maps/issues\" target=\"_blank\">GitHub</a>."
+  },
   "marker": {
+    "unverified": "(Unbestätigt) {{label}}",
+    "submit": "Marker bei {{y}},{{x}} vorschlagen",
     "letter-from-home": {
       "group": "Briefe aus der Heimat",
       "label": "Brief aus der Heimat",

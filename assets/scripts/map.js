@@ -1,4 +1,4 @@
-(async () => {
+(() => {
 	if(!app.loaded) {
 		console.error("map.js must be loaded after common.js");
 		return;
@@ -131,8 +131,7 @@
 		function toggleMarkerGroup(groupName) {
 			if(isMarkerGroupVisible(groupName)) {
 				hideMarkerGroup(groupName);
-			}
-			else {
+			} else {
 				showMarkerGroup(groupName);
 			}
 		}
@@ -222,9 +221,13 @@
 		function createLeafletMarker(markerInfo) {
 			const group = markerInfo.group;
 			const icon = getIcon(markerInfo.icon ?? group);
-			const label = markerInfo.label;
+			let label = markerInfo.label;
 			const popup = "<h3>" + label + "</h3>" + markerInfo.popup;
 			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
+			
+			if(markerInfo['unverified']) {
+				label = $.t('marker.unverified', {label});
+			}
 			
 			const lat = marker.getLatLng().lat;
 			const lng = marker.getLatLng().lng;
@@ -532,16 +535,25 @@
 			const marker = new L.Marker([0, 0], {icon});
 			marker.on('click', hideUserMarker);
 			marker.on('contextmenu', hideUserMarker);
-			// TODO temp for debugging tooltip style
-			marker.bindTooltip('User marker', {permanent: true});
 			return marker;
 		}
 		
 		function showUserMarkerAt(position) {
-			const latlng = L.latLng(position);
+			position = L.latLng(position);
+			const lat = Math.round(position.lat);
+			const lng = Math.round(position.lng);
 			userMarker.setLatLng(position);
+			if(app.quickSubmit?.enable && app.quickSubmit.links) {
+				const url = app.quickSubmit.links[app.mapSlug];
+				if(url) {
+					userMarker.bindTooltip(`<a href="${url}${lat},${lng}" target="_blank">${$.t('marker.submit', {y:lat, x:lng})}</a>`, {permanent: true, interactive: true});
+				}
+				else {
+					userMarker.unbindTooltip();
+				}
+			}
 			app.leafletMap.addLayer(userMarker);
-			app.leafletHash.setParam('w', latlng.lat.toFixed(0) + ',' + latlng.lng.toFixed(0));
+			app.leafletHash.setParam('w', lat + ',' + lng);
 		}
 		
 		function hideUserMarker() {
@@ -652,8 +664,8 @@
 		async function initPage() {
 			await app.runScript('scripts/config.js');
 			
-			const namespace = location.pathname.match(/\/(\w+)\/?$/)[1];
-			const mapName = app.maps[namespace];
+			app.mapSlug = location.pathname.match(/\/(\w+)\/?$/)[1];
+			const mapName = app.maps[app.mapSlug];
 			
 			await app.initLocalization();
 			await app.loadLocalizationNamespace(mapName);

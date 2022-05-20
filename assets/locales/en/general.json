@@ -48,7 +48,12 @@
     "note-add": "Add Note",
     "note-cancel": "Cancel Note"
   },
+  "sidebar": {
+    "info": "This page is under active development.<br>If you find any issues, please let us know on <a href=\"https://github.com/lordfiSh/sniperelite5maps/issues\" target=\"_blank\">GitHub</a>."
+  },
   "marker": {
+    "unverified": "(Unverified) {{label}}",
+    "submit": "Submit marker at {{y}},{{x}}",
     "letter-from-home": {
       "group": "Letters from Home",
       "label": "Letter from Home",
