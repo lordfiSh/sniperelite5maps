@@ -3,7 +3,7 @@
     "short_name": "Sniper Elite 5 Map",
     "icons": [
         {
-            "src": "/images/android-chrome-72x72.png",
+            "src": "images/android-chrome-72x72.png",
             "sizes": "72x72",
             "type": "image/png"
         }
