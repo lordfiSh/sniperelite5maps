@@ -69,6 +69,12 @@ module.exports = function (grunt) {
 				src: ['**'],
 				dest: 'dist/fonts/',
 			},
+			manifest: {
+				expand: true,
+				cwd: 'assets/',
+				src: ['browserconfig.xml', 'site.webmanifest'],
+				dest: 'dist/',
+			},
 		},
 
 		// COPY will copy EVERY file in the directory regardless of what changed
@@ -108,9 +114,9 @@ module.exports = function (grunt) {
 					'node_modules/jquery-i18next/jquery-i18next.js',
 					
 					'node_modules/leaflet/dist/leaflet-src.js',
+					'node_modules/leaflet-search/dist/leaflet-search.src.js',
 					
-					'node_modules/file-saver/dist/FileSaver.js',
-					'node_modules/fuse.js/src/fuse.js',
+					'node_modules/fuse.js/dist/fuse.js',
 					
 					'assets/scripts/vendor/**.js',
 				],
