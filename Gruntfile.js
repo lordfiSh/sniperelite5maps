@@ -20,7 +20,6 @@ module.exports = function (grunt) {
 			],
 			dist: [
 				'dist/*',
-				'!dist/images',
 				'!dist/maps',
 			],
 		},
@@ -58,14 +57,12 @@ module.exports = function (grunt) {
 				src: ['**'],
 				dest: 'dist/locales/',
 			},
-			/*
 			images: {
 				expand: true,
 				cwd: 'assets/images/',
 				src: ['**'],
 				dest: 'dist/images/',
 			},
-			*/
 			fonts: {
 				expand: true,
 				cwd: 'assets/fonts/',
