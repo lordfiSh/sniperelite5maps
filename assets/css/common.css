@@ -6,7 +6,11 @@
     user-select: none;
 }
 
-div#lang {
+html, body {
+    background-color: #222;
+}
+
+#lang {
     text-align: center;
 }
 
