@@ -4,7 +4,7 @@
 		return;
 	}
 	
-	app.basePath = location.origin + location.pathname.substr(0, location.pathname.lastIndexOf('/', location.pathname.length - 2) + 1);
+	app.basePath = location.origin + location.pathname.substring(0, location.pathname.lastIndexOf('/', location.pathname.length - 2) + 1);
 	console.log("Resource path: " + app.basePath);
 	
 	// sidebar setup

@@ -1,7 +1,7 @@
 // based on https://github.com/sephcoster/leaflet-hash
 (function(window) {
 	const HAS_HASHCHANGE = (function() {
-		// noinspection JSUnresolvedconstiable
+		// noinspection JSUnresolvedVariable
 		const doc_mode = window.documentMode;
 		return ('onhashchange' in window) &&
 			(doc_mode === undefined || doc_mode > 7);
