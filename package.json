@@ -35,11 +35,27 @@
   "dependencies": {
     "compression": "^1.6.2",
     "ddslick": "^1.0.3",
-    "express": "^4.18.1",
     "file-saver": "^2.0.2",
     "font-awesome": "^4.6.3",
     "fuse.js": "^6.6.2",
+    "i18next": "^21.8.3",
+    "i18next-client": "^1.11.4",
+    "i18next-http-backend": "^1.4.0",
+    "jquery": "^3.0.0",
+    "jquery-i18next": "^1.2.1",
+    "jquery.nicescroll": "^3.7.6",
+    "leaflet": "^1.8.0",
+    "leaflet-search": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.18.0",
+    "express": "^4.18.1",
+    "gruntify-eslint": "^5.0.0",
     "grunt": "^1.5.3",
+    "grunt-babel": "^8.0.0",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-csslint": "^2.0.0",
@@ -49,25 +65,8 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-curl": "^2.5.1",
     "grunt-express-server": "^0.5.3",
-    "grunt-htmlhint": "^0.4.1",
     "grunt-jsonlint": "^1.1.0",
-    "grunt-sitemap-xml": "^0.3.0",
     "grunt-sync": "^0.8.2",
-    "grunt-zip": "^0.14.0",
-    "gruntify-eslint": "^5.0.0",
-    "i18next": "^21.8.3",
-    "i18next-client": "^1.11.4",
-    "i18next-http-backend": "^1.4.0",
-    "jquery": "^3.0.0",
-    "jquery-i18next": "^1.2.1",
-    "jquery.nicescroll": "^3.7.6",
-    "leaflet": "^1.8.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.18.0",
-    "@babel/eslint-parser": "^7.17.0",
-    "@babel/preset-env": "^7.18.0",
-    "grunt-babel": "^8.0.0"
+    "grunt-zip": "^0.14.0"
   }
 }
