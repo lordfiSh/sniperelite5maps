@@ -67,6 +67,7 @@
     "grunt-curl": "^2.5.1",
     "grunt-express-server": "^0.5.3",
     "grunt-jsonlint": "^1.1.0",
+    "grunt-real-favicon": "^0.2.4",
     "grunt-sync": "^0.8.2",
     "grunt-zip": "^0.14.0"
   }

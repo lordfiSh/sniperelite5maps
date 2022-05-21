@@ -199,6 +199,71 @@ module.exports = function (grunt) {
 			}
 		},
 
+		realFavicon: {
+			favicons: {
+				src: 'assets/images/favicon-master-512x512.png',
+				dest: 'dist/images/',
+				options: {
+					iconsPath: '/images/',
+					html: ['dist/*.html'],
+					design: {
+						ios: {
+							pictureAspect: 'noChange',
+							assets: {
+								ios6AndPriorIcons: false,
+								ios7AndLaterIcons: false,
+								precomposedIcons: false,
+								declareOnlyDefaultIcon: true
+							}
+						},
+						desktopBrowser: {
+							design: 'raw'
+						},
+						windows: {
+							pictureAspect: 'noChange',
+							backgroundColor: '#2b5797',
+							onConflict: 'override',
+							assets: {
+								windows80Ie10Tile: false,
+								windows10Ie11EdgeTiles: {
+									small: false,
+									medium: true,
+									big: false,
+									rectangle: false
+								}
+							}
+						},
+						androidChrome: {
+							pictureAspect: 'noChange',
+							themeColor: '#ffffff',
+							manifest: {
+								name: 'Sniper Elite 5 Map',
+								display: 'standalone',
+								orientation: 'landscape',
+								onConflict: 'override',
+								declared: true
+							},
+							assets: {
+								legacyIcon: false,
+								lowResolutionIcons: false
+							}
+						},
+						safariPinnedTab: {
+							pictureAspect: 'silhouette',
+							themeColor: '#5bbad5'
+						}
+					},
+					settings: {
+						scalingAlgorithm: 'Mitchell',
+						errorOnImageTooSmall: false,
+						readmeFile: false,
+						htmlCodeFile: false,
+						usePathAsIs: false
+					}
+				}
+			}
+		}
+
 	});
 
 	grunt.loadNpmTasks('gruntify-eslint');
@@ -213,6 +278,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-sync');
 	// grunt.loadNpmTasks('grunt-curl');
 	// grunt.loadNpmTasks('grunt-zip');
+	grunt.loadNpmTasks('grunt-real-favicon');
 
 	grunt.registerTask('server', ['express:dev', 'watch']);
 
@@ -223,6 +289,7 @@ module.exports = function (grunt) {
 		'cssmin',
 		'copy',
 		'sync',
+		'realFavicon',
 		//'babel',
 	]);
 };
