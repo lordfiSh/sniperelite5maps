@@ -19,6 +19,8 @@ const port = process.env.PORT || 8080;
 app.use(compression({filter: shouldCompress}));
 
 app.get('/', (request, response, next) => response.sendFile(__dirname+'/dist/home.html'));
+app.get('/browserconfig.xml', (request, response, next) => response.sendFile(__dirname+'/dist/browserconfig.xml'));
+app.get('/site.webmanifest', (request, response, next) => response.sendFile(__dirname+'/dist/site.webmanifest'));
 
 const maps = ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08'];
 
