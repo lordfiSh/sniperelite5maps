@@ -163,64 +163,6 @@ $(function() {
 		});
 	}, 100);
 	
-	var fileSaver = null;
-	var backupData = function() {
-		var currentDate = new Date();
-		var formattedDate = currentDate.getFullYear() + '-' + ((currentDate.getMonth() + 1 < 10) ? '0' : '') + (currentDate.getMonth() + 1) + '-' + ((currentDate.getDate() < 10) ? '0' : '') + currentDate.getDate();
-		var backupFileName = 'sniperelite4_map_backup_' + formattedDate + '.json';
-		if(confirm($.t('controls.backup-save-confirm', {fileName: backupFileName}))) {
-			if(!fileSaver) {
-				fileSaver = $.getScript('../scripts/FileSaver.min.js', function() {
-					var blob = new Blob([JSON.stringify(localStorage)], {type: "text/plain;charset=utf-8"});
-					saveAs(blob, backupFileName);
-				});
-			}
-		}
-	};
-	var showRestore = function() {
-		if(!window.File && !window.FileReader && !window.FileList && !window.Blob) {
-			alert($.t('controls.backup-load-unsupported'));
-			return;
-		}
-		if($('#restoreDiv').length) return;
-		var restoreButtonPos = $('#restoreButton')[0].getBoundingClientRect();
-		var restoreDiv = '<div id="restoreDiv" style="top:' + restoreButtonPos.top + 'px;right:' + (14 + restoreButtonPos.right - restoreButtonPos.left) + 'px;"><div style="float:right;"><button class="fa fa-times-circle" onclick="$(\'#restoreDiv\').remove()" style="cursor:pointer" /></div><strong>' + $.t('controls.backup-load-label') + '</strong><br/><input type="file" id="files" name="file[]" /></div>';
-		$('body').append($(restoreDiv));
-		var filesInput = document.getElementById('files');
-		filesInput.addEventListener('change', function(e) {
-			var file = e.target.files[0];
-			var reader = new FileReader();
-			reader.onload = function(e) {
-				var content = e.target.result;
-				try {
-					var restoreData = JSON.parse(content);
-					console.log('restore started.');
-					for(var prop in restoreData) {
-						console.log('restoring property:' + prop + ' using value:' + restoreData[prop]);
-						localStorage[prop] = restoreData[prop];
-					}
-					console.log('restore complete!');
-					alert($.t('controls.backup-load-success'));
-					location.reload();
-				} catch(err) {
-					alert($.t('controls.backup-load-fail'));
-					console.log(err.message);
-				} finally {
-					$('#restoreDiv').remove();
-				}
-			};
-			reader.readAsText(file);
-		});
-	};
-	
-	var backupButton = L.easyButton('fa-download', function(btn, map) {
-		backupData();
-	}, $.t('controls.backup-save'));
-	var restoreButton = L.easyButton('fa-upload', function(btn, map) {
-		showRestore();
-	}, $.t('controls.backup-load'), 'restoreButton');
-	L.easyBar([backupButton, restoreButton]).addTo(map);
-	
 	L.easyButton('fa-crosshairs', function(btn, map) {
 		hashParams = hash.getHashParams();
 		if(hashParams && hashParams.m) {
