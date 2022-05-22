@@ -245,6 +245,7 @@
 	// map marker setup
 	{
 		app.createLeafletMarker = createLeafletMarker;
+		app.findMarkerAt = findMarkerAt;
 		app.getIcon = getIcon;
 		app.initMapMarkers = initMapMarkers;
 		
@@ -263,12 +264,10 @@
 			const lng = marker.getLatLng().lng;
 			
 			marker.bindTooltip(label, {});
-			marker.bindPopup(popup, {});
+			marker.bindPopup(popup, {closeButton: false});
 			
 			marker.on('contextmenu', () =>
 				app.toggleMarkerTransparency(lat, lng, marker, group));
-			
-			marker.on('click', e => app.highlightMarkerAt(e.latlng));
 			
 			if(isMarkerTransparent(lat, lng)) {
 				marker.setOpacity(app.transparentMarkerOpacity ?? 0.5);
@@ -276,6 +275,13 @@
 			}
 			
 			return marker;
+		}
+		
+		function findMarkerAt(position) {
+			position = L.latLng(position);
+			return Object.values(app.leafletLayers)
+				.flatMap(layer => layer.getLayers())
+				.find(marker => marker.getLatLng().equals(position));
 		}
 		
 		function getIcon(name) {
@@ -668,8 +674,15 @@
 		let circle;
 		
 		function focusMarkerAt(position, zoom, options) {
-			highlightMarkerAt(position, zoom);
-			app.leafletMap.flyTo(position, zoom, options);
+			const marker = app.findMarkerAt(position);
+			if(marker) {
+				marker.openPopup();
+				app.leafletMap.flyTo(position, zoom, options);
+			}
+			else {
+				unhighlightMarker();
+				console.warn('No marker found at ' + app.formatCoordinates(position));
+			}
 		}
 		
 		function highlightMarkerAt(position) {
@@ -698,7 +711,8 @@
 				if(coords) focusMarkerAt(coords);
 			}
 			
-			app.leafletMap.on('click', unhighlightMarker);
+			app.leafletMap.on('popupopen', e => highlightMarkerAt(e.popup.getLatLng()));
+			app.leafletMap.on('popupclose', unhighlightMarker);
 		}
 	}
 	
