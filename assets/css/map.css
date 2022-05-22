@@ -132,6 +132,10 @@ html, body {
     width: 125px;
 }
 
+#marker-groups.hide-pills span {
+    width: 148px;
+}
+
 #controls span {
     width: 148px;
 }
@@ -151,7 +155,7 @@ html, body {
     background-size: contain;
 }
 
-#marker-groups > li > .pill {
+#marker-groups .item-count-pill {
     background-color: #97702F;
     box-shadow: 1px 1px 3px #000000 inset;
     padding: 2px 3px 0 4px;
@@ -163,6 +167,10 @@ html, body {
     float: left;
     text-align: center;
     font-weight: bold;
+}
+
+#marker-groups.hide-pills .item-count-pill {
+    display: none;
 }
 
 #marker-groups > li.layer-disabled {

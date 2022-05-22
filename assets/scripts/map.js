@@ -402,16 +402,17 @@
 		
 		const hideCountsButton = $('#hide-counts');
 		const showCountsButton = $('#show-counts');
+		const markerGroupsList = $('#marker-groups');
 		
 		function hideMarkerCounts() {
-			$('.item-count-pill').hide();
+			markerGroupsList.addClass('hide-pills');
 			hideCountsButton.hide();
 			showCountsButton.show();
 			localStorage['hide-counts'] = true;
 		}
 		
 		function showMarkerCounts() {
-			$('.item-count-pill').show();
+			markerGroupsList.removeClass('hide-pills');
 			hideCountsButton.show();
 			showCountsButton.hide();
 			localStorage.removeItem('hide-counts');
@@ -425,14 +426,10 @@
 				const marker = $(li).attr('data-layer');
 				const pill = $(`<div class='pill item-count-pill'>${app.markerCount[marker] ?? 0}</div>`);
 				$(li).append(pill);
-				if(localStorage['hide-counts']) {
-					pill.hide();
-				}
 			}
 			
 			if(localStorage['hide-counts']) {
-				hideCountsButton.hide();
-				showCountsButton.show();
+				hideMarkerCounts();
 			}
 		}
 	}
