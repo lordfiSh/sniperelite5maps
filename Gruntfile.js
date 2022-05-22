@@ -114,6 +114,7 @@ module.exports = function (grunt) {
 					'node_modules/jquery-i18next/jquery-i18next.js',
 					
 					'node_modules/leaflet/dist/leaflet-src.js',
+					'node_modules/leaflet-fullscreen/dist/Leaflet.fullscreen.js',
 					'node_modules/leaflet-search/dist/leaflet-search.src.js',
 					
 					'node_modules/fuse.js/dist/fuse.js',

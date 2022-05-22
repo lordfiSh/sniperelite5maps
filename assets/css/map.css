@@ -825,7 +825,8 @@ div.leaflet-bar a.leaflet-disabled:hover {
     color: #999;
 }
 
-.leaflet-control-fullscreen a {
+.leaflet-control-fullscreen a,
+.leaflet-control-fullscreen a:focus {
     background: rgba(0, 0, 0, .3) url(../images/fullscreen.png) no-repeat 0 0;
     background-size: 52px 52px;
 }

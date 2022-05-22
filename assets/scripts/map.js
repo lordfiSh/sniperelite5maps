@@ -528,6 +528,9 @@
 				errorTileUrl: app.basePath + 'images/missing.png'
 			}).addTo(app.leafletMap);
 			
+			// remove leaflet-touch class because it messes up the control style
+			$('#map').removeClass('leaflet-touch');
+			
 			//* debug overlay with the full map image
 			L.imageOverlay(
 				`${app.basePath}maps/${app.mapData.name}/complete.png`,
@@ -551,68 +554,83 @@
 	
 	// leaflet plugin setup
 	{
-		// search
-		{
-			app.initSearchControl = initSearchControl;
+		app.initZoomControl = initZoomControl;
+		app.initFullscreenControl = initFullscreenControl;
+		app.initSearchControl = initSearchControl;
+		
+		function initZoomControl() {
+			new L.Control.Zoom({
+				position: 'topright',
+				zoomInTitle: $.t('controls.zoom-in'),
+				zoomOutTitle: $.t('controls.zoom-out')
+			}).addTo(app.leafletMap);
+		}
+		
+		function initFullscreenControl() {
+			new L.Control.Fullscreen({
+				position: 'topright',
+				title: {
+					'false': $.t('controls.fullscreen-enter'),
+					'true': $.t('controls.fullscreen-exit')
+				}
+			}).addTo(app.leafletMap);
+		}
+		
+		function initSearchControl() {
+			const data = app.mapData.markers.map(marker => ({
+				id: marker.group + marker.id,
+				position: marker.position,
+				label: marker.label,
+				popup: marker.popup
+			}));
 			
-			function initSearchControl() {
-				const data = app.mapData.markers.map(marker => ({
-					id: marker.group + marker.id,
-					position: marker.position,
-					label: marker.label,
-					popup: marker.popup
-				}));
-				
-				const fuse = new window.Fuse(data, {
-					isCaseSensitive: false,
-					includeScore: false,
-					includeMatches: false,
-					shouldSort: true,
-					threshold: 0.2,
-					location: 0,
-					distance: 10000,
-					maxPatternLength: 32,
-					keys: ['label', 'popup']
-				});
-				
-				const search = new L.Control.Search({
-					autoResize: false,
-					autoType: false,
-					autoCollapse: false,
-					tipAutoSubmit: false,
-					minLength: 2,
-					position: 'topright',
-					propertyLoc: 'position',
-					textErr: $.t('controls.search.error'),
-					textCancel: $.t('controls.search.cancel'),
-					textPlaceholder: $.t('controls.search.placeholder'),
-					sourceData: (text, callback) => {
-						callback(data);
-						return {abort: () => 0};
-					},
-					filterData: (text, allRecords) => {
-						// we don't need allRecords because fuse
-						// already knows the full dataset
-						return Object.fromEntries(
-							fuse.search(text)
-								.map(record => [record.item.label, record.item ]));
-					},
-					buildTip: (label, record) => {
-						const elem = document.createElement('span');
-						elem.innerText = record.label;
-						elem.addEventListener('click', () => app.focusMarkerAt(record.position));
-						return elem;
-					}
-				});
-				
-				search.addTo(app.leafletMap);
-				
-				$('.search-tooltip').niceScroll({
-					cursorcolor: '#B08948',
-					cursorborder: 'none',
-					horizrailenabled: false
-				});
-			}
+			const fuse = new window.Fuse(data, {
+				isCaseSensitive: false,
+				includeScore: false,
+				includeMatches: false,
+				shouldSort: true,
+				threshold: 0.2,
+				location: 0,
+				distance: 10000,
+				maxPatternLength: 32,
+				keys: ['label', 'popup']
+			});
+			
+			new L.Control.Search({
+				autoResize: false,
+				autoType: false,
+				autoCollapse: false,
+				tipAutoSubmit: false,
+				minLength: 2,
+				position: 'topright',
+				propertyLoc: 'position',
+				textErr: $.t('controls.search.error'),
+				textCancel: $.t('controls.search.cancel'),
+				textPlaceholder: $.t('controls.search.placeholder'),
+				sourceData: (text, callback) => {
+					callback(data);
+					return {abort: () => 0};
+				},
+				filterData: (text, allRecords) => {
+					// we don't need allRecords because fuse
+					// already knows the full dataset
+					return Object.fromEntries(
+						fuse.search(text)
+							.map(record => [record.item.label, record.item]));
+				},
+				buildTip: (label, record) => {
+					const elem = document.createElement('span');
+					elem.innerText = record.label;
+					elem.addEventListener('click', () => app.focusMarkerAt(record.position));
+					return elem;
+				}
+			}).addTo(app.leafletMap);
+			
+			$('.search-tooltip').niceScroll({
+				cursorcolor: '#B08948',
+				cursorborder: 'none',
+				horizrailenabled: false
+			});
 		}
 	}
 	
@@ -643,9 +661,11 @@
 			if(app.quickSubmit?.enable && app.quickSubmit.links) {
 				const url = app.quickSubmit.links[app.mapSlug];
 				if(url) {
-					userMarker.bindTooltip(`<a href="${url}${lat},${lng}" target="_blank">${$.t('marker.submit', {y:lat, x:lng})}</a>`, {permanent: true, interactive: true});
-				}
-				else {
+					userMarker.bindTooltip(`<a href="${url}${lat},${lng}" target="_blank">${$.t('marker.submit', {
+						y: lat,
+						x: lng
+					})}</a>`, {permanent: true, interactive: true});
+				} else {
 					userMarker.unbindTooltip();
 				}
 			}
@@ -692,8 +712,7 @@
 			if(marker) {
 				marker.openPopup();
 				app.leafletMap.flyTo(position, zoom, options);
-			}
-			else {
+			} else {
 				unhighlightMarker();
 				console.warn('No marker found at ' + app.formatCoordinates(position));
 			}
@@ -803,12 +822,16 @@
 			app.initGroupList();
 			app.initPageTitle();
 			app.initMapMarkers();
+			
 			app.initLeafletMap();
+			app.initZoomControl();
+			app.initFullscreenControl();
+			app.initSearchControl();
+			
 			app.initUserMarker();
 			app.initMarkerSelection();
 			app.initCounterPills();
 			app.initTracking();
-			app.initSearchControl();
 			
 			app.initialized = true;
 		}

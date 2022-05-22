@@ -1,8 +1,4 @@
 $(function() {
-	
-	
-
-	
 	$(function() {
 		//fix bug where sidebar scrollbar doesn't appear when the language drop-down opens
 		$('.dd-selected').on('click', function() {
@@ -11,45 +7,6 @@ $(function() {
 			}, 500);
 		});
 	});
-	
-	window.go = function(lat, lng) {
-		map.setView([lat, lng], map.getZoom());
-		new L.marker([lat, lng], {
-			icon: L.icon({
-				iconUrl: 'images/searchhover.png',
-				iconSize: [22, 22]
-			})
-		}).addTo(map);
-	};
-	
-	const hash = new L.Hash(map);
-	
-	function makeZoomControl() {
-		return new L.Control.Zoom({
-			position: 'topright',
-			zoomInTitle: $.t('controls.zoom-in'),
-			zoomOutTitle: $.t('controls.zoom-out')
-		});
-	}
-	
-	function makeFullscreenControl() {
-		return new L.Control.Fullscreen({
-			position: 'topright',
-			title: {'false': $.t('controls.fullscreen-enter'), 'true': $.t('controls.fullscreen-exit')}
-		});
-	}
-	
-	function makeSearchControl() {
-
-		
-
-		
-		return search;
-	}
-	
-	map.addControl(makeZoomControl());
-	map.addControl(makeFullscreenControl());
-	map.addControl(makeSearchControl());
 	
 	map.dragging._draggable.on('predrag', function() {
 		const pos = map._initialTopLeftPoint.subtract(this._newPos);
@@ -63,32 +20,6 @@ $(function() {
 		cursorcolor: '#5E4F32',
 		cursorborder: 'none',
 	});
-	
-	// popup logic
-	function openPopup(position, content) {
-		selectMarkerAt(position);
-		infoContainerDiv.stop();
-		infoContentDiv.html(content);
-		infoContentDiv.getNiceScroll(0).doScrollTop(0, 0);
-		infoContainerDiv.fadeIn('fast');
-		// todo this is ugly
-		if(infoContentDiv.html().indexOf('class="note-row"') > -1) {
-			notePopupStart();
-		}
-		console.log('Popup at [' + writeLatLng(position) + ']');
-	}
-	
-	function closePopup() {
-		infoContainerDiv.fadeOut('fast', () => {
-			infoContentDiv.html('');
-			deselectMarker();
-			map.closePopup();
-		});
-		if(notePopupOpen) notePopupEnd();
-	}
-	
-	map.on('popupopen', e => openPopup(e.popup._latlng, e.popup._content));
-	map.on('popupclose', closePopup);
 	
 	function initMobileWarning() {
 		const mobileWarningDiv = $('div#mobile-warning');
@@ -172,38 +103,4 @@ $(function() {
 			map.setView(map_center);
 		}
 	}, $.t('controls.center-on-focused-marker'), 'centerButton').addTo(map);
-	
-	function writeLatLng(latlng) {
-		return latlng.lat.toFixed(3) + ',' + latlng.lng.toFixed(3);
-	}
-	
-	function parseLatLng(str) {
-		const parts = str.split(',');
-		return L.latLng(parts[0], parts[1]);
-	}
-	
-	function applyHashParams() {
-		const hashParams = hash.getHashParams();
-		if(hashParams) {
-			if(hashParams.w) {
-				showWayPointMarkerAt(parseLatLng(hashParams.w));
-			}
-			if(hashParams.m) {
-				const position = parseLatLng(hashParams.m);
-				
-				for(const marker of allLayers.flatMap(layer => layer.getLayers())) {
-					if(marker.getLatLng().equals(position)) {
-						marker.openPopup();
-						break;
-					}
-				}
-			} else {
-				$('#centerButton').hide();
-			}
-		} else {
-			$('#centerButton').hide();
-		}
-	}
-	
-	applyHashParams();
 });
