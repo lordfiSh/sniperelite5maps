@@ -45,6 +45,10 @@ html, body {
     bottom: 0;
 }
 
+#sidebar-content {
+    height: calc(100% - 50px);
+}
+
 #sidebar-content > span.tooltip {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
@@ -234,25 +238,23 @@ html, body {
     text-decoration: underline;
 }
 
-#copyright {
+#footer {
     font-size: 13px;
     text-align: center;
     color: #999;
-    margin-top: 15px;
-    margin-bottom: 5px;
     width: 360px;
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
 }
 
-#copyright a,
-#copyright a:visited,
-#copyright a:active {
+#footer a,
+#footer a:visited,
+#footer a:active {
     color: #bbb;
     text-decoration: none;
 }
 
-#copyright a:hover {
+#footer a:hover {
     color: #ddd;
     text-decoration: underline;
 }
@@ -559,7 +561,7 @@ html, body {
         height: calc(100% - 52px);
     }
 
-    #copyright {
+    #footer {
         width: 180px;
     }
 

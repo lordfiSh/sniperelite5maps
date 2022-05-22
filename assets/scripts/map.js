@@ -131,7 +131,7 @@
 		}
 		
 		function initSidebar() {
-			$('#sidebar').niceScroll({
+			$('#sidebar-content').niceScroll({
 				cursorcolor: '#B08948',
 				cursorborder: 'none',
 			});
