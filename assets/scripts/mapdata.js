@@ -23,7 +23,7 @@ function getMarkerPopup(namespace, group, id) {
 	// id 2.1 will expand to 'ns:type.2.desc.1'
 	const base = Math.trunc(id);
 	if(base !== id) {
-		const sub = (id - base).toFixed(1).substr(2);
+		const sub = (id - base).toFixed(1).substring(2);
 		translationPath = `${namespace}:${group}.${base}.desc.${sub}`;
 	}
 	
