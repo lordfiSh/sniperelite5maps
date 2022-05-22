@@ -516,15 +516,17 @@
 			const center = hashInfo?.center ?? app.mapData.focus ?? [h / 2, w / 2];
 			app.leafletMap.setView(center, zoom, {animate: false});
 			
-			new L.PixelTileLayer(app.basePath + app.mapData.tilePath, {
-				tms: true,
-				// this should always evaluate to 256
-				tileSize: 256 * globalScale * 256 / 8,
-				minNativeZoom: app.mapData.minZoom ?? 2,
-				maxNativeZoom: app.mapData.maxZoom ?? 6,
-				bounds: [[0, 0], [h, w]],
-				errorTileUrl: app.basePath + 'images/missing.png'
-			}).addTo(app.leafletMap);
+			if(app.mapData.tilePath) {
+				new L.PixelTileLayer(app.basePath + app.mapData.tilePath, {
+					tms: true,
+					// this should always evaluate to 256
+					tileSize: 256 * globalScale * 256 / 8,
+					minNativeZoom: app.mapData.minZoom ?? 2,
+					maxNativeZoom: app.mapData.maxZoom ?? 6,
+					bounds: [[0, 0], [h, w]],
+					errorTileUrl: app.basePath + 'images/missing.png'
+				}).addTo(app.leafletMap);
+			}
 			
 			// remove leaflet-touch class because it messes up the control style
 			$('#map').removeClass('leaflet-touch');
