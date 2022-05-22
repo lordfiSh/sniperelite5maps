@@ -56,17 +56,6 @@
 		}
 	};
 	
-	L.Hash.updateUrlHash = function(hashParams) {
-		const parts = [];
-		
-		for(const [key, value] of Object.entries(hashParams)) {
-			parts.push(key + '=' + value);
-		}
-		
-		const baseHash = this.getBaseHash();
-		window.location.hash = baseHash + '/' + parts.join('&');
-	};
-	
 	L.Hash.parseHash = function(hash) {
 		hash ??= location.hash;
 		if(hash.indexOf('#') === 0) {
@@ -125,9 +114,19 @@
 		setParam: L.Hash.setParam,
 		removeParam: L.Hash.removeParam,
 		getBaseHash: L.Hash.getBaseHash,
-		updateUrlHash: L.Hash.updateUrlHash,
 		parseHash: L.Hash.parseHash,
 		formatHash: L.Hash.formatHash,
+		
+		updateUrlHash: function(hashParams) {
+			const parts = [];
+			
+			for(const [key, value] of Object.entries(hashParams)) {
+				parts.push(key + '=' + value);
+			}
+			
+			const baseHash = this.getBaseHash();
+			window.location.hash = this.lastHash = baseHash + '/' + parts.join('&');
+		},
 		
 		init: function(map, options) {
 			this.map = map;
