@@ -466,9 +466,6 @@
 				return;
 			}
 			
-			const w = app.mapData.dimensions[0];
-			const h = app.mapData.dimensions[1];
-			
 			// TODO I don't have the slightest clue where this constant comes from, but it results in the "correct" scale
 			const globalScale = 8 / 256;
 			
@@ -499,7 +496,8 @@
 				zoomControl: false,
 			});
 			
-			app.leafletMap.setMaxBounds([[0, 0], [h, w]]);
+			const [w, h] = app.mapData.dimensions ?? [0, 0];
+			app.leafletMap.setMaxBounds(app.mapData.bounds ?? [[0, 0], [h, w]]);
 			
 			// add only the visible layers to the map
 			for(const [group, layer] of Object.entries(app.leafletLayers)) {
