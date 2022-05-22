@@ -116,6 +116,20 @@
 			app.leafletMap?.invalidateSize();
 		}
 		
+		function initUsageModal() {
+			$('#usage').on('click', e => {
+				e.preventDefault();
+				app.pushModal('Usage Hints', app.helpText);
+			});
+		}
+		
+		function initCreditsModal() {
+			$('#credits').on('click', e => {
+				e.preventDefault();
+				app.pushModal('Credits', app.creditsText);
+			});
+		}
+		
 		function initSidebar() {
 			$('#sidebar').niceScroll({
 				cursorcolor: '#B08948',
@@ -126,6 +140,9 @@
 			
 			sidebarToggle.on('click', () => toggleSidebar());
 			$(window).on('resize', () => updateSidebar());
+			
+			initUsageModal();
+			initCreditsModal();
 		}
 	}
 	
@@ -747,7 +764,7 @@
 			$('body').prepend(modal);
 			
 			$(`#${id} .popup-content`).niceScroll({
-				cursorcolor: '#B08948',
+				cursorcolor: '#5E4F32',
 				cursorborder: 'none',
 				autohidemode: false,
 				railpadding: {top: 22, right: 5, bottom: 5},
@@ -772,7 +789,6 @@
 	{
 		app.initPage = initPage;
 		app.initPageTitle = initPageTitle;
-		app.initCredits = initCredits;
 		
 		async function initPage() {
 			app.mapSlug = location.pathname.match(/\/(\w+)\/?$/)[1];
@@ -792,7 +808,6 @@
 			app.initMarkerSelection();
 			app.initCounterPills();
 			app.initTracking();
-			app.initCredits();
 			app.initSearchControl();
 			
 			app.initialized = true;
@@ -802,13 +817,6 @@
 			const mapTitle = $.t(`maps.${app.mapData.name}`).replace('<br>', ' ');
 			const pageTitle = $.t('home.title');
 			document.title = `${mapTitle} - ${pageTitle}`;
-		}
-		
-		function initCredits() {
-			$('#credits').on('click', e => {
-				e.preventDefault();
-				app.pushModal('Credits', app.creditsText);
-			});
 		}
 	}
 	

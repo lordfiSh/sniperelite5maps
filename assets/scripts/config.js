@@ -70,6 +70,35 @@ app.iconTypes = {
 	'loot-crate': {size: [32, 32]},
 };
 
+app.helpText = `
+	<p>
+	You can move the map by dragging with your mouse. Using the scroll wheel will change the zoom level.
+	Alternatively, you can also double-click to zoom in and shift + double-click to zoom out.
+	Holding shift and drawing a box with your mouse will zoom to fit said box into view.
+	</p>
+	<p>
+	Click on a marker to open a popup with more information about the point of interest.
+	Right-clicking a marker will make it transparent, that way you can track which items you have collected already.
+	You can reset all markers to their non-transparent state with the "Reset Markers" button in the sidebar.
+	The pills next to each marker group in the sidebar show how many non-transparent markers of that type remain.
+	You can hide this information with the "Hide Counts" button.
+	</p>
+	<p>
+	Speaking of marker groups, each group can be individually enabled or disabled, so you can focus on just the ones you need.
+	Simply click the entry in the sidebar's marker group list. You can also hide or show all of them at once using the "Hide All" / "Show All" button.
+	</p>
+	<p>
+	If you are looking for a specific item, you might want to try out the search function.
+	Simply click the magnifying glass icon in the top right corner and enter part of the item name.
+	It will then display a list of all markers matching the entered text.
+	Click on one of the entries to focus the corresponding marker on the map.
+	</p>
+	<p>
+	With this release we rely on marker submissions by the community (at least until we find time to play the game ourselves).
+	That's why right-clicking on any part of the map will give you the option to submit a new marker at that location.
+	</p>
+`;
+
 app.creditsText = `
 	<h3>Contributors</h3>
 	<p>

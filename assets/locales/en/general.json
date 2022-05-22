@@ -30,7 +30,7 @@
     "hide-counts": "Hide Counts",
     "reset-markers": "Reset Markers",
     "reset-markers-confirm": "This will reset all markers to their default state (visible). Continue?",
-    "features": "Features & Help",
+    "usage": "Usage Hints",
     "credits": "Credits",
     "zoom-in": "Zoom In",
     "zoom-out": "Zoom Out",
@@ -53,7 +53,8 @@
     "note-cancel": "Cancel Note"
   },
   "sidebar": {
-    "info": "This page is under active development.<br>If you find any issues, please let us know on <a href=\"https://github.com/lordfiSh/sniperelite5maps/issues\" target=\"_blank\">GitHub</a>."
+    "info": "This page is under active development.<br>If you find any issues, please let us know on <a href=\"https://github.com/lordfiSh/sniperelite5maps/issues\" target=\"_blank\">GitHub</a>.",
+    "footer": "Created by <a href=\"https://github.com/AtomCrafty\" target=\"_blank\">AtomCrafty</a> and <a href=\"https://wiiare.in\" target=\"_blank\">lordfiSh</a>, licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA</a><br>Sniper Elite logo, icons, map &amp; text are the property of <a href=\"https://rebellion.com\" target=\"_blank\">Rebellion</a>"
   },
   "marker": {
     "unverified": "(Unverified) {{label}}",
