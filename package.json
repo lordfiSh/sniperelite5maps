@@ -38,7 +38,6 @@
     "font-awesome": "^4.6.3",
     "fuse.js": "^6.6.2",
     "i18next": "^21.8.3",
-    "i18next-client": "^1.11.4",
     "i18next-http-backend": "^1.4.0",
     "jquery": "^3.0.0",
     "jquery-i18next": "^1.2.1",
