@@ -531,7 +531,7 @@
 			// remove leaflet-touch class because it messes up the control style
 			$('#map').removeClass('leaflet-touch');
 			
-			//* debug overlay with the full map image
+			/* debug overlay with the full map image
 			L.imageOverlay(
 				`${app.basePath}maps/${app.mapData.name}/complete.png`,
 				[[0, 0], [h, w]]
@@ -544,7 +544,7 @@
 			}).addTo(app.leafletMap);
 			//*/
 			
-			//* debug output on right-click
+			/* debug output on right-click
 			app.leafletMap.on('contextmenu', function(e) {
 				console.log(`x: ${Math.round(e.latlng.lng)}, y: ${Math.round(e.latlng.lat)}`);
 			});
