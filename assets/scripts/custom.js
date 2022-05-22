@@ -91,42 +91,6 @@ $(function() {
 		this._newPos = this._newPos.subtract(map._getBoundsOffset(new L.Bounds(pos, pos.add(map.getSize())), map.options.maxBounds));
 	});
 	
-	// selected marker logic
-	let circle = null;
-	
-	function createCircleMarker() {
-		return L.circleMarker([0, 0], {
-			color: 'red',
-			fillColor: '#f03',
-			fillOpacity: 0.5,
-			radius: 20
-		});
-	}
-	
-	// todo move this
-	function noteExistsAt(position) {
-		const noteKey = getNoteKey(position.lat, position.lng);
-		return notes[getNoteIndex(noteKey)];
-	}
-	
-	function selectMarkerAt(position) {
-		if(!circle) circle = createCircleMarker();
-		circle.setLatLng(position);
-		map.addLayer(circle);
-		
-		// only add param and show center button if the marker is not a note
-		if(!noteExistsAt(position)) {
-			hash.addParam('m', position.lat + ',' + position.lng);
-			$('#centerButton').show();
-		}
-	}
-	
-	function deselectMarker() {
-		map.removeLayer(circle);
-		hash.removeParam('m');
-		$('#centerButton').hide();
-	}
-	
 	const infoContentDiv = $('#info-content');
 	const infoContainerDiv = $('#info-container');
 	

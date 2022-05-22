@@ -7,6 +7,36 @@
 	app.basePath = location.origin + location.pathname.substring(0, location.pathname.lastIndexOf('/', location.pathname.length - 2) + 1);
 	console.log("Resource path: " + app.basePath);
 	
+	// utility
+	{
+		app.parseCoordinates = parseCoordinates;
+		app.formatCoordinates = formatCoordinates;
+		
+		function parseCoordinates(string) {
+			if(!string) return undefined;
+			
+			const coords = string.split(',');
+			if(coords.length !== 2) {
+				console.error('Invalid coordinate string: ' + string);
+				return undefined;
+			}
+			
+			const lat = parseFloat(coords[0]);
+			const lng = parseFloat(coords[1]);
+			if(lat === undefined || lng === undefined) {
+				console.error('Invalid coordinate string: ' + string);
+				return undefined;
+			}
+			
+			return L.latLng(lat, lng);
+		}
+		
+		function formatCoordinates(coords) {
+			coords = L.latLng(coords);
+			return `${Math.round(coords.lat)},${Math.round(coords.lng)}`;
+		}
+	}
+	
 	// sidebar setup
 	{
 		app.isSidebarHidden = isSidebarHidden;
@@ -237,6 +267,8 @@
 			
 			marker.on('contextmenu', () =>
 				app.toggleMarkerTransparency(lat, lng, marker, group));
+			
+			marker.on('click', e => app.highlightMarkerAt(e.latlng));
 			
 			if(isMarkerTransparent(lat, lng)) {
 				marker.setOpacity(app.transparentMarkerOpacity ?? 0.5);
@@ -553,7 +585,7 @@
 				}
 			}
 			app.leafletMap.addLayer(userMarker);
-			app.leafletHash.setParam('w', lat + ',' + lng);
+			app.leafletHash.setParam('w', app.formatCoordinates(position));
 		}
 		
 		function hideUserMarker() {
@@ -561,31 +593,12 @@
 			app.leafletHash.removeParam('w');
 		}
 		
-		function parseCoordinates(string) {
-			if(!string) return undefined;
-			
-			const coords = string.split(',');
-			if(coords.length !== 2) {
-				console.error('Invalid coordinate string: ' + string);
-				return undefined;
-			}
-			
-			const lat = parseFloat(coords[0]);
-			const lng = parseFloat(coords[1]);
-			if(lat === undefined || lng === undefined) {
-				console.error('Invalid coordinate string: ' + string);
-				return undefined;
-			}
-			
-			return L.latLng(lat, lng);
-		}
-		
 		function initUserMarker() {
 			userMarker = createUserMarker();
 			
 			const params = app.leafletHash.getHashParams();
 			if(params['w']) {
-				const coords = parseCoordinates(params['w']);
+				const coords = app.parseCoordinates(params['w']);
 				if(coords) showUserMarkerAt(coords);
 			}
 			
@@ -597,6 +610,50 @@
 				
 				showUserMarkerAt([y, x]);
 			});
+		}
+	}
+	
+	// marker selection
+	{
+		app.focusMarkerAt = focusMarkerAt;
+		app.highlightMarkerAt = highlightMarkerAt;
+		app.unhighlightMarker = unhighlightMarker;
+		app.initMarkerSelection = initMarkerSelection;
+		
+		let circle;
+		
+		function focusMarkerAt(position, zoom, options) {
+			highlightMarkerAt(position, zoom);
+			app.leafletMap.flyTo(position, zoom, options);
+		}
+		
+		function highlightMarkerAt(position) {
+			circle.setLatLng(position);
+			app.leafletMap.addLayer(circle);
+			app.leafletHash.setParam('m', app.formatCoordinates(position));
+		}
+		
+		function unhighlightMarker() {
+			circle.setLatLng([0, 0]);
+			app.leafletMap.removeLayer(circle);
+			app.leafletHash.removeParam('m');
+		}
+		
+		function initMarkerSelection() {
+			circle = L.circleMarker([0, 0], {
+				color: 'red',
+				fillColor: 'red',
+				fillOpacity: 0.5,
+				radius: 20
+			});
+			
+			const params = app.leafletHash.getHashParams();
+			if(params['m']) {
+				const coords = app.parseCoordinates(params['m']);
+				if(coords) focusMarkerAt(coords);
+			}
+			
+			app.leafletMap.on('click', unhighlightMarker);
 		}
 	}
 	
@@ -676,6 +733,7 @@
 			app.initMapMarkers();
 			app.initLeafletMap();
 			app.initUserMarker();
+			app.initMarkerSelection();
 			app.initCounterPills();
 			app.initTracking();
 			app.initCredits();
