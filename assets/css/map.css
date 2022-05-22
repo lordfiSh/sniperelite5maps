@@ -767,13 +767,14 @@ html, body {
     overflow-x: hidden;
     margin-top: 5px;
     border-radius: 4px;
+    padding: 0;
 }
 
 .leaflet-control-search .search-tip {
     margin: 0;
     padding: 2px 4px;
     display: block;
-    color: #999;
+    color: #ccc;
     text-decoration: none;
     white-space: nowrap;
     vertical-align: middle;

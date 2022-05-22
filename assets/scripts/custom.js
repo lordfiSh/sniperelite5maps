@@ -40,44 +40,9 @@ $(function() {
 	}
 	
 	function makeSearchControl() {
-		const searchData = app.mapData.markers.map(marker => ({
-			loc: marker.position,
-			title: marker.label
-		}));
+
 		
-		const fuse = new Fuse(searchData, {
-			caseSensitive: false,
-			includeScore: false,
-			shouldSort: true,
-			tokenize: false,
-			threshold: 0.2,
-			location: 0,
-			distance: 10000,
-			maxPatternLength: 32,
-			keys: ["title"]
-		});
-		
-		const search = new L.Control.Search({
-			autoResize: false,
-			autoType: false,
-			minLength: 2,
-			position: 'topright',
-			autoCollapse: false,
-			zoom: 5,
-			text: $.t('controls.search'),
-			filterJSON: json => json,
-			callData: function(text, callResponse) {
-				callResponse(fuse.search(text));
-				setTimeout(() => $('.search-tooltip').getNiceScroll().resize(), 200);
-				return {abort: () => console.log('aborted request: ' + text)};
-			}
-		});
-		
-		$('.search-tooltip').niceScroll({
-			cursorcolor: '#5E4F32',
-			cursorborder: 'none',
-			horizrailenabled: false
-		});
+
 		
 		return search;
 	}

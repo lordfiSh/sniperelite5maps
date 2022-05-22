@@ -36,7 +36,11 @@
     "zoom-out": "Zoom Out",
     "fullscreen-enter": "Enter Fullscreen",
     "fullscreen-exit": "Exit Fullscreen",
-    "search": "Search...",
+    "search": {
+      "error": "No matches",
+      "cancel": "Cancel",
+      "placeholder": "Search..."
+    },
     "backup-save": "Backup Data",
     "backup-save-confirm": "This will download a backup copy of all your map settings.\n\nThe file will be saved as: __fileName__\n\nContinue?",
     "backup-load": "Restore Data",

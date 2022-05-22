@@ -37,7 +37,11 @@
     "zoom-out": "Zoom Out",
     "fullscreen-enter": "Vollbild",
     "fullscreen-exit": "Vollbildmodus beenden",
-    "search": "Suchen...",
+    "search": {
+      "error": "Keine Treffer",
+      "cancel": "Abbrechen",
+      "placeholder": "Suchen..."
+    },
     "backup-save": "Einstellungen sichern",
     "backup-save-confirm": "Dies wird eine Sicherungskopie deiner Karteneinstellungen herunterladen.\nDie Datei wird unter dem Namen \"__fileName__\" gespeichert. \nFortfahren?",
     "backup-load": "Einstellungen wiederherstellen",

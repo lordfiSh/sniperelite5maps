@@ -118,7 +118,7 @@
 		
 		function initSidebar() {
 			$('#sidebar').niceScroll({
-				cursorcolor: '#5E4F32',
+				cursorcolor: '#B08948',
 				cursorborder: 'none',
 			});
 			
@@ -548,7 +548,69 @@
 	
 	// leaflet plugin setup
 	{
-	
+		// search
+		{
+			app.initSearchControl = initSearchControl;
+			
+			function initSearchControl() {
+				const data = app.mapData.markers.map(marker => ({
+					id: marker.group + marker.id,
+					position: marker.position,
+					label: marker.label,
+					popup: marker.popup
+				}));
+				
+				const fuse = new window.Fuse(data, {
+					isCaseSensitive: false,
+					includeScore: false,
+					includeMatches: false,
+					shouldSort: true,
+					threshold: 0.2,
+					location: 0,
+					distance: 10000,
+					maxPatternLength: 32,
+					keys: ['label', 'popup']
+				});
+				
+				const search = new L.Control.Search({
+					autoResize: false,
+					autoType: false,
+					autoCollapse: false,
+					tipAutoSubmit: false,
+					minLength: 2,
+					position: 'topright',
+					propertyLoc: 'position',
+					textErr: $.t('controls.search.error'),
+					textCancel: $.t('controls.search.cancel'),
+					textPlaceholder: $.t('controls.search.placeholder'),
+					sourceData: (text, callback) => {
+						callback(data);
+						return {abort: () => 0};
+					},
+					filterData: (text, allRecords) => {
+						// we don't need allRecords because fuse
+						// already knows the full dataset
+						return Object.fromEntries(
+							fuse.search(text)
+								.map(record => [record.item.label, record.item ]));
+					},
+					buildTip: (label, record) => {
+						const elem = document.createElement('span');
+						elem.innerText = record.label;
+						elem.addEventListener('click', () => app.focusMarkerAt(record.position));
+						return elem;
+					}
+				});
+				
+				search.addTo(app.leafletMap);
+				
+				$('.search-tooltip').niceScroll({
+					cursorcolor: '#B08948',
+					cursorborder: 'none',
+					horizrailenabled: false
+				});
+			}
+		}
 	}
 	
 	// user marker
@@ -691,7 +753,7 @@
 			$('body').prepend(modal);
 			
 			$(`#${id} .popup-content`).niceScroll({
-				cursorcolor: '#5E4F32',
+				cursorcolor: '#B08948',
 				cursorborder: 'none',
 				autohidemode: false,
 				railpadding: {top: 22, right: 5, bottom: 5},
@@ -737,6 +799,7 @@
 			app.initCounterPills();
 			app.initTracking();
 			app.initCredits();
+			app.initSearchControl();
 			
 			app.initialized = true;
 		}
