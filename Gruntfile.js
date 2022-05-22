@@ -153,7 +153,7 @@ module.exports = function (grunt) {
 				tasks: ['cssmin:styles'],
 			},
 			scripts: {
-				files: 'assets/scripts/**.js',
+				files: 'assets/scripts/**/*.js',
 				tasks: ['sync:scripts'],
 			},
 			vendor: {
