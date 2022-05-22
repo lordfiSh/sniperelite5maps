@@ -293,7 +293,6 @@
 		
 		function initMapMarkers() {
 			app.loadTransparentMarkers();
-			app.loadNotes();
 			
 			const layers = {};
 			
@@ -429,22 +428,6 @@
 				hideCountsButton.hide();
 				showCountsButton.show();
 			}
-		}
-	}
-	
-	// custom notes
-	{
-		app.loadNotes = loadNotes;
-		app.saveNotes = saveNotes;
-		
-		function loadNotes() {
-			const key = `notes-${app.mapData.name}`;
-			window.notes = JSON.parse(localStorage[key] ?? "[]");
-		}
-		
-		function saveNotes() {
-			const key = `notes-${app.mapData.name}`;
-			localStorage[key] = JSON.stringify(window.notes);
 		}
 	}
 	

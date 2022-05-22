@@ -221,18 +221,6 @@ $(function() {
 	}, $.t('controls.backup-load'), 'restoreButton');
 	L.easyBar([backupButton, restoreButton]).addTo(map);
 	
-	window.noteMarkers = {};
-	var noteStatus = false;
-	var noteCursorCss = null;
-	var notePopupOpen = false;
-	L.easyButton('fa-book', function(btn, map) {
-		if(!noteStatus) {
-			startNote();
-		} else {
-			endNote();
-		}
-	}, $.t('controls.note-add'), 'noteButton').addTo(map);
-	
 	L.easyButton('fa-crosshairs', function(btn, map) {
 		hashParams = hash.getHashParams();
 		if(hashParams && hashParams.m) {
@@ -242,114 +230,6 @@ $(function() {
 			map.setView(map_center);
 		}
 	}, $.t('controls.center-on-focused-marker'), 'centerButton').addTo(map);
-	
-	// todo replace this?
-	window.getNoteKey = (lat, lng) => writeLatLng(L.latLng(lat, lng));
-	
-	window.getNoteIndex = function(noteKey) {
-		for(var i = 0; i < notes.length; i++) {
-			if(notes[i].key == noteKey) return i;
-		}
-		return -1;
-	};
-	
-	var startNote = function() {
-		console.log('starting note');
-		$('#noteButton').attr('title', $.t('controls.note-cancel')).addClass('activeEasyButton');
-		$(document).on('keyup.addnote', function(e) {
-			if(e.keyCode === 27) endNote();
-		});
-		noteStatus = true;
-		noteCursorCss = $('.leaflet-container').css('cursor');
-		$('.leaflet-container').css('cursor', 'crosshair');
-		map.addEventListener('click', addNote);
-	};
-	
-	var backupNotes = function() {
-		localStorage['notes' + app.mapData.name] = JSON.stringify(notes);
-	};
-	
-	window.saveNote = function(noteKey) {
-		var note = notes[getNoteIndex(noteKey)];
-		note.label = $('#note-label').val();
-		note.title = $('#note-title').val();
-		note.text = $('#note-text').val();
-		var marker = noteMarkers[note.key];
-		marker.bindLabel(note.label);
-		marker.bindPopup(getNotePopup(note));
-		noteMarkers[note.key] = marker;
-		backupNotes();
-		$('#note-save').attr('disabled', true);
-	};
-	
-	window.deleteNote = function(noteKey) {
-		map.removeLayer(noteMarkers[noteKey]);
-		notes.splice(getNoteIndex(noteKey), 1);
-		delete noteMarkers[noteKey];
-		backupNotes();
-		closePopup();
-	};
-	
-	var getNotePopup = function(note) {
-		var popupContent = "<div id=\"note-popup\"><div class=\"note-row\"><label for=\"note-label\" class=\"label\" data-i18n=\"notes.label\"></label><input type=\"text\" id=\"note-label\" data-i18n=\"[placeholder]notes.enterLabel\" value=\"" + note.label + "\" /></div>";
-		popupContent += "<div class=\"note-row\"><label for=\"note-title\" class=\"label\" data-i18n=\"notes.title\"></label><input type=\"text\" id=\"note-title\" data-i18n=\"[placeholder]notes.enterTitle\" value=\"" + note.title + "\" /></div>";
-		popupContent += "<div class=\"note-row\"><label for=\"note-text\" class=\"label top\" data-i18n=\"notes.note\"></label><textarea id=\"note-text\" data-i18n=\"[placeholder]notes.enterText\">" + note.text + "</textarea></div>";
-		popupContent += "<div><button id=\"note-save\" onclick=\"saveNote('" + note.key + "')\" disabled><i class=\"fa fa-floppy-o\"></i>&nbsp;<span data-i18n=\"notes.saveNote\"></span></button>";
-		popupContent += "<button onclick=\"deleteNote('" + note.key + "')\"><i class=\"fa fa-trash-o\"></i>&nbsp;<span data-i18n=\"notes.deleteNote\"></span></button></div></div>";
-		return popupContent;
-	};
-	
-	var createNote = function(note) {
-		var noteMarker = null;
-		if(note.label && note.label !== '') noteMarker = L.marker(L.latLng(note.lat, note.lng), setMarker(icons['note_marker'])).bindLabel(note.label).bindPopup(getNotePopup(note)).openPopup();
-		else noteMarker = L.marker(L.latLng(note.lat, note.lng), setMarker(icons['note_marker'])).bindPopup(getNotePopup(note)).openPopup();
-		noteMarker.addTo(map);
-		noteMarkers[note.key] = noteMarker;
-	};
-	
-	var addNote = function(e) {
-		var note = {
-			key: getNoteKey(e.latlng.lat, e.latlng.lng),
-			lat: e.latlng.lat,
-			lng: e.latlng.lng,
-			label: '',
-			title: '',
-			text: ''
-		};
-		createNote(note);
-		notes.push(note);
-		backupNotes();
-		endNote();
-		return false;
-	};
-	
-	var endNote = function() {
-		$('#noteButton').attr('title', $.t('controls.note-add')).removeClass('activeEasyButton');
-		$(document).off('keyup.addnote');
-		noteStatus = false;
-		$('.leaflet-container').css('cursor', noteCursorCss);
-		map.removeEventListener('click');
-		console.log('stopping note');
-	};
-	
-	var notePopupStart = function() {
-		notePopupOpen = true;
-		infoContentDiv.i18n();
-		$('#note-label, #note-title, #note-text').on('keyup.notechange', function() {
-			$('#note-save').attr('disabled', false);
-		});
-		console.log('note popup started!');
-	};
-	
-	var notePopupEnd = function() {
-		$('#note-label, #note-title, #note-text').off('keyup.notechange');
-		console.log('note popup ended!');
-	};
-	
-	//create saved notes on load
-	for(let i = 0; i < notes.length; i++) {
-		createNote(notes[i]);
-	}
 	
 	function writeLatLng(latlng) {
 		return latlng.lat.toFixed(3) + ',' + latlng.lng.toFixed(3);
