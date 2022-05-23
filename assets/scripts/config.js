@@ -116,18 +116,18 @@ app.creditsText = `
 	</p>
 	
 	<h3>Sniper Elite 5 assets</h3>
-	<p>Sniper Elite 5 logo, icons, map &amp; text are the property of <a href="http://www.rebellion.co.uk/" target="_blank">Rebellion</a> and used without their permission. </p>
+	<p>Sniper Elite 5 logo, icons, map &amp; text are the property of <a href="https://www.rebellion.co.uk/" target="_blank">Rebellion</a> and used without their permission. </p>
 	
 	<h3>Javascript libraries used</h3>
 	<ul>
-		<li><a href="http://jquery.com" target="_blank">jQuery</a> (MIT)</li>
-		<li><a href="http://git.io/vkLly" target="_blank">jQuery.NiceScroll</a> (MIT)</li>
-		<li><a href="http://leafletjs.com" target="_blank">Leaflet</a> (BSD2)</li>
-		<li><a href="http://git.io/vkfA2" target="_blank">Leaflet.label</a> (MIT)</li>
-		<li><a href="http://git.io/mwK1oA" target="_blank">Leaflet-hash</a> (MIT)</li>
-		<li><a href="http://git.io/vJw5v" target="_blank">Leaflet.fullscreen</a> (BSD2)</li>
-		<li><a href="http://git.io/vkCPC" target="_blank">Leaflet Control Search</a> (MIT)</li>
-		<li><a href="http://git.io/vIAs2" target="_blank">Font Awesome</a> (MIT)</li>
+		<li><a href="https://jquery.com" target="_blank">jQuery</a> (MIT)</li>
+		<li><a href="https://git.io/vkLly" target="_blank">jQuery.NiceScroll</a> (MIT)</li>
+		<li><a href="https://leafletjs.com" target="_blank">Leaflet</a> (BSD2)</li>
+		<li><a href="https://git.io/vkfA2" target="_blank">Leaflet.label</a> (MIT)</li>
+		<li><a href="https://git.io/mwK1oA" target="_blank">Leaflet-hash</a> (MIT)</li>
+		<li><a href="https://git.io/vJw5v" target="_blank">Leaflet.fullscreen</a> (BSD2)</li>
+		<li><a href="https://git.io/vkCPC" target="_blank">Leaflet Control Search</a> (MIT)</li>
+		<li><a href="https://git.io/vIAs2" target="_blank">Font Awesome</a> (MIT)</li>
 	</ul>
 `;
 
