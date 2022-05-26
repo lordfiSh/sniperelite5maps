@@ -100,13 +100,14 @@
 			
 			for(const [id, slug] of Object.entries(app.maps)) {
 				const name = $.t(`maps.${slug}`);
+				const enabled = app.enabledMaps ? app.enabledMaps.includes(slug) : true;
 				
 				const item = document.createElement('li');
 				const link = document.createElement('a');
 				const text = document.createElement('span');
 				
-				item.dataset['map'] = slug;
-				item.classList.add('enabled');
+				item.dataset['map'] = `${slug}`;
+				item.classList.add(enabled ? 'enabled' : 'disabled');
 				link.href = `${id}/`;
 				text.textContent = name;
 				
