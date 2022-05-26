@@ -577,12 +577,7 @@
 		}
 		
 		function initSearchControl() {
-			const data = app.mapData.markers.map(marker => ({
-				id: marker.group + marker.id,
-				position: marker.position,
-				label: marker.label,
-				desc: marker.desc
-			}));
+			const data = app.mapData.markers.filter(marker => marker.id !== 0);
 			
 			const fuse = new window.Fuse(data, {
 				isCaseSensitive: false,
@@ -593,7 +588,7 @@
 				location: 0,
 				distance: 10000,
 				maxPatternLength: 32,
-				keys: ['label', 'desc']
+				keys: ['label', 'desc', 'groupLabel']
 			});
 			
 			new L.Control.Search({
@@ -620,7 +615,7 @@
 				},
 				buildTip: (label, record) => {
 					const elem = document.createElement('span');
-					elem.innerText = record.label;
+					elem.innerText = record.searchLabel;
 					elem.addEventListener('click', () => app.focusMarkerAt(record.position));
 					return elem;
 				}

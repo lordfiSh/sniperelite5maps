@@ -22,6 +22,11 @@ function getMarkerDescription(namespace, group, id) {
 	return translation !== translationPath ? translation : "";
 }
 
+function composeSearchLabel(groupLabel, id, label) {
+	if(!id) return `${groupLabel}`;
+	return `${groupLabel} ${id}: ${label}`;
+}
+
 function composePopupContent(groupLabel, id, label, desc, unverified) {
 	if(!id) return `<h3>${groupLabel}</h3>`;
 	label = unverified ? $.t('marker.unverified', {label}) : label;
@@ -30,8 +35,10 @@ function composePopupContent(groupLabel, id, label, desc, unverified) {
 
 function makeMarker(group, id, y, x, unverified = false, label, desc) {
 	const position = [y ?? 0, x ?? 0];
+	const groupLabel = getGroupLabel(group);
 	label ??= getMarkerLabel(app.mapData.name, group, id);
 	desc ??= getMarkerDescription(app.mapData.name, group, id);
-	const popupContent = composePopupContent(getGroupLabel(group), id, label, desc, unverified);
-	return {group, position, label, desc, popupContent};
+	const searchLabel = composeSearchLabel(groupLabel, id, label);
+	const popupContent = composePopupContent(groupLabel, id, label, desc, unverified);
+	return {position, id, group, groupLabel, label, desc, popupContent, searchLabel};
 }
