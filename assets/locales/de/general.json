@@ -1,13 +1,13 @@
 {
   "maps": {
-    "m01-the-atlantic-wall": "The Atlantic Wall",
-    "m02-occupied-residence": "Occupied Residence",
-    "m03-spy-academy": "Spy Academy",
-    "m04-war-factory": "War Factory",
+    "m01-the-atlantic-wall": "Der Atlantikwall",
+    "m02-occupied-residence": "Besetztes Château",
+    "m03-spy-academy": "Spionageschule",
+    "m04-war-factory": "Rüstungsfabrik",
     "m05-festung-guernsey": "Festung Guernsey",
     "m06-liberation": "Libération",
-    "m07-secret-weapon": "Secret Weapons",
-    "m08-rubble-and-ruin": "Rubble and Ruin"
+    "m07-secret-weapon": "Geheime Waffen",
+    "m08-rubble-and-ruin": "Schutt und Asche"
   },
   "home": {
     "title": "Interaktive Sniper Elite 5 Karte",
