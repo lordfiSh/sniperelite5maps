@@ -30,6 +30,11 @@ app.maps = {
 	m08: 'm08-rubble-and-ruin',
 };
 
+app.enabledMaps = [
+	'm01-the-atlantic-wall',
+	'm02-occupied-residence',
+];
+
 app.markerGroups = [
 	{name: 'letter'},
 	{name: 'document'},
