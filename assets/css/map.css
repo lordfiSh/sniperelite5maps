@@ -701,6 +701,36 @@ html, body {
     color: #F0CB0B;
 }
 
+.leaflet-popup-content-wrapper {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, .8);
+    background-clip: padding-box;
+    border-radius: 8px;
+    cursor: default;
+}
+
+.leaflet-popup-content {
+    font-family: 'PFDinTextCondPro', Arial, sans-serif;
+    color: #AF834E;
+    font-size: 1.15rem;
+}
+
+.leaflet-popup-content h3 {
+    font-size: 1.3rem;
+    margin-top: inherit;
+    margin-bottom: 0.5em;
+}
+
+.leaflet-popup-tip-container {
+    margin-top: 0;
+    cursor: default;
+}
+
+.leaflet-popup-tip {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+}
+
 .leaflet-container .leaflet-control-search {
     position: relative;
     float: left;

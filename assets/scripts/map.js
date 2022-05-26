@@ -276,17 +276,23 @@
 			const lat = marker.getLatLng().lat;
 			const lng = marker.getLatLng().lng;
 			
-			marker.bindTooltip(label, {});
-			marker.bindPopup(desc, {closeButton: false});
-			
-			marker.on('contextmenu', () =>
-				app.toggleMarkerTransparency(lat, lng, marker, group));
-			
 			if(isMarkerTransparent(lat, lng)) {
 				marker.setOpacity(app.transparentMarkerOpacity ?? 0.5);
 				app.markerCount[group]--;
 			}
-			
+
+			marker.on('contextmenu', () => {
+				app.toggleMarkerTransparency(lat, lng, marker, group);
+			});
+
+			marker.bindPopup(desc, {
+				autoClose: false,
+				closeButton: false,
+				offset: L.point(0, 0),
+				interactive: true
+			});
+			app.bindPopupEvents(marker);
+
 			return marker;
 		}
 		
@@ -577,7 +583,7 @@
 				id: marker.group + marker.id,
 				position: marker.position,
 				label: marker.label,
-				popup: marker.popup
+				desc: marker.desc
 			}));
 			
 			const fuse = new window.Fuse(data, {
@@ -589,7 +595,7 @@
 				location: 0,
 				distance: 10000,
 				maxPatternLength: 32,
-				keys: ['label', 'popup']
+				keys: ['label', 'desc']
 			});
 			
 			new L.Control.Search({
@@ -696,20 +702,76 @@
 	
 	// marker selection
 	{
+		app.bindPopupEvents = bindPopupEvents;
 		app.focusMarkerAt = focusMarkerAt;
 		app.highlightMarkerAt = highlightMarkerAt;
 		app.unhighlightMarker = unhighlightMarker;
 		app.initMarkerSelection = initMarkerSelection;
 		
 		let circle;
-		
+		let currentPermanentMarker;
+
+		function updatePermanentMarker(marker) {
+			if(currentPermanentMarker === marker) {
+				currentPermanentMarker = undefined;
+				unhighlightMarker();
+			} else {
+				currentPermanentMarker?.closePopup();
+				currentPermanentMarker = marker;
+				if(marker) {
+					highlightMarkerAt(marker.getLatLng());
+				}
+			}
+			marker.updatePopup();
+		}
+
+		function bindPopupEvents(marker) {
+			const popup = marker.getPopup();
+			let isMarkerHovered = false;
+			let isPopupHovered = false;
+
+			marker.updatePopup = updatePopup;
+			function updatePopup() {
+				if(isMarkerHovered || isPopupHovered || currentPermanentMarker === marker) {
+					if(!marker.isPopupOpen()) marker.openPopup();
+				} else {
+					if(marker.isPopupOpen()) marker.closePopup();
+				}
+			}
+
+			marker.on('mouseover', () => {
+				isMarkerHovered = true;
+				updatePopup();
+			});
+
+			marker.on('mouseout', () => {
+				isMarkerHovered = false;
+				setTimeout(updatePopup, 0);
+			});
+
+			// disable default leaflet behaviour for click event
+			marker.off('click');
+			marker.on('click', () => {
+				updatePermanentMarker(marker);
+			});
+
+			popup.on('mouseover', () => {
+				isPopupHovered = true;
+				updatePopup();
+			});
+
+			popup.on('mouseout', () => {
+				isPopupHovered = false;
+				setTimeout(updatePopup, 0);
+			});
+		}
+
 		function focusMarkerAt(position, zoom, options) {
 			const marker = app.findMarkerAt(position);
+			updatePermanentMarker(marker);
 			if(marker) {
-				marker.openPopup();
 				app.leafletMap.flyTo(position, zoom, options);
 			} else {
-				unhighlightMarker();
 				console.warn('No marker found at ' + app.formatCoordinates(position));
 			}
 		}
@@ -739,9 +801,6 @@
 				const coords = app.parseCoordinates(params['m']);
 				if(coords) focusMarkerAt(coords);
 			}
-			
-			app.leafletMap.on('popupopen', e => highlightMarkerAt(e.popup.getLatLng()));
-			app.leafletMap.on('popupclose', unhighlightMarker);
 		}
 	}
 	
