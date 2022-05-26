@@ -269,14 +269,10 @@
 		function createLeafletMarker(markerInfo) {
 			const group = markerInfo.group;
 			const icon = getIcon(markerInfo.icon ?? group);
-			let label = markerInfo.label;
+			const label = markerInfo['unverified'] ? $.t('marker.unverified', {label: markerInfo.label}) : markerInfo.label;
 			const desc = "<h3>" + label + "</h3>" + markerInfo.desc;
 			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
-			
-			if(markerInfo['unverified']) {
-				label = $.t('marker.unverified', {label});
-			}
-			
+
 			const lat = marker.getLatLng().lat;
 			const lng = marker.getLatLng().lng;
 			
