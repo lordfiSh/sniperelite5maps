@@ -9,16 +9,41 @@ app.mapData = {
 };
 
 app.mapData.markers = [
-	makeMarker('misc-document', 1, 2000, 2000, true, "Project Penguin", "This is a very interesting document that gives much needed insight into penguins."),
-	makeMarker('misc-document', 2, 2000, 3000),
-	makeMarker('misc-document', 3, 2000, 4000),
-	makeMarker('misc-document', 4, 2000, 5000),
-	makeMarker('last-letter', 1, 3000, 2000),
-	makeMarker('last-letter', 2, 3000, 3000),
-	makeMarker('last-letter', 3, 3000, 4000),
-	makeMarker('last-letter', 4, 3000, 5000),
-	makeMarker('duty-roster', 1, 4000, 2000),
-	makeMarker('duty-roster', 2, 4000, 3000),
-	makeMarker('duty-roster', 3, 4000, 4000),
-	makeMarker('duty-roster', 4, 4000, 5000),
+
+	// Collect 41 Personal letters.
+	makeMarker('letter', 1, 0, 0),
+	makeMarker('letter', 2, 0, 0),
+	makeMarker('letter', 3, 0, 0),
+	makeMarker('letter', 4, 0, 0),
+	makeMarker('letter', 5, 0, 0),
+	makeMarker('letter', 6, 0, 0),
+
+	// Collect 39 classified documents.
+	makeMarker('document', 1, 0, 0),
+	makeMarker('document', 2, 0, 0),
+	makeMarker('document', 3, 0, 0),
+	makeMarker('document', 4, 0, 0),
+
+	// Collect 24 Hidden Items.
+	makeMarker('personal-item', 1, 0, 0),
+	makeMarker('personal-item', 2, 0, 0),
+	makeMarker('personal-item', 3, 0, 0),
+
+
+	// Destroy 24 Dead-eye Targets.
+	makeMarker('dead-eye-target', 1, 0, 0),
+	makeMarker('dead-eye-target', 2, 0, 0),
+	makeMarker('dead-eye-target', 3, 0, 0),
+
+
+	// Gehr-Werkbänke 
+	makeMarker('workbench', 1, 0, 0),
+
+	// MP-Werkbänke 
+	makeMarker('pworkbench', 2, 0, 0),
+	
+	// Pistolen-Werkbänke 
+	makeMarker('workbench', 3, 0, 0),
+
+
 ];

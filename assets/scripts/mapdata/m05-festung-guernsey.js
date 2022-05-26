@@ -9,5 +9,42 @@ app.mapData = {
 };
 
 app.mapData.markers = [
-	makeMarker('misc-document', 1, )
+
+	// Collect 41 Personal letters.
+	makeMarker('letter', 22, 0, 0),
+	makeMarker('letter', 23, 0, 0),
+	makeMarker('letter', 24, 0, 0),
+	makeMarker('letter', 25, 0, 0),
+	makeMarker('letter', 26, 0, 0),
+
+
+	// Collect 39 classified documents.
+	makeMarker('document', 20, 0, 0),
+	makeMarker('document', 21, 0, 0),
+	makeMarker('document', 22, 0, 0),
+	makeMarker('document', 23, 0, 0),
+	makeMarker('document', 24, 0, 0),
+
+	// Collect 24 Hidden Items.
+	makeMarker('personal-item', 13, 0, 0),
+	makeMarker('personal-item', 15, 0, 0),
+	makeMarker('personal-item', 15, 0, 0),
+
+
+	// Destroy 24 Dead-eye Targets.
+	makeMarker('dead-eye-target', 13, 0, 0),
+	makeMarker('dead-eye-target', 14, 0, 0),
+	makeMarker('dead-eye-target', 15, 0, 0),
+
+
+	// Gehr-Werkbänke 
+	makeMarker('personal-item', 13, 0, 0),
+
+	// MP-Werkbänke 
+	makeMarker('personal-item', 14, 0, 0),
+	
+	// Pistolen-Werkbänke 
+	makeMarker('personal-item', 15, 0, 0),
+
+	
 ];
