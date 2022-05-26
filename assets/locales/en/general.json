@@ -59,33 +59,28 @@
   "marker": {
     "prefix-unverified": "<u>UNVERIFIED</u>",
     "submit": "Submit marker at {{y}},{{x}}",
-    "letter-from-home": {
-      "group": "Letters from Home",
-      "label": "Letter from Home",
-      "desc": "Letters from home give insights into the war for the family, friends and acquaintances of soldiers. These can be found in the environment and on the bodies of deceased soldiers."
-    },
     "letter": {
-      "group": "Letters to Home",
-      "label": "Letter to Home",
+      "group": "Letters",
+      "label": "Letter",
       "desc": ""
     },
     "document": {
-      "group": "Geheimdokumente",
-      "label": "Geheimdokumente",
+      "group": "Classified Documents",
+      "label": "Classified Document",
       "desc": ""
     },
     "personal-item": {
       "group": "Personal Items",
-      "label": "Personal Items",
+      "label": "Personal Item",
       "desc": ""
     },
     "dead-eye-target": {
       "group": "Deadeye Targets",
       "label": "Deadeye Target",
       "desc": "Each map includes 3 Deadeye Targets that only the most accomplished sharpshooters can hit. Such deadly accuracy will earn you special rewards."
-    },    
+    },
     "workbench": {
-      "group": "Workbench",
+      "group": "Workbenches",
       "label": "Workbench",
       "desc": ""
     },

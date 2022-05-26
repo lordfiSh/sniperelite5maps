@@ -61,40 +61,30 @@
   "marker": {
     "prefix-unverified": "<u>UNBESTÄTIGT</u>",
     "submit": "Marker bei {{y}},{{x}} vorschlagen",
-    "letter-from-home": {
-      "group": "Briefe aus der Heimat",
-      "label": "Brief aus der Heimat",
-      "desc": "\"Briefe aus der Heimat\" geben einen Einblick in das Leben von Familie, Freunden und Bekannten in der Heimat. Man findet sie in der Umgebung sowie an gefallenen Soldaten."
+    "letter": {
+      "group": "Briefe",
+      "label": "Brief",
+      "desc": ""
     },
-    "letter-to-home": {
-      "group": "Briefe in die Heimat",
-      "label": "Brief in die Heimat",
-      "desc": "Nachrichten an Freunde und Familie zu Hause, die noch nicht verschickt wurden. Man findet sie an Leichnamen und in der Umgebung."
+    "document": {
+      "group": "Geheimdokumente",
+      "label": "Geheimdokument",
+      "desc": ""
     },
-    "last-letter": {
-      "group": "Abschiedsbriefe",
-      "label": "Abschiedsbrief",
-      "desc": "Die Truppen um Zweiten Weltkrieg wurden darum gebeten, \"Abschiedsbriefe\" an ihre Angehörigen zu schreiben. Sie sind an den Leichnamen getöteter Soldaten zu finden."
+    "personal-item": {
+      "group": "Persönliche Gegenstände",
+      "label": "Persönlicher Gegenstand",
+      "desc": ""
     },
-    "misc-document": {
-      "group": "Verschiedene Dokumente",
-      "label": "Diverses Dokument",
-      "desc": "Memoranden, Dienstschreiben, Berichte, Tagebücher, sogar Gedichte... Eine ganze Bandbreite an Dokumenten, in der gesamten Umgebung zu finden, manchmal auch an den Leichnamen feindlicher Soldaten. Ein paar von ihnen sind unerlässlich für den Abschluss einer Mission."
-    },
-    "duty-roster": {
-      "group": "Dienstpläne",
-      "label": "Dienstplan",
-      "desc": "Wenn du bei einem feindlichen Offizier einen Dienstplan findest, werden alle Mitglieder einer feindlichen Einheit markiert."
-    },
-    "sniper-report": {
-      "group": "Scharfschützenberichte",
-      "label": "Scharfschützenbericht",
-      "desc": "Feindliche Scharfschützen liefern stets Berichte über ihre Aktivitäten ab. Mitunter sind diese Berichte an ihren Leichen zu finden, zuweilen in ihrem Umfeld. Sie enthalten wertvolle Einblicke in die Denkweise des Feindes..."
-    },
-    "deadeye-target": {
+    "dead-eye-target": {
       "group": "Zielwasser-Ziele",
       "label": "Zielwasser-Ziel",
       "desc": "Auf jeder Karte findest du 3 Zielwasser-Ziele, die nur die allerbesten Schützen erwischen können. Eine derart tödliche Genauigkeit bringt dir ganz besondere Belohnungen ein."
+    },
+    "workbench": {
+      "group": "Werkbänke",
+      "label": "Werkbank",
+      "desc": ""
     },
     "generator": {
       "group": "Generatoren",
