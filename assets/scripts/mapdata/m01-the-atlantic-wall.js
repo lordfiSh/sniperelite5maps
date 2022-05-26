@@ -9,7 +9,7 @@ app.mapData = {
 };
 
 app.mapData.markers = [
-	makeMarker('misc-document', 1, 2000, 2000),
+	makeMarker('misc-document', 1, 2000, 2000, "Project Penguin", "This is a very interesting document that gives much needed insight into penguins."),
 	makeMarker('misc-document', 2, 2000, 3000),
 	makeMarker('misc-document', 3, 2000, 4000),
 	makeMarker('misc-document', 4, 2000, 5000),
