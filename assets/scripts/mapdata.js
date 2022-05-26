@@ -13,7 +13,7 @@ function getMarkerLabel(namespace, type, id) {
 	return `${typeLabel} ${id}: ${translation}`;
 }
 
-function getMarkerPopup(namespace, group, id) {
+function getMarkerDescription(namespace, group, id) {
 	//const groupFlavorText = $.t(`marker.${group}.desc`);
 	
 	if(!id) return "";
@@ -36,9 +36,9 @@ function getMarkerPopup(namespace, group, id) {
 	return translation;
 }
 
-function makeMarker(group, id, y, x, label, popup) {
+function makeMarker(group, id, y, x, label, desc) {
 	const position = [y ?? 0, x ?? 0];
 	label ??= getMarkerLabel(app.mapData.name, group, id);
-	popup ??= getMarkerPopup(app.mapData.name, group, id);
-	return {group, position, label, popup};
+	desc ??= getMarkerDescription(app.mapData.name, group, id);
+	return {group, position, label, desc};
 }

@@ -270,7 +270,7 @@
 			const group = markerInfo.group;
 			const icon = getIcon(markerInfo.icon ?? group);
 			let label = markerInfo.label;
-			const popup = "<h3>" + label + "</h3>" + markerInfo.popup;
+			const desc = "<h3>" + label + "</h3>" + markerInfo.desc;
 			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
 			
 			if(markerInfo['unverified']) {
@@ -281,7 +281,7 @@
 			const lng = marker.getLatLng().lng;
 			
 			marker.bindTooltip(label, {});
-			marker.bindPopup(popup, {closeButton: false});
+			marker.bindPopup(desc, {closeButton: false});
 			
 			marker.on('contextmenu', () =>
 				app.toggleMarkerTransparency(lat, lng, marker, group));
