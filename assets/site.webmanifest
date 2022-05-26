@@ -11,5 +11,5 @@
     "theme_color": "#ffffff",
     "background_color": "#222222",
     "start_url": "https://sniperelite5maps.de",
-    "display": "standalone"
+    "display": "landscape"
 }
