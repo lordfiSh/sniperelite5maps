@@ -1,50 +1,31 @@
 app.mapData = {
 	name: 'm08-rubble-and-ruin',
-	tilePath: 'maps/m08-rubble-and-ruin/{z}/{x}/{y}.png',
+	//tilePath: 'maps/m08-rubble-and-ruin/{z}/{x}/{y}.png',
 	minZoom: 2,
 	maxZoom: 6,
 	defaultZoom: 3,
-	dimensions: [6111, 6720],
+	dimensions: [4096, 4096],
 	//focus: [100, 100]
 };
 
 app.mapData.markers = [
-
-	// Collect 41 Personal letters.
-	makeMarker('letter', 37, 0, 0),
-	makeMarker('letter', 38, 0, 0),
-	makeMarker('letter', 39, 0, 0),
-	makeMarker('letter', 40, 0, 0),
-	makeMarker('letter', 41, 0, 0),
-
-
-	// Collect 39 classified documents.
-	makeMarker('document', 35, 0, 0),
-	makeMarker('document', 36, 0, 0),
-	makeMarker('document', 37, 0, 0),
-	makeMarker('document', 38, 0, 0),
-	makeMarker('document', 39, 0, 0),
-
-	// Collect 24 Hidden Items.
-	makeMarker('personal-item', 22, 0, 0),
-	makeMarker('personal-item', 23, 0, 0),
-	makeMarker('personal-item', 24, 0, 0),
-
-
-	// Destroy 24 Dead-eye Targets.
-	makeMarker('dead-eye-target', 22, 0, 0),
-	makeMarker('dead-eye-target', 23, 0, 0),
-	makeMarker('dead-eye-target', 24, 0, 0),
-
-
-	// Gehr-Werkbänke 
-	makeMarker('personal-item', 22, 0, 0),
-
-	// MP-Werkbänke 
-	makeMarker('personal-item', 23, 0, 0),
-	
-	// Pistolen-Werkbänke 
-	makeMarker('personal-item', 24, 0, 0),
-
-	
+	makeMarker('letter', 1),
+	makeMarker('letter', 2),
+	makeMarker('letter', 3),
+	makeMarker('letter', 4),
+	makeMarker('letter', 5),
+	makeMarker('document', 1),
+	makeMarker('document', 2),
+	makeMarker('document', 3),
+	makeMarker('document', 4),
+	makeMarker('document', 5),
+	makeMarker('personal-item', 1),
+	makeMarker('personal-item', 2),
+	makeMarker('personal-item', 3),
+	makeMarker('dead-eye-target', 1),
+	makeMarker('dead-eye-target', 2),
+	makeMarker('dead-eye-target', 3),
+	makeMarker('workbench', 0),
+	makeMarker('workbench', 0),
+	makeMarker('workbench', 0),
 ];
