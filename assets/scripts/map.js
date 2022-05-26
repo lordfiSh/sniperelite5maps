@@ -326,6 +326,10 @@
 			app.markerCount = {};
 			
 			for(const markerInfo of app.mapData.markers) {
+				// skip markers without position
+				if(markerInfo.position[0] === 0 && markerInfo.position[1] === 0)
+					continue;
+				
 				const group = markerInfo.group;
 				app.markerCount[group] ??= 0;
 				app.markerCount[group]++;
@@ -466,8 +470,7 @@
 				return;
 			}
 			
-			// TODO I don't have the slightest clue where this constant comes from, but it results in the "correct" scale
-			const globalScale = 8 / 256;
+			const globalScale = 1 / Math.pow(2, app.mapData.neutralZoom ?? 5);
 			
 			L.CRS.Pixel = L.extend({}, L.CRS.Simple, {
 				transformation: new L.Transformation(globalScale, 0, -globalScale, 0)
@@ -489,8 +492,8 @@
 				crs: L.CRS.Pixel,
 				layers: [],
 				
-				minZoom: 1,
-				maxZoom: 7,
+				minZoom: app.minZoom ?? 0,
+				maxZoom: app.maxZoom ?? 7,
 				
 				attributionControl: false,
 				zoomControl: false,
@@ -519,8 +522,7 @@
 			if(app.mapData.tilePath) {
 				new L.PixelTileLayer(app.basePath + app.mapData.tilePath, {
 					tms: true,
-					// this should always evaluate to 256
-					tileSize: 256 * globalScale * 256 / 8,
+					tileSize: app.tileSize ?? 256,
 					minNativeZoom: app.mapData.minZoom ?? 2,
 					maxNativeZoom: app.mapData.maxZoom ?? 6,
 					bounds: [[0, 0], [h, w]],
@@ -533,7 +535,7 @@
 			
 			/* debug overlay with the full map image
 			L.imageOverlay(
-				`${app.basePath}maps/${app.mapData.name}/complete.png`,
+				`${app.basePath}maps/m_coast/merged.png`,
 				[[0, 0], [h, w]]
 			).addTo(app.leafletMap).setOpacity(0.2);
 			//*/
