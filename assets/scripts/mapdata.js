@@ -28,9 +28,9 @@ function composeSearchLabel(groupLabel, id, label) {
 }
 
 function composePopupContent(groupLabel, id, label, desc, unverified) {
-	if(!id) return `<h3>${groupLabel}</h3>`;
-	label = unverified ? $.t('marker.unverified', {label}) : label;
-	return `<h3>${label} <small>(${groupLabel} ${id})</small></h3>${desc}`;
+	const prefix = unverified ? `${$.t('marker.prefix-unverified')} ` : "";
+	if(!id) return `<h3>${prefix}${groupLabel}</h3>`;
+	return `<h3>${prefix}${label} <small>(${groupLabel} ${id})</small></h3>${desc}`;
 }
 
 function makeMarker(group, id, y, x, unverified = false, label, desc) {
