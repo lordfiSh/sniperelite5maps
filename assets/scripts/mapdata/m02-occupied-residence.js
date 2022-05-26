@@ -1,10 +1,11 @@
 app.mapData = {
 	name: 'm02-occupied-residence',
 	tilePath: 'maps/m_chateau/{z}/{x}/{y}.png',
-	minZoom: 2,
-	maxZoom: 6,
-	defaultZoom: 3,
-	dimensions: [3840, 3840],
+	minZoom: 1,
+	maxZoom: 4,
+	neutralZoom: 4,
+	defaultZoom: 2,
+	dimensions: [3408, 3408],
 	//focus: [100, 100]
 };
 
