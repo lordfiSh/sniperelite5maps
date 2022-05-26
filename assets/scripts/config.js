@@ -28,46 +28,26 @@ app.maps = {
 };
 
 app.markerGroups = [
-	{name: 'letter-from-home'},
-	{name: 'letter-to-home'},
-	{name: 'last-letter'},
-	{name: 'misc-document'},
-	{name: 'duty-roster'},
-	{name: 'sniper-report'},
+	{name: 'letter'},
+	{name: 'document'},
+	{name: 'personal-item'},
+	{name: 'workbench'},
+	{name: 'dead-eye-target'},
 	
-	{name: 'objective-primary'},
-	{name: 'objective-optional'},
-	{name: 'deadeye-target'},
+	//{name: 'objective-primary'},
+	//{name: 'objective-optional'},
+	//{name: 'generator'},
 	
-	{name: 'generator'},
-	{name: 'other', icon: 'pin'},
+	{name: 'other', icon: 'generator'},
 ];
 
 app.iconTypes = {
-	'letter-from-home': {size: [48, 48]},
-	'letter-to-home': {size: [48, 48]},
-	'last-letter': {size: [48, 48]},
-	'misc-document': {size: [48, 48]},
-	'duty-roster': {size: [48, 48]},
-	'sniper-report': {size: [48, 48]},
-	
-	'objective-primary': {size: [48, 48]},
-	'objective-optional': {size: [48, 48]},
-	'objective-exit': {size: [48, 48]},
-	'deadeye-target': {size: [48, 48]},
+	'letter': {size: [48, 48]},
+	'document': {size: [48, 48]},
+	'personal-item': {size: [48, 48]},
+	'workbench': {size: [48, 48]},
+	'dead-eye-target': {size: [48, 48]},
 	'generator': {size: [48, 48]},
-	
-	'car-civilian': {size: [32, 32]},
-	'car-transport': {size: [32, 32]},
-	'car-tank': {size: [32, 32]},
-	'car-tank-big': {size: [32, 32]},
-	'turret-pillbox': {size: [32, 32]},
-	'turret-panther': {size: [32, 32]},
-	'rail': {size: [32, 32]},
-	'boat': {size: [32, 32]},
-	'plane': {size: [32, 32]},
-	'pin': {size: [32, 32]},
-	'loot-crate': {size: [32, 32]},
 };
 
 app.helpText = `
