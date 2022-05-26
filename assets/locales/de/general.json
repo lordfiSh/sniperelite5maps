@@ -59,7 +59,7 @@
     "footer": "Erstellt von <a href=\"https://github.com/AtomCrafty\" target=\"_blank\">AtomCrafty</a> und <a href=\"https://wiiare.in\" target=\"_blank\">lordfiSh</a>, lizensiert als <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA</a><br>Sniper Elite Logo, Icons, Karte &amp; Text sind Eigentum von <a href=\"https://rebellion.com\" target=\"_blank\">Rebellion</a>"
   },
   "marker": {
-    "unverified": "(Unbestätigt) {{label}}",
+    "unverified": "<u>UNBESTÄTIGT</u> {{label}}",
     "submit": "Marker bei {{y}},{{x}} vorschlagen",
     "letter-from-home": {
       "group": "Briefe aus der Heimat",

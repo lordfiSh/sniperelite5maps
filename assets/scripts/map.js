@@ -269,8 +269,6 @@
 		function createLeafletMarker(markerInfo) {
 			const group = markerInfo.group;
 			const icon = getIcon(markerInfo.icon ?? group);
-			const label = markerInfo['unverified'] ? $.t('marker.unverified', {label: markerInfo.label}) : markerInfo.label;
-			const desc = "<h3>" + label + "</h3>" + markerInfo.desc;
 			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
 
 			const lat = marker.getLatLng().lat;
@@ -285,7 +283,7 @@
 				app.toggleMarkerTransparency(lat, lng, marker, group);
 			});
 
-			marker.bindPopup(desc, {
+			marker.bindPopup(markerInfo.popupContent, {
 				autoClose: false,
 				closeButton: false,
 				offset: L.point(0, 0),

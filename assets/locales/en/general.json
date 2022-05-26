@@ -57,7 +57,7 @@
     "footer": "Created by <a href=\"https://github.com/AtomCrafty\" target=\"_blank\">AtomCrafty</a> and <a href=\"https://wiiare.in\" target=\"_blank\">lordfiSh</a>, licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA</a><br>Sniper Elite logo, icons, map &amp; text are the property of <a href=\"https://rebellion.com\" target=\"_blank\">Rebellion</a>"
   },
   "marker": {
-    "unverified": "(Unverified) {{label}}",
+    "unverified": "<u>UNVERIFIED</u> {{label}}",
     "submit": "Submit marker at {{y}},{{x}}",
     "letter-from-home": {
       "group": "Letters from Home",

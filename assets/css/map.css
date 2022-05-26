@@ -721,6 +721,10 @@ html, body {
     margin-bottom: 0.5em;
 }
 
+.leaflet-popup-content h3 small {
+    white-space: nowrap;
+}
+
 .leaflet-popup-tip-container {
     margin-top: 0;
     cursor: default;
