@@ -33,7 +33,7 @@
 		
 		let isInTransition = false;
 		let transitionPromise = null;
-		let currentImage = localStorage['start-page-background'] ?? 'images/backgrounds/m01-san-celini-island.jpg';
+		let currentImage = localStorage['start-page-background'] ?? 'images/backgrounds/m02-occupied-residence.jpg';
 		let nextImage = '';
 		let lastRequestPath = '';
 		let lastRequest = 0;
@@ -78,8 +78,9 @@
 		
 		function initBackground() {
 			// register hover events
-			$('#nav li').each((_, item) => {
-				const mapName = $(item).attr('data-map-name');
+			$('#map-list li').each((_, item) => {
+				const mapName = $(item).data('map');
+				if(!mapName) return;
 				$(item).on('mouseover', async () => {
 					await setBackground(`images/backgrounds/${mapName}.jpg`);
 				});
@@ -104,6 +105,7 @@
 				const link = document.createElement('a');
 				const text = document.createElement('span');
 				
+				item.dataset['map'] = slug;
 				item.classList.add('enabled');
 				link.href = `${id}/`;
 				text.textContent = name;
