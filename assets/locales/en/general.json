@@ -64,35 +64,30 @@
       "label": "Letter from Home",
       "desc": "Letters from home give insights into the war for the family, friends and acquaintances of soldiers. These can be found in the environment and on the bodies of deceased soldiers."
     },
-    "letter-to-home": {
+    "letter": {
       "group": "Letters to Home",
       "label": "Letter to Home",
-      "desc": "Missives to family and acquaintances back home that haven't yet been sent. These can be found by searching bodies and the environment."
+      "desc": ""
     },
-    "last-letter": {
-      "group": "Last Letters",
-      "label": "Last Letter",
-      "desc": "Troops in World War Two were encouraged to write 'Last Letters' to their loved ones. These are discoverable on the bodies of dead soldiers."
+    "document": {
+      "group": "Geheimdokumente",
+      "label": "Geheimdokumente",
+      "desc": ""
     },
-    "misc-document": {
-      "group": "Misc. Documents",
-      "label": "Misc. Document",
-      "desc": "Memoranda, official, letters, reports, diaries and even poems... Scattered throughout the environment and sometimes on the bodies of enemy troops are a wide variety of documents. Some of these will be vital in enabling you to complete your mission."
+    "personal-item": {
+      "group": "Personal Items",
+      "label": "Personal Items",
+      "desc": ""
     },
-    "duty-roster": {
-      "group": "Duty Rosters",
-      "label": "Duty Roster",
-      "desc": "Finding a Duty Roster on an enemy Officer will tag all members of an enemy squad."
-    },
-    "sniper-report": {
-      "group": "Sniper Reports",
-      "label": "Sniper Report",
-      "desc": "Enemy snipers always complete reports about their activities. Sometimes these reports will be on their bodies, sometimes nearby. These reports can give you invaluable insights into the minds of your enemies..."
-    },
-    "deadeye-target": {
+    "dead-eye-target": {
       "group": "Deadeye Targets",
       "label": "Deadeye Target",
       "desc": "Each map includes 3 Deadeye Targets that only the most accomplished sharpshooters can hit. Such deadly accuracy will earn you special rewards."
+    },    
+    "workbench": {
+      "group": "Workbench",
+      "label": "Workbench",
+      "desc": ""
     },
     "generator": {
       "group": "Generators",
