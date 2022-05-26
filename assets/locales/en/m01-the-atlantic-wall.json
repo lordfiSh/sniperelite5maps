@@ -1,2 +1,89 @@
 {
+    "letter": {
+        "1": {
+            "label": "Picked some Violets",
+            "desc": ""
+        },
+        "2": {
+            "label": "Violets are Wilting",
+            "desc": "Can be found in the Attic"
+        },
+        "3": {
+            "label": "Violets don't wilt",
+            "desc": "Inside the Tresor (1st Floor)"
+        },
+        "4": {
+            "label": "Bouches at the Door",
+            "desc": "On a Sofa (Gorund Floor)"
+        },
+        "5": {
+            "label": "Pests in the Garden",
+            "desc": ""
+        },
+        "6": {
+            "label": "Upcomming Delivery",
+            "desc": "Inside the Barn (1st Floor)"
+        }
+    }, 
+    "document": {
+        "1": {
+            "label": "Resistance Captured",
+            "desc": ""
+        },
+        "2": {
+            "label": "Lacking Air Support",
+            "desc": "Inside the Safe"
+        },
+        "3": {
+            "label": "Atlantikwall Report",
+            "desc": "Inside the Safe"
+        },
+        "4": {
+            "label": "Breach Defences",
+            "desc": "Inside the Safe"
+        }
+    },
+    "personal-item": {
+        "1": {
+            "label": "FFI Flag",
+            "desc": "Inside the Kitchen in the Ground Floor"
+        },
+        "2": {
+            "label": "Resistance Photo",
+            "desc": "On a Desk (1st Floor)"
+        },
+        "3": {
+            "label": "Radio Tin",
+            "desc": ""
+        }
+    },
+    "dead-eye-target": {
+        "1": {
+            "label": "",
+            "desc": ""
+        },
+        "2": {
+            "label": "",
+            "desc": ""
+        },
+        "3": {
+            "label": "",
+            "desc": ""
+        }
+    },
+    "workbench": {
+        "1": {
+            "label": "Rifle Workbench",
+            "desc": ""
+        },
+        "2": {
+            "label": "Pistol Workbench",
+            "desc": ""
+        },
+        "3": {
+            "label": "SMG Workbench",
+            "desc": "On the 3rd Floor, accessible via the Vines on the Backside"
+        }
+    }
+
 }
