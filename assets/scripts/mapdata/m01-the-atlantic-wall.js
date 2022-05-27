@@ -29,7 +29,4 @@ app.mapData.markers = [
 	makeMarker('workbench', 1,1603,3105),
 	makeMarker('workbench', 2, 3058,1116),
 	makeMarker('workbench', 3, 1597,942),
-
-
-	makeMarker('other', 1, 1289,1051),
 ];
