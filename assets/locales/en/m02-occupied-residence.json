@@ -46,15 +46,15 @@
     "personal-item": {
         "1": {
             "label": "Old Man Statuette",
-            "desc": ""
+            "desc": "In a Tressor that is hidden behind a Painting (2nd Floor)"
         },
         "2": {
-            "label": "Group Statuette ",
-            "desc": ""
+            "label": "Group Statuette",
+            "desc": "Inside a green Wooden Box (Top Floor)"
         },
         "3": {
             "label": "Soldier Statuette",
-            "desc": ""
+            "desc": "Carrier by the Sniper"
         }
     },
     "dead-eye-target": {
@@ -73,15 +73,15 @@
     },
     "workbench": {
         "1": {
-            "label": "",
+            "label": "Rifle Workbench",
             "desc": ""
         },
         "2": {
-            "label": "",
+            "label": "Pistol Workbench",
             "desc": ""
         },
         "3": {
-            "label": "",
+            "label": "SMG Workbench",
             "desc": ""
         }
     }

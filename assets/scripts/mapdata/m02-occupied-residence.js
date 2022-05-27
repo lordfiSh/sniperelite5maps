@@ -19,16 +19,16 @@ app.mapData.markers = [
 	makeMarker('document', 3, 2041,1610),
 	makeMarker('document', 4, 1710,2326),
 	makeMarker('document', 5, 1672,2383),
-	makeMarker('document', 6),
-	makeMarker('personal-item', 1),
-	makeMarker('personal-item', 2),
-	makeMarker('personal-item', 3),
+	makeMarker('document', 6, 2037,1624),
+	makeMarker('personal-item', 1, 2189,1651),
+	makeMarker('personal-item', 2, 1983,1747),
+	makeMarker('personal-item', 3,2201,2072),
 	makeMarker('dead-eye-target', 1, 2202,2155),
 	makeMarker('dead-eye-target', 2, 1702,1390),
 	makeMarker('dead-eye-target', 3, 1898,823),
-	makeMarker('workbench', 1, 1702,2341),
-	makeMarker('workbench', 0),
-	makeMarker('workbench', 0),
+	makeMarker('workbench', 1, 1967,1789),
+	makeMarker('workbench', 2, 1702,2341),
+	makeMarker('workbench', 3, 2325,1221),
 
 
 ];
