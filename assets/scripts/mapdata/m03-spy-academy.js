@@ -1,10 +1,11 @@
 app.mapData = {
 	name: 'm03-spy-academy',
-	//tilePath: 'maps/m03-spy-academy/{z}/{x}/{y}.png',
-	minZoom: 2,
-	maxZoom: 6,
+	tilePath: 'maps/m_island/{z}/{x}/{y}.png',
+	minZoom: 1,
+	maxZoom: 4,
+	neutralZoom: 4,
 	defaultZoom: 3,
-	dimensions: [4096, 4096],
+	dimensions: [4800, 4792],
 	//focus: [100, 100]
 };
 
