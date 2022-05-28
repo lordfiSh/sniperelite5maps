@@ -1,2 +1,89 @@
 {
+  "letter": {
+    "1": {
+      "label": "Veilchen Gepflückt",
+      "desc": "Auf einer kleinen Holzkiste neben der Straße."
+    },
+    "2": {
+      "label": "Anstehende Lieferung",
+      "desc": "Im ersten Stock der Scheune, auf dem Boden gleich neben der Leiter."
+    },
+    "3": {
+      "label": "Welkende Veilchen",
+      "desc": "Auf einer Holzplanke auf dem Dachboden."
+    },
+    "4": {
+      "label": "Sie Welken Niche",
+      "desc": "Im Hoteltresor im ersten Stock."
+    },
+    "5": {
+      "label": "Ungeziefer im Garten",
+      "desc": "Auf einem kleinen Holztisch unter dem Pavillon."
+    },
+    "6": {
+      "label": "Die Boschs",
+      "desc": "Auf einem Sofa im Erdgeschoss."
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Résistance Gefasst",
+      "desc": "Auf einer Holzkiste im Bootshaus."
+    },
+    "2": {
+      "label": "Verteidigungsanlagen am Strand",
+      "desc": "Im Tresor der Waffenkammer."
+    },
+    "3": {
+      "label": "Fehlende Luftunterstützung",
+      "desc": "In einem Tresor im unterirdischen Bunker."
+    },
+    "4": {
+      "label": "Atlantikwallbericht",
+      "desc": "In einem Tresor im Erdgeschoss."
+    }
+  },
+  "personal-item": {
+    "1": {
+      "label": "Résistance-Foto",
+      "desc": "Auf einem kleinen Holztisch im ersten Stock."
+    },
+    "2": {
+      "label": "Funkdose",
+      "desc": "Auf einem kleinen Holztisch beim Stall."
+    },
+    "3": {
+      "label": "FFI-Flagge",
+      "desc": "In der Küche im Erdgeschoss."
+    }
+  },
+  "dead-eye-target": {
+    "1": {
+      "label": "Steinerner Adler",
+      "desc": "Auf dem Schornstein eines Gebäudes außerhalb der Karte."
+    },
+    "2": {
+      "label": "Steinerner Adler",
+      "desc": "Über dem Haupteingang des besetzten Hotels."
+    },
+    "3": {
+      "label": "Steinerner Adler",
+      "desc": "Auf der Befestigungsanlage. Sichtbar von der Straße nach Norden."
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Gewehrwerkbank",
+      "desc": "In der Waffenkammer, gleich neben dem Ausgang."
+    },
+    "2": {
+      "label": "MP-Werkbank",
+      "desc": "In der Waffenkammer."
+    },
+    "3": {
+      "label": "Pistolenwerkbank",
+      "desc": "Auf dem Dachboden. Zugänglich über die Ranken auf beiden Seiten des Hauses."
+    }
+  }
+
 }

@@ -1,88 +1,88 @@
 {
     "letter": {
         "1": {
-            "label": "Picked some Violets",
-            "desc": ""
+            "label": "Picked Some Violets",
+            "desc": "On a small wooden crate next to the road."
         },
         "2": {
-            "label": "Violets are Wilting",
-            "desc": "Can be found in the Attic"
+            "label": "Upcoming Delivery",
+            "desc": "On the first floor of the barn, on the ground right next to the ladder."
         },
         "3": {
-            "label": "Violets don't wilt",
-            "desc": "Inside the Tresor (1st Floor)"
+            "label": "Violets Are Wilting",
+            "desc": "On a wooden plank in the attic."
         },
         "4": {
-            "label": "Bouches at the Door",
-            "desc": "On a Sofa (Gorund Floor)"
+            "label": "Violets Don't Wilt",
+            "desc": "Inside the hotel safe on the first floor."
         },
         "5": {
             "label": "Pests in the Garden",
-            "desc": ""
+            "desc": "On a small wooden table under the gazebo."
         },
         "6": {
-            "label": "Upcomming Delivery",
-            "desc": "Inside the Barn (1st Floor)"
+            "label": "Boches at the Door",
+            "desc": "On a couch on the ground floor."
         }
     }, 
     "document": {
         "1": {
             "label": "Resistance Captured",
-            "desc": ""
+            "desc": "On a wooden crate in the boathouse."
         },
         "2": {
-            "label": "Lacking Air Support",
-            "desc": "Inside the Safe"
+            "label": "Beach Defences",
+            "desc": "Inside the armoury safe."
         },
         "3": {
-            "label": "Atlantikwall Report",
-            "desc": "Inside the Safe"
+            "label": "Lacking Air Support",
+            "desc": "Inside of a safe in the underground bunker."
         },
         "4": {
-            "label": "Breach Defences",
-            "desc": "Inside the Safe"
+            "label": "Atlantikwall Report",
+            "desc": "Inside of a safe on the ground floor."
         }
     },
     "personal-item": {
         "1": {
-            "label": "FFI Flag",
-            "desc": "Inside the Kitchen in the Ground Floor"
+            "label": "Resistance Photo",
+            "desc": "On top of a wooden table on the first floor."
         },
         "2": {
-            "label": "Resistance Photo",
-            "desc": "On a Desk (1st Floor)"
+            "label": "Radio Tin",
+            "desc": "On a wooden table near the stables."
         },
         "3": {
-            "label": "Radio Tin",
-            "desc": ""
+            "label": "FFI Flag",
+            "desc": "Inside the kitchen in the ground floor."
         }
     },
     "dead-eye-target": {
         "1": {
-            "label": "",
-            "desc": ""
+            "label": "Stone Eagle",
+            "desc": "On top of the chimney of a building outside of the map."
         },
         "2": {
-            "label": "",
-            "desc": ""
+            "label": "Stone Eagle",
+            "desc": "Above the main entrance of the occupied hotel."
         },
         "3": {
-            "label": "",
-            "desc": ""
+            "label": "Stone Eagle",
+            "desc": "On top of the fortification. Visible from the road leading north."
         }
     },
     "workbench": {
         "1": {
             "label": "Rifle Workbench",
-            "desc": ""
+            "desc": "Inside the armoury, right next to the exit."
         },
         "2": {
             "label": "Pistol Workbench",
-            "desc": ""
+            "desc": "Inside the armoury."
         },
         "3": {
             "label": "SMG Workbench",
-            "desc": "On the 3rd Floor, accessible via the Vines on the Backside"
+            "desc": "In the attic. Accessible via the vines on either side of the house."
         }
     }
 
