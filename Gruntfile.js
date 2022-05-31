@@ -204,8 +204,7 @@ module.exports = function (grunt) {
 					}
 				]
 			}
-		}
-
+		},
 	});
 
 	grunt.loadNpmTasks('gruntify-eslint');
@@ -218,8 +217,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-express-server');
 	grunt.loadNpmTasks('grunt-babel');
 	grunt.loadNpmTasks('grunt-sync');
-	// grunt.loadNpmTasks('grunt-curl');
-	// grunt.loadNpmTasks('grunt-zip');
+	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-real-favicon');
 
 	grunt.registerTask('server', ['express:dev', 'watch']);
@@ -231,6 +229,5 @@ module.exports = function (grunt) {
 		'cssmin',
 		'copy',
 		'sync'
-		//'babel',
 	]);
 };
