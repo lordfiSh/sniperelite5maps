@@ -1,10 +1,11 @@
 app.mapData = {
 	name: 'm04-war-factory',
 	tilePath: 'maps/m_factory/{z}/{x}/{y}.png',
-	minZoom: 2,
-	maxZoom: 6,
+	minZoom: 1,
+	maxZoom: 4,
+	neutralZoom: 4,
 	defaultZoom: 3,
-	dimensions: [4096, 4096],
+	dimensions: [3000, 3400], //Todo
 	//focus: [100, 100]
 };
 

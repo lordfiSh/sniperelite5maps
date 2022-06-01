@@ -34,6 +34,7 @@ app.enabledMaps = [
 	'm01-the-atlantic-wall',
 	'm02-occupied-residence',
 	'm03-spy-academy',
+	'm04-war-factory',
 ];
 
 app.markerGroups = [
