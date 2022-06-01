@@ -218,7 +218,6 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-babel');
 	grunt.loadNpmTasks('grunt-sync');
 	grunt.loadNpmTasks('grunt-sass');
-	grunt.loadNpmTasks('grunt-real-favicon');
 
 	grunt.registerTask('server', ['express:dev', 'watch']);
 
