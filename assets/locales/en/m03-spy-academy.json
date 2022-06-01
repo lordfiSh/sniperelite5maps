@@ -1,2 +1,9 @@
 {
+    "letter": {
+        "1": {"label": "Parking Problems","desc": "Inside a Trashbin "},
+        "2": {"label": "Fragile, Do Not Break","desc": "On a Metalbox, behind the Truck"},
+        "3": {"label": "Do Not Be Late!","desc": "The Document is carried by Domic Kundel. He at the Cafe"},
+        "4": {"label": "It's Easy Money","desc": "Is carried by one of the Officers, Toplevel of the Chruch Toower"},
+        "5": {"label": "Just Attend One!","desc": ""}
+    }
 }
