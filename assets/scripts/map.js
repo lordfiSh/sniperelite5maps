@@ -515,7 +515,7 @@
 			// set up hash and parse initial map view
 			app.leafletHash = L.hash(app.leafletMap, {precision: 0});
 			const hashInfo = app.leafletHash.parseHash();
-			const zoom = hashInfo?.zoom ?? app.mapData.defaultZoom;
+			const zoom = hashInfo?.zoom ?? app.mapData.defaultZoom ?? 2;
 			const center = hashInfo?.center ?? app.mapData.focus ?? [h / 2, w / 2];
 			app.leafletMap.setView(center, zoom, {animate: false});
 			

@@ -1,10 +1,11 @@
 app.mapData = {
 	name: 'm08-rubble-and-ruin',
-	//tilePath: 'maps/m08-rubble-and-ruin/{z}/{x}/{y}.png',
-	minZoom: 2,
-	maxZoom: 6,
-	defaultZoom: 3,
-	dimensions: [4096, 4096],
+	tilePath: 'maps/m_stnazaire/{z}/{x}/{y}.png',
+	minZoom: 1,
+	maxZoom: 4,
+	neutralZoom: 4,
+	defaultZoom: 2,
+	dimensions: [3840, 3840],
 	//focus: [100, 100]
 };
 

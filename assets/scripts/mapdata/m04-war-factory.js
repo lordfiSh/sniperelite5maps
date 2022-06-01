@@ -4,8 +4,8 @@ app.mapData = {
 	minZoom: 1,
 	maxZoom: 4,
 	neutralZoom: 4,
-	defaultZoom: 3,
-	dimensions: [3000, 3400], //Todo
+	defaultZoom: 2,
+	dimensions: [3512, 3520],
 	//focus: [100, 100]
 };
 

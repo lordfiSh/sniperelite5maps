@@ -1,10 +1,11 @@
 app.mapData = {
 	name: 'm06-liberation',
-	//tilePath: 'maps/m06-liberation/{z}/{x}/{y}.png',
-	minZoom: 2,
-	maxZoom: 6,
-	defaultZoom: 3,
-	dimensions: [4096, 4096],
+	tilePath: 'maps/m_villages/{z}/{x}/{y}.png',
+	minZoom: 1,
+	maxZoom: 4,
+	neutralZoom: 4,
+	defaultZoom: 2,
+	dimensions: [3512, 5120],
 	//focus: [100, 100]
 };
 
