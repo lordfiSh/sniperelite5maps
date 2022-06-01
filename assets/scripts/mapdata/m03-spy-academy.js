@@ -10,23 +10,19 @@ app.mapData = {
 };
 
 app.mapData.markers = [
-	makeMarker('letter', 1),
-	makeMarker('letter', 2),
-	makeMarker('letter', 3),
-	makeMarker('letter', 4),
-	makeMarker('letter', 5),
-	makeMarker('document', 1),
-	makeMarker('document', 2),
-	makeMarker('document', 3),
-	makeMarker('document', 4),
-	makeMarker('document', 5),
-	makeMarker('personal-item', 1),
-	makeMarker('personal-item', 2),
-	makeMarker('personal-item', 3),
-	makeMarker('dead-eye-target', 1),
-	makeMarker('dead-eye-target', 2),
-	makeMarker('dead-eye-target', 3),
-	makeMarker('workbench', 0),
-	makeMarker('workbench', 0),
-	makeMarker('workbench', 0),
+	makeMarker('letter', 1, 2134,1973),
+	makeMarker('letter', 2, 1170,2446),
+	makeMarker('letter', 3, 2254,1954),
+	makeMarker('letter', 4, 2770,2961),
+	makeMarker('letter', 5, 2560,2758),
+
+
+
+	// Persons with Codes
+
+	// Starting Location: 1 2369,1959
+
+	// Tools Crowbar
+
+	// Ccharges
 ];
