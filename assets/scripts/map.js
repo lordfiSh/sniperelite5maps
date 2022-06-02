@@ -207,8 +207,8 @@
 			}
 			
 			hideAllButton.on('click', () => {
-				for(const group of app.markerGroups) {
-					hideMarkerGroup(group.name);
+				for(const groupName in app.markerGroups) {
+					hideMarkerGroup(groupName);
 				}
 				hideAllButton.hide();
 				showAllButton.show();
@@ -216,8 +216,8 @@
 			});
 			
 			showAllButton.on('click', () => {
-				for(const group of app.markerGroups) {
-					showMarkerGroup(group.name);
+				for(const groupName in app.markerGroups) {
+					showMarkerGroup(groupName);
 				}
 				hideAllButton.show();
 				showAllButton.hide();
@@ -231,19 +231,19 @@
 			
 			const visibility = app.loadMarkerGroupVisibility();
 			
-			for(const group of app.markerGroups) {
+			for(const [groupName, group] of Object.entries(app.markerGroups)) {
 				const item = document.createElement('li');
 				const icon = document.createElement('img');
 				const name = document.createElement('span');
 				
-				item.dataset['layer'] = group.name;
-				$(item).on('click', () => toggleMarkerGroup(group.name));
-				if(!(visibility[group.name] ?? true))
+				item.dataset['layer'] = groupName;
+				$(item).on('click', () => toggleMarkerGroup(groupName));
+				if(!(visibility[groupName] ?? true))
 					item.classList.add('layer-disabled');
 				
-				icon.classList.add(group.name);
-				icon.src = `${app.basePath}images/icons/${group.icon ?? group.name}.png`;
-				name.textContent = $.t(`marker.${group.name}.group`);
+				icon.classList.add(groupName);
+				icon.src = `${app.basePath}images/icons/${group.sidebarIcon ?? groupName}.png`;
+				name.textContent = $.t(`marker.${groupName}.group`);
 				
 				item.appendChild(icon);
 				item.appendChild(name);
@@ -267,8 +267,12 @@
 		app.initMapMarkers = initMapMarkers;
 		
 		function createLeafletMarker(markerInfo) {
+			const type = markerInfo.type;
+			const typeInfo = app.markerTypes[type];
+			if(!typeInfo) console.warn("Unknown marker type: " + type);
+			
 			const group = markerInfo.group;
-			const icon = getIcon(markerInfo.icon ?? group);
+			const icon = getIcon(typeInfo?.icon ?? type);
 			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
 
 			const lat = marker.getLatLng().lat;
@@ -305,12 +309,15 @@
 			app.iconCache ??= {};
 			if(app.iconCache[name]) return app.iconCache[name];
 			
-			const info = app.iconTypes[name];
+			const info = app.markerIcons[name];
 			if(!info) console.warn("Unknown icon type: " + name);
 			
+			const folder = info?.folder ? info.folder + '/' : '';
+			const file = info?.file ?? name;
+			
 			return app.iconCache[name] = L.icon({
-				iconUrl: `${app.basePath}images/icons/${name}.png`,
-				iconSize: info?.size ?? [32, 32]
+				iconUrl: `${app.basePath}images/icons/${folder}${file}.png`,
+				iconSize: info?.size ?? app.defaultIconSize ?? [32, 32],
 			});
 		}
 		
@@ -319,8 +326,8 @@
 			
 			const layers = {};
 			
-			for(const group of app.markerGroups) {
-				layers[group.name] = [];
+			for(const groupName in app.markerGroups) {
+				layers[groupName] = [];
 			}
 			
 			app.markerCount = {};
@@ -590,7 +597,7 @@
 				location: 0,
 				distance: 10000,
 				maxPatternLength: 32,
-				keys: ['label', 'desc', 'groupLabel']
+				keys: ['label', 'desc', 'typeLabel']
 			});
 			
 			new L.Control.Search({
@@ -640,10 +647,7 @@
 		let userMarker = undefined;
 		
 		function createUserMarker() {
-			const icon = L.icon({
-				iconUrl: `${app.basePath}images/icons/marker.png`,
-				iconSize: [48, 48]
-			});
+			const icon = getIcon('waypoint');
 			const marker = new L.Marker([0, 0], {icon});
 			marker.on('click', hideUserMarker);
 			marker.on('contextmenu', hideUserMarker);

@@ -44,27 +44,64 @@ app.enabledMaps = [
 	'dlc1-kill-hitler'
 ];
 
-app.markerGroups = [
-	{name: 'letter'},
-	{name: 'document'},
-	{name: 'personal-item'},
-	{name: 'workbench'},
-	{name: 'dead-eye-target'},
-	
-	//{name: 'objective-primary'},
-	//{name: 'objective-optional'},
-	//{name: 'generator'},
-	
-	{name: 'other', icon: 'generator'},
-];
+app.markerGroups = {
+	'letter': {},
+	'document': {},
+	'personal-item': {},
+	'workbench': {},
+	'dead-eye-target': {},
+	'other': {sidebarIcon: 'generator'},
+};
 
-app.iconTypes = {
-	'letter': {size: [48, 48]},
-	'document': {size: [48, 48]},
-	'personal-item': {size: [48, 48]},
-	'workbench': {size: [48, 48]},
-	'dead-eye-target': {size: [48, 48]},
-	'generator': {size: [48, 48]},
+app.markerTypes = {
+	'letter': {},
+	'document': {},
+	'personal-item': {},
+	'workbench': {},
+	'dead-eye-target': {},
+	
+	'primary': {group: 'objective', showSubIds: true},
+	'secondary': {group: 'objective', showSubIds: true},
+	'kill-list': {group: 'objective', showSubIds: true},
+	'start': {group: 'objective', showSubIds: true},
+	'exit': {group: 'objective', showSubIds: true},
+	
+	'alarm': {group: 'other'},
+	'ammo': {group: 'other'},
+	'emplacement': {group: 'other'},
+	'generator': {group: 'other'},
+	'intel': {group: 'other'},
+	'searchlight': {group: 'other'},
+	'speaker': {group: 'other'},
+	'phonograph': {group: 'other', icon: 'default'},
+	'key': {group: 'other', icon: 'default'},
+	'bolt-cutters': {group: 'other', icon: 'default'},
+	'crowbar': {group: 'other', icon: 'default'},
+	
+	'supply-crate': {group:'other', icon:'ammo'},
+	'invasion': {group:'other'},
+};
+
+app.defaultIcon = 'default';
+app.defaultIconSize = [39, 39];
+app.markerIcons = {
+	'letter': {folder: 'collectibles'},
+	'document': {folder: 'collectibles'},
+	'personal-item': {folder: 'collectibles'},
+	'workbench': {folder: 'collectibles'},
+	'dead-eye-target': {folder: 'collectibles'},
+	
+	'alarm': {folder: 'poi', size: [28, 28]},
+	'ammo': {folder: 'poi', size: [28, 28]},
+	'emplacement': {folder: 'poi', size: [28, 28]},
+	'generator': {folder: 'poi', size: [28, 28]},
+	'intel': {folder: 'poi', size: [28, 28]},
+	'searchlight': {folder: 'poi', size: [28, 28]},
+	'speaker': {folder: 'poi', size: [28, 28]},
+	'invasion': {folder: 'poi', size: [28, 28]},
+	
+	'waypoint': {size: [45, 45]},
+	'default': {size: [24, 24]},
 };
 
 app.helpText = `
