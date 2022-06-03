@@ -242,7 +242,7 @@
 					item.classList.add('layer-disabled');
 				
 				icon.classList.add(groupName);
-				icon.src = `${app.basePath}images/icons/${group.sidebarIcon ?? groupName}.png`;
+				icon.src = getIconPath(group.sidebarIcon ?? groupName);
 				name.textContent = $.t(`marker.${groupName}.group`);
 				
 				item.appendChild(icon);
@@ -263,6 +263,7 @@
 	{
 		app.createLeafletMarker = createLeafletMarker;
 		app.findMarkerAt = findMarkerAt;
+		app.getIconPath = getIconPath;
 		app.getIcon = getIcon;
 		app.initMapMarkers = initMapMarkers;
 		
@@ -305,18 +306,24 @@
 				.find(marker => marker.getLatLng().equals(position));
 		}
 		
-		function getIcon(name) {
-			app.iconCache ??= {};
-			if(app.iconCache[name]) return app.iconCache[name];
-			
+		function getIconPath(name) {
 			const info = app.markerIcons[name];
 			if(!info) console.warn("Unknown icon type: " + name);
 			
 			const folder = info?.folder ? info.folder + '/' : '';
 			const file = info?.file ?? name;
 			
+			return `${app.basePath}images/icons/${folder}${file}.png`;
+		}
+		
+		function getIcon(name) {
+			app.iconCache ??= {};
+			if(app.iconCache[name]) return app.iconCache[name];
+			
+			const info = app.markerIcons[name];
+			
 			return app.iconCache[name] = L.icon({
-				iconUrl: `${app.basePath}images/icons/${folder}${file}.png`,
+				iconUrl: getIconPath(name),
 				iconSize: info?.size ?? app.defaultIconSize ?? [32, 32],
 			});
 		}
