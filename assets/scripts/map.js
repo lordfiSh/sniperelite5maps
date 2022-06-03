@@ -515,9 +515,10 @@
 					app.leafletMap.addLayer(layer);
 				}
 			}
-			
-			//app.leafletMap.on('popupopen', e => console.log('popupopen', e));
-			//app.leafletMap.on('popupclose', e => console.log('popupclose', e));
+
+			app.leafletMap.on('click', () => {
+				updatePermanentMarker(undefined);
+			});
 			
 			// set up hash and parse initial map view
 			app.leafletHash = L.hash(app.leafletMap, {precision: 0});
@@ -719,9 +720,11 @@
 				currentPermanentMarker = marker;
 				if(marker) {
 					highlightMarkerAt(marker.getLatLng());
+				} else {
+					unhighlightMarker();
 				}
 			}
-			marker.updatePopup();
+			marker?.updatePopup();
 		}
 
 		function bindPopupEvents(marker) {
