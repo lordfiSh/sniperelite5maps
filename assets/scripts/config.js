@@ -1,7 +1,7 @@
 window.app ??= {};
 
 app.minZoom = 1;
-app.maxZoom = 5;
+app.maxZoom = 6;
 app.tileSize = 256;
 app.transparentMarkerOpacity = 0.5;
 
