@@ -75,11 +75,20 @@ app.markerTypes = {
 	'speaker': {group: 'other'},
 	'phonograph': {group: 'other', icon: 'default'},
 	'key': {group: 'other', icon: 'default'},
+	'door': {group: 'other', icon: 'default'},
 	'bolt-cutters': {group: 'other', icon: 'default'},
 	'crowbar': {group: 'other', icon: 'default'},
-	
 	'supply-crate': {group:'other', icon:'ammo'},
 	'invasion': {group:'other'},
+	
+	'aircraft': {group: 'vehicles'},
+	'armoured-car': {group: 'vehicles'},
+	'boat': {group: 'vehicles'},
+	'light-car': {group: 'vehicles'},
+	'motorbike': {group: 'vehicles'},
+	'tank': {group: 'vehicles'},
+	'truck': {group: 'vehicles'},
+	'vip-car': {group: 'vehicles'},
 };
 
 app.defaultIcon = 'default';
@@ -99,6 +108,15 @@ app.markerIcons = {
 	'searchlight': {folder: 'poi', size: [28, 28]},
 	'speaker': {folder: 'poi', size: [28, 28]},
 	'invasion': {folder: 'poi', size: [28, 28]},
+	
+	'aircraft': {folder: 'vehicles', size: [28, 28]},
+	'armoured-car': {folder: 'vehicles', size: [28, 28]},
+	'boat': {folder: 'vehicles', size: [28, 28]},
+	'light-car': {folder: 'vehicles', size: [28, 28]},
+	'motorbike': {folder: 'vehicles', size: [28, 28]},
+	'tank': {folder: 'vehicles', size: [28, 28]},
+	'truck': {folder: 'vehicles', size: [28, 28]},
+	'vip-car': {folder: 'vehicles', size: [28, 28]},
 	
 	'waypoint': {size: [45, 45]},
 	'default': {size: [24, 24]},
