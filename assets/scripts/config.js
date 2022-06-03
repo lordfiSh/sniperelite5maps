@@ -68,6 +68,7 @@ app.markerTypes = {
 	
 	'alarm': {group: 'other'},
 	'ammo': {group: 'other'},
+	'bodybox': {group: 'other'},
 	'emplacement': {group: 'other'},
 	'generator': {group: 'other'},
 	'intel': {group: 'other'},
@@ -102,6 +103,7 @@ app.markerIcons = {
 	
 	'alarm': {folder: 'poi', size: [28, 28]},
 	'ammo': {folder: 'poi', size: [28, 28]},
+	'bodybox': {folder: 'poi', size: [28, 28]},
 	'emplacement': {folder: 'poi', size: [28, 28]},
 	'generator': {folder: 'poi', size: [28, 28]},
 	'intel': {folder: 'poi', size: [28, 28]},
