@@ -57,60 +57,61 @@
   },
   "sidebar": {
     "info": "An dieser Seite wird noch aktiv gearbeitet.<br>Melde Probleme bitte auf <a href=\"https://github.com/lordfiSh/sniperelite5maps/issues\" target=\"_blank\">GitHub</a>.",
-    "footer": "Erstellt von <a href=\"https://github.com/AtomCrafty\" target=\"_blank\">AtomCrafty</a> und <a href=\"https://wiiare.in\" target=\"_blank\">lordfiSh</a>, lizensiert als <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA</a><br>Sniper Elite Logo, Icons, Karte &amp; Text sind Eigentum von <a href=\"https://rebellion.com\" target=\"_blank\">Rebellion</a>"
+    "footer": "Erstellt von <a href=\"https://github.com/AtomCrafty\" target=\"_blank\">AtomCrafty</a> und <a href=\"https://wiiare.in\" target=\"_blank\">lordfiSh</a>, lizensiert als <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA</a><br>Sniper Elite Logo, Icons, Karte &amp; Text sind Eigentum von <a href=\"https://rebellion.com\" target=\"_blank\">Rebellion</a>",
+    "marker-group": {
+      "letters": "Private Briefe",
+      "documents": "Geheimdokumente",
+      "hidden-items": "Versteckte Gegenstände",
+      "stone-eagles": "Steinerne Adler",
+      "workbenches": "Werkbänke",
+
+      "objectives": "Aufgaben",
+      "tools": "Werkzeuge",
+      "vehicles": "Fahrzeuge",
+      "other": "Sonstiges"
+    }
   },
   "marker": {
-    "prefix-unverified": "<u>UNBESTÄTIGT</u>",
+    "unverified": "<u>UNBESTÄTIGT</u>",
     "submit": "Marker bei {{y}},{{x}} vorschlagen",
-    "letter": {
-      "group": "Briefe",
-      "label": "Brief",
-      "desc": ""
-    },
-    "document": {
-      "group": "Geheimdokumente",
-      "label": "Geheimdokument",
-      "desc": ""
-    },
-    "personal-item": {
-      "group": "Persönliche Gegenstände",
-      "label": "Persönlicher Gegenstand",
-      "desc": ""
-    },
-    "dead-eye-target": {
-      "group": "Zielwasser-Ziele",
-      "label": "Zielwasser-Ziel",
-      "desc": "Auf jeder Karte findest du 3 Zielwasser-Ziele, die nur die allerbesten Schützen erwischen können. Eine derart tödliche Genauigkeit bringt dir ganz besondere Belohnungen ein."
-    },
-    "workbench": {
-      "group": "Werkbänke",
-      "label": "Werkbank",
-      "desc": ""
-    },
-    "generator": {
-      "group": "Generatoren",
-      "label": "Generator",
-      "desc": "Nutze diese lauten Apperaturen, um das Geräusch deiner Schüsse zu übertönen."
-    },
-    "objective-primary": {
-      "group": "Hauptziele",
-      "label": "Hauptziel",
-      "desc": "Hauptziele müssen erfüllt werden, um die Mission zu beenden."
-    },
-    "objective-optional": {
-      "group": "Optionale Ziele",
-      "label": "Optionales Ziel",
-      "desc": "Optionale Ziele sind... naja, optional halt. Erfülle sie, um Bonuspunkte zu verdienen."
-    },
-    "objective-exit": {
-      "group": "Missions-Ausgänge",
-      "label": "Missions-Ausgang",
-      "desc": "Begib dich hier hin, nachdem du alle Hauptziele abgeschlossen hast, um die Misison zu beenden."
-    },
-    "other": {
-      "group": "Sonstiges",
-      "label": "",
-      "desc": ""
+    "type": {
+      "letter": "Brief",
+      "document": "Geheimdokument",
+      "hidden-item": "Persönlicher Gegenstand",
+      "stone-eagle": "Steinadler",
+      "workbench": "Werkbank",
+
+      "primary": "Hauptziel",
+      "secondary": "Nebenziel",
+      "kill-list": "Todesliste",
+      "start": "Missions-Start",
+      "exit": "Missions-Ausgang",
+
+      "bolt-cutters": "Bolzenschneider",
+      "crowbar": "Brechstange",
+      "key": "Schlüssel",
+      "satchel-charge": "Sprengladung",
+
+      "aircraft": "Flugzeug",
+      "armoured-car": "Gepanzertes Auto",
+      "boat": "Boot",
+      "light-car": "Leichtes Auto",
+      "motorbike": "Motorrad",
+      "tank": "Panzer",
+      "truck": "Fracht-LKW",
+      "vip-car": "VIP-Auto",
+
+      "alarm": "Alarm",
+      "body-box": "Leere Kiste",
+      "door": "Tür",
+      "emplacement": "MG-Stellung",
+      "generator": "Generator",
+      "intel": "Informationen",
+      "invasion": "Invasion",
+      "phonograph": "Grammofon",
+      "searchlight": "Suchscheinwerfer",
+      "speaker": "Lautsprecher",
+      "supply-crate": "Versorgungskiste"
     }
   }
 }

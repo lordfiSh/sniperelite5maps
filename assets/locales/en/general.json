@@ -55,60 +55,61 @@
   },
   "sidebar": {
     "info": "This page is under active development.<br>If you find any issues, please let us know on <a href=\"https://github.com/lordfiSh/sniperelite5maps/issues\" target=\"_blank\">GitHub</a>.",
-    "footer": "Created by <a href=\"https://github.com/AtomCrafty\" target=\"_blank\">AtomCrafty</a> and <a href=\"https://wiiare.in\" target=\"_blank\">lordfiSh</a>, licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA</a><br>Sniper Elite logo, icons, map &amp; text are the property of <a href=\"https://rebellion.com\" target=\"_blank\">Rebellion</a>"
+    "footer": "Created by <a href=\"https://github.com/AtomCrafty\" target=\"_blank\">AtomCrafty</a> and <a href=\"https://wiiare.in\" target=\"_blank\">lordfiSh</a>, licensed under <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA</a><br>Sniper Elite logo, icons, map &amp; text are the property of <a href=\"https://rebellion.com\" target=\"_blank\">Rebellion</a>",
+    "marker-group": {
+      "letters": "Personal Letters",
+      "documents": "Classified Documents",
+      "hidden-items": "Hidden Items",
+      "stone-eagles": "Stone Eagles",
+      "workbenches": "Workbenches",
+
+      "objectives": "Objectives",
+      "tools": "Tools",
+      "vehicles": "Vehicles",
+      "other": "Other"
+    }
   },
   "marker": {
-    "prefix-unverified": "<u>UNVERIFIED</u>",
+    "unverified": "<u>UNVERIFIED</u>",
     "submit": "Submit marker at {{y}},{{x}}",
-    "letter": {
-      "group": "Letters",
-      "label": "Letter",
-      "desc": ""
-    },
-    "document": {
-      "group": "Classified Documents",
-      "label": "Classified Document",
-      "desc": ""
-    },
-    "personal-item": {
-      "group": "Personal Items",
-      "label": "Personal Item",
-      "desc": ""
-    },
-    "dead-eye-target": {
-      "group": "Deadeye Targets",
-      "label": "Deadeye Target",
-      "desc": "Each map includes 3 Deadeye Targets that only the most accomplished sharpshooters can hit. Such deadly accuracy will earn you special rewards."
-    },
-    "workbench": {
-      "group": "Workbenches",
-      "label": "Workbench",
-      "desc": ""
-    },
-    "generator": {
-      "group": "Generators",
-      "label": "Generator",
-      "desc": "Use these noisy machines to mask the sound of your shots."
-    },
-    "objective-primary": {
-      "group": "Primary Objectives",
-      "label": "Primary Objective",
-      "desc": "Primary objectives must be met to complete the mission."
-    },
-    "objective-optional": {
-      "group": "Optional Objectives",
-      "label": "Optional Objective",
-      "desc": "Optional objectives are... well, optional. Complete them to earn extra points."
-    },
-    "objective-exit": {
-      "group": "Mission Exits",
-      "label": "Mission Exit",
-      "desc": "Go here after completing all primary objectives to finish the mission."
-    },
-    "other": {
-      "group": "Other",
-      "label": "",
-      "desc": ""
+    "type": {
+      "letter": "Letter",
+      "document": "Classified Document",
+      "hidden-item": "Personal Item",
+      "stone-eagle": "Stone Eagle",
+      "workbench": "Workbench",
+
+      "primary": "Primary Objective",
+      "secondary": "Secondary Objective",
+      "kill-list": "Kill List Target",
+      "start": "Mission Start",
+      "exit": "Mission Exit",
+
+      "bolt-cutters": "Bolt Cutters",
+      "crowbar": "Crowbar",
+      "key": "Key",
+      "satchel-charge": "Satchel Charge",
+
+      "aircraft": "Aircraft",
+      "armoured-car": "Armoured Car",
+      "boat": "Boat",
+      "light-car": "Light Car",
+      "motorbike": "Motorbike",
+      "tank": "Tank",
+      "truck": "Truck",
+      "vip-car": "VIP Car",
+
+      "alarm": "Alarm",
+      "body-box": "Body Box",
+      "door": "Door",
+      "emplacement": "MG Emplacement",
+      "generator": "Generator",
+      "intel": "Intel",
+      "invasion": "Invasion",
+      "phonograph": "Phonograph",
+      "searchlight": "Searchlight",
+      "speaker": "Speaker",
+      "supply-crate": "Supply Crate"
     }
   }
 }

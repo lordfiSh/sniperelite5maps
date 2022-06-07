@@ -24,5 +24,7 @@ app.mapData.markers = [
 
 	// Tools Crowbar
 
-	// Ccharges
+	// Charges
+	
+	//
 ];

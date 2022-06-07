@@ -231,6 +231,7 @@
 			
 			const visibility = app.loadMarkerGroupVisibility();
 			
+			let count = 0;
 			for(const [groupName, group] of Object.entries(app.markerGroups)) {
 				const item = document.createElement('li');
 				const icon = document.createElement('img');
@@ -243,14 +244,16 @@
 				
 				icon.classList.add(groupName);
 				icon.src = getIconPath(group.sidebarIcon ?? groupName);
-				name.textContent = $.t(`marker.${groupName}.group`);
+				name.textContent = $.t(`sidebar.marker-group.${groupName}`);
 				
 				item.appendChild(icon);
 				item.appendChild(name);
 				list.appendChild(item);
+				
+				count++;
 			}
 			
-			if(app.markerGroups.length % 2) {
+			if(count % 2) {
 				const item = document.createElement('li');
 				list.appendChild(item);
 			}

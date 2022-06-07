@@ -1,5 +1,5 @@
-function getTypeLabel(group) {
-	return $.t(`marker.${group}.label`);
+function getTypeLabel(type) {
+	return $.t(`marker.type.${type}`);
 }
 
 function getMarkerLabel(namespace, type, id) {
@@ -28,12 +28,12 @@ function composeSearchLabel(typeLabel, id, label) {
 }
 
 function truncateId(type, id) {
-	if(app.markerTypes[type]?.showSubIds) return id.toFixed(1);
+	if(app.markerTypes[type]?.showSubIds && Math.trunc(id) !== id) return id.toFixed(1);
 	return id.toFixed(0);
 }
 
 function composePopupContent(typeLabel, id, label, desc, type, unverified) {
-	const prefix = unverified ? `${$.t('marker.prefix-unverified')} ` : "";
+	const prefix = unverified ? `${$.t('marker.unverified')} ` : "";
 	if(id === 0) return `<h3>${prefix}${typeLabel}</h3>`;
 	if(id === -1) return `<h3>${prefix}${label}</h3>${desc}`;
 	

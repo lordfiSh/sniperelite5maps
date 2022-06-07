@@ -45,42 +45,35 @@ app.enabledMaps = [
 ];
 
 app.markerGroups = {
-	'letter': {},
-	'document': {},
-	'personal-item': {},
-	'workbench': {},
-	'dead-eye-target': {},
-	'other': {sidebarIcon: 'generator'},
+	'letters': {sidebarIcon: 'letter'},
+	'documents': {sidebarIcon: 'document'},
+	'hidden-items': {sidebarIcon: 'hidden-item'},
+	'stone-eagles': {sidebarIcon: 'stone-eagle'},
+	'workbenches': {sidebarIcon: 'workbench'},
+	
+	'objectives': {sidebarIcon: 'objective'},
+	'tools': {sidebarIcon: 'default'},
+	'vehicles': {sidebarIcon: 'truck'},
+	'other': {sidebarIcon: 'alarm'},
 };
 
 app.markerTypes = {
-	'letter': {},
-	'document': {},
-	'personal-item': {},
-	'workbench': {},
-	'dead-eye-target': {},
+	'letter': {group: 'letters'},
+	'document': {group: 'documents'},
+	'hidden-item': {group: 'hidden-items'},
+	'stone-eagle': {group: 'stone-eagles'},
+	'workbench': {group: 'workbenches'},
 	
-	'primary': {group: 'objective', showSubIds: true},
-	'secondary': {group: 'objective', showSubIds: true},
-	'kill-list': {group: 'objective', showSubIds: true},
-	'start': {group: 'objective', showSubIds: true},
-	'exit': {group: 'objective', showSubIds: true},
+	'primary': {group: 'objectives', showSubIds: true},
+	'secondary': {group: 'objectives', showSubIds: true},
+	'kill-list': {group: 'objectives', showSubIds: true},
+	'start': {group: 'objectives', showSubIds: true},
+	'exit': {group: 'objectives', showSubIds: true},
 	
-	'alarm': {group: 'other'},
-	'ammo': {group: 'other'},
-	'bodybox': {group: 'other'},
-	'emplacement': {group: 'other'},
-	'generator': {group: 'other'},
-	'intel': {group: 'other'},
-	'searchlight': {group: 'other'},
-	'speaker': {group: 'other'},
-	'phonograph': {group: 'other', icon: 'default'},
-	'key': {group: 'other', icon: 'default'},
-	'door': {group: 'other', icon: 'default'},
-	'bolt-cutters': {group: 'other', icon: 'default'},
-	'crowbar': {group: 'other', icon: 'default'},
-	'supply-crate': {group:'other', icon:'ammo'},
-	'invasion': {group:'other'},
+	'bolt-cutters': {group: 'tools', icon: 'default'},
+	'crowbar': {group: 'tools', icon: 'default'},
+	'key': {group: 'tools', icon: 'default'},
+	'satchel-charge': {group: 'tools', icon: 'default'},
 	
 	'aircraft': {group: 'vehicles'},
 	'armoured-car': {group: 'vehicles'},
@@ -90,26 +83,36 @@ app.markerTypes = {
 	'tank': {group: 'vehicles'},
 	'truck': {group: 'vehicles'},
 	'vip-car': {group: 'vehicles'},
+	
+	'alarm': {group: 'other'},
+	'body-box': {group: 'other'},
+	'door': {group: 'tools', icon: 'default'},
+	'emplacement': {group: 'other'},
+	'generator': {group: 'other'},
+	'intel': {group: 'other'},
+	'invasion': {group:'other'},
+	'phonograph': {group: 'other', icon: 'default'},
+	'searchlight': {group: 'other'},
+	'speaker': {group: 'other'},
+	'supply-crate': {group:'other', icon:'ammo'},
 };
 
 app.defaultIcon = 'default';
 app.defaultIconSize = [39, 39];
 app.markerIcons = {
+	'waypoint': {size: [45, 45]},
+	'default': {size: [24, 24]},
+	
 	'letter': {folder: 'collectibles'},
 	'document': {folder: 'collectibles'},
-	'personal-item': {folder: 'collectibles'},
+	'hidden-item': {folder: 'collectibles'},
 	'workbench': {folder: 'collectibles'},
-	'dead-eye-target': {folder: 'collectibles'},
+	'stone-eagle': {folder: 'collectibles'},
 	
-	'alarm': {folder: 'poi', size: [28, 28]},
-	'ammo': {folder: 'poi', size: [28, 28]},
-	'bodybox': {folder: 'poi', size: [28, 28]},
-	'emplacement': {folder: 'poi', size: [28, 28]},
-	'generator': {folder: 'poi', size: [28, 28]},
-	'intel': {folder: 'poi', size: [28, 28]},
-	'searchlight': {folder: 'poi', size: [28, 28]},
-	'speaker': {folder: 'poi', size: [28, 28]},
-	'invasion': {folder: 'poi', size: [28, 28]},
+	'objective': {folder: 'objectives', size: [42, 42]},
+	'primary': {folder: 'objectives', size: [42, 42]},
+	'secondary': {folder: 'objectives', size: [30, 30]},
+	'kill-list': {folder: 'objectives', size: [30, 30]},
 	
 	'aircraft': {folder: 'vehicles', size: [28, 28]},
 	'armoured-car': {folder: 'vehicles', size: [28, 28]},
@@ -120,8 +123,15 @@ app.markerIcons = {
 	'truck': {folder: 'vehicles', size: [28, 28]},
 	'vip-car': {folder: 'vehicles', size: [28, 28]},
 	
-	'waypoint': {size: [45, 45]},
-	'default': {size: [24, 24]},
+	'alarm': {folder: 'poi', size: [28, 28]},
+	'ammo': {folder: 'poi', size: [28, 28]},
+	'body-box': {folder: 'poi', size: [28, 28]},
+	'emplacement': {folder: 'poi', size: [28, 28]},
+	'generator': {folder: 'poi', size: [28, 28]},
+	'intel': {folder: 'poi', size: [28, 24]},
+	'searchlight': {folder: 'poi', size: [28, 28]},
+	'speaker': {folder: 'poi', size: [28, 28]},
+	'invasion': {folder: 'poi', size: [28, 28]},
 };
 
 app.helpText = `
