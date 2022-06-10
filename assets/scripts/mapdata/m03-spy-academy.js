@@ -10,21 +10,11 @@ app.mapData = {
 };
 
 app.mapData.markers = [
-	makeMarker('letter', 1, 2134,1973),
-	makeMarker('letter', 2, 1170,2446),
-	makeMarker('letter', 3, 2254,1954),
-	makeMarker('letter', 4, 2770,2961),
-	makeMarker('letter', 5, 2560,2758),
-
-
-
-	// Persons with Codes
-
-	// Starting Location: 1 2369,1959
-
-	// Tools Crowbar
-
-	// Charges
+	makeMarker('letter', 1, 2134, 1973),
+	makeMarker('letter', 2, 1170, 2446),
+	makeMarker('letter', 3, 2254, 1954),
+	makeMarker('letter', 4, 2770, 2961),
+	makeMarker('letter', 5, 2560, 2758),
 	
-	//
+	// Starting Location 1: 2369,1959
 ];

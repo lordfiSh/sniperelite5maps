@@ -43,7 +43,7 @@
       "desc": "In einem Tresor im Erdgeschoss."
     }
   },
-  "personal-item": {
+  "hidden-item": {
     "1": {
       "label": "Résistance-Foto",
       "desc": "Auf einem kleinen Holztisch im ersten Stock."
@@ -57,7 +57,7 @@
       "desc": "In der Küche im Erdgeschoss."
     }
   },
-  "dead-eye-target": {
+  "stone-eagle": {
     "1": {
       "label": "Steinerner Adler",
       "desc": "Auf dem Schornstein eines Gebäudes außerhalb der Karte."

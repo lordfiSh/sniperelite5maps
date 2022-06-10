@@ -43,7 +43,7 @@
             "desc": "Inside of a safe on the ground floor."
         }
     },
-    "personal-item": {
+    "hidden-item": {
         "1": {
             "label": "Resistance Photo",
             "desc": "On top of a wooden table on the first floor."
@@ -57,7 +57,7 @@
             "desc": "Inside the kitchen on the ground floor."
         }
     },
-    "dead-eye-target": {
+    "stone-eagle": {
         "1": {
             "label": "Stone Eagle",
             "desc": "On top of the chimney of a building outside of the map."

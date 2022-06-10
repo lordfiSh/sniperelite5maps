@@ -43,7 +43,7 @@
             "desc": ""
         }
     },
-    "personal-item": {
+    "hidden-item": {
         "1": {
             "label": "Old Man Statuette",
             "desc": "In a Tressor that is hidden behind a Painting (2nd Floor)"
@@ -57,7 +57,7 @@
             "desc": "Carrier by the Sniper"
         }
     },
-    "dead-eye-target": {
+    "stone-eagle": {
         "1": {
             "label": "",
             "desc": ""
