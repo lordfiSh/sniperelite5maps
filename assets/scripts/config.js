@@ -54,6 +54,7 @@ app.markerGroups = {
 	'objectives': {sidebarIcon: 'objective'},
 	'tools': {sidebarIcon: 'default'},
 	'vehicles': {sidebarIcon: 'truck'},
+	'utilities': {sidebarIcon: 'body-box'},
 	'other': {sidebarIcon: 'alarm'},
 };
 
@@ -69,6 +70,7 @@ app.markerTypes = {
 	'kill-list': {group: 'objectives', showSubIds: true},
 	'start': {group: 'objectives', showSubIds: true},
 	'exit': {group: 'objectives', showSubIds: true},
+	'intel': {group: 'objectives'},
 	
 	'bolt-cutters': {group: 'tools', icon: 'default'},
 	'crowbar': {group: 'tools', icon: 'default'},
@@ -84,17 +86,17 @@ app.markerTypes = {
 	'truck': {group: 'vehicles'},
 	'vip-car': {group: 'vehicles'},
 	
+	'body-box': {group: 'utilities'},
+	'generator': {group: 'utilities'},
+	'phonograph': {group: 'utilities', icon: 'default'},
+	'supply-crate': {group:'utilities', icon:'ammo'},
+	
 	'alarm': {group: 'other'},
-	'body-box': {group: 'other'},
 	'door': {group: 'tools', icon: 'default'},
 	'emplacement': {group: 'other'},
-	'generator': {group: 'other'},
-	'intel': {group: 'other'},
 	'invasion': {group:'other'},
-	'phonograph': {group: 'other', icon: 'default'},
 	'searchlight': {group: 'other'},
 	'speaker': {group: 'other'},
-	'supply-crate': {group:'other', icon:'ammo'},
 };
 
 app.defaultIcon = 'default';
