@@ -44,6 +44,7 @@ app.enabledMaps = [
 	'dlc1-kill-hitler'
 ];
 
+app.defaultHiddenGroups = ['tools', 'vehicles', 'utilities', 'other'];
 app.markerGroups = {
 	'letters': {sidebarIcon: 'letter'},
 	'documents': {sidebarIcon: 'document'},

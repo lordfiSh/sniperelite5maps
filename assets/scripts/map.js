@@ -190,7 +190,7 @@
 		
 		function loadMarkerGroupVisibility() {
 			const storageKey = 'group-visibility-' + app.mapData.name;
-			return app.getConfigValue(storageKey, {'other': false});
+			return app.getConfigValue(storageKey, Object.fromEntries((app.defaultHiddenGroups ?? ['other']).map(key => [key, false])));
 		}
 		
 		function saveMarkerGroupVisibility(groupName, visible) {
@@ -239,7 +239,7 @@
 				
 				item.dataset['layer'] = groupName;
 				$(item).on('click', () => toggleMarkerGroup(groupName));
-				if(!(visibility[groupName] ?? true))
+				if(!(visibility[groupName] ?? !(app.defaultHiddenGroups ?? []).includes(groupName)))
 					item.classList.add('layer-disabled');
 				
 				icon.classList.add(groupName);
