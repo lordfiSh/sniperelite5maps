@@ -103,6 +103,10 @@
       "searchlight": "Suchscheinwerfer",
       "speaker": "Lautsprecher",
       "supply-crate": "Versorgungskiste"
+    },
+    "description": {
+      "supply-crate.crowbar": "Kann mit einer Brechstange geöffnet werden.",
+      "supply-crate.padlock": "Das Schloss kann von Hand oder mit einem Bolzenschneider geknackt werden."
     }
   }
 }

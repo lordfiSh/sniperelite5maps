@@ -1,52 +1,98 @@
-function getTypeLabel(type) {
+// display modes:
+// - type               Generator
+// - type-id            Stone Eagle 1
+// - label              Armoury Key
+// - label-type         Armoury Key (Key)
+// - label-type-id      Orders of the Day (Classified Document 1)
+// - label-type-id-sub  Do X (Primary Objective 2.1)
+
+function translateType(type) {
 	return $.t(`marker.type.${type}`);
 }
 
-function getMarkerLabel(namespace, type, id) {
-	const translationPath = `${namespace}:${type}.${Math.trunc(id)}.label`;
-	const translation = $.t(translationPath);
-	return translation !== translationPath ? translation : "";
+function translateLabel(namespace, type, id) {
+	return $.t(`${namespace}:${type}.${Math.trunc(id)}.label`, {defaultValue: ""});
 }
 
-function getMarkerDescription(namespace, type, id) {
-	let translationPath = `${namespace}:${type}.${id}.desc`;
-	
-	// id 2.1 will expand to 'ns:type.2.desc.1'
-	const base = Math.trunc(id);
-	if(base !== id) {
-		const sub = (id - base).toFixed(1).substring(2);
-		translationPath = `${namespace}:${type}.${base}.desc.${sub}`;
+function translateDescription(namespace, type, id) {
+	switch(typeof id) {
+		case 'string':
+			// String ids refer to the global descriptions table.
+			// That way descriptions like "Can be opened with a crowbar."
+			// don't have to be repeated.
+			return $.t(`marker.description.${type}.${id}`, {defaultValue: ""});
+		
+		case 'number':
+			// Id 2.1 will expand to 'ns:type.2.desc.1'.
+			const base = Math.trunc(id);
+			if(base !== id) {
+				const sub = (id - base).toFixed(1).substring(2);
+				return $.t(`${namespace}:${type}.${base}.desc.${sub}`, {defaultValue: ""});
+			}
+			return $.t(`${namespace}:${type}.${id}.desc`, {defaultValue: ""});
+		
+		default:
+			console.error("Invalid id: " + id);
+			return undefined;
 	}
-
-	const translation = $.t(translationPath);
-	return translation !== translationPath ? translation : "";
 }
 
-function composeSearchLabel(typeLabel, id, label) {
-	if(!id) return `${typeLabel}`;
-	return `${typeLabel} ${id}: ${label}`;
+function getMainLabel(type, id, labelOverride) {
+	switch(app.markerTypes[type]?.displayMode) {
+		case 'type': return translateType(type);
+		case 'type-id': return `${translateType(type)} ${id}`;
+		
+		case 'label':
+		case 'label-type':
+		case 'label-type-id':
+		case 'label-type-id-sub':
+			return labelOverride ?? translateLabel(app.mapData.name, type, id);
+			
+		default:
+			console.error("Invalid display mode");
+			return undefined;
+	}
 }
 
-function truncateId(type, id) {
-	if(app.markerTypes[type]?.showSubIds && Math.trunc(id) !== id) return id.toFixed(1);
-	return id.toFixed(0);
+function getSubLabel(type, id) {
+	switch(app.markerTypes[type]?.displayMode) {
+		case 'type':
+		case 'type-id':
+		case 'label': return "";
+		
+		case 'label-type': return `${translateType(type)}`;
+		case 'label-type-id':  return `${translateType(type)} ${typeof id === 'number' ? Math.trunc(id) : id}`;
+		case 'label-type-id-sub': return `${translateType(type)} ${id}`;
+		
+		default:
+			return undefined;
+	}
 }
 
-function composePopupContent(typeLabel, id, label, desc, type, unverified) {
+function getDescription(type, id, descOverride) {
+	return descOverride ?? translateDescription(app.mapData.name, type, id);
+}
+
+function composePopupContent(mainLabel, subLabel, description, unverified) {
 	const prefix = unverified ? `${$.t('marker.unverified')} ` : "";
-	if(id === 0) return `<h3>${prefix}${typeLabel}</h3>`;
-	if(id === -1) return `<h3>${prefix}${label}</h3>${desc}`;
-	
-	return `<h3>${prefix}${label} <small>(${typeLabel} ${truncateId(type, id)})</small></h3>${desc}`;
+	const label = subLabel ? `${mainLabel} <small>(${subLabel})</small>` : mainLabel;
+	return `<h3>${prefix}${label}</h3>${description}`;
 }
 
-function makeMarker(type, id, y, x, unverified = false, label, desc) {
+function composeSearchLabel(mainLabel, subLabel) {
+	return subLabel ? `${subLabel}: ${mainLabel}` : mainLabel;
+}
+
+function makeMarker(type, id, y, x, unverified = false, labelOverride, descOverride) {
 	const group = app.markerTypes[type]?.group ?? type;
 	const position = [y ?? 0, x ?? 0];
-	const typeLabel = getTypeLabel(type);
-	label ??= getMarkerLabel(app.mapData.name, type, id);
-	desc ??= getMarkerDescription(app.mapData.name, type, id);
-	const searchLabel = composeSearchLabel(typeLabel, id, label);
-	const popupContent = composePopupContent(typeLabel, id, label, desc, type, unverified);
-	return {position, id, type, group, typeLabel, label, desc, popupContent, searchLabel};
+	
+	const mainLabel = getMainLabel(type, id, labelOverride);
+	const subLabel = getSubLabel(type, id);
+	const description = getDescription(type, id, descOverride);
+	
+	const popupContent = composePopupContent(mainLabel, subLabel, description, unverified);
+	const searchLabel = composeSearchLabel(mainLabel, subLabel);
+	
+	return {type, id, group, position, popupContent, searchLabel};
 }

@@ -16,12 +16,9 @@
             "label": "Good Plan, Let’s Do It.",
             "desc": ""
         }
-    }, 
+    },
     "document": {
-        "1": {
-            "label": "Orders of the Day",
-            "desc": "On a Table (2nd Floor)"
-        },
+        "1": { "label": "Orders of the Day", "desc": "On a Table (2nd Floor)" },
         "2": {
             "label": "Renovations Completed",
             "desc": "Inside Möllers Office (2nd Floor)"

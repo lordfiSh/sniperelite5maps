@@ -278,7 +278,7 @@
 			const group = markerInfo.group;
 			const icon = getIcon(typeInfo?.icon ?? type);
 			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
-
+			
 			const lat = marker.getLatLng().lat;
 			const lng = marker.getLatLng().lng;
 			
@@ -286,11 +286,11 @@
 				marker.setOpacity(app.transparentMarkerOpacity ?? 0.5);
 				app.markerCount[group]--;
 			}
-
+			
 			marker.on('contextmenu', () => {
 				app.toggleMarkerTransparency(lat, lng, marker, group);
 			});
-
+			
 			marker.bindPopup(markerInfo.popupContent, {
 				autoClose: false,
 				closeButton: false,
@@ -298,7 +298,7 @@
 				interactive: true
 			});
 			app.bindPopupEvents(marker);
-
+			
 			return marker;
 		}
 		
@@ -525,7 +525,7 @@
 					app.leafletMap.addLayer(layer);
 				}
 			}
-
+			
 			app.leafletMap.on('click', () => {
 				updatePermanentMarker(undefined);
 			});
@@ -597,7 +597,7 @@
 		}
 		
 		function initSearchControl() {
-			const data = app.mapData.markers.filter(marker => marker.id !== 0);
+			const data = app.mapData.markers;//.filter(marker => marker.id !== 0);
 			
 			const fuse = new window.Fuse(data, {
 				isCaseSensitive: false,
@@ -608,7 +608,7 @@
 				location: 0,
 				distance: 10000,
 				maxPatternLength: 32,
-				keys: ['label', 'desc', 'typeLabel']
+				keys: ['searchLabel']
 			});
 			
 			new L.Control.Search({
@@ -629,11 +629,12 @@
 				filterData: (text, allRecords) => {
 					// we don't need allRecords because fuse
 					// already knows the full dataset
+					let counter = 0;
 					return Object.fromEntries(
 						fuse.search(text)
-							.map(record => [record.item.label, record.item]));
+							.map(record => [counter++, record.item]));
 				},
-				buildTip: (label, record) => {
+				buildTip: (counter, record) => {
 					const elem = document.createElement('span');
 					elem.innerText = record.searchLabel;
 					elem.addEventListener('click', () => app.focusMarkerAt(record.position));
@@ -720,7 +721,7 @@
 		
 		let circle;
 		let currentPermanentMarker;
-
+		
 		function updatePermanentMarker(marker) {
 			if(currentPermanentMarker === marker) {
 				currentPermanentMarker = undefined;
@@ -736,13 +737,14 @@
 			}
 			marker?.updatePopup();
 		}
-
+		
 		function bindPopupEvents(marker) {
 			const popup = marker.getPopup();
 			let isMarkerHovered = false;
 			let isPopupHovered = false;
-
+			
 			marker.updatePopup = updatePopup;
+			
 			function updatePopup() {
 				if(isMarkerHovered || isPopupHovered || currentPermanentMarker === marker) {
 					if(!marker.isPopupOpen()) marker.openPopup();
@@ -750,34 +752,34 @@
 					if(marker.isPopupOpen()) marker.closePopup();
 				}
 			}
-
+			
 			marker.on('mouseover', () => {
 				isMarkerHovered = true;
 				updatePopup();
 			});
-
+			
 			marker.on('mouseout', () => {
 				isMarkerHovered = false;
 				setTimeout(updatePopup, 0);
 			});
-
+			
 			// disable default leaflet behaviour for click event
 			marker.off('click');
 			marker.on('click', () => {
 				updatePermanentMarker(marker);
 			});
-
+			
 			popup.on('mouseover', () => {
 				isPopupHovered = true;
 				updatePopup();
 			});
-
+			
 			popup.on('mouseout', () => {
 				isPopupHovered = false;
 				setTimeout(updatePopup, 0);
 			});
 		}
-
+		
 		function focusMarkerAt(position, zoom, options) {
 			const marker = app.findMarkerAt(position);
 			updatePermanentMarker(marker);

@@ -91,14 +91,14 @@ app.mapData.markers = [
 	makeMarker('body-box', 0, 1969,1712), // first floor
 	makeMarker('body-box', 0, 1984,1751), // first floor
 	
-	makeMarker('supply-crate', 0, 912,1931, false, undefined, "Requires crowbar."),
-	makeMarker('supply-crate', 0, 1689,2253, false, undefined, "Requires crowbar."),
-	makeMarker('supply-crate', 0, 1960,2120, false, undefined, "Requires crowbar."),
-	makeMarker('supply-crate', 0, 2113,1257, false, undefined, "Requires crowbar."),
-	makeMarker('supply-crate', 0, 1766,1587, false, undefined, "Requires crowbar."),
-	makeMarker('supply-crate', 0, 1182,1499, false, undefined, "Requires crowbar."),
-	makeMarker('supply-crate', 0, 1979,807, false, undefined, "Can be opened by picking the lock or with bolt cutters."),
-	makeMarker('supply-crate', 0, 1516,1644, false, undefined, "Can be opened by picking the lock or with bolt cutters."),
+	makeMarker('supply-crate', 'crowbar', 912,1931),
+	makeMarker('supply-crate', 'crowbar', 1689,2253),
+	makeMarker('supply-crate', 'crowbar', 1960,2120),
+	makeMarker('supply-crate', 'crowbar', 2113,1257),
+	makeMarker('supply-crate', 'crowbar', 1766,1587),
+	makeMarker('supply-crate', 'crowbar', 1182,1499),
+	makeMarker('supply-crate', 'padlock', 1979,807),
+	makeMarker('supply-crate', 'padlock', 1516,1644),
 	
 	makeMarker('crowbar', 0, 1574,2390),
 	makeMarker('crowbar', 0, 2258,1186),

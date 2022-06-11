@@ -101,6 +101,10 @@
       "searchlight": "Searchlight",
       "speaker": "Speaker",
       "supply-crate": "Supply Crate"
+    },
+    "description": {
+      "supply-crate.crowbar": "Can be opened with a crowbar.",
+      "supply-crate.padlock": "Can be opened by picking the lock or with bolt cutters."
     }
   }
 }
