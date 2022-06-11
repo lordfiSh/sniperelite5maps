@@ -43,17 +43,7 @@
       "error": "Keine Treffer",
       "cancel": "Abbrechen",
       "placeholder": "Suchen..."
-    },
-    "backup-save": "Einstellungen sichern",
-    "backup-save-confirm": "Dies wird eine Sicherungskopie deiner Karteneinstellungen herunterladen.\nDie Datei wird unter dem Namen \"__fileName__\" gespeichert. \nFortfahren?",
-    "backup-load": "Einstellungen wiederherstellen",
-    "backup-load-label": "Einstellungen wiederherstellen:",
-    "backup-load-success": "Wiederherstellung erfolgreich!",
-    "backup-load-fail": "Wiederherstellung fehlgeschlagen, bitte überprüfe die Datei",
-    "backup-load-unsupported": "Die Wiederherstellungsfunktion ist nicht verfügbar, weil dein Browser die HTML5 File API nicht unterstützt.",
-    "center-on-focused-marker": "Ausgewählten Marker zentrieren",
-    "note-add": "Notiz hinzufügen",
-    "note-cancel": "Notizerstellung abbrechen"
+    }
   },
   "sidebar": {
     "info": "An dieser Seite wird noch aktiv gearbeitet.<br>Melde Probleme bitte auf <a href=\"https://github.com/lordfiSh/sniperelite5maps/issues\" target=\"_blank\">GitHub</a>.",

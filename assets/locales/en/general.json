@@ -41,17 +41,7 @@
       "error": "No matches",
       "cancel": "Cancel",
       "placeholder": "Search..."
-    },
-    "backup-save": "Backup Data",
-    "backup-save-confirm": "This will download a backup copy of all your map settings.\n\nThe file will be saved as: __fileName__\n\nContinue?",
-    "backup-load": "Restore Data",
-    "backup-load-label": "Restore your settings:",
-    "backup-load-success": "Data Restore Complete!",
-    "backup-load-fail": "Restore failed, please double-check your file",
-    "backup-load-unsupported": "The backup feature is not available because your browser does not support the HTML5 File API.",
-    "center-on-focused-marker": "Center Highlighted Marker",
-    "note-add": "Add Note",
-    "note-cancel": "Cancel Note"
+    }
   },
   "sidebar": {
     "info": "This page is under active development.<br>If you find any issues, please let us know on <a href=\"https://github.com/lordfiSh/sniperelite5maps/issues\" target=\"_blank\">GitHub</a>.",
