@@ -1,86 +1,169 @@
 {
-    "letter": {
-        "1": {
-            "label": "Do Not Fail Me, Nephew",
-            "desc": "On a Table (2nd Floor)"
-        },
-        "2": {
-            "label": "Need A Scapegoat ",
-            "desc": "Near a Bed (2nd Floor)"
-        },
-        "3": {
-            "label": "Brother, I Have A Plan",
-            "desc": "On a Table (top Floor)"
-        },
-        "4": {
-            "label": "Good Plan, Let’s Do It.",
-            "desc": ""
-        }
+  "letter": {
+    "1": {
+      "label": "Do Not Fail Me, Nephew",
+      "desc": "On a desk on the first floor."
     },
-    "document": {
-        "1": { "label": "Orders of the Day", "desc": "On a Table (2nd Floor)" },
-        "2": {
-            "label": "Renovations Completed",
-            "desc": "Inside Möllers Office (2nd Floor)"
-        },
-        "3": {
-            "label": "Operation Kraken",
-            "desc": ""
-        },
-        "4": {
-            "label": "New Orders, Effective Immediately",
-            "desc": ""
-        },
-        "5": {
-            "label": "Immediate Request For Attic Repairs",
-            "desc": ""
-        },
-        "6": {
-            "label": "Grateful, Thanks",
-            "desc": ""
-        }
+    "2": {
+      "label": "Need A Scapegoat",
+      "desc": "Near a bed on the second floor."
     },
-    "hidden-item": {
-        "1": {
-            "label": "Old Man Statuette",
-            "desc": "In a Tressor that is hidden behind a Painting (2nd Floor)"
-        },
-        "2": {
-            "label": "Group Statuette",
-            "desc": "Inside a green Wooden Box (Top Floor)"
-        },
-        "3": {
-            "label": "Soldier Statuette",
-            "desc": "Carrier by the Sniper"
-        }
+    "3": {
+      "label": "Brother, I Have A Plan",
+      "desc": "On a wooden table on the top floor."
     },
-    "stone-eagle": {
-        "1": {
-            "label": "",
-            "desc": ""
-        },
-        "2": {
-            "label": "",
-            "desc": ""
-        },
-        "3": {
-            "label": "",
-            "desc": ""
-        }
-    },
-    "workbench": {
-        "1": {
-            "label": "Rifle Workbench",
-            "desc": ""
-        },
-        "2": {
-            "label": "Pistol Workbench",
-            "desc": ""
-        },
-        "3": {
-            "label": "SMG Workbench",
-            "desc": ""
-        }
+    "4": {
+      "label": "Good Plan, Let’s Do It.",
+      "desc": "On a small chest in the sniper's hideout on the first floor."
     }
+  },
+  "document": {
+    "1": {
+      "label": "Orders of the Day",
+      "desc": {
+        "1": "On a cabinet on the first floor.",
+        "2": "On a table in the tent.",
+        "3": "Inside of the supply crate.",
+        "4": "On a wooden crate."
+      }
+    },
+    "2": {
+      "label": "Renovations Completed",
+      "desc": "On Möller's desk on the first floor."
+    },
+    "3": {
+      "label": "Operation Kraken",
+      "desc": "On a cabinet in Möller's secret room on the first floor."
+    },
+    "4": {
+      "label": "New Orders, Effective Immediately",
+      "desc": {
+        "1": "On a wooden table in the building.",
+        "2": "On a wooden table in the building.",
+        "3": "On a wooden chest in front of the main entrance."
+      }
+    },
+    "5": {
+      "label": "Immediate Request For Attic Repairs",
+      "desc": {
+        "1": "On a wooden table in the building.",
+        "2": "On the door to the attic above Möller's office."
+      }
+    },
+    "6": {
+      "label": "Grateful, Thanks",
+      "desc": "On a cabinet in Möller's secret room on the first floor."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Old Man Statuette",
+      "desc": "In a wall safe hidden behind a painting."
+    },
+    "2": {
+      "label": "Group Statuette",
+      "desc": "Inside of a supply crate on the top floor. Can be opened by picking the lock or with bolt cutters."
+    },
+    "3": {
+      "label": "Soldier Statuette",
+      "desc": "Carried by the sniper Christoph Lauda."
+    }
+  },
+  "stone-eagle": {
+    "1.desc": "On top of the chimney.",
+    "2.desc": "On a cliff next to the river.",
+    "3.desc": "On the roof."
+  },
+  "workbench": {
+    "1": {
+      "label": "Rifle Workbench",
+      "desc": "In the basement armoury."
+    },
+    "2": {
+      "label": "Pistol Workbench",
+      "desc": "On the first floor, accessible via some vines on the back side of the building."
+    },
+    "3": {
+      "label": "SMG Workbench",
+      "desc": "In the armoury."
+    }
+  },
 
+  "intel": {
+    "1": {
+      "label": "Mill Bridge",
+      "desc": "The Germans have a tower overlooking the bridge."
+    },
+    "2": {
+      "label": "Main Gates",
+      "desc": "Germans have set up turrets and blockades down the central path."
+    },
+    "3": {
+      "label": "Woodland Ford",
+      "desc": "A German patrol is guarding the narrow river crossing."
+    },
+    "4": {
+      "label": "Château Stables",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "5": {
+      "label": "Munitions Farmhouse",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "6": {
+      "label": "Chateau Armoury",
+      "desc": "There is an armoury in the Chateau's cellars.<br>The Chateau armoury contains satchel charges."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Armoury Key",
+      "desc": "Carried by Officer Markus Bertram."
+    },
+    "2": {
+      "label": "Old Tunnels Key",
+      "desc": "On a wooden table in the building."
+    },
+    "3": {
+      "label": "Möller's Office Key",
+      "desc": "Carried by officer Friedrich Kümmler."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Armoury Door",
+      "desc": "Requires armoury key or satchel charge."
+    },
+    "2": {
+      "label": "Old Tunnels Door",
+      "desc": "Requires old tunnels key or satchel charge."
+    }
+  },
+
+  "primary": {
+    "1": {
+      "label": "Enter Möller's Office",
+      "desc": {
+        "1": "Option A - Open the reinforced door.",
+        "2": "Option B - Drop in from the attic."
+      }
+    },
+    "2": {
+      "label": "Obtain Möller's Secrets",
+      "desc": {
+        "1": "Search Möller's office for clues.",
+        "2": "Raid Möller's innder study for intel."
+      }
+    },
+    "3": {
+      "label": "Rendezvous with the Resistance",
+      "desc": "Exfiltrate."
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Friedrich Kümmler",
+      "desc": "Find and Kill Friedrich Kümmler."
+    }
+  }
 }

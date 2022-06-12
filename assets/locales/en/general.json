@@ -104,7 +104,11 @@
     },
     "description": {
       "supply-crate.crowbar": "Can be opened with a crowbar.",
-      "supply-crate.padlock": "Can be opened by picking the lock or with bolt cutters."
+      "supply-crate.padlock": "Can be opened by picking the lock or with bolt cutters.",
+      "body-box.basement": "In the basement.",
+      "body-box.ground-floor": "On the ground floor.",
+      "body-box.first-floor": "On the first floor.",
+      "body-box.second-floor": "On the second floor."
     }
   }
 }
