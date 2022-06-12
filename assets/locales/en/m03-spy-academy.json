@@ -3,7 +3,19 @@
         "1": {"label": "Parking Problems","desc": "Inside a Trashbin "},
         "2": {"label": "Fragile, Do Not Break","desc": "On a Metalbox, behind the Truck"},
         "3": {"label": "Do Not Be Late!","desc": "The Document is carried by Domic Kundel. He at the Cafe"},
-        "4": {"label": "It's Easy Money","desc": "Is carried by one of the Officers, Toplevel of the Chruch Toower"},
+        "4": {"label": "It's Easy Money","desc": "Is carried by one of the Officers, Toplevel of the Chruch Tower"},
         "5": {"label": "Just Attend One!","desc": ""}
+    },
+    "document": {
+        "1": {"label": "Priority Package!","desc": "On a cabinet, next to the Window"},
+        "2": {"label": "Won’t Be Attending","desc": "On top level of the Castletower"},
+        "3": {"label": "Training Scenarios","desc": "On a table at top level of the Building"},
+        "4": {"label": "Resource Request","desc": "On a wooden table on the top floor."},
+        "5": {"label": "Armoury Exposed","desc": "On top level of the Castletower, on a bench"}
+    },
+    "hidden-item": {
+        "1": {"label": "Kriegsmarine Playing Cards","desc": "Inside the Bar on a table"},
+        "2": {"label": "Ornate Compass","desc": "Can be found inside the tresor in the top level"},
+        "3": {"label": "Covert Ops Field Manual","desc": "Lies on a table in the basement of the building"}
     }
 }
