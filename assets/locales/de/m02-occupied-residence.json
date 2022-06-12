@@ -1,2 +1,174 @@
 {
+  "letter": {
+    "1": {
+      "label": "Enttäusche mich nicht, Neffe",
+      "desc": "Auf einem Schreibtisch im ersten Stock."
+    },
+    "2": {
+      "label": "Ich brauche einen Sündenbock",
+      "desc": "In der Nähe eines Bettes im zweiten Stock."
+    },
+    "3": {
+      "label": "Bruder, ich habe einen Plan",
+      "desc": "Auf einem Holztisch im obersten Stockwerk."
+    },
+    "4": {
+      "label": "Ein solider Plan",
+      "desc": "Auf einer kleinen Truhe im Versteck des Scharfschützen im ersten Stock."
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Tagesbefehle",
+      "desc": {
+        "1": "Auf einer Kommode im ersten Stock.",
+        "2": "Auf einem Tisch im Zelt.",
+        "3": "In der Versorgungskiste.",
+        "4": "Auf einer Holzkiste."
+      }
+    },
+    "2": {
+      "label": "Renovierung abgeschlossen",
+      "desc": "Auf Möllers Schreibtisch im ersten Stock."
+    },
+    "3": {
+      "label": "Operation Krake",
+      "desc": "Auf einer Kommode in Möllers Geheimraum im ersten Stock."
+    },
+    "4": {
+      "label": "Neue Befehle, ab sofort in Kraft",
+      "desc": {
+        "1": "Auf einem Holztisch im Gebäude.",
+        "2": "Auf einem Holztisch im Gebäude.",
+        "3": "Auf einer Holzkiste vor dem Haupteingang."
+      }
+    },
+    "5": {
+      "label": "Umgehende Reparatur des Dachbodens angefordert",
+      "desc": {
+        "1": "Auf einem Holztisch im Gebäude.",
+        "2": "An der Tür zum Dachboden über Möllers Büro."
+      }
+    },
+    "6": {
+      "label": "Vielen Dank",
+      "desc": "Auf einer Kommode in Möllers Geheimraum im ersten Stock."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Statuette eines alten Mannes",
+      "desc": "In einem Wandtresor hinter einem Gemälde."
+    },
+    "2": {
+      "label": "Statuette einer Gruppe",
+      "desc": "In einer Versorgungskiste im obersten Stockwerk. Das Schloss kann von Hand oder mit einem Bolzenschneider geknackt werden."
+    },
+    "3": {
+      "label": "Statuette eines Soldaten",
+      "desc": "Wird von dem Scharfschützen Christoph Lauda getragen."
+    }
+  },
+  "stone-eagle": {
+    "1.desc": "Auf einem Schornstein.",
+    "2.desc": "Auf einer Klippe neben dem Fluss.",
+    "3.desc": "Auf dem Dach."
+  },
+  "workbench": {
+    "1": {
+      "label": "Gewehrwerkbank",
+      "desc": "In der Waffenkammer im Keller."
+    },
+    "2": {
+      "label": "MP-Werkbank",
+      "desc": "Im ersten Stock, erreichbar über die Kletterpflanzen an der Rückseite des Gebäudes."
+    },
+    "3": {
+      "label": "Pistolenwerkbank",
+      "desc": "In der Waffenkammer."
+    }
+  },
+
+  "intel": {
+    "1": {
+      "label": "Brücke an der Mühle",
+      "desc": "Über der Brücke befindet sich ein Turm der Deutschen."
+    },
+    "2": {
+      "label": "Haupttore",
+      "desc": "Deutsche haben am Hauptweg Geschütze und Sperren aufgestellt."
+    },
+    "3": {
+      "label": "Furt im Waldgebiet",
+      "desc": "Eine Patrouille der Deutschen bewacht die schmale Flussquerung."
+    },
+    "4": {
+      "label": "Château-Stallung",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "5": {
+      "label": "Bauernhaus mit Munition",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "6": {
+      "label": "Waffenkammer des Châteaus",
+      "desc": "Im Keller des Châteaus gibt es eine Waffenkammer.<br>In der Waffenkammer des Châteaus befinden sich Sprengladungen."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Waffenkammerschlüssel",
+      "desc": "Getragen von Offizier Markus Bertram."
+    },
+    "2": {
+      "label": "Alte-Tunnel-Schlüssel",
+      "desc": "Auf einem Holztisch im Gebäude."
+    },
+    "3": {
+      "label": "Möllers Büroschlüssel",
+      "desc": "Getragen von Offizier Friedrich Kummler."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Tür zur Waffenkammer",
+      "desc": "Erfordert den Waffenkammerschlüssel oder eine Sprengladung."
+    },
+    "2": {
+      "label": "Tür zu den alten Tunneln",
+      "desc": "Erfordert den Alte-Tunnel-Schlüssel oder eine Sprengladung."
+    }
+  },
+
+  "primary": {
+    "1": {
+      "label": "Möllers Büro betreten",
+      "desc": {
+        "1": "Option A - Öffne die verstärkte Tür.",
+        "2": "Option B - Gelange über den Dachboden hinein."
+      }
+    },
+    "2": {
+      "label": "An Möllers Geheimnisse gelangen",
+      "desc": {
+        "1": "Suche in Möllers Büro nach Hinweisen.",
+        "2": "Suche in Möllers geheimem Arbeitszimmer nach Informationen."
+      }
+    },
+    "3": {
+      "label": "Rendezvous mit der Résistance",
+      "desc": "Gebiet verlassen."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Die gestohlenen Antiquitäten bergen"
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Friedrich Kummler",
+      "desc": "Finde und töte Friedrich Kummler."
+    }
+  }
 }

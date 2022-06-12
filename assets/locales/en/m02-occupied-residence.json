@@ -80,11 +80,11 @@
       "desc": "In the basement armoury."
     },
     "2": {
-      "label": "Pistol Workbench",
+      "label": "SMG Workbench",
       "desc": "On the first floor, accessible via some vines on the back side of the building."
     },
     "3": {
-      "label": "SMG Workbench",
+      "label": "Pistol Workbench",
       "desc": "In the armoury."
     }
   },
@@ -126,7 +126,7 @@
     },
     "3": {
       "label": "Möller's Office Key",
-      "desc": "Carried by officer Friedrich Kümmler."
+      "desc": "Carried by Officer Friedrich Kummler."
     }
   },
   "door": {
@@ -152,7 +152,7 @@
       "label": "Obtain Möller's Secrets",
       "desc": {
         "1": "Search Möller's office for clues.",
-        "2": "Raid Möller's innder study for intel."
+        "2": "Raid Möller's inner study for intel."
       }
     },
     "3": {
@@ -160,10 +160,15 @@
       "desc": "Exfiltrate."
     }
   },
+  "secondary": {
+    "1": {
+      "label": "Recover the Stolen Antiques"
+    }
+  },
   "kill-list": {
     "1": {
-      "label": "Friedrich Kümmler",
-      "desc": "Find and Kill Friedrich Kümmler."
+      "label": "Friedrich Kummler",
+      "desc": "Find and Kill Friedrich Kummler."
     }
   }
 }
