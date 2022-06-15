@@ -277,7 +277,7 @@
 			
 			const group = markerInfo.group;
 			const icon = getIcon(typeInfo?.icon ?? type);
-			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true});
+			const marker = L.marker(markerInfo.position, {icon, riseOnHover: true, markerInfo});
 			
 			const lat = marker.getLatLng().lat;
 			const lng = marker.getLatLng().lng;
@@ -782,6 +782,7 @@
 		
 		function focusMarkerAt(position, zoom, options) {
 			const marker = app.findMarkerAt(position);
+			app.showMarkerGroup(marker.options.markerInfo.group);
 			updatePermanentMarker(marker);
 			if(marker) {
 				app.leafletMap.flyTo(position, zoom, options);
