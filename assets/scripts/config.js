@@ -4,6 +4,7 @@ app.minZoom = 1;
 app.maxZoom = 6;
 app.tileSize = 256;
 app.transparentMarkerOpacity = 0.5;
+app.enableCircleMarker = false;
 
 app.quickSubmit = {
 	enable: true,

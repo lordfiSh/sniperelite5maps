@@ -795,7 +795,7 @@
 		
 		function highlightMarkerAt(position) {
 			circle.setLatLng(position);
-			app.leafletMap.addLayer(circle);
+			if(app.enableCircleMarker) app.leafletMap.addLayer(circle);
 			app.leafletHash.setParam('m', app.formatCoordinates(position));
 		}
 		
