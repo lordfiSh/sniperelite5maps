@@ -343,6 +343,8 @@
 			app.markerCount = {};
 			
 			for(const markerInfo of app.mapData.markers) {
+				processMarker(markerInfo);
+				
 				// skip markers without position
 				if(markerInfo.position[0] === 0 && markerInfo.position[1] === 0)
 					continue;

@@ -69,8 +69,20 @@ function getSubLabel(type, id) {
 	}
 }
 
+const linkPattern = /@link\[(?<type>[\w-]+)\.(?<id>[^|\]]+)(?:\|(?<display>[^\]]+))?]/g;
 function getDescription(type, id, descOverride) {
-	return descOverride ?? translateDescription(app.mapData.name, type, id);
+	const desc = descOverride ?? translateDescription(app.mapData.name, type, id);
+	return desc.replace(linkPattern, (match, type, id, display) => {
+		const markers = app.mapData.markers.filter(marker => marker.type === type && `${marker.id}` === id);
+		if(markers.length === 1) {
+			const marker = markers[0];
+			return `<a onclick="app.focusMarkerAt([${marker.position[0]}, ${marker.position[1]}]);">${display ?? getMainLabel(marker.type, marker.id)}</a>`;
+		}
+		else {
+			console.warn(`Unresolved link in description for marker ${type}.${id}`);
+			return display ?? "&lt;unresolved link&gt;";
+		}
+	});
 }
 
 function composePopupContent(mainLabel, subLabel, description, unverified) {
@@ -86,13 +98,17 @@ function composeSearchLabel(mainLabel, subLabel) {
 function makeMarker(type, id, y, x, unverified = false, labelOverride, descOverride) {
 	const group = app.markerTypes[type]?.group ?? type;
 	const position = [y ?? 0, x ?? 0];
+	return {type, id, group, position, unverified, labelOverride, descOverride};
+}
+
+function processMarker(marker) {
+	const mainLabel = getMainLabel(marker.type, marker.id, marker.labelOverride);
+	const subLabel = getSubLabel(marker.type, marker.id);
+	const description = getDescription(marker.type, marker.id, marker.descOverride);
 	
-	const mainLabel = getMainLabel(type, id, labelOverride);
-	const subLabel = getSubLabel(type, id);
-	const description = getDescription(type, id, descOverride);
+	marker.popupContent = composePopupContent(mainLabel, subLabel, description, marker.unverified);
+	marker.searchLabel = composeSearchLabel(mainLabel, subLabel);
 	
-	const popupContent = composePopupContent(mainLabel, subLabel, description, unverified);
-	const searchLabel = composeSearchLabel(mainLabel, subLabel);
-	
-	return {type, id, group, position, popupContent, searchLabel};
+	delete marker.labelOverride;
+	delete marker.descOverride;
 }
