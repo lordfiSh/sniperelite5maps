@@ -1,89 +1,225 @@
 {
-    "letter": {
-        "1": {
-            "label": "Picked Some Violets",
-            "desc": "On a small wooden crate next to the road."
-        },
-        "2": {
-            "label": "Upcoming Delivery",
-            "desc": "On the first floor of the barn, on the ground right next to the ladder."
-        },
-        "3": {
-            "label": "Violets Are Wilting",
-            "desc": "On a wooden plank in the attic."
-        },
-        "4": {
-            "label": "Violets Don't Wilt",
-            "desc": "Inside the hotel safe on the first floor."
-        },
-        "5": {
-            "label": "Pests in the Garden",
-            "desc": "On a small wooden table under the gazebo."
-        },
-        "6": {
-            "label": "Boches at the Door",
-            "desc": "On a couch on the ground floor."
-        }
-    }, 
-    "document": {
-        "1": {
-            "label": "Resistance Captured",
-            "desc": "On a wooden crate in the boathouse."
-        },
-        "2": {
-            "label": "Beach Defences",
-            "desc": "Inside the armoury safe."
-        },
-        "3": {
-            "label": "Lacking Air Support",
-            "desc": "Inside of a safe in the underground bunker."
-        },
-        "4": {
-            "label": "Atlantikwall Report",
-            "desc": "Inside of a safe on the ground floor."
-        }
+  "letter": {
+    "1": {
+      "label": "Picked Some Violets",
+      "desc": "On a small wooden crate next to the road."
     },
-    "hidden-item": {
-        "1": {
-            "label": "Resistance Photo",
-            "desc": "On top of a wooden table on the first floor."
-        },
-        "2": {
-            "label": "Radio Tin",
-            "desc": "On a wooden table near the stables."
-        },
-        "3": {
-            "label": "FFI Flag",
-            "desc": "Inside the kitchen on the ground floor."
-        }
+    "2": {
+      "label": "Upcoming Delivery",
+      "desc": "On the first floor of the barn, on the ground right next to the ladder."
     },
-    "stone-eagle": {
-        "1": {
-            "label": "Stone Eagle",
-            "desc": "On top of the chimney of a building outside of the map."
-        },
-        "2": {
-            "label": "Stone Eagle",
-            "desc": "Above the main entrance of the occupied hotel."
-        },
-        "3": {
-            "label": "Stone Eagle",
-            "desc": "On top of the fortification. Visible from the road leading north."
-        }
+    "3": {
+      "label": "Violets Are Wilting",
+      "desc": "On a wooden plank in the attic."
     },
-    "workbench": {
-        "1": {
-            "label": "Rifle Workbench",
-            "desc": "Inside the armoury, right next to the exit."
-        },
-        "2": {
-            "label": "Pistol Workbench",
-            "desc": "Inside the armoury."
-        },
-        "3": {
-            "label": "SMG Workbench",
-            "desc": "In the attic. Accessible via the vines on either side of the house."
-        }
+    "4": {
+      "label": "Violets Don't Wilt",
+      "desc": "Inside the hotel safe on the first floor."
+    },
+    "5": {
+      "label": "Pests in the Garden",
+      "desc": "On a small wooden table under the gazebo."
+    },
+    "6": {
+      "label": "Boches at the Door",
+      "desc": "On a couch on the ground floor."
     }
-
+  },
+  "document": {
+    "1": {
+      "label": "Resistance Captured",
+      "desc": "On a wooden crate in the boathouse."
+    },
+    "2": {
+      "label": "Beach Defences",
+      "desc": "Inside the armoury safe."
+    },
+    "3": {
+      "label": "Lacking Air Support",
+      "desc": "Inside of a safe in the underground bunker. The safe can be opened with the @link[code.1] or a satchel charge."
+    },
+    "4": {
+      "label": "Atlantikwall Report",
+      "desc": "Inside of a safe on the ground floor. The safe can be opened with the @link[code.2] or a satchel charge."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Resistance Photo",
+      "desc": "On top of a wooden table on the first floor."
+    },
+    "2": {
+      "label": "Radio Tin",
+      "desc": "On a wooden table near the stables."
+    },
+    "3": {
+      "label": "FFI Flag",
+      "desc": "Inside the kitchen on the ground floor."
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "On top of the chimney of a building outside of the map."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Above the main entrance of the occupied hotel."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "On top of the fortification. Visible from the road leading north."
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Rifle Workbench",
+      "desc": "Inside the armoury, right next to the exit."
+    },
+    "2": {
+      "label": "SMG Workbench",
+      "desc": "In the attic. Accessible via the vines on either side of the house."
+    },
+    "3": {
+      "label": "Pistol Workbench",
+      "desc": "Inside the armoury."
+    }
+  },
+  "code": {
+    "1": {
+      "label": "Radar Bunker Safe Code",
+      "desc": "Carried by Amalric Grosse (Infantry)."
+    },
+    "2": {
+      "label": "Northern Farm Safe Code",
+      "desc": "Carried by Helfried Feldt (Infantry)."
+    },
+    "3": {
+      "label": "Southern Farm Safe Code",
+      "desc": "Carried by Tielo Feld (Infantry)."
+    },
+    "4": {
+      "label": "Battery Armoury Safe Code",
+      "desc": "Carried by Oskar Schweiger (Officer)."
+    },
+    "5": {
+      "label": "Hotel Safe Code",
+      "desc": "Carried by Robin Körte (Officer)."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Boathouse Key",
+      "desc": "Carried by Wolfhard Strassmann (Officer)."
+    },
+    "2": {
+      "label": "Bunker Key",
+      "desc": "Carried by Tobias Conze (Officer)."
+    },
+    "3": {
+      "label": "Armoury Key",
+      "desc": "Carried by Klaus Fiedler (Officer)."
+    },
+    "4": {
+      "label": "Generator Room Key",
+      "desc": "Carried by Arndt Wagner (Infantry)."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Boathouse Door",
+      "desc": "Unlocked with the @link[key.1]."
+    },
+    "2": {
+      "label": "Bunker Door",
+      "desc": "Can be opened with the @link[key.2] or a satchel charge."
+    },
+    "3": {
+      "label": "Armoury Door",
+      "desc": "Can be opened with the @link[key.3] or a satchel charge."
+    },
+    "4": {
+      "label": "Generator Room Door",
+      "desc": "Can be opened with the @link[key.4] or a satchel charge. Alternatively, the lock can be picked."
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Radar Trenches",
+      "desc": "Satchel charges can be found in the trenches."
+    },
+    "2": {
+      "label": "French Countryside",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "3": {
+      "label": "Vantage Point",
+      "desc": "Recon planes have spotted a vantage point at this location."
+    },
+    "4": {
+      "label": "Town Promenade",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Secure the Beach",
+      "desc": {
+        "1": "Seach the Boathouse.",
+        "2": "Seach the Processing Plant."
+      }
+    },
+    "2": {
+      "label": "Back on Track",
+      "desc": {
+        "1": "Inspect Equipment.",
+        "2": "Find Vantage Point."
+      }
+    },
+    "3": {
+      "label": "Neutralise Radar",
+      "desc": {
+        "1": "Option A - Destroy the Pillars (0/2).",
+        "2": "Option B - Find the Radar's Power Source.",
+        "3": "Option B - Pull the Circuit Breaker."
+      }
+    },
+    "4": {
+      "label": "Recover the Resistance Intel",
+      "desc": {
+        "1": "Find Marcel.",
+        "2": "Find the Intel.",
+        "3": "Option B - Pull the Circuit Breaker."
+      }
+    },
+    "5": {
+      "label": "Rendezvous with Charlie",
+      "desc": "Exfiltrate."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Destroy the Coastal Defences",
+      "desc": "Destroy Defences (0/3)."
+    },
+    "2": {
+      "label": "Neutralise Anti-Air Guns",
+      "desc": "Destroy Anti-Air Gun (0/3)."
+    },
+    "3": {
+      "label": "Destroy the Gun Battery",
+      "desc": {
+        "1": "Find a way to Sabotage or Destroy the Gun Battery.",
+        "2": "Option A - Sabotage the Power Source",
+        "3": "Option B - Send a sabotaged shell into the gun.",
+        "4": "Option B - Escape the area."
+      }
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Steffen Beckendorf",
+      "desc": "Kill Beckendorf with an Explosion"
+    }
+  }
 }

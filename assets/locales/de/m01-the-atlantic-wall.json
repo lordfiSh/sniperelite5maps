@@ -78,11 +78,11 @@
     },
     "2": {
       "label": "MP-Werkbank",
-      "desc": "In der Waffenkammer."
+      "desc": "Auf dem Dachboden. Zugänglich über die Ranken auf beiden Seiten des Hauses."
     },
     "3": {
       "label": "Pistolenwerkbank",
-      "desc": "Auf dem Dachboden. Zugänglich über die Ranken auf beiden Seiten des Hauses."
+      "desc": "In der Waffenkammer."
     }
   }
 
