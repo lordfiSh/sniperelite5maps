@@ -76,6 +76,7 @@ app.markerTypes = {
 	'bolt-cutters': {group: 'tools', icon: 'default', displayMode: 'type'},
 	'crowbar': {group: 'tools', icon: 'default', displayMode: 'type'},
 	'key': {group: 'tools', icon: 'default', displayMode: 'label'},
+	'code': {group: 'tools', icon: 'default', displayMode: 'label'},
 	'satchel-charge': {group: 'tools', icon: 'default', displayMode: 'type'},
 	
 	'aircraft': {group: 'vehicles', displayMode: 'type'},
