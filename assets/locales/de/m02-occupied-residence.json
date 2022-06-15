@@ -118,7 +118,7 @@
   "key": {
     "1": {
       "label": "Waffenkammerschlüssel",
-      "desc": "Getragen von Offizier Markus Bertram."
+      "desc": "Getragen von Markus Bertram (Offizier)."
     },
     "2": {
       "label": "Alte-Tunnel-Schlüssel",
@@ -126,7 +126,7 @@
     },
     "3": {
       "label": "Möllers Büroschlüssel",
-      "desc": "Getragen von Offizier Friedrich Kummler."
+      "desc": "Getragen von Friedrich Kummler (Offizier)."
     }
   },
   "door": {

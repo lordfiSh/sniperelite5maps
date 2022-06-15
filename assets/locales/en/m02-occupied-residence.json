@@ -118,7 +118,7 @@
   "key": {
     "1": {
       "label": "Armoury Key",
-      "desc": "Carried by Officer Markus Bertram."
+      "desc": "Carried by Markus Bertram (Officer)."
     },
     "2": {
       "label": "Old Tunnels Key",
@@ -126,7 +126,7 @@
     },
     "3": {
       "label": "Möller's Office Key",
-      "desc": "Carried by Officer Friedrich Kummler."
+      "desc": "Carried by Friedrich Kummler (Officer)."
     }
   },
   "door": {
