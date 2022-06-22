@@ -1,2 +1,21 @@
 {
+    "letter": {
+        "1": {"label": "Klaus! You Idiot!","desc": ""},
+        "2": {"label": "The Suspense","desc": "On a small table, in the control room"},
+        "3": {"label": "Sheer’s Notebook","desc": "Inside the control room"},
+        "4": {"label": "Losing The Time","desc": "In the Room in the 1st level"},
+        "5": {"label": "Your Order Awaits","desc": "Document can be found on a create, behind the ladder. Ground floor"},
+        "6": {"label": "Ehrlich’s Done For","desc": ""}
+    },
+    "document": {
+        "1": {"label": "Shipping Orders","desc": "Carrierd by the Officer in the Büro in the first floor"},
+        "2": {"label": "No More Games","desc": "Can be found on a pile of wooden beams"},
+        "3": {"label": "Bureaucratic Oaf!","desc": "On a Desk located in the first floor"},
+        "4": {"label": "Increase Security!","desc": "Can be found inside the 'Kontrolraum' on a Desk"}
+    },
+    "hidden-item": {
+        "1": {"label": "Kriegsmarine Playing Cards","desc": "Inside the Bar on a table"},
+        "2": {"label": "Ornate Compass","desc": "Can be found inside the tresor in the top level"},
+        "3": {"label": "Covert Ops Field Manual","desc": "Lies on a table in the basement of the building"}
+    }
 }
