@@ -14,7 +14,7 @@ Optional: `grunt rebuild` _(same thing as build but doesn't download the maps ag
 
 Contributing
 --------------------------------------
-If you want to help with Tranlsation you can do this at [crowdin](https://crowdin.com/project/sniper-elite-5-maps
+If you want to help with Tranlsation you can do this at [crowdin](https://crowdin.com/project/sniper-elite-5-maps)
 
 If you want to contribute to the Projekt feel free to create a Issue or add a Pull Request. Please note that creating a pull request does not guarantee it will be accepted into the project.
 
