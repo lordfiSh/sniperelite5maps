@@ -1,4 +1,4 @@
-How do I contribute code changes?
+Installation
 --------------------------------------
 Ensure you have [git](http://git-scm.com/downloads) and [Node.js](https://nodejs.org/download/) installed.
 
@@ -11,6 +11,21 @@ After cloning the repository run the following commands:
 3. `grunt server` _(runs a local webserver listening on port 80 in the background and watches files for changes. Open your web browser to http://localhost)_
 
 Optional: `grunt rebuild` _(same thing as build but doesn't download the maps again.)_
+
+Contributing
+--------------------------------------
+If you want to help with Tranlsation you can do this at [crowdin](https://crowdin.com/project/sniper-elite-5-maps
+
+If you want to contribute to the Projekt feel free to create a Issue or add a Pull Request. Please note that creating a pull request does not guarantee it will be accepted into the project.
+
+1. Fork the Project
+2. Add upstream (`git remote add upstream https://github.com/lordfiSh/sniperelite5maps/sniperelite5maps.git`)
+3. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+4. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+5. Rebase with upstream (`git rebase upstream/main`)
+6. Fix any merge conflicts you may have
+7. Push to the Branch (`git push origin feature/AmazingFeature`)
+8. Open a Pull Request
 
 Licence
 --------------------------------------
