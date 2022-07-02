@@ -13,8 +13,8 @@
       "desc": "Auf einer Holzplanke auf dem Dachboden."
     },
     "4": {
-      "label": "Sie Welken Niche",
-      "desc": "Im Hoteltresor im ersten Stock."
+      "label": "Sie Welken Nicht",
+      "desc": "Im Hoteltresor im ersten Stock. Der Tresor kann mit dem @link[code.5] oder einer Sprengladung geöffnet werden."
     },
     "5": {
       "label": "Ungeziefer im Garten",
@@ -32,15 +32,15 @@
     },
     "2": {
       "label": "Verteidigungsanlagen am Strand",
-      "desc": "Im Tresor der Waffenkammer."
+      "desc": "Im Tresor der Waffenkammer. Der Tresor kann mit dem @link[code.4] oder einer Sprengladung geöffnet werden."
     },
     "3": {
       "label": "Fehlende Luftunterstützung",
-      "desc": "In einem Tresor im unterirdischen Bunker."
+      "desc": "In einem Tresor im unterirdischen Bunker. Der Tresor kann mit dem @link[code.1] oder einer Sprengladung geöffnet werden."
     },
     "4": {
       "label": "Atlantikwallbericht",
-      "desc": "In einem Tresor im Erdgeschoss."
+      "desc": "In einem Tresor im Erdgeschoss. Der Tresor kann mit dem @link[code.2] oder einer Sprengladung geöffnet werden."
     }
   },
   "hidden-item": {
@@ -84,6 +84,141 @@
       "label": "Pistolenwerkbank",
       "desc": "In der Waffenkammer."
     }
+  },
+  "code": {
+    "1": {
+      "label": "Tresorcode für Radarbunker",
+      "desc": "Getragen von Amalric Grosse (Infanterie)."
+    },
+    "2": {
+      "label": "Tresorcode für Bauernhaus im Norden",
+      "desc": "Getragen von Helfried Feldt (Infanterie)."
+    },
+    "3": {
+      "label": "Tresorcode für Bauernhaus im Süden",
+      "desc": "Getragen von Tielo Feld (Infanterie)."
+    },
+    "4": {
+      "label": "Tresorcode für Waffenkammer der Batterie",
+      "desc": "Getragen von Oskar Schweiger (Offizier)."
+    },
+    "5": {
+      "label": "Tresorcode für Hotel",
+      "desc": "Getragen von Robin Körte (Offizier)."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Bootshausschlüssel",
+      "desc": "Getragen von Wolfhard Strassmann (Offizier)."
+    },
+    "2": {
+      "label": "Bunkerschlüssel",
+      "desc": "Getragen von Tobias Conze (Offizier)."
+    },
+    "3": {
+      "label": "Waffenkammerschlüssel",
+      "desc": "Getragen von Klaus Fiedler (Offizier)."
+    },
+    "4": {
+      "label": "Generatorraumschlüssel",
+      "desc": "Getragen von Arndt Wagner (Infanterie)."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Bootshaustür",
+      "desc": "Kann mit dem @link[key.1] geöffnet werden."
+    },
+    "2": {
+      "label": "Bunkertür",
+      "desc": "Kann mit dem @link[key.2] oder einer Sprengladung geöffnet werden."
+    },
+    "3": {
+      "label": "Waffenkammertür",
+      "desc": "Kann mit dem @link[key.3] oder einer Sprengladung geöffnet werden."
+    },
+    "4": {
+      "label": "Generatorraumtür",
+      "desc": "Kann mit dem @link[key.4] oder einer Sprengladung geöffnet werden. Alternativ kann das Schloss geknackt werden."
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Radargräben",
+      "desc": "In den Gräben sind Sprengladungen zu finden."
+    },
+    "2": {
+      "label": "Französisches Land",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "3": {
+      "label": "Aussichtspunkt",
+      "desc": "Aufklärungsflugzeuge haben einen Aussichtspunkt an diesem Standort entdeckt."
+    },
+    "4": {
+      "label": "Stadtpromenade",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Den Strand sichern",
+      "desc": {
+        "1": "Durchsuche das Bootshaus.",
+        "2": "Die Aufbereitungsanlage durchsuchen."
+      }
+    },
+    "2": {
+      "label": "Weiter geht's",
+      "desc": {
+        "1": "Ausrüstung untersichen.",
+        "2": "Aussichtspunkt finden."
+      }
+    },
+    "3": {
+      "label": "Schalte das Radar aus",
+      "desc": {
+        "1": "Option A - Zerstöre die Pfeiler (0/2).",
+        "2": "Option B - Sabotiere die Stromversorgung des Radars.",
+        "3": "Option B - Ziehe den Unterbrecher."
+      }
+    },
+    "4": {
+      "label": "Sichere die Informationen der Résistance",
+      "desc": {
+        "1": "Marcel finden.",
+        "2": "Die Informationen finden."
+      }
+    },
+    "5": {
+      "label": "Treffen mit Charlie",
+      "desc": "Gebiet verlassen."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Zerstöre die Küstenverteidigung",
+      "desc": "Verteidigungsanlagen zerstören (0/3)."
+    },
+    "2": {
+      "label": "Zerstöre die Flak-Geschütze",
+      "desc": "Flak-Geschütze zerstören (0/3)."
+    },
+    "3": {
+      "label": "Zerstöre die Geschützbatterie",
+      "desc": {
+        "1": "Fine eine Möglichkeit, die Batterie zu sabotieren oder zu zerstören.",
+        "2": "Option A - Due Stromversorgung sabotieren",
+        "3": "Option B - Lade ein sabotiertes Geschoss in das Geschütz.",
+        "4": "Option B - Fiehe aus dem Gebiet."
+      }
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Steffen Beckendorf",
+      "desc": "Töte Beckendorf mit einer Explosion"
+    }
   }
-
 }

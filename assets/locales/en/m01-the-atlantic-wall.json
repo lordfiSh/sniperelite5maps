@@ -14,7 +14,7 @@
     },
     "4": {
       "label": "Violets Don't Wilt",
-      "desc": "Inside the hotel safe on the first floor."
+      "desc": "Inside the hotel safe on the first floor. The safe can be opened with the @link[code.5] or a satchel charge."
     },
     "5": {
       "label": "Pests in the Garden",
@@ -32,7 +32,7 @@
     },
     "2": {
       "label": "Beach Defences",
-      "desc": "Inside the armoury safe."
+      "desc": "Inside the armoury safe. The safe can be opened with the @link[code.4] or a satchel charge."
     },
     "3": {
       "label": "Lacking Air Support",
@@ -128,7 +128,7 @@
   "door": {
     "1": {
       "label": "Boathouse Door",
-      "desc": "Unlocked with the @link[key.1]."
+      "desc": "Can be opened with the @link[key.1]."
     },
     "2": {
       "label": "Bunker Door",
@@ -165,8 +165,8 @@
     "1": {
       "label": "Secure the Beach",
       "desc": {
-        "1": "Seach the Boathouse.",
-        "2": "Seach the Processing Plant."
+        "1": "Search the Boathouse.",
+        "2": "Search the Processing Plant."
       }
     },
     "2": {
@@ -188,8 +188,7 @@
       "label": "Recover the Resistance Intel",
       "desc": {
         "1": "Find Marcel.",
-        "2": "Find the Intel.",
-        "3": "Option B - Pull the Circuit Breaker."
+        "2": "Find the Intel."
       }
     },
     "5": {
