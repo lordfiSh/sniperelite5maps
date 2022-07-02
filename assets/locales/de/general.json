@@ -1,4 +1,8 @@
 {
+  "home": {
+    "title": "Interaktive Sniper Elite 5 Karte",
+    "tagline": "Inoffizielle Interaktive Sniper Elite 5 Karte"
+  },
   "maps": {
     "m01-the-atlantic-wall": "Der Atlantikwall",
     "m02-occupied-residence": "Besetztes Château",
@@ -9,20 +13,6 @@
     "m07-secret-weapon": "Geheime Waffen",
     "m08-rubble-and-ruin": "Schutt und Asche",
     "dlc1-kill-hitler": "(DLC) Wolfsberg"
-  },
-  "home": {
-    "title": "Interaktive Sniper Elite 5 Karte",
-    "tagline": "Inoffizielle Interaktive Sniper Elite 5 Karte"
-  },
-  "notes": {
-    "label": "Bezeichnung:",
-    "title": "Titel:",
-    "note": "Notiz:",
-    "enterLabel": "Kartenbezeichnung eingeben...",
-    "enterTitle": "Geben Sie den Titel der Notiz ein...",
-    "enterText": "Geben Sie den Notiztext ein...",
-    "saveNote": "Notiz speichern",
-    "deleteNote": "Notiz löschen"
   },
   "controls": {
     "return-to-map-selection": "Zurück zur Map-Auswahl",
@@ -107,7 +97,11 @@
     },
     "description": {
       "supply-crate.crowbar": "Kann mit einer Brechstange geöffnet werden.",
-      "supply-crate.padlock": "Das Schloss kann von Hand oder mit einem Bolzenschneider geknackt werden."
+      "supply-crate.padlock": "Das Schloss kann von Hand oder mit einem Bolzenschneider geknackt werden.",
+      "body-box.basement": "Im Keller.",
+      "body-box.ground-floor": "Im Erdgeschoss.",
+      "body-box.first-floor": "Im ersten Stockwerk.",
+      "body-box.second-floor": "Im zweiten Stockwerk."
     }
   }
 }

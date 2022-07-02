@@ -1,4 +1,8 @@
 {
+  "home": {
+    "title": "Sniper Elite 5 Interactive Map",
+    "tagline": "Unofficial Sniper Elite 5 Interactive Map"
+  },
   "maps": {
     "m01-the-atlantic-wall": "The Atlantic Wall",
     "m02-occupied-residence": "Occupied Residence",
@@ -10,21 +14,8 @@
     "m08-rubble-and-ruin": "Rubble and Ruin",
     "dlc1-kill-hitler": "(DLC) Wolfsberg"
   },
-  "home": {
-    "title": "Sniper Elite 5 Interactive Map",
-    "tagline": "Unofficial Sniper Elite 5 Interactive Map"
-  },
-  "notes": {
-    "label": "Label:",
-    "title": "Title:",
-    "note": "Note:",
-    "enterLabel": "Enter map label...",
-    "enterTitle": "Enter note title...",
-    "enterText": "Enter note text...",
-    "saveNote": "Save Note",
-    "deleteNote": "Delete Note"
-  },
   "controls": {
+    "return-to-map-selection": "Return to Map Selection",
     "show-all": "Show All",
     "hide-all": "Hide All",
     "show-counts": "Show Counts",
@@ -32,6 +23,7 @@
     "reset-markers": "Reset Markers",
     "reset-markers-confirm": "This will reset all markers to their default state (visible). Continue?",
     "usage": "Usage Hints",
+    "support": "Support",
     "credits": "Credits",
     "zoom-in": "Zoom In",
     "zoom-out": "Zoom Out",
@@ -113,7 +105,3 @@
     }
   }
 }
-
-
-
-
