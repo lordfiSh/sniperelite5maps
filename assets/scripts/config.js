@@ -30,7 +30,7 @@ app.maps = {
 	m06: 'm06-liberation',
 	m07: 'm07-secret-weapon',
 	m08: 'm08-rubble-and-ruin',
-	dlc1: 'dlc1-kill-hitler'
+	dlc1: 'dlc1-wolf-mountain'
 };
 
 app.enabledMaps = [
@@ -42,7 +42,7 @@ app.enabledMaps = [
 	'm06-liberation',
 	'm07-secret-weapon',
 	'm08-rubble-and-ruin',
-	'dlc1-kill-hitler'
+	'dlc1-wolf-mountain'
 ];
 
 app.defaultHiddenGroups = ['tools', 'vehicles', 'utilities', 'other'];

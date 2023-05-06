@@ -1,5 +1,5 @@
 app.mapData = {
-	name: 'dlc1-kill-hitler',
+	name: 'dlc1-wolf-mountain',
 	tilePath: 'maps/m_dlc_killhitler/{z}/{x}/{y}.png',
 	minZoom: 1,
 	maxZoom: 4,
