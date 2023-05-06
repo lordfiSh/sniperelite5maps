@@ -33,7 +33,7 @@
 		
 		let isInTransition = false;
 		let transitionPromise = null;
-		let currentImage = localStorage['start-page-background'] ?? 'images/backgrounds/m00-neutral.jpg';
+		let currentImage = /*localStorage['start-page-background'] ??*/ 'images/backgrounds/m00-neutral.jpg';
 		let nextImage = '';
 		let lastRequestPath = '';
 		let lastRequest = 0;
