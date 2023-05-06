@@ -132,11 +132,11 @@
   "door": {
     "1": {
       "label": "Armoury Door",
-      "desc": "Requires armoury key or satchel charge."
+      "desc": "Requires the @link[key.1] or satchel charge."
     },
     "2": {
       "label": "Old Tunnels Door",
-      "desc": "Requires old tunnels key or satchel charge."
+      "desc": "Requires the @link[key.2] or satchel charge."
     }
   },
 

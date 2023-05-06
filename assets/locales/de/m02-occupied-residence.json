@@ -132,11 +132,11 @@
   "door": {
     "1": {
       "label": "Tür zur Waffenkammer",
-      "desc": "Erfordert den Waffenkammerschlüssel oder eine Sprengladung."
+      "desc": "Erfordert den @link[key.1] oder eine Sprengladung."
     },
     "2": {
       "label": "Tür zu den alten Tunneln",
-      "desc": "Erfordert den Alte-Tunnel-Schlüssel oder eine Sprengladung."
+      "desc": "Erfordert den @link[key.2] oder eine Sprengladung."
     }
   },
 
