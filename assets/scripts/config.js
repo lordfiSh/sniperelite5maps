@@ -7,7 +7,7 @@ app.transparentMarkerOpacity = 0.5;
 app.enableCircleMarker = false;
 
 app.quickSubmit = {
-	enable: true,
+	enable: false,
 	links: {
 		m01: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+1:+The+Atlantic+Wall&entry.859563308=',
 		m02: 'https://docs.google.com/forms/d/e/1FAIpQLSdhfsM1iEMTF8O1jji7uJ5UBxJBb2ajm0ql8X5Kqwv13bC6FA/viewform?usp=pp_url&entry.1647979432=Mission+2:+Occupied+Residence&entry.859563308=',
