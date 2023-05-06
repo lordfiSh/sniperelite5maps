@@ -21,6 +21,9 @@ app.quickSubmit = {
 	}
 };
 
+// This option defines the mapping of url ids to full map slugs.
+// "m01: 'm01-the-atlantic-wall'" means that https://example.com/m01/ shows
+// the map data from /script/mapdata/m01-the-atlantic-wall.js
 app.maps = {
 	m01: 'm01-the-atlantic-wall',
 	m02: 'm02-occupied-residence',
@@ -30,9 +33,12 @@ app.maps = {
 	m06: 'm06-liberation',
 	m07: 'm07-secret-weapon',
 	m08: 'm08-rubble-and-ruin',
-	dlc1: 'dlc1-wolf-mountain'
+	dlc1: 'dlc1-wolf-mountain',
+	dlc2: 'dlc2-landing-force'
 };
 
+// This list determines which maps are clickable on the home page.
+// All maps present in app.maps, but not this list will be grayed out.
 app.enabledMaps = [
 	'm01-the-atlantic-wall',
 	'm02-occupied-residence',
