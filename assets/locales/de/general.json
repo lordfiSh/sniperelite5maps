@@ -94,15 +94,20 @@
       "phonograph": "Grammofon",
       "searchlight": "Suchscheinwerfer",
       "speaker": "Lautsprecher",
-      "supply-crate": "Versorgungskiste"
+      "supply-crate": "Versorgungskiste",
+
+      "special": "Besonders",
+      "cardboard-pidgeon": "Papp-Taube"
     },
     "description": {
       "supply-crate.crowbar": "Kann mit einer Brechstange geöffnet werden.",
       "supply-crate.padlock": "Das Schloss kann von Hand oder mit einem Bolzenschneider geknackt werden.",
+      "supply-crate.open": "Immer offen.",
       "body-box.basement": "Im Keller.",
       "body-box.ground-floor": "Im Erdgeschoss.",
       "body-box.first-floor": "Im ersten Stockwerk.",
-      "body-box.second-floor": "Im zweiten Stockwerk."
+      "body-box.second-floor": "Im zweiten Stockwerk.",
+      "door.padlock": "Das Schloss kann von Hand oder mit einem Bolzenschneider geknackt werden."
     }
   }
 }

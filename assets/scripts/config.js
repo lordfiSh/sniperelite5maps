@@ -106,6 +106,9 @@ app.markerTypes = {
 	'invasion': {group: 'other', displayMode: 'type'},
 	'searchlight': {group: 'other', displayMode: 'type'},
 	'speaker': {group: 'other', displayMode: 'type'},
+	
+	'special': {group: 'other', icon: 'default', displayMode: 'label'},
+	'cardboard-pidgeon': {group: 'other', icon: 'default', displayMode: 'type'},
 };
 
 app.defaultIcon = 'default';

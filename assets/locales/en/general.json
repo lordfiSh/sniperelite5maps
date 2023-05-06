@@ -94,15 +94,20 @@
       "phonograph": "Phonograph",
       "searchlight": "Searchlight",
       "speaker": "Speaker",
-      "supply-crate": "Supply Crate"
+      "supply-crate": "Supply Crate",
+
+      "special": "Special",
+      "cardboard-pidgeon": "Cardboard Pidgeon"
     },
     "description": {
       "supply-crate.crowbar": "Can be opened with a crowbar.",
       "supply-crate.padlock": "Can be opened by picking the lock or with bolt cutters.",
+      "supply-crate.open": "Always open.",
       "body-box.basement": "In the basement.",
       "body-box.ground-floor": "On the ground floor.",
       "body-box.first-floor": "On the first floor.",
-      "body-box.second-floor": "On the second floor."
+      "body-box.second-floor": "On the second floor.",
+      "door.padlock": "Can be opened by picking the lock or with bolt cutters."
     }
   }
 }
