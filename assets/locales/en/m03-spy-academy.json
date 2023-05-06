@@ -1,21 +1,125 @@
 {
     "letter": {
-        "1": {"label": "Parking Problems","desc": "Inside a Trashbin "},
-        "2": {"label": "Fragile, Do Not Break","desc": "On a Metalbox, behind the Truck"},
-        "3": {"label": "Do Not Be Late!","desc": "The Document is carried by Domic Kundel. He at the Cafe"},
+        "1": {"label": "Parking Problems","desc": "Inside of a large metal bucket."},
+        "2": {"label": "Fragile, Do Not Break.","desc": "On a wooden crate, next to the truck."},
+        "3": {"label": "Do Not Be Late!","desc": "Carried by Dominic Kunkel, one of the soldiers at the bar."},
         "4": {"label": "It's Easy Money","desc": "Is carried by one of the Officers, Toplevel of the Chruch Tower"},
-        "5": {"label": "Just Attend One!","desc": ""}
+        "5": {"label": "Just Attend One!","desc": "Carried by Matthäus Brühl."}
     },
     "document": {
-        "1": {"label": "Priority Package!","desc": "On a cabinet, next to the Window"},
-        "2": {"label": "Won’t Be Attending","desc": "On top level of the Castletower"},
-        "3": {"label": "Training Scenarios","desc": "On a table at top level of the Building"},
-        "4": {"label": "Resource Request","desc": "On a wooden table on the top floor."},
-        "5": {"label": "Armoury Exposed","desc": "On top level of the Castletower, on a bench"}
+        "1": {"label": "Priority Package!","desc": "On a cabinet, next to the window"},
+        "2": {"label": "Won’t Be Attending","desc": "On a desk on the top floor."},
+        "3": {"label": "Training Scenarios","desc": "On a table at top floor of the building."},
+        "4": {"label": "Resource Request","desc": "On a wooden table on the top floor of the bell tower."},
+        "5": {"label": "Armoury Exposed","desc": "On a bench on the top floor."}
     },
     "hidden-item": {
-        "1": {"label": "Kriegsmarine Playing Cards","desc": "Inside the Bar on a table"},
-        "2": {"label": "Ornate Compass","desc": "Can be found inside the tresor in the top level"},
-        "3": {"label": "Covert Ops Field Manual","desc": "Lies on a table in the basement of the building"}
+        "1": {"label": "Kriegsmarine Playing Cards","desc": "On one of the tables inside the bar."},
+        "2": {"label": "Ornate Compass","desc": "Can be found inside the safe in the top level."},
+        "3": {"label": "Covert Ops Field Manual","desc": "On a table in the basement of the building."}
+    },
+    "stone-eagle": {
+        "1.desc": "",
+        "2.desc": "On a small ledge jutting out from the wall of the round tower.",
+        "3.desc": "On top of the tower ruin out in the water."
+    },
+    "workbench": {
+        "1": {
+            "label": "Rifle Workbench",
+            "desc": "In a small room behind the church. Can only be accessed through the back gardens by scaling @link[special.1|a wall]."
+        },
+        "2": {
+            "label": "SMG Workbench",
+            "desc": "Inside the resistance hideout, can be accessed from the street. Look for white paint on the wall where you can climb up."
+        },
+        "3": {
+            "label": "Pistol Workbench",
+            "desc": "In the armoury."
+        }
+    },
+
+    "intel": {
+        "1": {
+            "label": "",
+            "desc": ""
+        },
+        "2": {
+            "label": "Bar",
+            "desc": "Fregattenkapitän Seidl's driver is waiting at the bar"
+        },
+        "3": {
+            "label": "Smugglers Landing",
+            "desc": "Unlockable starting location."
+        },
+        "4": {
+            "label": "???",
+            "desc": "Unlockable starting location."
+        },
+        "5": {
+            "label": "Axis Armoury",
+            "desc": "The Bailliverie armoury's entrance is not secure."
+        },
+        "6": {
+            "label": "Beaumont-Saint-Denis",
+            "desc": "The Abbey rafters are in disrepair."
+        }
+    },
+    "key": {
+        "1": {
+            "label": "Armoury Key",
+            "desc": "Carried by Josef Lowenstam (Officer)."
+        },
+        "2": {
+            "label": "Key to Cellar",
+            "desc": "In a document tray on a table on the top floor."
+        },
+        "3": {
+            "label": "Meeting Room Key",
+            "desc": "Carried by Josef Lowenstam (Officer)."
+        }
+    },
+    "door": {
+        "1": {
+            "label": "Armoury Door",
+            "desc": "Requires the @link[key.1] or satchel charge."
+        },
+        "2": {
+            "label": "Door to Cellar",
+            "desc": "Requires the @link[key.2] or satchel charge."
+        },
+        "3": {
+            "label": "Meeting Room Door",
+            "desc": "Requires the @link[key.3] or satchel charge."
+        }
+    },
+
+    "special": {
+        "1": {
+            "label": "Scalable Wall",
+            "desc": "Start of the trail leading to the @link[workbench.1]."
+        }
+    },
+
+    "primary": {
+        "1": {
+            "label": "Find Evidence on Kraken",
+            "desc": "Eavesdrop the Kraken Meeting"
+        },
+        "2": {
+            "label": "Escape the Island",
+            "desc": "Exfiltrate"
+        }
+    },
+    "secondary": {
+        "1": {
+            "label": "Stop the Spy Training",
+            "desc": "Eliminate the Academy Instructor"
+        }
+    },
+    "kill-list": {
+        "1": {
+            "label": "Fabian Richter",
+            "desc": "Find and Kill Fabian Richter"
+        }
     }
 }
