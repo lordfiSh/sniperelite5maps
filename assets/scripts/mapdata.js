@@ -11,7 +11,17 @@ function translateType(type) {
 }
 
 function translateLabel(namespace, type, id) {
-	return $.t(`${namespace}:${type}.${Math.trunc(id)}.label`, {defaultValue: ""});
+	switch(typeof id) {
+		case 'string':
+			return translateType(type);
+		
+		case 'number':
+			return $.t(`${namespace}:${type}.${Math.trunc(id)}.label`, {defaultValue: ""});
+		
+		default:
+			console.error("Invalid id: " + id);
+			return undefined;
+	}
 }
 
 function translateDescription(namespace, type, id) {
