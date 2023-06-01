@@ -3,7 +3,7 @@
         "1": {"label": "Parking Problems","desc": "Inside of a large metal bucket."},
         "2": {"label": "Fragile, Do Not Break.","desc": "On a wooden crate, next to the truck."},
         "3": {"label": "Do Not Be Late!","desc": "Carried by Dominic Kunkel, one of the soldiers at the bar."},
-        "4": {"label": "It's Easy Money","desc": "Is carried by one of the Officers, Toplevel of the Chruch Tower"},
+        "4": {"label": "It's Easy Money","desc": "Carried by one of the officers on the top floor of the church tower"},
         "5": {"label": "Just Attend One!","desc": "Carried by Matthäus Brühl."}
     },
     "document": {
@@ -15,7 +15,7 @@
     },
     "hidden-item": {
         "1": {"label": "Kriegsmarine Playing Cards","desc": "On one of the tables inside the bar."},
-        "2": {"label": "Ornate Compass","desc": "Can be found inside the safe in the top level."},
+        "2": {"label": "Ornate Compass","desc": "Inside the safe on the top floor."},
         "3": {"label": "Covert Ops Field Manual","desc": "On a table in the basement of the building."}
     },
     "stone-eagle": {
