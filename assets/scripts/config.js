@@ -82,6 +82,7 @@ app.markerTypes = {
 	
 	'bolt-cutters': {group: 'tools', icon: 'default', displayMode: 'type'},
 	'crowbar': {group: 'tools', icon: 'default', displayMode: 'type'},
+	'door': {group: 'tools', icon: 'default', displayMode: 'label'},
 	'key': {group: 'tools', icon: 'default', displayMode: 'label'},
 	'code': {group: 'tools', icon: 'default', displayMode: 'label'},
 	'satchel-charge': {group: 'tools', icon: 'default', displayMode: 'type'},
@@ -96,19 +97,21 @@ app.markerTypes = {
 	'vip-car': {group: 'vehicles', displayMode: 'type'},
 	
 	'body-box': {group: 'utilities', displayMode: 'type'},
+	'emplacement': {group: 'utilities', displayMode: 'type'},
 	'generator': {group: 'utilities', displayMode: 'type'},
 	'phonograph': {group: 'utilities', icon: 'default', displayMode: 'type'},
 	'supply-crate': {group: 'utilities', icon: 'ammo', displayMode: 'type'},
+	'zipline-start': {group: 'utilities', icon: 'default', displayMode: 'type-id'},
+	'zipline-end': {group: 'utilities', icon: 'default', displayMode: 'type-id'},
 	
 	'alarm': {group: 'other', displayMode: 'type'},
-	'door': {group: 'tools', icon: 'default', displayMode: 'label'},
-	'emplacement': {group: 'other', displayMode: 'type'},
 	'invasion': {group: 'other', displayMode: 'type'},
 	'searchlight': {group: 'other', displayMode: 'type'},
 	'speaker': {group: 'other', displayMode: 'type'},
 	
 	'special': {group: 'other', icon: 'default', displayMode: 'label'},
 	'cardboard-pidgeon': {group: 'other', icon: 'default', displayMode: 'type'},
+	'rat-bomb': {group: 'other', icon: 'default', displayMode: 'type'},
 };
 
 app.defaultIcon = 'default';

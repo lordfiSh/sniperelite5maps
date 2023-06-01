@@ -68,11 +68,13 @@
       "kill-list": "Kill List Target",
       "start": "Mission Start",
       "exit": "Mission Exit",
+      "intel": "Intel",
 
       "bolt-cutters": "Bolt Cutters",
       "crowbar": "Crowbar",
-      "code": "Safe Code",
+      "door": "Door",
       "key": "Key",
+      "code": "Safe Code",
       "satchel-charge": "Satchel Charge",
 
       "aircraft": "Aircraft",
@@ -84,20 +86,22 @@
       "truck": "Truck",
       "vip-car": "VIP Car",
 
-      "alarm": "Alarm",
       "body-box": "Body Box",
-      "door": "Door",
       "emplacement": "MG Emplacement",
       "generator": "Generator",
-      "intel": "Intel",
-      "invasion": "Invasion",
       "phonograph": "Phonograph",
+      "supply-crate": "Supply Crate",
+      "zipline-start": "Zipline Start",
+      "zipline-end": "Zipline End",
+
+      "alarm": "Alarm",
+      "invasion": "Invasion",
       "searchlight": "Searchlight",
       "speaker": "Speaker",
-      "supply-crate": "Supply Crate",
 
       "special": "Special",
-      "cardboard-pidgeon": "Cardboard Pidgeon"
+      "cardboard-pidgeon": "Cardboard Pidgeon",
+      "rat-bomb": "Rat Bomb"
     },
     "description": {
       "supply-crate.crowbar": "Can be opened with a crowbar.",

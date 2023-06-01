@@ -68,11 +68,13 @@
       "kill-list": "Todesliste",
       "start": "Missions-Start",
       "exit": "Missions-Ausgang",
+      "intel": "Informationen",
 
       "bolt-cutters": "Bolzenschneider",
       "crowbar": "Brechstange",
-      "code": "Tresorkombination",
+      "door": "Tür",
       "key": "Schlüssel",
+      "code": "Tresorkombination",
       "satchel-charge": "Sprengladung",
 
       "aircraft": "Flugzeug",
@@ -84,20 +86,22 @@
       "truck": "Fracht-LKW",
       "vip-car": "VIP-Auto",
 
-      "alarm": "Alarm",
       "body-box": "Leere Kiste",
-      "door": "Tür",
       "emplacement": "MG-Stellung",
       "generator": "Generator",
-      "intel": "Informationen",
-      "invasion": "Invasion",
       "phonograph": "Grammofon",
+      "supply-crate": "Versorgungskiste",
+      "zipline-start": "Anfang einer Seilrutsche",
+      "zipline-end": "Ende einer Seilrutsche",
+
+      "alarm": "Alarm",
+      "invasion": "Invasion",
       "searchlight": "Suchscheinwerfer",
       "speaker": "Lautsprecher",
-      "supply-crate": "Versorgungskiste",
 
       "special": "Besonders",
-      "cardboard-pidgeon": "Papp-Taube"
+      "cardboard-pidgeon": "Papp-Taube",
+      "rat-bomb": "Rattenbombe"
     },
     "description": {
       "supply-crate.crowbar": "Kann mit einer Brechstange geöffnet werden.",
