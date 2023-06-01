@@ -1,2 +1,157 @@
 {
+  "letter": {
+    "1": {
+      "label": "Klaus! Du Idiot!",
+      "desc": "Auf einem Schreibtisch im Gebäude."
+    },
+    "2": {
+      "label": "Aufhängung",
+      "desc": "Auf einem Gerät in der Ecke des Kontrollraums."
+    },
+    "3": {
+      "label": "Speers Notizbuch",
+      "desc": ""
+    },
+    "4": {
+      "label": "Verlorene Uhr",
+      "desc": ""
+    },
+    "5": {
+      "label": "Deine Bestellung Wartet",
+      "desc": "Auf einem Haufen von Metallboxen unten in der Gussanlage."
+    },
+    "6": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Transportbefehle",
+      "desc": ""
+    },
+    "2": {
+      "label": "Keine Spielchen Mehr",
+      "desc": "Auf einem Stapel Holzbalken."
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    },
+    "4": {
+      "label": "Erhöhung der Sicherheit",
+      "desc": "Auf einem Schreibtisch im Kontrollraum."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Goldene Taschenuhr",
+      "desc": "Auf Stahlträgern."
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "stone-eagle": {
+    "1.desc": "",
+    "2.desc": "",
+    "3.desc": ""
+  },
+  "workbench": {
+    "1": {
+      "label": "Gewehrwerkbank",
+      "desc": "In der Waffenkammer der Résistance. Erreichbar durch @link[door.1|diese Tür]."
+    },
+    "2": {
+      "label": "MP-Werkbank",
+      "desc": ""
+    },
+    "3": {
+      "label": "Pistolenwerkbank",
+      "desc": "In der Waffenkammer der Achsenmächte. Erreichbar durch @link[door.2|diese Tür]."
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Zerstöre den Ofen",
+      "desc": "Den Ofen untersuchen."
+    },
+    "2": {
+      "label": "Zerstöre die Raffinerie",
+      "desc": "Den Schmelzkessel sabotieren."
+    },
+    "3": {
+      "label": "Finde das Kraken-Ladungsverzeichnis",
+      "desc": "Das Lagerhaus durchsuchen."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Den Generator zerstören",
+      "desc": {
+        "1": "Option A - Zerstöre den Generator mit einer Sprengladung.",
+        "2": "Option B - Die Druckventile überlasten (0/2)."
+      }
+    },
+    "2": {
+      "label": "Zerstöre das Stahlwerk",
+      "desc": {
+        "1": "Zugang zum Bedienraum erhalten.",
+        "2": "Steuerung sabotieren."
+      }
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Matthias Ehrlich",
+      "desc": "Finde und töte Matthias Ehrlich."
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Auf der Jagd",
+      "desc": "Ein Panzerwagen patrouilliert in der Nähe des Lagerhauses."
+    },
+    "2": {
+      "label": "Aussichtspunkt am Schrottplatz",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "3": {
+      "label": "Résistance-Versteck",
+      "desc": "Irgendwo in der Gussanlage gibt es eine Waffenkammer der Résistance."
+    },
+    "4": {
+      "label": "Waffenkammer der Achsenmächte",
+      "desc": "Raffinerie-Waffenkammerschlüssel erhalten."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Tür zur Waffenkammer der Résistance",
+      "desc": "Das Schloss kann von Hand oder mit einem Bolzenschneider geknackt werden."
+    },
+    "2": {
+      "label": "Tür zur Raffinerie-Waffenkammer",
+      "desc": "Erfordert den @link[key.2] oder eine Sprengladung."
+    },
+    "3": {
+      "label": "Tür zum Kranbedienraum",
+      "desc": "Erfordert den @link[key.3] oder eine Sprengladung."
+    }
+  },
+  "key": {
+    "2": {
+      "label": "Raffinerie-Waffenkammerschlüssel",
+      "desc": "Getragen von Karl Speckmann (Jäger-Offizier)."
+    },
+    "3": {
+      "label": "Schlüssel zum Kranbedienraum",
+      "desc": "Getragen von Hans Reichart (Wissenschaftler)."
+    }
+  }
 }

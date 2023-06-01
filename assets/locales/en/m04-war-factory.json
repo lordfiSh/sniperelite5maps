@@ -1,21 +1,161 @@
 {
-    "letter": {
-        "1": {"label": "Klaus! You Idiot!","desc": ""},
-        "2": {"label": "The Suspense","desc": "On a small table, in the control room"},
-        "3": {"label": "Sheer’s Notebook","desc": "Inside the control room"},
-        "4": {"label": "Losing The Time","desc": "In the Room in the 1st level"},
-        "5": {"label": "Your Order Awaits","desc": "Document can be found on a create, behind the ladder. Ground floor"},
-        "6": {"label": "Ehrlich’s Done For","desc": ""}
+  "letter": {
+    "1": {
+      "label": "Klaus! You Idiot!",
+      "desc": "On a desk in the building."
     },
-    "document": {
-        "1": {"label": "Shipping Orders","desc": "Carrierd by the Officer in the Büro in the first floor"},
-        "2": {"label": "No More Games","desc": "Can be found on a pile of wooden beams"},
-        "3": {"label": "Bureaucratic Oaf!","desc": "On a Desk located in the first floor"},
-        "4": {"label": "Increase Security!","desc": "Can be found inside the 'Kontrolraum' on a Desk"}
+    "2": {
+      "label": "The Suspense",
+      "desc": "On a device in the corner of the control room."
     },
-    "hidden-item": {
-        "1": {"label": "Kriegsmarine Playing Cards","desc": "Inside the Bar on a table"},
-        "2": {"label": "Ornate Compass","desc": "Can be found inside the tresor in the top level"},
-        "3": {"label": "Covert Ops Field Manual","desc": "Lies on a table in the basement of the building"}
+    "3": {
+      "label": "Sheer's Notebook",
+      "desc": ""
+    },
+    "4": {
+      "label": "Losing the Time",
+      "desc": "On a desk in the overseer's office on the upper floor."
+    },
+    "5": {
+      "label": "Your Order Awaits",
+      "desc": "On a stack of metal boxes in the lower floor of the factory building."
+    },
+    "6": {
+      "label": "Ehrlich's Done For",
+      "desc": ""
     }
+  },
+  "document": {
+    "1": {
+      "label": "Shipping Orders",
+      "desc": ""
+    },
+    "2": {
+      "label": "No More Games",
+      "desc": "On a stack of wooden beams."
+    },
+    "3": {
+      "label": "Bureaucratic Oaf!",
+      "desc": ""
+    },
+    "4": {
+      "label": "Increase Security!",
+      "desc": "On a desk in the control room."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Gold Pocket Watch",
+      "desc": "On a stack of steel beams."
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "stone-eagle": {
+    "1.desc": "",
+    "2.desc": "",
+    "3.desc": ""
+  },
+  "workbench": {
+    "1": {
+      "label": "Rifle Workbench",
+      "desc": "In the Resistence armoury. Can be accesses via a ladder behind @link[door.1|this door.]."
+    },
+    "2": {
+      "label": "SMG Workbench",
+      "desc": ""
+    },
+    "3": {
+      "label": "Pistol Workbench",
+      "desc": ""
+    }
+  },
+
+  "primary": {
+    "1": {
+      "label": "Destroy the Furnace",
+      "desc": "Investigate the furnace."
+    },
+    "2": {
+      "label": "Destroy the Refinery",
+      "desc": "Sabotage the smelting vat."
+    },
+    "3": {
+      "label": "Find the Kraken Shipping Manifest",
+      "desc": "Search the shipping warehouse."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Destroy the Generator",
+      "desc": {
+        "1": "Option A - Destroy generator with satchel charge.",
+        "2": "Option B - Overload the pressure valves (0/2)."
+      }
+    },
+    "2": {
+      "label": "Destroy the Steelworks",
+      "desc": {
+        "1": "Access the control room.",
+        "2": "Sabotage controls."
+      }
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Matthaus Ehrlich",
+      "desc": "Find and kill Matthaus Ehrlich."
+    }
+  },
+
+  "intel": {
+    "1": {
+      "label": "On the Hunt",
+      "desc": "An armoured car is patrolling near the shipping warehouse."
+    },
+    "2": {
+      "label": "Scrapyard Overlook",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "3": {
+      "label": "Resistance Cache",
+      "desc": "There is a Resistance armoury somewhere in the casting facility."
+    },
+    "4": {
+      "label": "Axis Armoury",
+      "desc": "Refinery Armoury Key Acquired."
+    }
+  },
+
+  "door": {
+    "1": {
+      "label": "Door to the Resistance Armoury",
+      "desc": "Can be opened by picking the lock or with bolt cutters."
+    },
+    "2": {
+      "label": "Refinery Armoury Door",
+      "desc": "Requires the @link[key.2] or a satchel charge."
+    },
+    "3": {
+      "label": "Crane Control Room Door",
+      "desc": "Requires the @link[key.3] or a satchel charge."
+    }
+  },
+
+  "key": {
+    "2": {
+      "label": "Refinery Armoury Key",
+      "desc": "Carried by Karl Speckmann (Jäger Officer)."
+    },
+    "3": {
+      "label": "Crane Control Room Key",
+      "desc": "Carried by Hans Reichart (Scientist)."
+    }
+  }
 }
