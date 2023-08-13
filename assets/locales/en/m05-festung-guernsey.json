@@ -1,2 +1,117 @@
 {
+    "letter": {
+        "1": {
+            "label": "No Need To Worry",
+            "desc": "Carried by Walter Frei (Officer)."
+        },
+        "2": {
+            "label": "Getting Of The Island.",
+            "desc": ""
+        },
+        "3": {
+            "label": "Confiscated Goods",
+            "desc": "Carried by Soldier"
+        },
+        "4": {
+            "label": "Escaping Islander",
+            "desc": ""
+        },
+        "5": {
+            "label": "Harass The Huns!",
+            "desc": ""
+        }
+    },
+    "document": {
+        "1": {
+            "label": "Grin And Bear It!",
+            "desc": ""
+        },
+        "2": {
+            "label": "Cut Costs Cost Lives",
+            "desc": ""
+        },
+        "3": {
+            "label": "Oafish Officers",
+            "desc": ""
+        },
+        "4": {
+            "label": "Transport Troubles",
+            "desc": ""
+        },
+        "5": {
+            "label": "Dramatic Measures",
+            "desc": ""
+        }
+    },
+    "hidden-item": {
+        "1": {
+            "label": "TODT Uniform Badge",
+            "desc": ""
+        },
+        "2": {
+            "label": "Crystal Radio",
+            "desc": ""
+        },
+        "3": {
+            "label": "Comfort Bag",
+            "desc": ""
+        }
+    },
+    "stone-eagle": {
+        "1": {
+            "label": "Stone Eagle",
+            "desc": ""
+        },
+        "2": {
+            "label": "Stone Eagle",
+            "desc": ""
+        },
+        "3": {
+            "label": "Stone Eagle",
+            "desc": ""
+        }
+    },
+    "workbench": {
+        "1": {
+            "label": "Rifle Workbench",
+            "desc": ""
+        },
+        "2": {
+            "label": "SMG Workbench",
+            "desc": ""
+        },
+        "3": {
+            "label": "Rifle Workbench",
+            "desc": ""
+        }
+    },
+    "intel": {
+        "1": {
+            "label": "Countryside House",
+            "desc": ""
+        },
+        "2": {
+            "label": "Dilapated Farm",
+            "desc": ""
+        },
+        "3": {
+            "label": "Roadside House",
+            "desc": ""
+        }
+    },
+    "secondary": {
+        "1": {
+            "label": "Neutralise Radio Communication",
+            "desc": {
+                "1": "Option A - Sabotage the Cables (0/2)",
+                "2": "Option B - Disable the Radio Equipment"
+            }
+        }
+    },
+    "kill-list": {
+        "1": {
+            "label": "Lanzo Baumann",
+            "desc": "Kill Baumann by burying him in concrete"
+        }
+    }
 }
