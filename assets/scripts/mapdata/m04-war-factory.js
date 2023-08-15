@@ -112,3 +112,11 @@ app.mapData.markers = [
 	makeMarker('speaker', 2, 2354,2125),
 	makeMarker('speaker', 2, 2085,2173),
 ];
+
+app.mapData.ziplines = [
+	makeZipline(1, [2745,942], [2517,1146]),
+	makeZipline(2, [2348,1227], [2231,1490]),
+	makeZipline(3, [2304,1193], [2092,1230]),
+	makeZipline(4, [2014,1220], [1873,1154]),
+	makeZipline(5, [2217,2204], [2120,2084]),
+];

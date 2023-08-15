@@ -111,6 +111,16 @@ function makeMarker(type, id, y, x, unverified = false, labelOverride, descOverr
 	return {type, id, group, position, unverified, labelOverride, descOverride};
 }
 
+function makeZipline(id, start, end) {
+	const [y1, x1] = start;
+	const [y2, x2] = end;
+	const startPosition = [y1 ?? 0, x1 ?? 0];
+	const endPosition = [y2 ?? 0, x2 ?? 0];
+	const startMarker = makeMarker('zipline-start', id, y1, x1);
+	const endMarker = makeMarker('zipline-end', id, y2, x2);
+	return {id, startPosition, endPosition, startMarker, endMarker};
+}
+
 function processMarker(marker) {
 	const mainLabel = getMainLabel(marker.type, marker.id, marker.labelOverride);
 	const subLabel = getSubLabel(marker.type, marker.id);

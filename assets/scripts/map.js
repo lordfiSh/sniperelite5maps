@@ -268,7 +268,7 @@
 		app.findMarkerAt = findMarkerAt;
 		app.getIconPath = getIconPath;
 		app.getIcon = getIcon;
-		app.initMapMarkers = initMapMarkers;
+		app.initMapElements = initMapElements;
 		
 		function createLeafletMarker(markerInfo) {
 			const type = markerInfo.type;
@@ -331,7 +331,7 @@
 			});
 		}
 		
-		function initMapMarkers() {
+		function initMapElements() {
 			app.loadTransparentMarkers();
 			
 			const layers = {};
@@ -342,12 +342,12 @@
 			
 			app.markerCount = {};
 			
-			for(const markerInfo of app.mapData.markers) {
+			function addMarker(markerInfo) {
 				processMarker(markerInfo);
 				
 				// skip markers without position
 				if(markerInfo.position[0] === 0 && markerInfo.position[1] === 0)
-					continue;
+					return;
 				
 				const group = markerInfo.group;
 				app.markerCount[group] ??= 0;
@@ -356,6 +356,22 @@
 				const marker = createLeafletMarker(markerInfo);
 				layers[group] ??= [];
 				layers[group].push(marker);
+			}
+			
+			for(const markerInfo of app.mapData.markers) {
+				addMarker(markerInfo);
+			}
+			
+			for(const zipline of app.mapData.ziplines ?? []) {
+				const points = [
+					zipline.startPosition,
+					zipline.endPosition
+				];
+				const polyline = L.polyline(points, {color: 'white'});
+				layers['utilities'].push(polyline);
+				
+				addMarker(zipline.startMarker);
+				//addMarker(zipline.endMarker);
 			}
 			
 			app.layers = layers;
@@ -893,7 +909,7 @@
 			app.initSidebar();
 			app.initGroupList();
 			app.initPageTitle();
-			app.initMapMarkers();
+			app.initMapElements();
 			
 			app.initLeafletMap();
 			app.initZoomControl();
