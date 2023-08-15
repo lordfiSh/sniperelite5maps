@@ -10,33 +10,33 @@
     },
     "3": {
       "label": "Speers Notizbuch",
-      "desc": ""
+      "desc": "Auf einem Schreibtisch im oberen Kontrollraum."
     },
     "4": {
       "label": "Verlorene Uhr",
-      "desc": ""
+      "desc": "Auf einem Schreibtisch im Büro des Aufsehers im oberen Stockwerk."
     },
     "5": {
       "label": "Deine Bestellung Wartet",
       "desc": "Auf einem Haufen von Metallboxen unten in der Gussanlage."
     },
     "6": {
-      "label": "",
-      "desc": ""
+      "label": "Ehrlich ist Erledigt",
+      "desc": "Auf einem Schreibtisch im Gebäude."
     }
   },
   "document": {
     "1": {
       "label": "Transportbefehle",
-      "desc": ""
+      "desc": "In einem Safe im oberen Stockwerk des Lagerhauses. Der Safe kann mithilfe der @link[code.1|Tresorkombination] oder einer Sprengladung geöffnet werden."
     },
     "2": {
       "label": "Keine Spielchen Mehr",
       "desc": "Auf einem Stapel Holzbalken."
     },
     "3": {
-      "label": "",
-      "desc": ""
+      "label": "Bürokratentrottel!",
+      "desc": "Auf einem Schreibtisch im oberen Stockwerk."
     },
     "4": {
       "label": "Erhöhung der Sicherheit",
@@ -49,18 +49,18 @@
       "desc": "Auf Stahlträgern."
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Tarnplatten",
+      "desc": "Auf einer Kiste in der Halle."
     },
     "3": {
-      "label": "",
-      "desc": ""
+      "label": "Pläne für P.1000 \"Ratte\"",
+      "desc": "Auf einem Wagen oben auf der Gallerie."
     }
   },
   "stone-eagle": {
-    "1.desc": "",
-    "2.desc": "",
-    "3.desc": ""
+    "1.desc": "Thront auf der Ecke der Turmruine.",
+    "2.desc": "Versteckt sich schwer erkennbar ganz oben auf dem Gebäude mit dem Ofens. Aus dem Westen kann man ihn am besten erkennen.",
+    "3.desc": "Sitzt auf der linken Säule des Daches."
   },
   "workbench": {
     "1": {
@@ -69,7 +69,7 @@
     },
     "2": {
       "label": "MP-Werkbank",
-      "desc": ""
+      "desc": "In der Versandwaffenkammer."
     },
     "3": {
       "label": "Pistolenwerkbank",
@@ -79,7 +79,10 @@
   "primary": {
     "1": {
       "label": "Zerstöre den Ofen",
-      "desc": "Den Ofen untersuchen."
+      "desc": {
+        "1": "Option A - Das Injektorrohr zerstören.",
+        "2": "Option B - Den Ofen überlasten (0/2)."
+      }
     },
     "2": {
       "label": "Zerstöre die Raffinerie",
@@ -87,7 +90,11 @@
     },
     "3": {
       "label": "Finde das Kraken-Ladungsverzeichnis",
-      "desc": "Das Lagerhaus durchsuchen."
+      "desc": "Das Ladungsverzeichnis erhalten."
+    },
+    "4": {
+      "label": "Fliehe aus der Fabrik",
+      "desc": "Gebiet verlassen."
     }
   },
   "secondary": {
@@ -101,7 +108,7 @@
     "2": {
       "label": "Zerstöre das Stahlwerk",
       "desc": {
-        "1": "Zugang zum Bedienraum erhalten.",
+        "1": "Zugang zum Bedienraum erhalten. Dessen Tür erfordert den @link[key.3] oder eine Sprengladung.",
         "2": "Steuerung sabotieren."
       }
     }
@@ -126,8 +133,8 @@
       "desc": "Irgendwo in der Gussanlage gibt es eine Waffenkammer der Résistance."
     },
     "4": {
-      "label": "Waffenkammer der Achsenmächte",
-      "desc": "Raffinerie-Waffenkammerschlüssel erhalten."
+      "label": "Betriebshofbüro",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
     }
   },
   "door": {
@@ -142,6 +149,10 @@
     "3": {
       "label": "Tür zum Kranbedienraum",
       "desc": "Erfordert den @link[key.3] oder eine Sprengladung."
+    },
+    "4": {
+      "label": "Tür zur Versand-Waffenkammer",
+      "desc": "Erfordert den @link[key.4] oder eine Sprengladung."
     }
   },
   "key": {
@@ -152,6 +163,20 @@
     "3": {
       "label": "Schlüssel zum Kranbedienraum",
       "desc": "Getragen von Hans Reichart (Wissenschaftler)."
+    },
+    "4":{
+      "label": "Versand-Waffenkammerschlüssel",
+      "desc": "Getragen von Hanz Niemitz (Offizier)"
     }
+  },
+  "code": {
+    "1": {
+      "label": "Lagerhaus-Tresorkombination",
+      "desc": "Getragen von Albrecht Speer (Jäger-Offizier)."
+    }
+  },
+  "special": {
+    "1.label": "Rattenbombe platzieren.",
+    "2.label": "Zerstörbare Wand."
   }
 }

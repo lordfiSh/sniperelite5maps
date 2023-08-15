@@ -709,6 +709,10 @@ html, body {
     cursor: default;
 }
 
+.leaflet-popup-content-wrapper a {
+    cursor: pointer;
+}
+
 .leaflet-popup-content {
     font-family: 'PFDinTextCondPro', Arial, sans-serif;
     color: #AF834E;

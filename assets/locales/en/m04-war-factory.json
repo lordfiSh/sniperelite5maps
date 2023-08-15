@@ -10,7 +10,7 @@
     },
     "3": {
       "label": "Sheer's Notebook",
-      "desc": ""
+      "desc": "On a desk in the upper control room."
     },
     "4": {
       "label": "Losing the Time",
@@ -22,13 +22,13 @@
     },
     "6": {
       "label": "Ehrlich's Done For",
-      "desc": ""
+      "desc": "On a desk in the building."
     }
   },
   "document": {
     "1": {
       "label": "Shipping Orders",
-      "desc": ""
+      "desc": "Inside the shipping warehouse safe on the upper floor. The safe can be opened with the @link[code.1] or a satchel charge."
     },
     "2": {
       "label": "No More Games",
@@ -36,7 +36,7 @@
     },
     "3": {
       "label": "Bureaucratic Oaf!",
-      "desc": ""
+      "desc": "On a desk on the upper floor."
     },
     "4": {
       "label": "Increase Security!",
@@ -49,38 +49,41 @@
       "desc": "On a stack of steel beams."
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "Stealth Plating",
+      "desc": "On a wooden crate in the warehouse."
     },
     "3": {
-      "label": "",
-      "desc": ""
+      "label": "P. 1000 Ratte Plans",
+      "desc": "On a dolly up on the gallery."
     }
   },
   "stone-eagle": {
-    "1.desc": "",
-    "2.desc": "",
-    "3.desc": ""
+    "1.desc": "Sits on the edge of the tower ruin.",
+    "2.desc": "Well hidden atop the building with the giant furnace. Best seen from the west.",
+    "3.desc": "Sits on the left pillar on the building's facade."
   },
   "workbench": {
     "1": {
       "label": "Rifle Workbench",
-      "desc": "In the Resistence armoury. Can be accesses via a ladder behind @link[door.1|this door.]."
+      "desc": "In the Résistence armoury. Can be accesses via a ladder behind @link[door.1|this door.]."
     },
     "2": {
       "label": "SMG Workbench",
-      "desc": ""
+      "desc": "In the shipping armoury."
     },
     "3": {
       "label": "Pistol Workbench",
-      "desc": ""
+      "desc": "In the Axis armoury. Can be accessed via @link[door.2|this door]."
     }
   },
 
   "primary": {
     "1": {
       "label": "Destroy the Furnace",
-      "desc": "Investigate the furnace."
+      "desc": {
+        "1": "Option A - Destroy the injector pipe",
+        "2": "Option B - Overload the furnace (0/2)."
+      }
     },
     "2": {
       "label": "Destroy the Refinery",
@@ -88,7 +91,11 @@
     },
     "3": {
       "label": "Find the Kraken Shipping Manifest",
-      "desc": "Search the shipping warehouse."
+      "desc": "Acquire the manifest."
+    },
+    "4": {
+      "label": "Escape the Factory",
+      "desc": "Exfiltrate."
     }
   },
   "secondary": {
@@ -102,7 +109,7 @@
     "2": {
       "label": "Destroy the Steelworks",
       "desc": {
-        "1": "Access the control room.",
+        "1": "Access the control room. The door requires the @link[key.3] or a satchel charge.",
         "2": "Sabotage controls."
       }
     }
@@ -128,8 +135,8 @@
       "desc": "There is a Resistance armoury somewhere in the casting facility."
     },
     "4": {
-      "label": "Axis Armoury",
-      "desc": "Refinery Armoury Key Acquired."
+      "label": "Trainyard Office",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
     }
   },
 
@@ -145,6 +152,10 @@
     "3": {
       "label": "Crane Control Room Door",
       "desc": "Requires the @link[key.3] or a satchel charge."
+    },
+    "4": {
+      "label": "Shipping Armoury Door",
+      "desc": "Requires the @link[key.4] or a satchel charge."
     }
   },
 
@@ -156,6 +167,22 @@
     "3": {
       "label": "Crane Control Room Key",
       "desc": "Carried by Hans Reichart (Scientist)."
+    },
+    "4": {
+      "label": "Shipping Armoury Key",
+      "desc": "Carried by Hans Nemetz (Officer)."
     }
+  },
+
+  "code": {
+    "1": {
+      "label": "Shipping Warehouse Safe Combination",
+      "desc": "Carried by Albrecht Sheers (Jäger Officer)."
+    }
+  },
+
+  "special": {
+    "1.label": "Place Rat Bomb",
+    "2.label": "Destructible Wall"
   }
 }
