@@ -36,8 +36,8 @@ app.mapData.markers = [
 	makeMarker('intel', 2, 3626,2851),
 	makeMarker('intel', 2, 2303,2598),
 
-	makeMarker('secondary', 1, 1247,1611),
-	makeMarker('secondary', 1, 1335,1683),
+	makeMarker('secondary', 1.1, 1247,1611),
+	makeMarker('secondary', 1.2, 1335,1683),
 
 	makeMarker('crowbar', 0, 1062,1566),
 	makeMarker('crowbar', 0, 1177,1625),
