@@ -13,7 +13,10 @@
     "m07-secret-weapon": "Geheime Waffen",
     "m08-rubble-and-ruin": "Schutt und Asche",
     "dlc1-wolf-mountain": "(DLC) Wolfsberg",
-    "dlc2-landing-force": "(DLC) Landing Force"
+    "dlc2-landing-force": "(DLC) Landetrupp",
+    "dlc3-conqueror": "(DLC) Eroberer",
+    "dlc4-rough-landing": "(DLC) Harte Landung",
+    "dlc5-kraken-awakes": "(DLC) Der Krake Erwacht"
   },
   "controls": {
     "return-to-map-selection": "Zurück zur Map-Auswahl",

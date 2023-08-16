@@ -34,7 +34,10 @@ app.maps = {
 	m07: 'm07-secret-weapon',
 	m08: 'm08-rubble-and-ruin',
 	dlc1: 'dlc1-wolf-mountain',
-	dlc2: 'dlc2-landing-force'
+	dlc2: 'dlc2-landing-force',
+	dlc3: 'dlc3-conqueror',
+	dlc4: 'dlc4-rough-landing',
+	dlc5: 'dlc5-kraken-awakes'
 };
 
 // This list determines which maps are clickable on the home page.
