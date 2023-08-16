@@ -1,2 +1,128 @@
 {
+    "letter": {
+        "1": {
+            "label": "They're Out There",
+            "desc": "Carried by Ralf Bottrich (Soldier)."
+        },
+        "2": {
+            "label": "Watch Your Back",
+            "desc": "Carried by David Radner (Soldier)"
+        },
+        "3": {
+            "label": "Barely Escaped!",
+            "desc": ""
+        },
+        "4": {
+            "label": "Give Me Strength",
+            "desc": ""
+        },
+        "5": {
+            "label": "Vengeance is Nigh!",
+            "desc": ""
+        }
+    },
+    "document": {
+        "1": {
+            "label": "Hold The Line",
+            "desc": ""
+        },
+        "2": {
+            "label": "Incoming Armour",
+            "desc": ""
+        },
+        "3": {
+            "label": "Unfit For Duty",
+            "desc": ""
+        },
+        "4": {
+            "label": "A Surplus Bridge",
+            "desc": ""
+        },
+        "5": {
+            "label": "Resistance Fanatic Located",
+            "desc": ""
+        }
+    },
+    "hidden-item": {
+        "1": {
+            "label": "Lucky Rabbit's Foot",
+            "desc": "Carried by Brenner Protz (Soldier)"
+        },
+        "2": {
+            "label": "Stolen Medals",
+            "desc": ""
+        },
+        "3": {
+            "label": "Engraved Lighter",
+            "desc": ""
+        }
+    },
+    "stone-eagle": {
+        "1": {
+            "label": "Stone Eagle",
+            "desc": ""
+        },
+        "2": {
+            "label": "Stone Eagle",
+            "desc": ""
+        },
+        "3": {
+            "label": "Stone Eagle",
+            "desc": ""
+        }
+    },
+    "workbench": {
+        "1": {
+            "label": "Rifle Workbench",
+            "desc": ""
+        },
+        "2": {
+            "label": "SMG Workbench",
+            "desc": ""
+        },
+        "3": {
+            "label": "Pistol Workbench",
+            "desc": ""
+        }
+    },
+    "intel": {
+        "1": {
+            "label": "Bridge Charlie",
+            "desc": ""
+        },
+        "2": {
+            "label": "Riverside House",
+            "desc": ""
+        }
+    },
+    "primary": {
+        "1": {
+            "label": "Liberate the Northern Town",
+            "desc": ""
+        },
+        "2": {
+            "label": "Liberate the Southern Town",
+            "desc": ""
+        }
+    },
+    "secondary": {
+        "1": {
+            "label": "Locate the Radio Operator",
+            "desc": ""
+        },
+        "2": {
+            "label": "No Half Measure",
+            "desc": ""
+        },
+        "3": {
+            "label": "Neutralise Anti-Air Guns",
+            "desc": ""
+        }
+    },
+    "kill-list": {
+        "1": {
+            "label": "Jaan Trautmann",
+            "desc": "Kill Trautmann by poison"
+        }
+    }
 }
