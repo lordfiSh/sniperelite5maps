@@ -6,55 +6,55 @@
         },
         "2": {
             "label": "Getting Of The Island.",
-            "desc": ""
+            "desc": "On a workbench in the basement."
         },
         "3": {
             "label": "Confiscated Goods",
-            "desc": "Carried by Soldier"
+            "desc": "Carried by Klaus Gruber (Engineer)."
         },
         "4": {
-            "label": "Escaping Islander",
-            "desc": ""
+            "label": "Escaping Islanders",
+            "desc": "On a shelf on the same floor as the lower roof."
         },
         "5": {
             "label": "Harass The Huns!",
-            "desc": ""
+            "desc": "On a table in the shack's basement. Crawl under a table to reach the ladder. Collecting this unlocks @link[primary.2.3|Option C - Sabotage the generator]."
         }
     },
     "document": {
         "1": {
             "label": "Grin And Bear It!",
-            "desc": ""
+            "desc": "Inside the safe in the building. The room can be accessed by climbing some vines outside the building. The safe can be opened with the @link[code.1] or a satchel charge."
         },
         "2": {
             "label": "Cut Costs Cost Lives",
-            "desc": ""
+            "desc": "On a desk in officer Fisher's office."
         },
         "3": {
             "label": "Oafish Officers",
-            "desc": ""
+            "desc": "On a table in the underground hospital."
         },
         "4": {
             "label": "Transport Troubles",
-            "desc": ""
+            "desc": "On a desk in the underground hospital."
         },
         "5": {
-            "label": "Dramatic Measures",
-            "desc": ""
+            "label": "Drastic Measures",
+            "desc": "On a wooden table on the ground floor."
         }
     },
     "hidden-item": {
         "1": {
             "label": "TODT Uniform Badge",
-            "desc": ""
+            "desc": "On a table in the shack."
         },
         "2": {
             "label": "Crystal Radio",
-            "desc": ""
+            "desc": "On a workbench in the basement."
         },
         "3": {
             "label": "Comfort Bag",
-            "desc": ""
+            "desc": "On top of a dresser on the upper floor."
         }
     },
     "stone-eagle": {
@@ -64,54 +64,146 @@
         },
         "2": {
             "label": "Stone Eagle",
-            "desc": ""
+            "desc": "On the roof of the Dollmann observation tower."
         },
         "3": {
             "label": "Stone Eagle",
-            "desc": ""
+            "desc": "On top of a pillar protruding from the facade."
         }
     },
     "workbench": {
         "1": {
             "label": "Rifle Workbench",
-            "desc": ""
+            "desc": "In the church tower. Climb the vines on the southern side to enter."
         },
         "2": {
             "label": "SMG Workbench",
-            "desc": ""
+            "desc": "In the shack's basement. Crawl under a table to reach the ladder."
         },
         "3": {
-            "label": "Rifle Workbench",
-            "desc": ""
+            "label": "Pistol Workbench",
+            "desc": "In the armoury."
         }
     },
-    "intel": {
+
+    "primary": {
         "1": {
-            "label": "Countryside House",
-            "desc": ""
+            "label": "Find the Stealth Plates",
+            "desc": {
+                "1": "Infiltrate the underground hospital.",
+                "2": "???"
+            }
         },
         "2": {
-            "label": "Dilapated Farm",
-            "desc": ""
+            "label": "Destroy the Kraken Prototype",
+            "desc": {
+                "1": "Option A - Overload the pressure valves (0/2).",
+                "2": "Option A - Open the engine room vents.",
+                "3": "Option A - Drop satchel charge down vents.",
+                "4": "Option B - Radio in the scuttle code.",
+                "5": "Option C - Set up a chain reaction (0/2).",
+                "6": "Option C - Set off the chain reaction."
+            }
         },
         "3": {
-            "label": "Roadside House",
-            "desc": ""
+            "label": "Neutralise Battery Mirus",
+            "desc": {
+                "1": "Option A - Sabotage the artillery shell.",
+                "2": "Option B - Find the scuttle code.",
+                "3": "Option C - Sabotage the generator.",
+                "4": "Radio in the scuttle code."
+            }
+        },
+        "4": {
+            "label": "Rendezvous with Blue Viper",
+            "desc": "Exfiltrate"
         }
     },
     "secondary": {
         "1": {
-            "label": "Neutralise Radio Communication",
+            "label": "Neutralise Radio Communications",
             "desc": {
-                "1": "Option A - Sabotage the Cables (0/2)",
-                "2": "Option B - Disable the Radio Equipment"
+                "1": "Option A - Sabotage the cables (0/2).",
+                "2": "Option B - Disable the radio equipment."
             }
+        },
+        "2": {
+            "label": "Stop the Construction of the Second Mirus Gun",
+            "desc": "Drop the suspended scuttle charge."
         }
     },
     "kill-list": {
         "1": {
             "label": "Lanzo Baumann",
-            "desc": "Kill Baumann by burying him in concrete"
+            "desc": "Find and kill Lanzo Baumann."
         }
+    },
+
+    "intel": {
+        "1": {
+            "label": "Countryside House",
+            "desc": "Climb the vines on the back of the building to unlock an alternate mission start."
+        },
+        "2": {
+            "label": "Dilapidated Farm",
+            "desc": "Alternate exfiltration location."
+        },
+        "3": {
+            "label": "Roadside House",
+            "desc": "Climb the vines on the back of the building to unlock an alternate mission start."
+        },
+        "4": {
+            "label": "Martello Tower",
+            "desc": "Germans are storing medical supplies in a Martello tower on the coast."
+        },
+        "5": {
+            "label": "Mirus Munitions Bunker",
+            "desc": "Germans are storing explosives supplies in a bunker to the north."
+        },
+        "6": {
+            "label": "Eastern Beach",
+            "desc": "Alternate exfiltration location."
+        },
+        "7": {
+            "label": "Tank Depot",
+            "desc": "Supplies are being sent from the hospital to the nearby tank depot."
+        }
+    },
+    "intel-source": {
+        "6.desc": "Uncovers @link[intel.6].",
+        "7.desc": "Uncovers @link[intel.7].",
+        "8.desc": "Uncovers @link[secondary.2]."
+    },
+
+    "code": {
+        "1": {
+            "label": "Hommet Safe Combination",
+            "desc": "On a wooden table in the building."
+        },
+        "2": {
+            "label": "Mirus Facility Safe Combination",
+            "desc": "Carried by Eduard Hannes (Officer)."
+        },
+        "3": {
+            "label": "Half of the Mirus Scuttle Code",
+            "desc": "Inside a safe in the office. The safe can be opened with the @link[code.2] or a satchel charge."
+        },
+        "4": {
+            "label": "",
+            "desc": "???"
+        },
+        "5": {
+            "label": "Submarine Pen Scuttle Code",
+            "desc": "Inside a safe in the office. The safe can be opened with the @link[code.4] or a satchel charge."
+        },
+        "6": {
+            "label": "Farmhouse Safe Combination",
+            "desc": "Carried by Rutger Buchel (Officer)."
+        }
+    },
+
+    "special": {
+        "1.label": "Gnome",
+        "2.label": "Poison"
     }
 }
