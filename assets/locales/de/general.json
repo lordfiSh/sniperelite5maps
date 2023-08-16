@@ -69,6 +69,7 @@
       "start": "Missions-Start",
       "exit": "Missions-Ausgang",
       "intel": "Informationen",
+      "intel-source": "Informationsquelle",
 
       "bolt-cutters": "Bolzenschneider",
       "crowbar": "Brechstange",

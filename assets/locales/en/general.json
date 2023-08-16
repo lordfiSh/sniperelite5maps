@@ -69,6 +69,7 @@
       "start": "Mission Start",
       "exit": "Mission Exit",
       "intel": "Intel",
+      "intel-source": "Intel Source",
 
       "bolt-cutters": "Bolt Cutters",
       "crowbar": "Crowbar",

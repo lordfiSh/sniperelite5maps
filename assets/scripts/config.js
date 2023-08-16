@@ -79,6 +79,7 @@ app.markerTypes = {
 	'start': {group: 'objectives', displayMode: 'label-type-id'},
 	'exit': {group: 'objectives', displayMode: 'label-type-id-sub'},
 	'intel': {group: 'objectives', displayMode: 'label'},
+	'intel-source': {group: 'objectives', icon: 'default', displayMode: 'type'},
 	
 	'bolt-cutters': {group: 'tools', icon: 'default', displayMode: 'type'},
 	'crowbar': {group: 'tools', icon: 'default', displayMode: 'type'},
@@ -101,8 +102,8 @@ app.markerTypes = {
 	'generator': {group: 'utilities', displayMode: 'type'},
 	'phonograph': {group: 'utilities', icon: 'default', displayMode: 'type'},
 	'supply-crate': {group: 'utilities', icon: 'ammo', displayMode: 'type'},
-	'zipline-start': {group: 'utilities', icon: 'default', displayMode: 'type-id'},
-	'zipline-end': {group: 'utilities', icon: 'default', displayMode: 'type-id'},
+	'zipline-start': {group: 'utilities', icon: 'default', displayMode: 'type'},
+	'zipline-end': {group: 'utilities', icon: 'default', displayMode: 'type'},
 	
 	'alarm': {group: 'other', displayMode: 'type'},
 	'invasion': {group: 'other', displayMode: 'type'},
