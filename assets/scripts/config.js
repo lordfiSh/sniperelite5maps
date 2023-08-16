@@ -51,7 +51,9 @@ app.enabledMaps = [
 	'm06-liberation',
 	'm07-secret-weapon',
 	'm08-rubble-and-ruin',
-	'dlc1-wolf-mountain'
+	'dlc1-wolf-mountain',
+	'dlc2-landing-force',
+	'dlc3-conqueror'
 ];
 
 app.defaultHiddenGroups = ['tools', 'vehicles', 'utilities', 'other'];
