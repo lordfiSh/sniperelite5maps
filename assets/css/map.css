@@ -633,6 +633,10 @@ html, body {
     background: #222;
 }
 
+.leaflet-tile-pane img {
+    image-rendering: pixelated;
+}
+
 .leaflet-tooltip {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
