@@ -81,7 +81,7 @@
     "1": {
       "label": "Destroy the Furnace",
       "desc": {
-        "1": "Option A - Destroy the injector pipe.",
+        "1": "Option A - Destroy the injector pipe",
         "2": "Option B - Overload the furnace (0/2)."
       }
     },

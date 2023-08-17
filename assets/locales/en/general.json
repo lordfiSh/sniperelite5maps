@@ -13,10 +13,7 @@
     "m07-secret-weapon": "Secret Weapons",
     "m08-rubble-and-ruin": "Rubble and Ruin",
     "dlc1-wolf-mountain": "(DLC) Wolf Mountain",
-    "dlc2-landing-force": "(DLC) Landing Force",
-    "dlc3-conqueror": "(DLC) Conqueror",
-    "dlc4-rough-landing": "(DLC) Rough Landing",
-    "dlc5-kraken-awakes": "(DLC) Kraken Awakes"
+    "dlc2-landing-force": "(DLC) Landing Force"
   },
   "controls": {
     "return-to-map-selection": "Return to Map Selection",
@@ -72,7 +69,6 @@
       "start": "Mission Start",
       "exit": "Mission Exit",
       "intel": "Intel",
-      "intel-source": "Intel Source",
 
       "bolt-cutters": "Bolt Cutters",
       "crowbar": "Crowbar",

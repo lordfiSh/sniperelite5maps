@@ -34,10 +34,7 @@ app.maps = {
 	m07: 'm07-secret-weapon',
 	m08: 'm08-rubble-and-ruin',
 	dlc1: 'dlc1-wolf-mountain',
-	dlc2: 'dlc2-landing-force',
-	dlc3: 'dlc3-conqueror',
-	dlc4: 'dlc4-rough-landing',
-	dlc5: 'dlc5-kraken-awakes'
+	dlc2: 'dlc2-landing-force'
 };
 
 // This list determines which maps are clickable on the home page.
@@ -51,9 +48,7 @@ app.enabledMaps = [
 	'm06-liberation',
 	'm07-secret-weapon',
 	'm08-rubble-and-ruin',
-	'dlc1-wolf-mountain',
-	'dlc2-landing-force',
-	'dlc3-conqueror'
+	'dlc1-wolf-mountain'
 ];
 
 app.defaultHiddenGroups = ['tools', 'vehicles', 'utilities', 'other'];
@@ -84,7 +79,6 @@ app.markerTypes = {
 	'start': {group: 'objectives', displayMode: 'label-type-id'},
 	'exit': {group: 'objectives', displayMode: 'label-type-id-sub'},
 	'intel': {group: 'objectives', displayMode: 'label'},
-	'intel-source': {group: 'objectives', icon: 'default', displayMode: 'type'},
 	
 	'bolt-cutters': {group: 'tools', icon: 'default', displayMode: 'type'},
 	'crowbar': {group: 'tools', icon: 'default', displayMode: 'type'},
@@ -107,8 +101,8 @@ app.markerTypes = {
 	'generator': {group: 'utilities', displayMode: 'type'},
 	'phonograph': {group: 'utilities', icon: 'default', displayMode: 'type'},
 	'supply-crate': {group: 'utilities', icon: 'ammo', displayMode: 'type'},
-	'zipline-start': {group: 'utilities', icon: 'default', displayMode: 'type'},
-	'zipline-end': {group: 'utilities', icon: 'default', displayMode: 'type'},
+	'zipline-start': {group: 'utilities', icon: 'default', displayMode: 'type-id'},
+	'zipline-end': {group: 'utilities', icon: 'default', displayMode: 'type-id'},
 	
 	'alarm': {group: 'other', displayMode: 'type'},
 	'invasion': {group: 'other', displayMode: 'type'},

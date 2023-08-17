@@ -22,7 +22,7 @@ app.get('/', (request, response, next) => response.sendFile(__dirname+'/dist/hom
 app.get('/browserconfig.xml', (request, response, next) => response.sendFile(__dirname+'/dist/browserconfig.xml'));
 app.get('/site.webmanifest', (request, response, next) => response.sendFile(__dirname+'/dist/site.webmanifest'));
 
-const maps = ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08', 'dlc1', 'dlc2', 'dlc3', 'dlc4', 'dlc5'];
+const maps = ['m01', 'm02', 'm03', 'm04', 'm05', 'm06', 'm07', 'm08', 'dlc1'];
 
 for(const map of maps) {
 	app.get(`/${map}/`, (request, response, next) => response.sendFile(__dirname+'/dist/map.html'));
