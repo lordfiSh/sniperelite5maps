@@ -1,2 +1,205 @@
 {
+  "letter": {
+    "1": {
+      "label": "Kein Grund zur Sorge",
+      "desc": "Getragen von Walter Frei (Offizier)."
+    },
+    "2": {
+      "label": "Von der Insel Verschwinden",
+      "desc": "Auf einer Werkbank im Keller."
+    },
+    "3": {
+      "label": "Beschlagnahmte Waren",
+      "desc": "Getragen von Klaus Gruber (Ingenieur)."
+    },
+    "4": {
+      "label": "Flüchtende Inselbewohner",
+      "desc": "Auf einem Regal im gleichen Stockwerk wie das begehbare Dach."
+    },
+    "5": {
+      "label": "Dumme Deutsche!",
+      "desc": "Auf einem Tisch im Keller des Schuppens. Krieche unter einem Tisch durch, um die Leiter zu erreichen. Beim Einsammeln wird @link[primary.2.3|Option C - Sabotiere den Generator] freigeschaltet."
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Lächeln und Ertragen",
+      "desc": "In einem Tresor im Gebäude. Der Raum ist über die Ranken außen am Gebäude erreichbar. Der Safe kann mithilfe der @link[code.1] oder einer Sprengladung geöffnet werden."
+    },
+    "2": {
+      "label": "Pfusch Kostet Leben",
+      "desc": "Auf einem Schreibtisch in Fishers Büro."
+    },
+    "3": {
+      "label": "Offizierstölpel",
+      "desc": "Auf einem Tisch im Untergrundhospital."
+    },
+    "4": {
+      "label": "Transportprobleme",
+      "desc": "Auf einem Schreibtisch im Untergrundhospital."
+    },
+    "5": {
+      "label": "Drastische Maßnahmen",
+      "desc": "Auf einem hölzernen Tisch im Erdgeschoss."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "TODT-Uniformanstecker",
+      "desc": "Auf einem Tisch im Schuppen."
+    },
+    "2": {
+      "label": "Detektorempfänger",
+      "desc": "Auf einer Werkbank im Keller."
+    },
+    "3": {
+      "label": "Trostbeutel",
+      "desc": "Auf einer Kommode im oberen Stockwerk."
+    }
+  },
+  "stone-eagle": {
+    "1.desc": "Auf dem Kirchturm.",
+    "2.desc": "Auf dem Dach des Dollmann-Beobachtungsturms.",
+    "3.desc": "Auf einer Säule, die aus der Fassade herausragt."
+  },
+  "workbench": {
+    "1": {
+      "label": "Gewehrwerkbank",
+      "desc": "Im Kirchturm. Erreichbar über die Ranken an der südlichen Seite des Turms."
+    },
+    "2": {
+      "label": "MP-Werkbank",
+      "desc": "Im Keller des Schuppens. Krieche unter einem Tisch durch, um die Leiter zu erreichen."
+    },
+    "3": {
+      "label": "Pistolenwerkbank",
+      "desc": "In der Waffenkammer."
+    }
+  },
+
+  "primary": {
+    "1": {
+      "label": "Die Tarnplatten finden",
+      "desc": {
+        "1": "Dringe in das Untergrundhospital ein."
+      }
+    },
+    "2": {
+      "label": "Den Kraken-Prototyp zerstören",
+      "desc": {
+        "1": "Option A - Die Druckventile überlasten (0/2).",
+        "2": "Option A - Öffne die Maschinenraumlüftung.",
+        "3": "Option A - Lass die Sprengladung durch die Lüftung fallen.",
+        "4": "Option B - Übertrage den Sprengcode.",
+        "5": "Option C - Eine Kettenreaktion vorbereiten (0/2).",
+        "6": "Option C - Löse die Kettenreaktion aus"
+      }
+    },
+    "3": {
+      "label": "Batterie Mirus ausschalten",
+      "desc": {
+        "1": "Option A - Sabotiere ein Artilleriegeschoss.",
+        "2": "Option B - Finde den Sprengcode.",
+        "3": "Option B - Übertrage den Sprengcode.",
+        "4": "Option C - Sabotiere den Generator."
+      }
+    },
+    "4": {
+      "label": "Mit Blue Viper Treffen",
+      "desc": "Gebiet verlassen."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Funkübertragung ausschalten",
+      "desc": {
+        "1": "Option A - Die Seile Sabotieren (0/2).",
+        "2": "Option B - Deaktiviere die Funkausrüstung."
+      }
+    },
+    "2": {
+      "label": "Verhindere den Bau des zweiten Mirus-Geschützes",
+      "desc": "Lass die aufgehängte Sprengladung fallen."
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Lars Baumann",
+      "desc": "Finde und Töte Lars Baumann."
+    }
+  },
+
+  "intel": {
+    "1": {
+      "label": "Haus auf dem Land",
+      "desc": "Erklimm die Ranken an der Rückseite des Hauses, um einen alternativen Missionsstart freizuschalten."
+    },
+    "2": {
+      "label": "Verfallener Bauernhof",
+      "desc": "Alternativer Missionsausgang."
+    },
+    "3": {
+      "label": "Haus an der Straße",
+      "desc": "Erklimm die Ranken an der Rückseite des Hauses, um einen alternativen Missionsstart freizuschalten."
+    },
+    "4": {
+      "label": "Martello-Turm",
+      "desc": "Die Deutschen lagern medizinische Vorräte in einem Martello-Turm an der Küste."
+    },
+    "5": {
+      "label": "Mirus-Munitionsbunker",
+      "desc": "Die Deutschen lagern Sprengstoff in einem Bunker im Norden."
+    },
+    "6": {
+      "label": "Östlicher Strand",
+      "desc": "Alternativer Missionsausgang."
+    },
+    "7": {
+      "label": "Panzer Depot",
+      "desc": "Die Hilfsgüter werden vom Krankenhaus zum nahe gelegenen Tanklager gebracht."
+    },
+    "8": {
+      "label": "Küstenbunker",
+      "desc": "An einen Bunker an der Küste wurden \"Vorräte\" geliefert."
+    }
+  },
+  "intel-source": {
+    "4.desc": "Deckt @link[intel.4] auf.",
+    "5.desc": "Deckt @link[intel.5] auf.",
+    "6.desc": "Deckt @link[intel.6] auf.",
+    "7.desc": "Deckt @link[intel.7] auf.",
+    "9.desc": "Deckt @link[secondary.2] auf."
+  },
+
+  "code": {
+    "1": {
+      "label": "Hommet-Tresorkombination",
+      "desc": "Auf einem hölzernen Tisch im Gebäude."
+    },
+    "2": {
+      "label": "Tresorkombination der Mirus-Anlage",
+      "desc": "Getragen von Eduard Hannes (Offizier)."
+    },
+    "3": {
+      "label": "Hälfte des Mirus-Sprengcodes",
+      "desc": "In einem Safe im Büro. Der Safe kann mithilfe der @link[code.2] oder einer Sprengladung geöffnet werden."
+    },
+    "4": {
+      "label": "Fishers Tresorkombination",
+      "desc": "Getragen von Rein Fischer (Offizier)."
+    },
+    "5": {
+      "label": "Sprengcode für U-Boot-Bunker",
+      "desc": "In einem Safe im Büro. Der Safe kann mithilfe von @link[code.4] oder einer Sprengladung geöffnet werden."
+    },
+    "6": {
+      "label": "Bauernhaus Tresorkombination",
+      "desc": "Getragen von Rutger Buchel (Offizier)."
+    }
+  },
+
+  "special": {
+    "1.label": "Gartenzwerg",
+    "2.label": "Gift"
+  }
 }

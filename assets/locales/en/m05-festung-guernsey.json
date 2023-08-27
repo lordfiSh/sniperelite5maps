@@ -58,18 +58,9 @@
         }
     },
     "stone-eagle": {
-        "1": {
-            "label": "Stone Eagle",
-            "desc": ""
-        },
-        "2": {
-            "label": "Stone Eagle",
-            "desc": "On the roof of the Dollmann observation tower."
-        },
-        "3": {
-            "label": "Stone Eagle",
-            "desc": "On top of a pillar protruding from the facade."
-        }
+        "1.desc": "On the church tower.",
+        "2.desc": "On the roof of the Dollmann observation tower.",
+        "3.desc": "On top of a pillar protruding from the facade."
     },
     "workbench": {
         "1": {
@@ -110,8 +101,8 @@
             "desc": {
                 "1": "Option A - Sabotage the artillery shell.",
                 "2": "Option B - Find the scuttle code.",
-                "3": "Option C - Sabotage the generator.",
-                "4": "Radio in the scuttle code."
+                "3": "Option B - Radio in the scuttle code.",
+                "4": "Option C - Sabotage the generator."
             }
         },
         "4": {
@@ -167,12 +158,18 @@
         "7": {
             "label": "Tank Depot",
             "desc": "Supplies are being sent from the hospital to the nearby tank depot."
+        },
+        "8": {
+            "label": "Coastal Bunker",
+            "desc": "Supplies were delivered to a bunker along the coast."
         }
     },
     "intel-source": {
+        "4.desc": "Uncovers @link[intel.4].",
+        "5.desc": "Uncovers @link[intel.5].",
         "6.desc": "Uncovers @link[intel.6].",
         "7.desc": "Uncovers @link[intel.7].",
-        "8.desc": "Uncovers @link[secondary.2]."
+        "9.desc": "Uncovers @link[secondary.2]."
     },
 
     "code": {
@@ -189,12 +186,12 @@
             "desc": "Inside a safe in the office. The safe can be opened with the @link[code.2] or a satchel charge."
         },
         "4": {
-            "label": "",
-            "desc": "???"
+            "label": "Fisher's Safe Combination",
+            "desc": "Carried by Rein Fischer (Officer)."
         },
         "5": {
             "label": "Submarine Pen Scuttle Code",
-            "desc": "Inside a safe in the office. The safe can be opened with the @link[code.4] or a satchel charge."
+            "desc": "Inside a safe in the office. The safe can be opened with @link[code.4] or a satchel charge."
         },
         "6": {
             "label": "Farmhouse Safe Combination",

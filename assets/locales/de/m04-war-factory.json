@@ -28,7 +28,7 @@
   "document": {
     "1": {
       "label": "Transportbefehle",
-      "desc": "In einem Safe im oberen Stockwerk des Lagerhauses. Der Safe kann mithilfe der @link[code.1|Tresorkombination] oder einer Sprengladung geöffnet werden."
+      "desc": "In einem Safe im oberen Stockwerk des Lagerhauses. Der Safe kann mithilfe der @link[code.1] oder einer Sprengladung geöffnet werden."
     },
     "2": {
       "label": "Keine Spielchen Mehr",
