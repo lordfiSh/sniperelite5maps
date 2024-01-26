@@ -108,6 +108,9 @@
 				
 				item.dataset['map'] = `${slug}`;
 				item.classList.add(enabled ? 'enabled' : 'disabled');
+				if (!enabled) {
+					item.style.cursor = 'not-allowed';
+				}
 				link.href = `${id}/`;
 				text.textContent = name;
 				

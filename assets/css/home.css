@@ -126,6 +126,11 @@ body {
     cursor: not-allowed;
 }
 
+.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
 #search-wrapper {
     width: 100%;
     max-width: 1024px;
