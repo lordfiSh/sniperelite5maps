@@ -72,12 +72,14 @@ app.markerGroups = {
 };
 
 app.markerTypes = {
+	// collectibles
 	'letter': {group: 'letters', displayMode: 'label-type-id'},
 	'document': {group: 'documents', displayMode: 'label-type-id'},
 	'hidden-item': {group: 'hidden-items', displayMode: 'label-type-id'},
 	'stone-eagle': {group: 'stone-eagles', displayMode: 'type-id'},
 	'workbench': {group: 'workbenches', displayMode: 'label-type-id'},
 	
+	// objectives
 	'primary': {group: 'objectives', displayMode: 'label-type-id-sub'},
 	'secondary': {group: 'objectives', displayMode: 'label-type-id-sub'},
 	'kill-list': {group: 'objectives', displayMode: 'label-type'},
@@ -86,6 +88,7 @@ app.markerTypes = {
 	'intel': {group: 'objectives', displayMode: 'label'},
 	'intel-source': {group: 'objectives', icon: 'default', displayMode: 'type'},
 	
+	// tools
 	'bolt-cutters': {group: 'tools', icon: 'default', displayMode: 'type'},
 	'crowbar': {group: 'tools', icon: 'default', displayMode: 'type'},
 	'door': {group: 'tools', icon: 'default', displayMode: 'label'},
@@ -93,6 +96,7 @@ app.markerTypes = {
 	'code': {group: 'tools', icon: 'default', displayMode: 'label'},
 	'satchel-charge': {group: 'tools', icon: 'default', displayMode: 'type'},
 	
+	// vehicles
 	'aircraft': {group: 'vehicles', displayMode: 'type'},
 	'armoured-car': {group: 'vehicles', displayMode: 'type'},
 	'boat': {group: 'vehicles', displayMode: 'type'},
@@ -102,6 +106,7 @@ app.markerTypes = {
 	'truck': {group: 'vehicles', displayMode: 'type'},
 	'vip-car': {group: 'vehicles', displayMode: 'type'},
 	
+	// utilities
 	'body-box': {group: 'utilities', displayMode: 'type'},
 	'emplacement': {group: 'utilities', displayMode: 'type'},
 	'generator': {group: 'utilities', displayMode: 'type'},
@@ -110,11 +115,13 @@ app.markerTypes = {
 	'zipline-start': {group: 'utilities', icon: 'default', displayMode: 'type'},
 	'zipline-end': {group: 'utilities', icon: 'default', displayMode: 'type'},
 	
+	// other
 	'alarm': {group: 'other', displayMode: 'type'},
 	'invasion': {group: 'other', displayMode: 'type'},
 	'searchlight': {group: 'other', displayMode: 'type'},
 	'speaker': {group: 'other', displayMode: 'type'},
 	
+	// special
 	'special': {group: 'other', icon: 'default', displayMode: 'label'},
 	'cardboard-pidgeon': {group: 'other', icon: 'default', displayMode: 'type'},
 	'rat-bomb': {group: 'other', icon: 'default', displayMode: 'type'},
