@@ -306,7 +306,7 @@
 			position = L.latLng(position);
 			return Object.values(app.leafletLayers)
 				.flatMap(layer => layer.getLayers())
-				.find(marker => marker.getLatLng().equals(position));
+				.find(layer => layer instanceof L.Marker && layer.getLatLng().equals(position));
 		}
 		
 		function getIconPath(name) {
