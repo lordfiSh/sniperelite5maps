@@ -640,7 +640,7 @@
 				textErr: $.t('controls.search.error'),
 				textCancel: $.t('controls.search.cancel'),
 				textPlaceholder: $.t('controls.search.placeholder'),
-				sourceData: (text, callback) => {
+				sourceData: (_, text, callback) => {
 					callback(data);
 					return {abort: () => 0};
 				},
