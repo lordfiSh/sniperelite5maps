@@ -11,7 +11,7 @@
         "2": {"label": "Won’t Be Attending","desc": "On a desk on the top floor."},
         "3": {"label": "Training Scenarios","desc": "On a table at top floor of the building."},
         "4": {"label": "Resource Request","desc": "On a wooden table on the top floor of the bell tower."},
-        "5": {"label": "Armoury Exposed","desc": "On a bench on the top floor."}
+        "5": {"label": "Armory Exposed","desc": "On a bench on the top floor."}
     },
     "hidden-item": {
         "1": {"label": "Kriegsmarine Playing Cards","desc": "On one of the tables inside the bar."},
@@ -34,7 +34,7 @@
         },
         "3": {
             "label": "Pistol Workbench",
-            "desc": "In the armoury."
+            "desc": "In the armory."
         }
     },
 
@@ -56,8 +56,8 @@
             "desc": "Unlockable starting location."
         },
         "5": {
-            "label": "Axis Armoury",
-            "desc": "The Bailliverie armoury's entrance is not secure."
+            "label": "Axis Armory",
+            "desc": "The Bailliverie armory's entrance is not secure."
         },
         "6": {
             "label": "Beaumont-Saint-Denis",
@@ -66,7 +66,7 @@
     },
     "key": {
         "1": {
-            "label": "Armoury Key",
+            "label": "Armory Key",
             "desc": "Carried by Josef Lowenstam (Officer)."
         },
         "2": {
@@ -80,7 +80,7 @@
     },
     "door": {
         "1": {
-            "label": "Armoury Door",
+            "label": "Armory Door",
             "desc": "Requires the @link[key.1] or satchel charge."
         },
         "2": {

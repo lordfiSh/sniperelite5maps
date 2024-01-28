@@ -32,7 +32,7 @@
     },
     "2": {
       "label": "Beach Defences",
-      "desc": "Inside the armoury safe. The safe can be opened with the @link[code.4] or a satchel charge."
+      "desc": "Inside the armory safe. The safe can be opened with the @link[code.4] or a satchel charge."
     },
     "3": {
       "label": "Lacking Air Support",
@@ -74,7 +74,7 @@
   "workbench": {
     "1": {
       "label": "Rifle Workbench",
-      "desc": "Inside the armoury, right next to the exit."
+      "desc": "Inside the armory, right next to the exit."
     },
     "2": {
       "label": "SMG Workbench",
@@ -82,7 +82,7 @@
     },
     "3": {
       "label": "Pistol Workbench",
-      "desc": "Inside the armoury."
+      "desc": "Inside the armory."
     }
   },
   "code": {
@@ -99,7 +99,7 @@
       "desc": "Carried by Tielo Feld (Infantry)."
     },
     "4": {
-      "label": "Battery Armoury Safe Code",
+      "label": "Battery Armory Safe Code",
       "desc": "Carried by Oskar Schweiger (Officer)."
     },
     "5": {
@@ -117,7 +117,7 @@
       "desc": "Carried by Tobias Conze (Officer)."
     },
     "3": {
-      "label": "Armoury Key",
+      "label": "Armory Key",
       "desc": "Carried by Klaus Fiedler (Officer)."
     },
     "4": {
@@ -135,7 +135,7 @@
       "desc": "Can be opened with the @link[key.2] or a satchel charge."
     },
     "3": {
-      "label": "Armoury Door",
+      "label": "Armory Door",
       "desc": "Can be opened with the @link[key.3] or a satchel charge."
     },
     "4": {

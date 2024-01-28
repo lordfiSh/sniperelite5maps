@@ -65,15 +65,15 @@
   "workbench": {
     "1": {
       "label": "Rifle Workbench",
-      "desc": "In the Résistence armoury. Can be accesses via a ladder behind @link[door.1|this door.]."
+      "desc": "In the Résistence armory. Can be accesses via a ladder behind @link[door.1|this door.]."
     },
     "2": {
       "label": "SMG Workbench",
-      "desc": "In the shipping armoury."
+      "desc": "In the shipping armory."
     },
     "3": {
       "label": "Pistol Workbench",
-      "desc": "In the Axis armoury. Can be accessed via @link[door.2|this door]."
+      "desc": "In the Axis armory. Can be accessed via @link[door.2|this door]."
     }
   },
 
@@ -132,7 +132,7 @@
     },
     "3": {
       "label": "Resistance Cache",
-      "desc": "There is a Resistance armoury somewhere in the casting facility."
+      "desc": "There is a Resistance armory somewhere in the casting facility."
     },
     "4": {
       "label": "Trainyard Office",
@@ -142,11 +142,11 @@
 
   "door": {
     "1": {
-      "label": "Door to the Resistance Armoury",
+      "label": "Door to the Resistance Armory",
       "desc": "Can be opened by picking the lock or with bolt cutters."
     },
     "2": {
-      "label": "Refinery Armoury Door",
+      "label": "Refinery Armory Door",
       "desc": "Requires the @link[key.2] or a satchel charge."
     },
     "3": {
@@ -154,14 +154,14 @@
       "desc": "Requires the @link[key.3] or a satchel charge."
     },
     "4": {
-      "label": "Shipping Armoury Door",
+      "label": "Shipping Armory Door",
       "desc": "Requires the @link[key.4] or a satchel charge."
     }
   },
 
   "key": {
     "2": {
-      "label": "Refinery Armoury Key",
+      "label": "Refinery Armory Key",
       "desc": "Carried by Karl Speckmann (Jäger Officer)."
     },
     "3": {
@@ -169,7 +169,7 @@
       "desc": "Carried by Hans Reichart (Scientist)."
     },
     "4": {
-      "label": "Shipping Armoury Key",
+      "label": "Shipping Armory Key",
       "desc": "Carried by Hans Nemetz (Officer)."
     }
   },

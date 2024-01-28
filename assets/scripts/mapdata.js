@@ -1,8 +1,8 @@
 // display modes:
 // - type               Generator
 // - type-id            Stone Eagle 1
-// - label              Armoury Key
-// - label-type         Armoury Key (Key)
+// - label              Armory Key
+// - label-type         Armory Key (Key)
 // - label-type-id      Orders of the Day (Classified Document 1)
 // - label-type-id-sub  Do X (Primary Objective 2.1)
 

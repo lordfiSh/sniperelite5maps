@@ -77,7 +77,7 @@
   "workbench": {
     "1": {
       "label": "Rifle Workbench",
-      "desc": "In the basement armoury."
+      "desc": "In the basement armory."
     },
     "2": {
       "label": "SMG Workbench",
@@ -85,7 +85,7 @@
     },
     "3": {
       "label": "Pistol Workbench",
-      "desc": "In the armoury."
+      "desc": "In the armory."
     }
   },
 
@@ -111,13 +111,13 @@
       "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
     },
     "6": {
-      "label": "Chateau Armoury",
-      "desc": "There is an armoury in the Chateau's cellars.<br>The Chateau armoury contains satchel charges."
+      "label": "Chateau Armory",
+      "desc": "There is an armory in the Chateau's cellars.<br>The Chateau armory contains satchel charges."
     }
   },
   "key": {
     "1": {
-      "label": "Armoury Key",
+      "label": "Armory Key",
       "desc": "Carried by Markus Bertram (Officer)."
     },
     "2": {
@@ -131,7 +131,7 @@
   },
   "door": {
     "1": {
-      "label": "Armoury Door",
+      "label": "Armory Door",
       "desc": "Requires the @link[key.1] or satchel charge."
     },
     "2": {
