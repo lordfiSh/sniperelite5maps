@@ -2,127 +2,164 @@
     "letter": {
         "1": {
             "label": "They're Out There",
-            "desc": "Carried by Ralf Bottrich (Soldier)."
+            "desc": "Carried by Ralf Böttrich (Infantry)."
         },
         "2": {
             "label": "Watch Your Back",
-            "desc": "Carried by David Radner (Soldier)"
+            "desc": "Carried by David Radner (Infantry)"
         },
         "3": {
             "label": "Barely Escaped!",
-            "desc": ""
+            "desc": "On a wooden box."
         },
         "4": {
             "label": "Give Me Strength",
-            "desc": ""
+            "desc": "On a wooden crate."
         },
         "5": {
-            "label": "Vengeance is Nigh!",
-            "desc": ""
+            "label": "Vengeance Is Nigh!",
+            "desc": "On the floor in the attic."
         }
     },
     "document": {
         "1": {
-            "label": "Hold The Line",
-            "desc": ""
+            "label": "Hold the Line",
+            "desc": "On a desk on the upper floor."
         },
         "2": {
             "label": "Incoming Armour",
-            "desc": ""
+            "desc": "In the trenches."
         },
         "3": {
-            "label": "Unfit For Duty",
-            "desc": ""
+            "label": "Unfit for Duty",
+            "desc": "On a dresser on the upper floor of the building."
         },
         "4": {
             "label": "A Surplus Bridge",
-            "desc": ""
+            "desc.1": "On a wooden crate.",
+            "desc.2": "On a desk on the upper floor."
         },
         "5": {
             "label": "Resistance Fanatic Located",
-            "desc": ""
+            "desc": "On a dresser behind a locked door on the upper floor."
         }
     },
     "hidden-item": {
         "1": {
             "label": "Lucky Rabbit's Foot",
-            "desc": "Carried by Brenner Protz (Soldier)"
+            "desc": "Carried by Brenner Protz (Infantry)."
         },
         "2": {
             "label": "Stolen Medals",
-            "desc": ""
+            "desc": "On a table in the basement armory."
         },
         "3": {
             "label": "Engraved Lighter",
-            "desc": ""
+            "desc": "On a nightstand on the upper floor."
         }
     },
     "stone-eagle": {
         "1": {
             "label": "Stone Eagle",
-            "desc": ""
+            "desc": "On top of the windmill."
         },
         "2": {
             "label": "Stone Eagle",
-            "desc": ""
+            "desc": "On the collapsed roof of the church."
         },
         "3": {
             "label": "Stone Eagle",
-            "desc": ""
+            "desc": "In a window of the ruined building."
         }
     },
     "workbench": {
         "1": {
             "label": "Rifle Workbench",
-            "desc": ""
+            "desc": "In a hidden room on the upper floor. It can be accessed by climbing some vines on the back of the building."
         },
         "2": {
             "label": "SMG Workbench",
-            "desc": ""
+            "desc": "In the basement armory."
         },
         "3": {
             "label": "Pistol Workbench",
-            "desc": ""
-        }
-    },
-    "intel": {
-        "1": {
-            "label": "Bridge Charlie",
-            "desc": ""
-        },
-        "2": {
-            "label": "Riverside House",
-            "desc": ""
+            "desc": "In the armory, reachable via the roof."
         }
     },
     "primary": {
         "1": {
-            "label": "Liberate the Northern Town",
-            "desc": ""
+            "label": "Liberate the Southern Town",
+            "desc": "Neutralize defenses (0/3)."
         },
         "2": {
-            "label": "Liberate the Southern Town",
-            "desc": ""
+            "label": "Secure a Crossing",
+            "desc.1": "Option A - Kill snipers (0/3).",
+            "desc.2": "Option B - Defuse bridge explosives (0/2)."
+        },
+        "3": {
+            "label": "Liberate the Northern Town",
+            "desc.1": "Connect the barricade explosives.",
+            "desc.2": "Detonate explosives.",
+            "desc.3": "Destroy the Tiger tank."
+        },
+        "4": {
+            "label": "Rendezvous with the Allies",
+            "desc": "Exfiltrate"
         }
     },
     "secondary": {
         "1": {
             "label": "Locate the Radio Operator",
-            "desc": ""
+            "desc.1": "Investigate the crashed glider.",
+            "desc.2": "Collect the intel."
         },
         "2": {
-            "label": "No Half Measure",
-            "desc": ""
-        },
-        "3": {
-            "label": "Neutralise Anti-Air Guns",
-            "desc": ""
+            "label": "Neutralize Anti-Air Guns",
+            "desc": "Destroy Anti-Air Guns (0/3)."
         }
     },
     "kill-list": {
         "1": {
             "label": "Jaan Trautmann",
-            "desc": "Kill Trautmann by poison"
+            "desc": "Find and kill Jaan Trautmann."
         }
-    }
+    },
+    "intel": {
+        "1": {
+            "label": "Bridge Charlie",
+            "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+        },
+        "2": {
+            "label": "Riverside House",
+            "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+        },
+        "3": {
+            "label": "Resistance Cache",
+            "desc": "Unlocked by collecting the intel during \"@link[secondary.1.2]\"."
+        },
+        "4": {
+            "label": "Resistance Cache"
+        }
+    },
+    "door": {
+        "2": {
+            "label": "Bunker Door",
+            "desc": "Can be opened with the @link[key.2] or a satchel charge."
+        }
+    },
+    "key": {
+        "1": {
+            "label": "Key",
+            "desc": "Carried by Jaan Trautmann (Officer)."
+        },
+        "2": {
+            "label": "Bunker Key",
+            "desc": "Carried by Wilhelm Bjorn (Officer)."
+        }
+    },
+    "speaker.1.desc": "Linked to @link[alarm.1|this alarm].",
+    "speaker.2.desc": "Linked to @link[alarm.2|this alarm].",
+    "speaker.3.desc": "Linked to @link[alarm.3|this alarm].",
+    "special.1.label": "Poison",
+    "special.2.label": "Drinking Glass"
 }

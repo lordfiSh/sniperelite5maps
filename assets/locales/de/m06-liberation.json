@@ -1,2 +1,165 @@
 {
+  "letter": {
+    "1": {
+      "label": "Sie Sind Dort Draußen",
+      "desc": "Getragen von Ralf Böttrich (Infanterie)."
+    },
+    "2": {
+      "label": "Pass Auf Dich Auf",
+      "desc": "Getragen von David Radner (Infanterie)."
+    },
+    "3": {
+      "label": "Gerade So Eben Entkommen!",
+      "desc": "Auf einer Holzkiste."
+    },
+    "4": {
+      "label": "Verleih mir Stärke",
+      "desc": "Auf einer Holzkiste."
+    },
+    "5": {
+      "label": "Die Rache Ist Nahe!",
+      "desc": "Auf dem Dachboden."
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Stellung Halten",
+      "desc": "Auf einem Schreibtisch im oberen Stockwerk."
+    },
+    "2": {
+      "label": "Panzer auf dem Weg nach Ponts-sur-Douve",
+      "desc": "Im Geschützgraben."
+    },
+    "3": {
+      "label": "Nicht Diensttauglich",
+      "desc": "Auf einer Kommode im oberen Stockwerk."
+    },
+    "4": {
+      "label": "Eine Überschüssige Brücke",
+      "desc.1": "Auf einer Holzkiste.",
+      "desc.2": "Auf einem Schreibtisch im oberen Stockwerk."
+    },
+    "5": {
+      "label": "Standort Bestätigt",
+      "desc": "Auf einer Kommode im oberen Stockwerk."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Hasenpfote",
+      "desc": "Getragen von Brenner Protz (Infanterie)."
+    },
+    "2": {
+      "label": "Gestohlene Medaillen",
+      "desc": "Auf einem Tisch in der Waffenkammer im Keller."
+    },
+    "3": {
+      "label": "Engraved Lighter",
+      "desc": "Auf einem Nachttisch im oberen Stockwerk."
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Auf der Mühle."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Auf dem eingestürzten Dach der Kirche."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "Hinter einem Fenster der Ruine."
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Gewehrwerkbank",
+      "desc": "In der Waffenkammer im oberen Stockwerk, erreichbar über die Fassade."
+    },
+    "2": {
+      "label": "MP-Werkbank",
+      "desc": "In der Waffenkammer im Keller."
+    },
+    "3": {
+      "label": "Pistolenwerkbank",
+      "desc": "In der Waffenkammer, erreichbar über das Dach."
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Holprige Landung",
+      "desc": "Verteidigungsanlagen ausschalten (0/3)."
+    },
+    "2": {
+      "label": "Die Brücken",
+      "desc.1": "Option A - Scharfschützen töten (0/3).",
+      "desc.2": "Option B - Sprengladungen an der Brücke entschärfen (0/2)"
+    },
+    "3": {
+      "label": "Zerstörung des Brückenkopfs",
+      "desc.1": "Verbinde den Sprengstoff der Barrikade.",
+      "desc.2": "Sprengstoff zünden.",
+      "desc.3": "Zerstöre den Tiger-Panzer."
+    },
+    "4": {
+      "label": "Den Kraken erledigen",
+      "desc": "Das Gebiet verlassen"
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Der Hilferuf",
+      "desc.1": "Finde den Funker.",
+      "desc.2": "Sammle die Informationen."
+    },
+    "2": {
+      "label": "Den Weg freimachen",
+      "desc": "Zerstöre Flak-Stellungen der Deutschen."
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Jan Trautmann",
+      "desc": "Finde und töte Jan Trautmann."
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Brücke Charlie",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "2": {
+      "label": "Haus am Fluss",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "3": {
+      "label": "Résistance-Versteck",
+      "desc": "Wird vom optionalen Ziel @link[secondary.1.2] freigeschaltet."
+    },
+    "4": {
+      "label": "Résistance-Versteck"
+    }
+  },
+  "door": {
+    "2": {
+      "label": "Bunker Tor",
+      "desc": "Kann mit dem @link[key.2] oder einer Sprengladung geöffnet werden."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Schlüssel",
+      "desc": "Getragen von Jaan Trautmann (Offizier)."
+    },
+    "2": {
+      "label": "Bunkerschlüssel",
+      "desc": "Getragen von Wilhelm Bjorn (Offizier)."
+    }
+  },
+  "speaker.1.desc": "Wird durch @link[alarm.1|diesen Alarm] deaktiviert.",
+  "speaker.2.desc": "Wird durch @link[alarm.2|diesen Alarm] deaktiviert.",
+  "speaker.3.desc": "Wird durch @link[alarm.3|diesen Alarm] deaktiviert.",
+  "special.1.label": "Gift",
+  "special.2.label": "Glas"
 }
