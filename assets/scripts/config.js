@@ -5,6 +5,7 @@ app.maxZoom = 6;
 app.tileSize = 256;
 app.transparentMarkerOpacity = 0.5;
 app.enableCircleMarker = false;
+app.copyMarkerCoordinates = true;
 
 app.quickSubmit = {
 	enable: false,
@@ -31,7 +32,7 @@ app.maps = {
 	m04: 'm04-war-factory',
 	m05: 'm05-festung-guernsey',
 	m06: 'm06-liberation',
-	m07: 'm07-secret-weapon',
+	m07: 'm07-secret-weapons',
 	m08: 'm08-rubble-and-ruin',
 	dlc1: 'dlc1-wolf-mountain',
 	dlc2: 'dlc2-landing-force',
@@ -49,7 +50,7 @@ app.enabledMaps = [
 	'm04-war-factory',
 	'm05-festung-guernsey',
 	'm06-liberation',
-	'm07-secret-weapon',
+	'm07-secret-weapons',
 	'm08-rubble-and-ruin',
 	'dlc1-wolf-mountain',
 	'dlc2-landing-force',

@@ -686,6 +686,7 @@
 		
 		function showUserMarkerAt(position) {
 			position = L.latLng(position);
+			const coords = app.formatCoordinates(position);
 			const lat = Math.round(position.lat);
 			const lng = Math.round(position.lng);
 			userMarker.setLatLng(position);
@@ -701,7 +702,11 @@
 				}
 			}
 			app.leafletMap.addLayer(userMarker);
-			app.leafletHash.setParam('w', app.formatCoordinates(position));
+			app.leafletHash.setParam('w', coords);
+			
+			if(app.copyMarkerCoordinates) {
+				navigator.clipboard?.writeText(coords).then(() => {});
+			}
 		}
 		
 		function hideUserMarker() {

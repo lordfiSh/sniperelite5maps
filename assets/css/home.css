@@ -266,15 +266,3 @@ div.truncated {
 i.close-search {
     display: none;
 }
-
-@media all and (max-width: 800px) {
-    body {
-        background-position: right center;
-    }
-}
-
-@media all and (max-width: 1075px) {
-    #content {
-        max-width: 800px;
-    }
-}
