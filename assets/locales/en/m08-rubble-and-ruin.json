@@ -1,2 +1,185 @@
 {
+  "letter": {
+    "1": {
+      "label": "It's Not Over Yet!",
+      "desc": "On a desk in one of the hotel rooms."
+    },
+    "2": {
+      "label": "Clean Out The Sewer",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc": ""
+    },
+    "4": {
+      "label": "Your Man Talked!",
+      "desc": "On a desk on the upper floor."
+    },
+    "5": {
+      "label": "Möller Is Moving!",
+      "desc": "On a desk in the building."
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Secure Radio Lines",
+      "desc": "On a wooden crate."
+    },
+    "2": {
+      "label": "Broken Resistance",
+      "desc": "On a wooden crate in front of a ruined building."
+    },
+    "3": {
+      "label": "Resistance Report",
+      "desc": "On a desk inside the underground interrogation room."
+    },
+    "4": {
+      "label": "Flagship Fuel Risks",
+      "desc": "In Möller's safe on the upper floor. The safe code is acquired when collecting @link[letter.1], but it can also be opened with a satchel charge."
+    },
+    "5": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "Pistol Workbench",
+      "desc": "In the crypt beneath the church."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Stolen Tantō",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "An \"Original\" Adolf",
+      "desc": "In the church tower, on the floor beneath the sniper."
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": ""
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Infiltrate Kraken's U-Boat Pen",
+      "desc": "Inspect the Kraken plans."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Neutralise Radio Communications",
+      "desc.1": "Option A - Sabotage the cables (0/2)",
+      "desc.2": "Option B - Disable the radio equipment (0/3)"
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Shinji Yoshikawa",
+      "desc": "Kill Shinji Yoshikawa"
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Interrogation Room",
+      "desc": "An interrogation report is being kept in the basement tof a bookstore."
+    },
+    "2": {
+      "label": "Resistance Café",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "3": {
+      "label": "Church Crypt",
+      "desc": "Local Resistance have stored weapons in the church crypt."
+    },
+    "4": {
+      "label": "Northern Ruins",
+      "desc": "Resistance have a weapons cache opposite the town hall."
+    },
+    "5": {
+      "label": "Axis Armory",
+      "desc": "There is an armory in the lower levels of the U-boat pen."
+    },
+    "6": {
+      "label": "Sea View Offices",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "7": {
+      "label": "Hotel",
+      "desc": "Möller's safe code is somewhere in the hotel. Möller's safe is still in the hotel."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "House Door",
+      "desc": "Can be opened with the @link[key.1] or a satchel charge."
+    },
+    "2": {
+      "label": "Interrogation Room Door",
+      "desc": "Can be opened with the @link[key.2] or a satchel charge."
+    },
+    "3": {
+      "label": "Building Door",
+      "desc.1": "Can be opened with the @link[key.3] or a satchel charge, or from the inside.",
+      "desc.2": "Can be opened with the @link[key.3]."
+    },
+    "4": {
+      "label": "Crypt Door",
+      "desc": "Can be opened with the @link[key.4] or a satchel charge."
+    },
+    "5": {
+      "label": "Hotel Door",
+      "desc": "Can be opened with the @link[key.5] or a satchel charge."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "House Key",
+      "desc": "In a supply crate."
+    },
+    "2": {
+      "label": "Interrogation Room Key",
+      "desc": "Carried by Hans Deertz (Jäger Officer)."
+    },
+    "3": {
+      "label": "Building Key",
+      "desc": "On a key rack opposite of the door."
+    },
+    "4": {
+      "label": "Crypt Key",
+      "desc": "In a supply crate on the topmost floor of the church tower."
+    },
+    "5": {
+      "label": "Hotel Key",
+      "desc": "On a shelf in the hotel kitchen."
+    }
+  },
+  "special": {
+    "1.label": "Loose Boards"
+  }
 }

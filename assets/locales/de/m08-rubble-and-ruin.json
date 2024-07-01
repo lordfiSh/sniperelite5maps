@@ -1,2 +1,189 @@
 {
+  "letter": {
+    "1": {
+      "label": "Es ist noch nicht vorbei!",
+      "desc": "Auf einem Schreibtisch im Hotelzimmer."
+    },
+    "2": {
+      "label": "Die Kanalisation Ausräumen",
+      "desc": "..."
+    },
+    "3": {
+      "label": "...",
+      "desc": "..."
+    },
+    "4": {
+      "label": "Wir müssen verschwinden!",
+      "desc": "Auf einem Schreibtisch im oberen Stockwerk."
+    },
+    "5": {
+      "label": "...",
+      "desc": "..."
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Sicherung der Funkverbindung",
+      "desc": "Auf einer Holzkiste."
+    },
+    "2": {
+      "label": "Gebrochenes Résistance-Mitglied",
+      "desc": "Auf einer Holzkiste vor einem eingestürzten Haus."
+    },
+    "3": {
+      "label": "Verhörbericht",
+      "desc": "Auf einem Schreibtisch im unterirdischen Verhörraum."
+    },
+    "4": {
+      "label": "Riskante Betankung",
+      "desc": "In Möllers Tresor im oberen Stockwerk. Der Tresor kann mithilfe der Informationen aus dem Brief @link[letter.1] oder einer Sprengladung geöffnet werden."
+    },
+    "5": {
+      "label": "...",
+      "desc": "..."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Gestohlenes Tantō",
+      "desc": "..."
+    },
+    "2": {
+      "label": "...",
+      "desc": ".."
+    },
+    "3": {
+      "label": "Ein \"Originaler\" Hitler",
+      "desc": "Im Kirchturm auf der Etage unter dem Sniper."
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "..."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "..."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "..."
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Gewehrwerkbank",
+      "desc": "..."
+    },
+    "2": {
+      "label": "MP-Werkbank",
+      "desc": "..."
+    },
+    "3": {
+      "label": "Pistolenwerkbank",
+      "desc": "..."
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "In den Kraken-U-Boot-Bunker eindringen",
+      "desc": "Finde einen Weg hinein."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Funktübertragung ausschalten",
+      "desc": {
+        "1": "Option A - Die Seile sabotieren (0/2).",
+        "2": "Option B - Die Funkausrüstung deaktivieren (0/3)."
+      }
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Shinji Yoshikawa",
+      "desc": "Yoshikawa töten."
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Verhörraum",
+      "desc": "Im Keller eines Buchladens wird ein Verhörbericht aufbewahrt."
+    },
+    "2": {
+      "label": "Résistance-Café",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "3": {
+      "label": "Krypta der Kirche",
+      "desc": "Die hiesige Résistance hat Waffen in der Krypta der Kirche gelagert."
+    },
+    "4": {
+      "label": "Ruinen im Norden",
+      "desc": "Die Résistance hat ein Waffenlager gegenüber dem Rathaus."
+    },
+    "5": {
+      "label": "Waffenkammer der Achsenmächte",
+      "desc": "Auf den unteren Ebenen des U-Boot-Bunkers befindet sich eine Waffenkammer."
+    },
+    "6": {
+      "label": "Büros am Meer",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "7": {
+      "label": "Hotel",
+      "desc": "Möllers Tresorcode befindet sich irgendwo im Hotel. Möllers Tresor steht noch im Hotel."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Tür im oberen Stockwerk",
+      "desc": "Kann mit dem @link[key.1] oder einer Sprengladung geöffnet werden."
+    },
+    "2": {
+      "label": "Tür zum Verhörraum",
+      "desc": "Kann mit dem @link[key.2] oder einer Sprengladung geöffnet werden."
+    },
+    "3": {
+      "label": "Gebäudetür",
+      "desc.1": "Kann mit dem @link[key.3], von innen oder mit einer Sprengladung geöffnet werden.",
+      "desc.2": "Kann mit dem @link[key.3] geöffnet werden."
+    },
+    "4": {
+      "label": "Tür zur Krypta",
+      "desc": "Kann mit dem @link[key.4] oder einer Sprengladung geöffnet werden."
+    },
+    "5": {
+      "label": "Tür zum Hotelzimmer",
+      "desc.1": "Kann mit dem @link[key.5] oder einer Sprengladung geöffnet werden.",
+      "desc.2": "Kann mit dem @link[key.5] oder einer Sprengladung geöffnet werden."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Hausschlüssel",
+      "desc": "In einer Versorgungskiste."
+    },
+    "2": {
+      "label": "Verhörraumschlüssel",
+      "desc": "Getragen von Hans Deertz (Jäger-Offizier)."
+    },
+    "3": {
+      "label": "Gebäudeschlüssel",
+      "desc": "An einem Schlüsselbrett im Erdgeschoss."
+    },
+    "4": {
+      "label": "Schlüssel zur Krypta",
+      "desc": "In einer Versorgungskiste ganz oben auf dem Kirchturm."
+    },
+    "5": {
+      "label": "Hotelschlüssel",
+      "desc": "Auf einem Sekretär in der Küche des Hotels."
+    }
+  },
+  "special": {
+    "1.label": "Lose Bretter",
+    "2.label": "Durchbrochener Kamin"
+  }
 }

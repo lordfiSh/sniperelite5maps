@@ -1,5 +1,28 @@
 {
-  "letter-from-home": {
+  "letter": {
+    "1": {
+      "label": "",
+      "desc": ""
+    },
+    "2": {
+      "label": "",
+      "desc": ""
+    },
+    "3": {
+      "label": "",
+      "desc.1": "",
+      "desc.2": ""
+    },
+    "4": {
+      "label": "",
+      "desc": ""
+    },
+    "5": {
+      "label": "",
+      "desc": ""
+    }
+  },
+  "document": {
     "1": {
       "label": "",
       "desc": ""
@@ -21,7 +44,7 @@
       "desc": ""
     }
   },
-  "letter-to-home": {
+  "workbench": {
     "1": {
       "label": "",
       "desc": ""
@@ -33,17 +56,9 @@
     "3": {
       "label": "",
       "desc": ""
-    },
-    "4": {
-      "label": "",
-      "desc": ""
-    },
-    "5": {
-      "label": "",
-      "desc": ""
     }
   },
-  "last-letter": {
+  "hidden-item": {
     "1": {
       "label": "",
       "desc": ""
@@ -55,91 +70,9 @@
     "3": {
       "label": "",
       "desc": ""
-    },
-    "4": {
-      "label": "",
-      "desc": ""
-    },
-    "5": {
-      "label": "",
-      "desc": ""
     }
   },
-  "misc-document": {
-    "1": {
-      "label": "",
-      "desc": ""
-    },
-    "2": {
-      "label": "",
-      "desc": ""
-    },
-    "3": {
-      "label": "",
-      "desc": ""
-    },
-    "4": {
-      "label": "",
-      "desc": ""
-    },
-    "5": {
-      "label": "",
-      "desc": ""
-    },
-    "6": {
-      "label": "",
-      "desc": ""
-    },
-    "7": {
-      "label": "",
-      "desc": ""
-    },
-    "8": {
-      "label": "",
-      "desc": ""
-    },
-    "9": {
-      "label": "",
-      "desc": ""
-    },
-    "10": {
-      "label": "",
-      "desc": ""
-    },
-    "11": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "duty-roster": {
-    "1": {
-      "label": "",
-      "desc": ""
-    },
-    "2": {
-      "label": "",
-      "desc": ""
-    },
-    "3": {
-      "label": "",
-      "desc": ""
-    },
-    "4": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "sniper-report": {
-    "1": {
-      "label": "",
-      "desc": ""
-    },
-    "2": {
-      "label": "",
-      "desc": ""
-    }
-  },
-  "deadeye-target": {
+  "stone-eagle": {
     "1": {
       "label": "Stone Eagle",
       "desc": ""
@@ -153,34 +86,26 @@
       "desc": ""
     }
   },
-  "objective-primary": {
+  "primary": {
     "1": {
-      "label": "",
-      "desc": ""
-    },
-    "2": {
       "label": "",
       "desc": ""
     }
   },
-  "objective-optional": {
+  "secondary": {
+  },
+  "kill-list": {
     "1": {
-      "label": "",
-      "desc": ""
-    },
-    "2": {
-      "label": "",
-      "desc": ""
-    },
-    "3": {
       "label": "",
       "desc": ""
     }
   },
-  "objective-exit": {
-    "1": {
-      "label": "",
-      "desc": ""
-    }
+  "intel": {
+  },
+  "door": {
+  },
+  "key": {
+  },
+  "special": {
   }
 }
