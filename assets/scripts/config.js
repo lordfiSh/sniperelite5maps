@@ -54,7 +54,9 @@ app.enabledMaps = [
 	'm08-rubble-and-ruin',
 	'dlc1-wolf-mountain',
 	'dlc2-landing-force',
-	'dlc3-conqueror'
+	'dlc3-conqueror',
+	'dlc4-rough-landing',
+	'dlc5-kraken-awakes'
 ];
 
 app.defaultHiddenGroups = ['tools', 'vehicles', 'utilities', 'other'];
