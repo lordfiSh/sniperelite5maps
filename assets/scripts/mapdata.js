@@ -79,7 +79,7 @@ function getSubLabel(type, id) {
 	}
 }
 
-const linkPattern = /@link\[(?<type>[\w-]+)\.(?<id>[^|\]]+)(?:\|(?<display>[^\]]+))?]/g;
+const linkPattern = /@link\[(?<type>[\w-]+)\.(?<id>[\d.]+)(?:\|(?<display>[^\]]+))?]/g;
 function getDescription(type, id, descOverride) {
 	const desc = descOverride ?? translateDescription(app.mapData.name, type, id);
 	return desc.replace(linkPattern, (match, type, id, display) => {
@@ -89,7 +89,7 @@ function getDescription(type, id, descOverride) {
 			return `<a onclick="app.focusMarkerAt([${marker.position[0]}, ${marker.position[1]}]);">${display ?? getMainLabel(marker.type, marker.id)}</a>`;
 		}
 		else {
-			console.warn(`Unresolved link in description for marker ${type}.${id}`);
+			console.warn(`Unresolved link to marker ${type}.${id}`);
 			return display ?? "&lt;unresolved link&gt;";
 		}
 	});

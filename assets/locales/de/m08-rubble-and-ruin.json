@@ -6,19 +6,19 @@
     },
     "2": {
       "label": "Die Kanalisation Ausräumen",
-      "desc": "..."
+      "desc": "Auf dem Boden in der Kanalisation."
     },
     "3": {
-      "label": "...",
-      "desc": "..."
+      "label": "Kein Auge für Kunst",
+      "desc": "In einer Versorgungskiste im oberen Stockwerk."
     },
     "4": {
       "label": "Wir müssen verschwinden!",
       "desc": "Auf einem Schreibtisch im oberen Stockwerk."
     },
     "5": {
-      "label": "...",
-      "desc": "..."
+      "label": "Möller verschwindet!",
+      "desc": "Auf einem Schreibtisch im Gebäude."
     }
   },
   "document": {
@@ -39,56 +39,68 @@
       "desc": "In Möllers Tresor im oberen Stockwerk. Der Tresor kann mithilfe der Informationen aus dem Brief @link[letter.1] oder einer Sprengladung geöffnet werden."
     },
     "5": {
-      "label": "...",
-      "desc": "..."
+      "label": "Prioritätsabholung",
+      "desc": "Auf den Boden des Dachbodens."
     }
   },
   "hidden-item": {
     "1": {
       "label": "Gestohlenes Tantō",
-      "desc": "..."
+      "desc": "In einer Versorgungskiste."
     },
     "2": {
-      "label": "...",
-      "desc": ".."
+      "label": "I-400-V2-Anhänger",
+      "desc": "Auf einem Tisch in der Mitte des Kontrollraums."
     },
     "3": {
       "label": "Ein \"Originaler\" Hitler",
-      "desc": "Im Kirchturm auf der Etage unter dem Sniper."
+      "desc.1": "Im Kirchturm auf der Etage unter dem Sniper.",
+      "desc.2": "Verlasse den U-Boot-Bunker."
     }
   },
   "stone-eagle": {
     "1": {
       "label": "Stone Eagle",
-      "desc": "..."
+      "desc": "Auf dem Dach eines Hauses. Sichtbar aus den südwestlichen Fenstern bei Brief @link[letter.5]."
     },
     "2": {
       "label": "Stone Eagle",
-      "desc": "..."
+      "desc": "Auf dem Dach eines Fabrikgebäudes."
     },
     "3": {
       "label": "Stone Eagle",
-      "desc": "..."
+      "desc": "Über einem Fenster auf dem Dach."
     }
   },
   "workbench": {
     "1": {
       "label": "Gewehrwerkbank",
-      "desc": "..."
+      "desc": "In der Waffenkammer des Bunkers."
     },
     "2": {
       "label": "MP-Werkbank",
-      "desc": "..."
+      "desc": "In der Waffenkammer auf dem Dachboden."
     },
     "3": {
       "label": "Pistolenwerkbank",
-      "desc": "..."
+      "desc": "In der Krypta unter der Kirche."
     }
   },
   "primary": {
     "1": {
       "label": "In den Kraken-U-Boot-Bunker eindringen",
-      "desc": "Finde einen Weg hinein."
+      "desc": {
+        "1": "Finde einen Weg in die Kanalisation.",
+        "2": "Betritt den U-Boot-Bunker."
+      }
+    },
+    "2": {
+      "label": "Die U-Boot-Flotte zerstören",
+      "desc": "U-Boot zerstören (0/3)."
+    },
+    "3": {
+      "label": "Der Tod des Kraken",
+      "desc": "Sabotiere das Kraken-Betankungssystem."
     }
   },
   "secondary": {
@@ -134,6 +146,9 @@
     "7": {
       "label": "Hotel",
       "desc": "Möllers Tresorcode befindet sich irgendwo im Hotel. Möllers Tresor steht noch im Hotel."
+    },
+    "8": {
+      "label": "Kanalisationsnetz"
     }
   },
   "door": {
@@ -147,7 +162,7 @@
     },
     "3": {
       "label": "Gebäudetür",
-      "desc.1": "Kann mit dem @link[key.3], von innen oder mit einer Sprengladung geöffnet werden.",
+      "desc.1": "Kann mit dem @link[key.3] oder einer Sprengladung geöffnet werden.",
       "desc.2": "Kann mit dem @link[key.3] geöffnet werden."
     },
     "4": {
@@ -156,8 +171,23 @@
     },
     "5": {
       "label": "Tür zum Hotelzimmer",
-      "desc.1": "Kann mit dem @link[key.5] oder einer Sprengladung geöffnet werden.",
-      "desc.2": "Kann mit dem @link[key.5] oder einer Sprengladung geöffnet werden."
+      "desc": "Kann mit dem @link[key.5] oder einer Sprengladung geöffnet werden."
+    },
+    "6": {
+      "label": "Tür zum Büro des Rathauses",
+      "desc": "Kann mit dem @link[key.6.1] oder einer Sprengladung geöffnet werden."
+    },
+    "7": {
+      "label": "Tür zum Abwasserpumpenhaus",
+      "desc": "Kann mit dem @link[key.7] oder einer Sprengladung geöffnet werden."
+    },
+    "8": {
+      "label": "Tür zur Waffenkammer",
+      "desc": "Kann mit dem @link[key.8.1] oder einer Sprengladung geöffnet werden."
+    },
+    "9": {
+      "label": "Tür zur Krankenstation",
+      "desc": "Kann mit dem @link[key.9] oder mit einer Sprengladung geöffnet werden."
     }
   },
   "key": {
@@ -180,6 +210,26 @@
     "5": {
       "label": "Hotelschlüssel",
       "desc": "Auf einem Sekretär in der Küche des Hotels."
+    },
+    "6": {
+      "label": "Rathausbüroschlüssel",
+      "desc.1": "Getragen von Diederick Hacke (Jäger-Offizier).",
+      "desc.2": "In einer Versorgungskiste.",
+      "desc.3": "Getragen von Heike Bischoff (Jäger)."
+    },
+    "7": {
+      "label": "Abwasserpumpenhaus-Schlüssel",
+      "desc": "In einem Tresor in der Kanalisation. Der Tresor kann mithilfe der Informationen aus dem Brief @link[letter.2] oder einer Sprengladung geöffnet werden."
+    },
+    "8": {
+      "label": "Waffenkammerschlüssel",
+      "desc.1": "Getragen von Johann Hagel (Jäger).",
+      "desc.2": "In einer Versorgungskiste."
+    },
+    "9": {
+      "label": "Krankenstationsschlüssel",
+      "desc.1": "Liegt auf einem Tisch in der Krankenstation.",
+      "decc.2": "Getragen von Heinz Southers (Jäger-Offizier)."
     }
   },
   "special": {

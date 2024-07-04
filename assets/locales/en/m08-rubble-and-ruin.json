@@ -6,11 +6,11 @@
     },
     "2": {
       "label": "Clean Out The Sewer",
-      "desc": ""
+      "desc": "Behind a wooden crate in the sewer."
     },
     "3": {
-      "label": "",
-      "desc": ""
+      "label": "He's Not The Sharpest",
+      "desc": "In a supply crate on the upper floor that can be opened with a crowbar."
     },
     "4": {
       "label": "Your Man Talked!",
@@ -39,18 +39,18 @@
       "desc": "In Möller's safe on the upper floor. The safe code is acquired when collecting @link[letter.1], but it can also be opened with a satchel charge."
     },
     "5": {
-      "label": "",
-      "desc": ""
+      "label": "Priority Pickup",
+      "desc": "On the floor of the attic. To get there you need to climb on a table."
     }
   },
   "workbench": {
     "1": {
-      "label": "",
-      "desc": ""
+      "label": "Rifle Workbench",
+      "desc": "In the armory inside the bunker."
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "SMG Workbench",
+      "desc": "In the armory in the attic."
     },
     "3": {
       "label": "Pistol Workbench",
@@ -60,11 +60,11 @@
   "hidden-item": {
     "1": {
       "label": "Stolen Tantō",
-      "desc": ""
+      "desc": "In a supply-crate."
     },
     "2": {
-      "label": "",
-      "desc": ""
+      "label": "I-400 V2 Hanger",
+      "desc": "On a desk in the control room."
     },
     "3": {
       "label": "An \"Original\" Adolf",
@@ -74,21 +74,31 @@
   "stone-eagle": {
     "1": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "On the roof of a building. Visible from the south-west facing windows near @link[letter.5]."
     },
     "2": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "On the roof of the factory on the other side of the canal."
     },
     "3": {
       "label": "Stone Eagle",
-      "desc": ""
+      "desc": "Atop a window on the roof."
     }
   },
   "primary": {
     "1": {
       "label": "Infiltrate Kraken's U-Boat Pen",
-      "desc": "Inspect the Kraken plans."
+      "desc.1": "Find the sewer entrance.",
+      "desc.2": "Enter the U-boat pen."
+    },
+    "2": {
+      "label": "Destroy the U-Boat Fleet",
+      "desc": "Destroy U-boat (0/3)."
+    },
+    "3": {
+      "label": "Kill the Kraken",
+      "desc.1": "Sabotage the Kraken fuel system.",
+      "desc.2": "Get clear of the U-boat pen."
     }
   },
   "secondary": {
@@ -119,7 +129,7 @@
     },
     "4": {
       "label": "Northern Ruins",
-      "desc": "Resistance have a weapons cache opposite the town hall."
+      "desc": "Resistance have a weapons cache opposite the townhall."
     },
     "5": {
       "label": "Axis Armory",
@@ -132,6 +142,9 @@
     "7": {
       "label": "Hotel",
       "desc": "Möller's safe code is somewhere in the hotel. Möller's safe is still in the hotel."
+    },
+    "8": {
+      "label": "Sewer Network"
     }
   },
   "door": {
@@ -145,7 +158,7 @@
     },
     "3": {
       "label": "Building Door",
-      "desc.1": "Can be opened with the @link[key.3] or a satchel charge, or from the inside.",
+      "desc.1": "Can be opened with the @link[key.3] or a satchel charge.",
       "desc.2": "Can be opened with the @link[key.3]."
     },
     "4": {
@@ -155,6 +168,22 @@
     "5": {
       "label": "Hotel Door",
       "desc": "Can be opened with the @link[key.5] or a satchel charge."
+    },
+    "6": {
+      "label": "Townhall Office Door",
+      "desc": "Can be opened with the @link[key.6.1] or a satchel charge."
+    },
+    "7": {
+      "label": "Sewer Pump Room Door",
+      "desc": "Can be opened with the @link[key.7] or a satchel charge."
+    },
+    "8": {
+      "label": "Armory Door",
+      "desc": "Can be opened with the @link[key.8.1] or a satchel charge."
+    },
+    "9": {
+      "label": "Medbay Door",
+      "desc": "Can be opened with the @link[key.9] or a satchel charge."
     }
   },
   "key": {
@@ -177,9 +206,30 @@
     "5": {
       "label": "Hotel Key",
       "desc": "On a shelf in the hotel kitchen."
+    },
+    "6": {
+      "label": "Townhall Office Key",
+      "desc.1": "Carried by Diederick Hacke (Jäger Officer).",
+      "desc.2": "In a supply crate.",
+      "desc.3": "Carried by Heike Bischoff (Jäger)."
+    },
+    "7": {
+      "label": "Sewer Pump Room Key",
+      "desc": "In a safe in the sewers. The safe code is acquired when collecting @link[letter.2], but it can also be opened with a satchel charge."
+    },
+    "8": {
+      "label": "Armory Key",
+      "desc.1": "Carried by Johann Hagel (Jäger).",
+      "desc.2": "In a supply crate."
+    },
+    "9": {
+      "label": "Medbay Key",
+      "desc.1": "On a table in the barracks.",
+      "desc.2": "Carried by Heinz Southers (Jäger Officer)."
     }
   },
   "special": {
-    "1.label": "Loose Boards"
+    "1.label": "Loose Boards",
+    "2.label": "Fireplace"
   }
 }
