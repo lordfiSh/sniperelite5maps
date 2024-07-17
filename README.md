@@ -18,7 +18,7 @@ If you want to contribute to the project, feel free to create an issue or open a
 
 1. Fork the project
 2. Clone the repository (`git clone git@github.com:YourGitHubAccount/sniperelite5maps.git`)
-3. Add upstream repository (`git remote add upstream https://github.com/lordfiSh/sniperelite5maps/sniperelite5maps.git`)
+3. Add upstream repository (`git remote add upstream https://github.com/lordfiSh/sniperelite5maps.git`)
 4. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 5. Commit your changes (`git commit -m 'add some amazing feature'`)
 6. Rebase on upstream (`git fetch upstream` and `git rebase upstream/main`)
