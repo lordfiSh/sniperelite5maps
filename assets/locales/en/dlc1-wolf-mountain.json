@@ -1,0 +1,208 @@
+{
+  "letter": {
+    "1": {
+      "label": "Construction Halted",
+      "desc": "On a table in the shed."
+    },
+    "2": {
+      "label": "Vermin Infestation",
+      "desc": "On a workbench in a back room of the garage."
+    },
+    "3": {
+      "label": "Führer's Plans",
+      "desc": "On a table in the kitchen."
+    },
+    "4": {
+      "label": "Perimeter Problems",
+      "desc": "On a desk in the shed."
+    },
+    "5": {
+      "label": "Führer's Personal Space",
+      "desc": "On a dresser."
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Missing Inventory",
+      "desc": "On a wooden crate between the tents."
+    },
+    "2": {
+      "label": "Guest of the Führer",
+      "desc": "On a desk on the upper floor."
+    },
+    "3": {
+      "label": "Routine Reminder",
+      "desc": "In the depot safe. The safe can be opened with the @link[code.1] or a satchel charge."
+    },
+    "4": {
+      "label": "Communication Operations",
+      "desc": "On a wooden crate on the observation tower."
+    },
+    "5": {
+      "label": "Additional Flak Positions",
+      "desc": "On a desk on the ground floor."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Führermuseum Concept Model",
+      "desc": "On a covered piece of furniture on the ground floor."
+    },
+    "2": {
+      "label": "Practice Pose Photography",
+      "desc": "In a safe in Hitler's private chambers. The safe can be opened with the @link[code.2] or a satchel charge."
+    },
+    "3": {
+      "label": "Possible Hitler Disguises",
+      "desc": "On a table in the round room with a fireplace."
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Above the main entrance to Hitler's residence."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "On a hill above the tunnel entrance."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "On the roof of a house on the other side of the lake."
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Rifle Workbench",
+      "desc": "In the basement of the building."
+    },
+    "2": {
+      "label": "SMG Workbench",
+      "desc": "In the basement of the building."
+    },
+    "3": {
+      "label": "Pistol Workbench",
+      "desc": "In the armory."
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Assassinate the Führer",
+      "desc.1": "Flatten Hitler with a vehicle.",
+      "desc.2": "Poison Hitler's breakfast with the @link[special.2.1] from the kitchen.",
+      "desc.3": "Place a rat bomb in the main hall.",
+      "desc.4": "Cut short Hitler's reading session in the library.",
+      "desc.5": "Interrupt Hitler's last meeting.",
+      "desc.6": "Kill Hitler in his basement and spoil his fun at the bowling alley.",
+      "desc.7": "Electrocute Hitler in his bathroom.",
+      "desc.8": "Ruin Hitler's Dinner with Drexler in the dining hall.",
+      "desc.9": "Give sweet dreams to Hitler in his private chambers."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Neutralize Radio Communications",
+      "desc.1": "Option A - Sabotage the cables (0/2).",
+      "desc.2": "Option B - Disable the radio equipment (0/2)."
+    },
+    "2": {
+      "label": "Neutralize Anti-Air Guns",
+      "desc": "Destroy anti-air gun (0/2)."
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "1 - Outside the Teahouse"
+    },
+    "2": {
+      "label": "2 - Inside the Teahouse",
+      "desc": "Hitler eats his breakfast inside the Teahouse. Poison can be found in the Teahouse kitchen."
+    },
+    "3": {
+      "label": "3 - Main Hall",
+      "desc": "Rats have been spotted in the main hall."
+    },
+    "4": {
+      "label": "4 - Library",
+      "desc": "Hitler spends time in the library each day."
+    },
+    "5": {
+      "label": "5 - Hitler's Study",
+      "desc": "Hitler does paperwork in his study."
+    },
+    "6": {
+      "label": "6 - The Basement",
+      "desc": "Hitler has a personal bowling alley in the basement. Hitler often visits the basement bar after bowling. Hitler has a parcel to collect in the mail room."
+    },
+    "7": {
+      "label": "7 - The Lake",
+      "desc": "Hitler prefers to be alone at the lake."
+    },
+    "8": {
+      "label": "8 - Dining Hall",
+      "desc": "Hitler will be meeting with Drexler in the dining hall."
+    },
+    "9": {
+      "label": "9 - Hitler's Quarters",
+      "desc": "Hitler ends his day alone in front of the fireplace. Hitler has a personal safe in his quarters."
+    },
+    "10": {
+      "label": "Depot",
+      "desc": "Hitler's schedule is kept inside a safe in the depot."
+    },
+    "11": {
+      "label": "Lakeside Path",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Building Door 1",
+      "desc": "Can be opened with the @link[key.1] or a satchel charge."
+    },
+    "2": {
+      "label": "Building Door 2",
+      "desc": "Can be opened with the @link[key.2] or a satchel charge."
+    },
+    "3": {
+      "label": "Armory Door",
+      "desc": "Can be opened with the @link[key.3] or a satchel charge."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Building Key 1",
+      "desc": "Carried by Winfried Hann (Officer)."
+    },
+    "2": {
+      "label": "Building Key 2",
+      "desc": "Carried by Ernst Buchel (Infantry)."
+    },
+    "3": {
+      "label": "Armory Key",
+      "desc": "Carried by ??? (???)."
+    }
+  },
+  "code": {
+    "1": {
+      "label": "Depot Safe Code",
+      "desc": "Carried by Johann Auserswald (Jäger Officer)."
+    },
+    "2": {
+      "label": "Hitler's Safe Code",
+      "desc": "???"
+    }
+  },
+  "special": {
+    "1": {
+      "label": "Poison",
+      "desc.1": "On a shelf in the kitchen.",
+      "desc.2": "On a table in the kitchen."
+    },
+    "2": {
+      "label": "Phonograph",
+      "desc": "Can be turned on to play music and mask sounds."
+    },
+    "3.label": "Rat Bomb"
+  }
+}

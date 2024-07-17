@@ -1,0 +1,208 @@
+{
+  "letter": {
+    "1": {
+      "label": "Baustopp",
+      "desc": "Auf einem Tisch im Schuppen."
+    },
+    "2": {
+      "label": "Schädlingsbefall",
+      "desc": "Auf einer Werkbank in einem Hinterraum der Garage."
+    },
+    "3": {
+      "label": "Pläne des Führers",
+      "desc": "Auf einem Tisch in der Küche."
+    },
+    "4": {
+      "label": "Perimeterprobleme",
+      "desc": "Auf einem Schreibtisch im Schuppen."
+    },
+    "5": {
+      "label": "Der Tresor des Führers",
+      "desc": "Auf einer Kommode im Salon."
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Fehlendes Inventar",
+      "desc": "Auf einer Holzkiste im Lager."
+    },
+    "2": {
+      "label": "Gast des Führers",
+      "desc": "Auf einem Schreibtisch im oberen Stockwerk."
+    },
+    "3": {
+      "label": "Erinnerung an den Ablauf",
+      "desc": "Im Tresor des Depots. Der Tresor kann mithilfe der @link[code.1] oder einer Sprengladung geöffnet werden."
+    },
+    "4": {
+      "label": "Kommunikationsbetrieb",
+      "desc": "Auf einer Holzkiste auf dem Aussichtsturm."
+    },
+    "5": {
+      "label": "Zustätzliche Flak-Stellungen",
+      "desc": "Auf einem Schreibtisch im Erdgeschoss."
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Konzeptmodell des Führermuseums",
+      "desc": "Auf einerm verhängten Möbelstück im Erdgeschoss."
+    },
+    "2": {
+      "label": "Fotos von Übungsposen",
+      "desc": "In Hitlers Tresor. Der Tresor kann mithilfe der @link[code.2] oder einer Sprengladung geöffnet werden."
+    },
+    "3": {
+      "label": "Mögliche Tarnungen Hitlers",
+      "desc": "Auf einem Tisch im Kaminzimmer."
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Auf dem Gibel von Hitlers Anwesen."
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Auf dem Berg über der Tunneleinfahrt."
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "Auf dem Dach eines Hauses auf der anderen Seite des Sees."
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Gewehrwerkbank",
+      "desc": "Im Keller des Gebäudes."
+    },
+    "2": {
+      "label": "MP-Werkbank",
+      "desc": "Im Keller des Gebäudes."
+    },
+    "3": {
+      "label": "Pistolenwerkbank",
+      "desc": "In der Waffenkammer im Keller."
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Den Führer ermorden",
+      "desc.1": "Lass Hitler von einem Fahrzeug überrollen.",
+      "desc.2": "Vergifte Hitlers Frühstück auf dem Büffet im Speisesaal mit dem @link[special.2.1] aus der Küche.",
+      "desc.3": "Erschrecke Hitler mit einer Rattenbombe in der Haupthalle.",
+      "desc.4": "Störe Hitlers Ruhe beim Lesen in der Bibliothek.",
+      "desc.5": "Platze in Hitlers tödlichstes Meeting.",
+      "desc.6": "Töte Hitler und verhindere, dass er Spaß im Keller haben kann.",
+      "desc.7": "Setze das Bad von Hitlers Haus am See unter Strom.",
+      "desc.8": "Versalze Hitlers Suppe bei seinem Dinner mit Drexler im Speisesaal.",
+      "desc.9": "Beschere Hitler süße Träume in seinen Gemächern."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Funkübertragung ausschalten",
+      "desc.1": "Option A - Die Seile Sabotieren (0/2).",
+      "desc.2": "Option B - Die Funkausrüstung deaktivieren (0/2)."
+    },
+    "2": {
+      "label": "Zerstöre die Flak-Geschüzte.",
+      "desc": "Flak-Geschütze zerstören (0/2)."
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "1 - Vor dem Teehaus"
+    },
+    "2": {
+      "label": "2 - Im Teehaus",
+      "desc": "Hitler nimmt sein Frühstück im Teehaus ein. In der Küche des Teehauses ist Gift zu finden."
+    },
+    "3": {
+      "label": "3 - Haupthalle",
+      "desc": "In der Haupthalle wurden Ratten gesichtet. In der Küche des Berghofs ist Gift zu finden."
+    },
+    "4": {
+      "label": "4 - Bibliothek",
+      "desc": "Hitler verbringt jeden Tag Zeit in der Bibliothek."
+    },
+    "5": {
+      "label": "5 - Hitlers Arbeitszimmer",
+      "desc": "Hitler erledigt Schreibarbeiten in seinem Arbeitszimmer."
+    },
+    "6": {
+      "label": "6 - Keller",
+      "desc": "Hitler hat eine persönliche Kegelbahn im Keller. Hitler geht nach dem Kegeln oft noch in die Bar im Keller. Im Postzimmer befindet sich ein Paket Hitlers."
+    },
+    "7": {
+      "label": "7 - See",
+      "desc": "Hitler ist gern am See allein."
+    },
+    "8": {
+      "label": "8 - Speisesaal",
+      "desc": "Hitler trifft sich mit Drexler im Speisesaal."
+    },
+    "9": {
+      "label": "9 - Hitlers Gemächer",
+      "desc": "Hitler beendet seinen Tag allein vor dem Kamin. In Hitlers Gemächern steht ein persönlicher Tresor."
+    },
+    "10": {
+      "label": "Depot",
+      "desc": "Hitlers Ablaufplan befindet sich in einem Tresor im Depot."
+    },
+    "11": {
+      "label": "Weg am See",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Gebäudetür 1",
+      "desc": "Kann mit dem @link[key.1] oder einer Sprengladung geöffnet werden."
+    },
+    "2": {
+      "label": "Gebäudetür 2",
+      "desc": "Kann mit dem @link[key.2] oder einer Sprengladung geöffnet werden."
+    },
+    "3": {
+      "label": "Tür zur Waffenkammer",
+      "desc": "Kann mit dem @link[key.3] oder einer Sprengladung geöffnet werden."
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Gebäudeschlüssel 1",
+      "desc": "Getragen von Winfried Hahn (Offizier)."
+    },
+    "2": {
+      "label": "Gebäudeschlüssel 2",
+      "desc": "Getragen von Ernst Buchel (Infanterie)."
+    },
+    "3": {
+      "label": "Schlüssel zur Waffenkammer",
+      "desc": "Getragen von ??? (???)."
+    }
+  },
+  "code": {
+    "1": {
+      "label": "Depottresorkombination",
+      "desc": "Getragen von Johann Auserswald (Jäger-Offizier)."
+    },
+    "2": {
+      "label": "Kombination zu Hitlers Tresor",
+      "desc": "???"
+    }
+  },
+  "special": {
+    "1": {
+      "label": "Gift",
+      "desc.1": "In einem Regal in der Küche.",
+      "desc.2": "Auf einem Tisch in der Küche."
+    },
+    "2": {
+      "label": "Grammofon",
+      "desc": "Kann eingeschaltet werden um Musik zu spielen und Geräusche zu übertönen."
+    },
+    "3.label": "Rattenbombe"
+  }
+}
