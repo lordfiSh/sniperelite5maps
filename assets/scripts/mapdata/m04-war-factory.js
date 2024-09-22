@@ -108,6 +108,7 @@ app.mapData.markers = [
 	makeMarker('supply-crate', 'crowbar', 1777,1500),
 	makeMarker('supply-crate', 'crowbar', 1906,1268),
 	makeMarker('supply-crate', 'padlock', 2611,2076),
+	makeMarker('supply-crate', 'open', 2551,2282),
 	
 	// vehicles
 	makeMarker('armoured-car', 0, 2009,2114),
