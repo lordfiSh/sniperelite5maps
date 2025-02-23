@@ -31,7 +31,7 @@ app.mapData.markers = [
 	makeMarker('stone-eagle', 2, 1520,2728),
 	makeMarker('stone-eagle', 3, 3296,1424),
 
-	makeMarker('workbench', 1, 603,1777),
+	makeMarker('workbench', 1, 472,1624),
 	makeMarker('workbench', 2, 893,2817),
 	makeMarker('workbench', 3, 2099,1737),
 
