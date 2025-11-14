@@ -1,0 +1,145 @@
+{
+  "letter": {
+    "1": {
+      "label": "Ammunition misfires",
+      "desc": "On the lowest floor of the naval battery"
+    },
+    "2": {
+      "label": "Bread and Boredom",
+      "desc": "Ground floor"
+    },
+    "3": {
+      "label": "Heavy Crown",
+      "desc": "Upper floor"
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Wine-stained warning",
+      "desc": "On the highest floor"
+    },
+    "2": {
+      "label": "Security measures",
+      "desc": "Below a desk, on the ground"
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Workbench: Docks",
+      "desc": "Upper floor"
+    },
+    "2": {
+      "label": "Workbench: Abandoned fishing hut",
+      "desc": ""
+    },
+    "3": {
+      "label": "Workbench: Fortress",
+      "desc": "Inside the fortress wall"
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Field bottle",
+      "desc": "On a table right next to the window"
+    },
+    "2": {
+      "label": "Binoculars",
+      "desc": "On the wall"
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Next to the transmission tower"
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "Close to the sniper on the ruin"
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "On top of the ruin"
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Destroy the Naval Battery",
+      "desc.1": "Option A - Obtain the scuttle code. (1/2) (Carried by the Officer)",
+      "desc.2": "Option A - Obtain the scuttle code. (2/2) (In the safe, combination carried by Officer Oswald Becker nearby)",
+      "desc.3": "Option A - Send the scuttle code.",
+      "desc.4": "Option B - Sabotage the artillery rounds (1/2)",
+      "desc.5": "Option B - Sabotage the artillery rounds (2/2)",
+      "desc.6": "Option C - Sabotage the generator"
+    },
+    "2": {
+      "label": "Disable their communications",
+      "desc.1": "Option A - Disable the equipment",
+      "desc.2": "Option B - Sabotage the supports (1/2).",
+      "desc.3": "Option B - Sabotage the supports (2/2)."
+    },
+    "3": {
+      "label": "Switch off the lighthouse",
+      "desc": "End the mission."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Destroy the docked U-Boat",
+      "desc": {
+        "1": "Option A - Activate the crane control panel.",
+        "2": "Option B - Sabotage the refueling system."
+      }
+    },
+    "2": {
+      "label": "Destroy the Anti-Aircraft Guns",
+      "desc": {
+        "1": "(1/2)",
+        "2": "(2/2)"
+      }
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Hermann Kraus",
+      "desc": "Kill Kraus with @link[special.1] in his @link[special.2]"
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Dead Mans Bay",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "2": {
+      "label": "Destroyed Reef",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "3": {
+      "label": "Southern Ridge",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "4": {
+      "label": "Intel about scuttle code for primary mission",
+      "desc": "Next to the workbench."
+    },
+    "5": {
+      "label": "Map of anti-aircraft guns",
+      "desc": "On the wall. Reveals the locations for the secondary objective."
+    }
+  },
+  "door": {},
+  "key": {},
+  "special": {
+    "1": {
+      "label": "Poison",
+      "desc": "On a shelf in the storage room."
+    },
+    "2": {
+      "label": "Cup",
+      "desc": "On the upper floor. Can be poisoned with @link[special.1]. Ring the bell next to it after poisoning."
+    },
+    "3": {
+      "label": "Planks",
+      "desc": "On the outside wall. Covert way inside."
+    }
+  }
+}

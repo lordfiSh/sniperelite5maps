@@ -1,0 +1,145 @@
+{
+  "letter": {
+    "1": {
+      "label": "Munitionsfehlzündungen",
+      "desc": "Auf der untersten Etage der Geschützbatterie"
+    },
+    "2": {
+      "label": "Brot und Langeweile",
+      "desc": "Erdgeschoss"
+    },
+    "3": {
+      "label": "Schwere Krone",
+      "desc": "Obergeschoss"
+    }
+  },
+  "document": {
+    "1": {
+      "label": "Weingeschwängerte Warnung",
+      "desc": "Auf der obersten Etage"
+    },
+    "2": {
+      "label": "Sicherheitsmaßnahmen",
+      "desc": "Unter einem Schreibtisch, auf dem Boden"
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Werkbank: Anlegestellen",
+      "desc": "Obergeschoss"
+    },
+    "2": {
+      "label": "Werkbank: Verlassene Fischerhütte",
+      "desc": ""
+    },
+    "3": {
+      "label": "Werkbank: Militärische Festung",
+      "desc": "Im Inneren der Festungsmauer"
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Feldflasche",
+      "desc": "Auf einem Tisch direkt neben dem Fenster"
+    },
+    "2": {
+      "label": "Fernglas",
+      "desc": "Auf der Mauer"
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Steinerner Adler",
+      "desc": "Neben dem Funkmast"
+    },
+    "2": {
+      "label": "Steinerner Adler",
+      "desc": "Beim Scharfschützen auf der Ruine"
+    },
+    "3": {
+      "label": "Steinerner Adler",
+      "desc": "Auf der Ruine"
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Zerstöre die Geschützbatterie",
+      "desc.1": "Option A - Finde den Sprengcode. (1/2) (Getragen vom Offizier)",
+      "desc.2": "Option A - Finde den Sprengcode. (2/2) (Im Tresor, Kombination hat Offizier Oswald Becker dabei)",
+      "desc.3": "Option A - Sende den Sprengcode.",
+      "desc.4": "Option B - Sabotiere die Artilleriemunition (1/2)",
+      "desc.5": "Option B - Sabotiere die Artilleriemunition (2/2)",
+      "desc.6": "Option C - Sabotiere die Generatoren"
+    },
+    "2": {
+      "label": "Zerstöre die Funkeinrichtung",
+      "desc.1": "Option A - Zerstöre die Funkausrüstung",
+      "desc.2": "Option B - Sabotiere die Haltekabel (1/2).",
+      "desc.3": "Option B - Sabotiere die Haltekabel (2/2)."
+    },
+    "3": {
+      "label": "Schalte den Leuchtturm aus",
+      "desc": "Beende die Mission."
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Zerstöre das angelegte U-Boot",
+      "desc": {
+        "1": "Option A - Aktiviere den Munitionskran.",
+        "2": "Option B - Sabotiere die Betankungsanlage."
+      }
+    },
+    "2": {
+      "label": "Zerstöre die Flaks",
+      "desc": {
+        "1": "(1/2)",
+        "2": "(2/2)"
+      }
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Hermann Kraus",
+      "desc": "Töte Kraus mit @link[special.1] in seinem @link[special.2]"
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Totmannsbucht",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "2": {
+      "label": "Zerstörtes Riff",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "3": {
+      "label": "Südlicher Grat",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "4": {
+      "label": "Informationen über den Sprengcode",
+      "desc": "Neben der Werkbank."
+    },
+    "5": {
+      "label": "Karte der Flak-Stellungen",
+      "desc": "An der Wand. Markiert die Flak-Positionen auf der Karte."
+    }
+  },
+  "door": {},
+  "key": {},
+  "special": {
+    "1": {
+      "label": "Gift",
+      "desc": "Im Regal des Lagerraums."
+    },
+    "2": {
+      "label": "Becher",
+      "desc": "Im Obergeschoss. Kann mit @link[special.1] vergiftet werden. Läute die Glocke daneben nach dem vergiften."
+    },
+    "3": {
+      "label": "Bretter",
+      "desc": "An der Außenwand. Versteckter Weg in die Festung."
+    }
+  }
+}
