@@ -1,0 +1,135 @@
+{
+  "letter": {
+    "1": {
+      "label": "Holprig geschriebene Notiz",
+      "desc": "Oberste Etage, auf dem Boden neben dem Bett"
+    },
+    "2": {
+      "label": "Von Schutt bedeckter Liebesbrief",
+      "desc": "Auf einer Kiste beim Artilleriegeschütz"
+    },
+    "3": {
+      "label": "Nicht zu Ende geschriebenes Hilfegesuch",
+      "desc": "Im Obergeschoss, durch das Fenster auf der Rückseite des Gebäudes klettern"
+    }
+  },
+  "document": {
+    "1": {
+      "label": "König der Tiger",
+      "desc": "Auf einer Kiste"
+    },
+    "2": {
+      "label": "Operationsdossier",
+      "desc": "Auf einem Tisch"
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Werkbank: Gasse",
+      "desc": "Im Keller, Eingang im Westen durch das brennende Haus"
+    },
+    "2": {
+      "label": "Werkbank: Schlossgelände",
+      "desc": ""
+    },
+    "3": {
+      "label": "Werkbank: Dorf",
+      "desc": "In der oberen Etage"
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Portemonnaie",
+      "desc": "Erdgeschoss, auf dem Tresen"
+    },
+    "2": {
+      "label": "Bronzestatue",
+      "desc": "In Königs Schutzraum auf dem Schreibtisch in der Mitte"
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Steinerner Adler",
+      "desc": "Auf dem Schornstein"
+    },
+    "2": {
+      "label": "Steinerner Adler",
+      "desc": "Auf einer Ecke des Turms"
+    },
+    "3": {
+      "label": "Steinerner Adler",
+      "desc": "Im Fenster des Turms"
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Töte General König",
+      "desc": "Im Schutzraum im oberen Teil des Turms"
+    },
+    "2": {
+      "label": "Eliminiere Scharfschützen in der Stadt",
+      "desc.1": "(1/3)",
+      "desc.2": "(2/3)",
+      "desc.3": "(3/3)"
+    },
+    "3": {
+      "label": "Zerstöre den Tiger-Panzer",
+      "desc": "Stationär"
+    },
+    "4": {
+      "label": "Gebiet verlassen",
+      "desc": "Am Flaggenmast auf dem Turm"
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Artilleriegeschütze ausschalten",
+      "desc.1": "Braucht Sprengladung (1/2)",
+      "desc.2": "Braucht Sprengladung (2/2)"
+    },
+    "2": {
+      "label": "Flaks im Schloss zerstören",
+      "desc.1": "Braucht Sprengladung (1/2)",
+      "desc.2": "Braucht Sprengladung (2/2)"
+    },
+    "3": {
+      "label": "Fahrzeuge in Reperatur zerstören",
+      "desc.1": "Braucht Sprengladung (1/3)",
+      "desc.2": "Braucht Sprengladung (2/3)",
+      "desc.3": "Braucht Sprengladung (3/3)"
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Kristian Hoffman",
+      "desc": "Töte Hoffman mit einem Kronleuchter"
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Lager der Allierten",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "2": {
+      "label": "Waldgebiet",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    },
+    "3": {
+      "label": "Ländliche Kreuzung",
+      "desc": "Laut den Daten von Aufklärungsflugzeugen wäre dies ein passender Einstiegspunkt für diese Mission."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Tür zum Schlossturm",
+      "desc": "Kann mit @link[key.1] oder Sprengladung geöffnet werden"
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Schlüssel zum Schlossturm",
+      "desc": "Getrangen von Vampirjäger Frank Schenkel"
+    }
+  },
+  "special": {}
+}
