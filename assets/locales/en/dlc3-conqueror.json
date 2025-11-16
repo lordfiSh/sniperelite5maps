@@ -1,0 +1,135 @@
+{
+  "letter": {
+    "1": {
+      "label": "Roughly-Written Note",
+      "desc": "On they highest floor, next to the bed on the floor"
+    },
+    "2": {
+      "label": "Debris-Covered Love Letter",
+      "desc": "On a box next to the artillery gun"
+    },
+    "3": {
+      "label": "An Unfinished Plea for Aid",
+      "desc": "On the upper floor, climb in through window on the back of the building"
+    }
+  },
+  "document": {
+    "1": {
+      "label": "King of the Tigers",
+      "desc": "On a box"
+    },
+    "2": {
+      "label": "Operations Dossier",
+      "desc": "On a table"
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Workbench: Alley",
+      "desc": "In the cellar, entrance to the west in the burning building"
+    },
+    "2": {
+      "label": "Workbench: Castle Grounds",
+      "desc": ""
+    },
+    "3": {
+      "label": "Workbench: Village",
+      "desc": "On the upper floor"
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Wallet",
+      "desc": "Ground floor, on the counter"
+    },
+    "2": {
+      "label": "Bronze Statue",
+      "desc": "In Konigs room on the desk in the middle"
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "On the chimney"
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": "On a corner of the tower"
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": "In the window of the tower"
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Kill general Konig",
+      "desc": "In a saferoom in the upper part of the tower"
+    },
+    "2": {
+      "label": "Eliminate snipers in the town",
+      "desc.1": "(1/3)",
+      "desc.2": "(2/3)",
+      "desc.3": "(3/3)"
+    },
+    "3": {
+      "label": "Destroy Tiger Tank",
+      "desc": "Stationary"
+    },
+    "4": {
+      "label": "Exfiltrate",
+      "desc": "At the flag pole on the tower"
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Neutralise the Artillery Guns",
+      "desc.1": "Needs Satchel Charge (1/2)",
+      "desc.2": "Needs Satchel Charge (2/2)"
+    },
+    "2": {
+      "label": "Destroy Castle AA Guns",
+      "desc.1": "Needs Satchel Charge (1/2)",
+      "desc.2": "Needs Satchel Charge (2/2)"
+    },
+    "3": {
+      "label": "Destroy The Vehicles Currently Under Repair",
+      "desc.1": "Needs Satchel Charge (1/3)",
+      "desc.2": "Needs Satchel Charge (2/3)",
+      "desc.3": "Needs Satchel Charge (3/3)"
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Kristian Hoffman",
+      "desc": "Kill Hoffman with a Chandelier"
+    }
+  },
+  "intel": {
+    "1": {
+      "label": "Allied Camp",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "2": {
+      "label": "Woodlands",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    },
+    "3": {
+      "label": "Rural Junction",
+      "desc": "Recon planes suggest this as a suitable infiltration point for this mission."
+    }
+  },
+  "door": {
+    "1": {
+      "label": "Door to Castle Tower",
+      "desc": "Can be opened with @link[key.1] or satchel-charge"
+    }
+  },
+  "key": {
+    "1": {
+      "label": "Key to Castle Tower",
+      "desc": "Carried by Vampire-Hunter Frank Schenkel"
+    }
+  },
+  "special": {}
+}
