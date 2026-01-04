@@ -1,0 +1,117 @@
+{
+  "letter": {
+    "1": {
+      "label": "Letters between friends",
+      "desc": "Carried by Herbert Dorf (Infantry)"
+    },
+    "2": {
+      "label": "Hastily scribbled note",
+      "desc": ""
+    },
+    "3": {
+      "label": "Damaged journal",
+      "desc": ""
+     }
+  },
+  "document": {
+    "1": {
+      "label": "Scribble-Covered map",
+      "desc": ""
+    },
+    "2": {
+      "label": "Resistance correspondences",
+      "desc": ""
+    }
+  },
+  "workbench": {
+    "1": {
+      "label": "Mine depot workbench",
+      "desc": ""
+    },
+    "2": {
+      "label": "Abandoned cabin workbench",
+      "desc": ""
+    },
+    "3": {
+      "label": "Resistance camp workbench",
+      "desc": ""
+    }
+  },
+  "hidden-item": {
+    "1": {
+      "label": "Film Cannister",
+      "desc": "Need Office Key or a Satchel"
+    },
+    "2": {
+      "label": "Smoking Pipe",
+      "desc": "On the church pulpit"
+    }
+  },
+  "stone-eagle": {
+    "1": {
+      "label": "Stone Eagle",
+      "desc": "Under the bridge, view from the east"
+    },
+    "2": {
+      "label": "Stone Eagle",
+      "desc": ""
+    },
+    "3": {
+      "label": "Stone Eagle",
+      "desc": ""
+    }
+  },
+  "primary": {
+    "1": {
+      "label": "Speak to the Pilot",
+      "desc": "Crouch down to enter the basement"
+    },
+    "2": {
+      "label": "Speak to the Pilot",
+      "desc": "Use a pipe from the side of the church to reach the top"
+    },
+    "3": {
+      "label": "Speak to the Pilot",
+      "desc": "Enter the cave behind the waterfall"
+    },
+    "4": {
+      "label": "Find and Kill Hans Becker"
+    }
+  },
+  "secondary": {
+    "1": {
+      "label": "Destroy the Tiger Tank"
+    },
+    "2": {
+      "label": "Destroy the AA Guns",
+      "desc.1": "",
+      "desc.2": ""
+    },
+    "3": {
+      "label": "Secure the Captured Medical Supplies",
+      "desc": ""
+    }
+  },
+  "kill-list": {
+    "1": {
+      "label": "Nazi Spy",
+      "desc": ""
+    }
+  },
+  "intel": {
+  },
+  "door": {
+  },
+  "key": {
+    "1": {
+      "label": "Office Key",
+      "desc": "Carried by Hans Becker (Officer)"
+    },
+    "2": {
+      "label": "Hotel Safe Combination",
+      "desc": "Carried by Herbert Dorf (Infantry)"
+    }
+  },
+  "special": {
+  }
+}
