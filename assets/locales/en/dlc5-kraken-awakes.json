@@ -1,0 +1,166 @@
+{
+    "letter": {
+      "1": {
+        "label": "Letters between friends",
+        "desc": "Carried by Herbert Dorf (Infantry)"
+      },
+      "2": {
+        "label": "Hastily scribbled note",
+        "desc": ""
+      },
+      "3": {
+        "label": "Damaged journal",
+        "desc": ""
+       }
+    },
+    "document": {
+      "1": {
+        "label": "Successful Raid",
+        "desc": "Forward Operating Base Raid"
+      },
+      "2": {
+        "label": "Salvage Operation",
+        "desc": "Urgent notice to import officers"
+      }
+    },
+    "workbench": {
+      "1": {
+        "label": "Administration workbench",
+        "desc": ""
+      },
+      "2": {
+        "label": "Maintenance Workbench workbench",
+        "desc": ""
+      },
+      "3": {
+        "label": "Resistance Storage workbench",
+        "desc": ""
+      }
+    },
+    "hidden-item": {
+      "1": {
+        "label": "Backpack"
+      },
+      "2": {
+        "label": "Smoking Pipe",
+        "desc": "On the church pulpit"
+      }
+    },
+    "stone-eagle": {
+      "1": {
+        "label": "Stone Eagle",
+        "desc": "Under the bridge, view from the east"
+      },
+      "2": {
+        "label": "Stone Eagle",
+        "desc": ""
+      },
+      "3": {
+        "label": "Stone Eagle",
+        "desc": ""
+      }
+    },
+    "primary": {
+      "1": {
+        "label": "Sabotage Aircraft Carrier",
+        "desc.1": "Room E - Sabotage Valves (0/3)",
+        "desc.2": "Room A - Sabotage The Armoury",
+        "desc.3": "Room B - Sabotage The Wires"
+      }
+    },
+    "secondary": {
+      "1": {
+        "label": "Sabotage the Escort Fleet (0/3)",
+        "desc.1": "Activate Control Panel",
+        "desc.2": "Drop Explosive",
+        "desc.3": "Sabotage Fueling Valve",
+        "desc.4": "Activate Crane Controls"
+      },
+      "2": {
+        "label": "Take Recon Images",
+        "desc": "Take Photo (0/3)"
+      },
+      "3": {
+        "label": "Secure the Captured Medical Supplies",
+        "desc": ""
+      }
+    },
+    "kill-list": {
+      "1": {
+        "label": "Erich Windolf",
+        "desc": "Kill with cargo"
+      }
+    },
+    "intel": {
+      "1": {
+        "label": "Package delivery",
+        "desc": "Package is being delivered to Vogal in meeting room"
+      },
+      "2": {
+        "label": "Kill list",
+        "desc": "Erich Windolf is patroling around the workshop"
+      },
+      "3": {
+        "label": "Valve Locations",
+        "desc": "The Locations of the Aircraft Carrier Valves"
+      },
+      "4": {
+        "label": "Armoury Location",
+        "desc": "The Location of the Aircraft Carrier Armoury"
+      },
+      "5": {
+        "label": "Starting Location"
+      },
+      "6": {
+        "label": "Inspection",
+        "desc": "Vogel is inspecting the armoury"
+      },
+      "7": {
+        "label": "Dock Starting Location"
+      },
+      "8": {
+        "label": "Comms Room Location",
+        "desc": "The Location of the Aircraft Carrier Comms Room"
+      },
+      "9": {
+        "label": "Maintenance Tunnels"
+      }
+    },
+    "door": {
+      "1": {
+        "label": "Dock Gate ",
+        "desc": "Can be opened with the @link[key.1]"
+      },
+      "2": {
+        "label": "Supply Door",
+        "desc": "Can be opened with a crowbar"
+      },
+      "3": {
+        "label": "Starting Location Door",
+        "desc": "Can be opened with a bolt cutter"
+      },
+      "4": {
+        "label": "Armoury Door",
+        "desc": "Can be opened with the @link[key.2] or going through the secret vent above"
+      }
+  },
+    "key": {
+      "1": {
+        "label": "Dock Gate Key",
+        "desc": "Hanging on the wall"
+      },
+      "2": {
+        "label": "Armoury Door Key",
+        "desc": "On the wall"
+      }
+    },
+    "special": {
+    },
+    "code": {
+    "1": {
+      "label": "Adminstration Safe Code",
+      "desc": "Carried by Officer upstairs (Jäger Officer)."
+      }
+    }
+  }
+  
