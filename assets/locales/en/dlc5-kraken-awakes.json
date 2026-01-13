@@ -1,26 +1,26 @@
 {
     "letter": {
       "1": {
-        "label": "Letters between friends",
-        "desc": "Carried by Herbert Dorf (Infantry)"
+        "label": "Missing Tolls",
+        "desc": "On the Controls"
       },
       "2": {
-        "label": "Hastily scribbled note",
-        "desc": ""
+        "label": "Letter to Vegel",
+        "desc": "Inside Vogel's safe, can be open with @link[code.2]"
       },
       "3": {
-        "label": "Damaged journal",
-        "desc": ""
+        "label": "Boiler Room Inspection",
+        "desc": "On the desk at the lot floor of maintenance building"
        }
     },
     "document": {
       "1": {
         "label": "Successful Raid",
-        "desc": "Forward Operating Base Raid"
+        "desc": "On the table"
       },
       "2": {
         "label": "Salvage Operation",
-        "desc": "Urgent notice to import officers"
+        "desc": "On the table"
       }
     },
     "workbench": {
@@ -42,22 +42,21 @@
         "label": "Backpack"
       },
       "2": {
-        "label": "Smoking Pipe",
-        "desc": "On the church pulpit"
+        "label": "Eagle Plaque",
+        "desc": "On the desk in one of the crew quarters"
       }
     },
     "stone-eagle": {
       "1": {
-        "label": "Stone Eagle",
-        "desc": "Under the bridge, view from the east"
+        "label": "Stone Eagle"
       },
       "2": {
         "label": "Stone Eagle",
-        "desc": ""
+        "desc": "Beside The Chimney"
       },
       "3": {
         "label": "Stone Eagle",
-        "desc": ""
+        "desc": "On top of the ships antenna"
       }
     },
     "primary": {
@@ -65,7 +64,15 @@
         "label": "Sabotage Aircraft Carrier",
         "desc.1": "Room E - Sabotage Valves (0/3)",
         "desc.2": "Room A - Sabotage The Armoury",
-        "desc.3": "Room B - Sabotage The Wires"
+        "desc.3": "Room B - Sabotage The Wires",
+        "desc.4": "Room C - Overload The Boiler Room",
+        "desc.5": "Room D - Sabotage Radio Equipment",
+        "desc.6": "Start The Aircraft Carrier (End Level)"
+      },
+      "2": {
+        "label": "Kill Vogel",
+        "desc.1": "Package is being delivered to Vogel in the meeting room",
+        "desc.2": "Vogel is inspecting the Armoury"
       }
     },
     "secondary": {
@@ -124,6 +131,13 @@
       },
       "9": {
         "label": "Maintenance Tunnels"
+      },
+      "10": {
+        "label": "???"
+      },
+      "11": {
+        "label": "Loading Ammunition",
+        "desc": "They're pre-emptively loading ammunition onto the carrier"
       }
     },
     "door": {
@@ -142,6 +156,10 @@
       "4": {
         "label": "Armoury Door",
         "desc": "Can be opened with the @link[key.2] or going through the secret vent above"
+      },
+      "5": {
+        "label": "Maintenance Gate",
+        "desc": "Can be opened with the @link[key.3]"
       }
   },
     "key": {
@@ -152,6 +170,10 @@
       "2": {
         "label": "Armoury Door Key",
         "desc": "On the wall"
+      },
+      "3": {
+        "label": "Maintenance Gate Key",
+        "desc": "On the wall"
       }
     },
     "special": {
@@ -160,6 +182,10 @@
     "1": {
       "label": "Adminstration Safe Code",
       "desc": "Carried by Officer upstairs (Jäger Officer)."
+      },
+      "2": {
+        "label": "Vogel Safe Code",
+        "desc": "On the meeting room table"
       }
     }
   }
