@@ -205,4 +205,8 @@ app.mapData.markers = [
 	makeMarker('cardboard-pidgeon', 0, 2837,2283),
 	makeMarker('cardboard-pidgeon', 0, 2843,2292),
 	makeMarker('cardboard-pidgeon', 0, 2860,2316),
+	makeMarker('cardboard-pidgeon', 0, 2886,2228),
+	makeMarker('cardboard-pidgeon', 0, 2900,2292),
+	makeMarker('cardboard-pidgeon', 0, 2802,2253),
+	makeMarker('cardboard-pidgeon', 0, 2821,2339)
 ];
