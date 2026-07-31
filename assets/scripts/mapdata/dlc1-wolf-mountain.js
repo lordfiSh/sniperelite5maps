@@ -140,6 +140,7 @@ app.mapData.markers = [
 	makeMarker('invasion', 0, 2170,1889),
 	makeMarker('invasion', 0, 1915,1732),
 	makeMarker('invasion', 0, 1973,1685),
+	makeMarker('invasion', 0, 2668,2339),
 	makeMarker('alarm', 1, 819,1868),
 	makeMarker('alarm', 2, 1420,2725),
 	makeMarker('alarm', 3, 1927,1872),
