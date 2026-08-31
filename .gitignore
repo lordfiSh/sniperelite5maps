@@ -5,3 +5,5 @@ maps
 .idea
 *.iml
 .DS_Store
+package-lock.json
+*.sh

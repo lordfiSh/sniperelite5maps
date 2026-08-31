@@ -1,6 +1,6 @@
 {
   "name": "gamemap",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Generic game map implementation based on the witcher 3 map developed by untamed0.",
   "contributors": [
     {
@@ -60,18 +60,14 @@
     "grunt-cli": "^1.5.0",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-csslint": "^2.0.0",
     "grunt-contrib-cssmin": "^4.0.0",
     "grunt-contrib-sass": "^2.0.0",
     "grunt-contrib-uglify": "^5.2.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-curl": "^2.5.1",
     "grunt-express-server": "^0.5.3",
     "grunt-jsonlint": "^1.1.0",
-    "grunt-real-favicon": "^0.2.4",
     "grunt-sass": "^3.1.0",
     "grunt-sync": "^0.8.2",
-    "grunt-zip": "^0.14.0",
     "gruntify-eslint": "^5.0.0"
   }
 }
