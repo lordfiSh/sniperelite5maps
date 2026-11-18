@@ -34,7 +34,7 @@
   },
   "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
-    "compression": "^1.6.2",
+    "compression": "^1.8.2",
     "ddslick": "^1.0.3",
     "font-awesome": "^4.6.3",
     "fuse.js": "^6.6.2",
